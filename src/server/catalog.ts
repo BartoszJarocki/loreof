@@ -54,7 +54,7 @@ export async function submitRepository({
       [attempt],
       hookEnabled
         ? {
-            hook: { token: `lore:${id}:${attempt.attemptId}` },
+            experimental_hook: { token: `lore:${id}:${attempt.attemptId}` },
           }
         : {},
     );
