@@ -1,0 +1,14 @@
+node_modules
+.next/
+.vercel/
+.env*
+!.env.example
+.cache/
+coverage/
+test-results/
+playwright-report/
+*.tsbuildinfo
+.generated/
+.DS_Store
+.vercel
+/.swc

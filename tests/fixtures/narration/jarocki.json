@@ -1,0 +1,1112 @@
+{
+  "repository": {
+    "slug": "BartoszJarocki/jarocki.me",
+    "description": ""
+  },
+  "head": "342a7f4e36abeedbc4aabbcc81b14a319924d739",
+  "eras": [
+    {
+      "id": 0,
+      "startTime": 1601058772,
+      "endTime": 1667841671,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "Initial commit",
+          "time": 1601058772,
+          "commits": ["8f7b9bc9d19fc300d9f39cda8c50314f61bf2fdb"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Mobile styles improvements",
+          "time": 1601106511,
+          "commits": ["837749123c5ad80f4e144fa435639bc450280a17"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "Added Next SEO usage",
+          "time": 1601117398,
+          "commits": ["f7c4e1497487ff8b792952b73e1c8c29ce89a790"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "Code cleanup, sitemap generation fix",
+          "time": 1601190699,
+          "commits": ["628770580bab0aa6acd95181b3b977b60d4da394"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "Removed unused deps, added more travel dest",
+          "time": 1601378305,
+          "commits": ["3e135d97c351dc30f9fcf343563a4c58e4faa07a"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "Added navigation header",
+          "time": 1601553459,
+          "commits": ["22cef032553c41b9c62700cf11c826c337f2e37b"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "Added about me page",
+          "time": 1601631764,
+          "commits": ["e827cc561e11ed105ba1a5fb1e7e5d8e0b1a5616"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Added how to be a leader blog post",
+          "time": 1601717390,
+          "commits": ["788f42505b5ae018dd10db8a1923f2fa4c3fde27"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "Handling external links, toolbox post added",
+          "time": 1602156067,
+          "commits": ["006683d1cbaa8f9e407169b282c62a90cb86f551"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Added page load progress",
+          "time": 1602484548,
+          "commits": ["0d96c9b0ebb282fe5991de18d96bcfdb8c7a0ef0"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "Added tags, made blog api less awful, code cleanup",
+          "time": 1602534786,
+          "commits": ["9653bf28bb01a3798198f7656b9bd2622c776866"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Updated favicon",
+          "time": 1613466410,
+          "commits": ["056b5955d039761b9d2062a6e46a2bbbbafc62b8"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Updated dependencies, package.json cleanup",
+          "time": 1613975946,
+          "commits": ["fc2a4d41d5e83f715c5f46f0c1b06fcb08f75444"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Styles improvement",
+          "time": 1618652353,
+          "commits": ["a49a3e11da18c41b0e5cf2223bfc05682ed43eee"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "Added monito blog post",
+          "time": 1619960623,
+          "commits": ["fba795d0d34dde1d5a941875d709e96c6023e81d"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "Added post: monito, 2 weeks after launch",
+          "time": 1621257569,
+          "commits": ["24f3883014b5c69e11efef7adee684cb2c2064ac"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "Updated to Next.js 11",
+          "time": 1628801494,
+          "commits": ["bfd9b923fc7455f8f54d70585fa0471c91466bba"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Types fix",
+          "time": 1628801880,
+          "commits": ["62e19f7622521c1e0697f06ba0f70d457854c1d6"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Updated next to v12, fonts",
+          "time": 1637758201,
+          "commits": ["4b4aa636a53c91e930b6038780f73c5cdf4db443"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Using next-sitemap to generate sitemap instead of a custom script",
+          "time": 1637858851,
+          "commits": ["0bcbc83e22325a17e67f55bbfbe70722d297e23c"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Code cleanup, TailwindCSS update to 3.0.0, UI improvements",
+          "time": 1639559208,
+          "commits": ["3ab866021f43fdbbdd76f8d368233e0837847668"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "Code cleanup, styles improvements",
+          "time": 1640677899,
+          "commits": ["171567425511413356e3ffcfc4f3655d68ccff97"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Code cleanup, basic dark mode added",
+          "time": 1642501327,
+          "commits": ["67160b026324a2e6d39c5c7b4b57a8f850b37cdd"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "Style improvements",
+          "time": 1649006943,
+          "commits": ["4a55a4b713e63ba628e47aee18e6df8cf1293a6f"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "Layout fixes",
+          "time": 1650786743,
+          "commits": ["75e4a1a57e5240cf0bd82ff8f5112564c9c9b936"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "Migrated to content layer",
+          "time": 1651912604,
+          "commits": ["791fd51b571929930638f710daa3eef15c361e01"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "Design improvements",
+          "time": 1652515734,
+          "commits": ["490bfb86f1fe372adebd6acb3fdcb81a3fd1ad91"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Code cleanup, faster OG image generation",
+          "time": 1654242044,
+          "commits": ["79629dab3ac4ae2c3801e430706213005aa5f6e9"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Code cleanup, deps update",
+          "time": 1654244437,
+          "commits": ["3983373070e516db3127b84b0bb33c2edace8e1f"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Removed fathom",
+          "time": 1663055421,
+          "commits": ["18ce84da37a741bc36fa8b5ef438099aae84d0fb"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "public/ created",
+          "time": 1601058772,
+          "commits": ["8f7b9bc9d19fc300d9f39cda8c50314f61bf2fdb"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "public/assets/ created",
+          "time": 1601058772,
+          "commits": ["8f7b9bc9d19fc300d9f39cda8c50314f61bf2fdb"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "src/ created",
+          "time": 1601058772,
+          "commits": ["8f7b9bc9d19fc300d9f39cda8c50314f61bf2fdb"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "src/_posts/ created",
+          "time": 1601058772,
+          "commits": ["8f7b9bc9d19fc300d9f39cda8c50314f61bf2fdb"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "src/components/ created",
+          "time": 1601058772,
+          "commits": ["8f7b9bc9d19fc300d9f39cda8c50314f61bf2fdb"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "src/lib/ created",
+          "time": 1601058772,
+          "commits": ["8f7b9bc9d19fc300d9f39cda8c50314f61bf2fdb"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "src/pages/ created",
+          "time": 1601058772,
+          "commits": ["8f7b9bc9d19fc300d9f39cda8c50314f61bf2fdb"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "src/data/ created",
+          "time": 1651912604,
+          "commits": ["791fd51b571929930638f710daa3eef15c361e01"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "improvements",
+          "time": 1639559208,
+          "commits": [
+            "3ab866021f43fdbbdd76f8d368233e0837847668",
+            "490bfb86f1fe372adebd6acb3fdcb81a3fd1ad91",
+            "171567425511413356e3ffcfc4f3655d68ccff97"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "generation",
+          "time": 1601190699,
+          "commits": [
+            "628770580bab0aa6acd95181b3b977b60d4da394",
+            "380d3472d4cc56d888cfbb5fb19ad3bcdf74dbb1",
+            "b88efc82513e666cee41655ddd22b974b311a881"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "monito",
+          "time": 1619960623,
+          "commits": [
+            "fba795d0d34dde1d5a941875d709e96c6023e81d",
+            "24f3883014b5c69e11efef7adee684cb2c2064ac",
+            "773cc864c88931bb6ae8a810d8496ab87fd0be33"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "blog",
+          "time": 1602534786,
+          "commits": [
+            "9653bf28bb01a3798198f7656b9bd2622c776866",
+            "788f42505b5ae018dd10db8a1923f2fa4c3fde27",
+            "fba795d0d34dde1d5a941875d709e96c6023e81d"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "Mobile",
+          "time": 1601106511,
+          "commits": [
+            "837749123c5ad80f4e144fa435639bc450280a17",
+            "bbf73c3965033365daa00da1abf0aa91deda0652",
+            "1c8dd6b48ab92b50ac0e3abd2c3c72f955fc675f"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "Types",
+          "time": 1628801880,
+          "commits": [
+            "62e19f7622521c1e0697f06ba0f70d457854c1d6",
+            "629c684e6afb610be04c7c3bae9782ace1958716",
+            "83a79facc8cb75ebe5830d22e7dacac5f30dd7c0"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "sitemap",
+          "time": 1601190699,
+          "commits": [
+            "628770580bab0aa6acd95181b3b977b60d4da394",
+            "0bcbc83e22325a17e67f55bbfbe70722d297e23c",
+            "b88efc82513e666cee41655ddd22b974b311a881"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "deps",
+          "time": 1654244437,
+          "commits": [
+            "3983373070e516db3127b84b0bb33c2edace8e1f",
+            "3e135d97c351dc30f9fcf343563a4c58e4faa07a",
+            "62262ce1e6da420975424ae0fa530b425c603689"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "Next",
+          "time": 1628801494,
+          "commits": [
+            "bfd9b923fc7455f8f54d70585fa0471c91466bba",
+            "4b4aa636a53c91e930b6038780f73c5cdf4db443",
+            "f7c4e1497487ff8b792952b73e1c8c29ce89a790"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "image",
+          "time": 1654242044,
+          "commits": [
+            "79629dab3ac4ae2c3801e430706213005aa5f6e9",
+            "b949ccfe536754c0f31048777c8802f686b62784",
+            "25fec725721d7fd3812dfd9a95dab5d8b34ddcf6"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "Design",
+          "time": 1652515734,
+          "commits": [
+            "490bfb86f1fe372adebd6acb3fdcb81a3fd1ad91",
+            "54355d03b8e242d713697c17d5b4259b37fc03a8",
+            "2a2d57ec940affd36ddb1adeab4a4dae4f836e22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "startTime": 1672000976,
+      "endTime": 1779051879,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "Rewrite",
+          "time": 1672000976,
+          "commits": ["80254f510f9835832cb385a282e5894c03ac3a95"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Code cleanup",
+          "time": 1672086197,
+          "commits": ["4bfa8eb6b84ea136fece2dc54d6758414cad4072"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "Code cleanup",
+          "time": 1672092917,
+          "commits": ["b6701003f626865dd93b69313901f257204a9ee2"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "Seo cleanup",
+          "time": 1672094064,
+          "commits": ["d1a268f0d6d74d26c53442094f205d7d559692d8"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "Code cleanup",
+          "time": 1672095418,
+          "commits": ["bdc4e60ab405cd5b34c0bbd16c303bcf0d01c789"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "Missing logs added",
+          "time": 1672095817,
+          "commits": ["8d0e5e748db749f57e9967d182eee6117fada0f2"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "Updated favicon",
+          "time": 1672096641,
+          "commits": ["bfb73c7aa50664cd2bdbda03d98ebde6c3a101bd"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Cleanup after renaming directories",
+          "time": 1672097668,
+          "commits": ["eda12241f81d6514592589420b1b68189f8aff1d"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "Use NEXT_PUBLIC_VERCEL_URL instead of custom env variable, updated readme",
+          "time": 1672168047,
+          "commits": ["2197bcd125ac05eda5c781729c476b9e5418280a"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Code cleanup",
+          "time": 1672258183,
+          "commits": ["8dbb71a5b5e326c5c4342fa949e1fbfa97514395"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "Renamed blog to notes",
+          "time": 1672266199,
+          "commits": ["614ddeaa4308f2590d2bbd5fdbbace770c6c1a46"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Added some animations",
+          "time": 1672602886,
+          "commits": ["04e0d16b84a7fea9706dca805b6596f0117fa764"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Added more past projects",
+          "time": 1672607558,
+          "commits": ["39848c109d1614b69c12be057fe9fd926b128b73"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Made text styles global and more accessible",
+          "time": 1672610692,
+          "commits": ["8177880c2130ca2b57186b50b0f96244923bb050"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "Updated photos",
+          "time": 1672696384,
+          "commits": ["fb669779bfa87f06505a837a5bd7471800b5faa7"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "Photos fix",
+          "time": 1672853516,
+          "commits": ["2821515d1cc11ea0f3ca288f99aaec8b6c4aa8bb"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "Next.js update",
+          "time": 1673165393,
+          "commits": ["633ced2a2e764ba6c01406fc7490df74b9b72d5b"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Code cleanup",
+          "time": 1673423516,
+          "commits": ["16e1a4d0aa5951da58198cf4e1010e3dc30942c0"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Made open graph images a little bit nicer",
+          "time": 1673426674,
+          "commits": ["2e2ce7a7f8b6ff1573f5f73ec6f65a78b6f01a00"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Code cleanup",
+          "time": 1673427211,
+          "commits": ["d936fcbda8299a35d7ce3a66bc9926f7d7a0d525"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Migrated notes to Notion",
+          "time": 1673612414,
+          "commits": ["3e3bd668d1a94b78f02aa86963616b674825710a"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "Moved RSS to api",
+          "time": 1673709148,
+          "commits": ["8f5aef23f8c49e11421097c8fdeedaf78d70d69e"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Code cleanup",
+          "time": 1687679047,
+          "commits": ["d79c54d4fae8f23af3255cc81eb00bda793d13f1"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "Deps update",
+          "time": 1688717004,
+          "commits": ["4f39d637d7d7068a1d87b87ba97ca5906570d88f"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "Fixes",
+          "time": 1699477905,
+          "commits": ["369e305186417ec4ef570aeb03a32cc13c4c6238"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "Updated side projects",
+          "time": 1702756589,
+          "commits": ["6861c112d8b60f120b3288f59db2fb6267e6b6af"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "Updated X icon",
+          "time": 1702758787,
+          "commits": ["e039150db613c5a177e6fce2321209ff0c8c4c58"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Added resume link",
+          "time": 1703599897,
+          "commits": ["7b09b149e0f1097a4035e73476c86b9adb524a7b"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Updated work",
+          "time": 1751198022,
+          "commits": ["0b2609f84fdbf91df67f42852c8bf57f58832c18"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Lttile update",
+          "time": 1779049747,
+          "commits": ["151500116038e9bbf009def7a5fed7e088b87e7b"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "src/images/ created",
+          "time": 1672000976,
+          "commits": ["80254f510f9835832cb385a282e5894c03ac3a95"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "src/@types/ removed",
+          "time": 1673612414,
+          "commits": ["3e3bd668d1a94b78f02aa86963616b674825710a"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": ".impeccable/ created",
+          "time": 1779049747,
+          "commits": ["151500116038e9bbf009def7a5fed7e088b87e7b"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "RSS",
+          "time": 1673709148,
+          "commits": [
+            "8f5aef23f8c49e11421097c8fdeedaf78d70d69e",
+            "72aac06b843931b4531593d01cca38b8cfb150aa",
+            "69b32907a630437e4e7b5f178f12bf144a5b1967"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "api",
+          "time": 1673709148,
+          "commits": [
+            "8f5aef23f8c49e11421097c8fdeedaf78d70d69e",
+            "c30e00a221adb11dadee7ea80367f4d0dd0bada9",
+            "66f76af786e257b478a6940e535d8c56511d3bd3"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "URL",
+          "time": 1672168047,
+          "commits": [
+            "2197bcd125ac05eda5c781729c476b9e5418280a",
+            "5b1119f73b42fadf93d22992c512c115815c5379",
+            "ecba547e173258260c0217940bbcb4eb8f1ae5c4"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "projects",
+          "time": 1672607558,
+          "commits": [
+            "39848c109d1614b69c12be057fe9fd926b128b73",
+            "6861c112d8b60f120b3288f59db2fb6267e6b6af",
+            "cc37475e4e83bc4ee01f1b0f3ba867572365cf6f"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "NEXT",
+          "time": 1672168047,
+          "commits": [
+            "2197bcd125ac05eda5c781729c476b9e5418280a",
+            "5b1119f73b42fadf93d22992c512c115815c5379",
+            "633ced2a2e764ba6c01406fc7490df74b9b72d5b"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "images",
+          "time": 1673426674,
+          "commits": [
+            "2e2ce7a7f8b6ff1573f5f73ec6f65a78b6f01a00",
+            "bb54a4c82fa22d9b8eb21141223ec659222556d9",
+            "cc37475e4e83bc4ee01f1b0f3ba867572365cf6f"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "startTime": 1791583662,
+      "endTime": 1793215985,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "feat(design): rebuild the site as an index in Geist Mono, Sans and Pixel (#27)",
+          "time": 1791584445,
+          "commits": ["36bd11847b54f65f1d1887681aa04c8fba7b8955"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "feat(home): draw GitHub activity as a three.js skyline (#32)",
+          "time": 1791744825,
+          "commits": ["3d1453f42078ab68c1410c61b67331a5da286c65"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "feat(notes): move notes from Notion to MDX (#35)",
+          "time": 1791783936,
+          "commits": ["826c427da0b57068344a0b672d22cd47ac494713"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "chore: remove dead dependencies and files (#36)",
+          "time": 1791784053,
+          "commits": ["cfc1a786a0744730100ab03cde1135298be4a5c9"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "fix(a11y): landmarks, headings, link context and skyline access (#38)",
+          "time": 1791784200,
+          "commits": ["a72b6b8bcc39baf0049b16b9e380c056a81e8ed8"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "perf(fonts): subset Geist Mono and Geist Pixel (#40)",
+          "time": 1791784374,
+          "commits": ["56a0f266538c3dd830c8587307968a5fd16200df"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "feat(og): draw share images in the site's style (#41)",
+          "time": 1791784466,
+          "commits": ["ca7eb2a74f26e948e60eab2eea705d71885e9371"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "feat(home): embeddings backdrop behind the header (#50)",
+          "time": 1792013433,
+          "commits": ["b4c2980cb6455f87f7f86292c5971c592aa0a19b"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "feat(case): set the site in lowercase, except the name (#52)",
+          "time": 1792017633,
+          "commits": ["2adb770b218a5d9f03c46e42e1d0abea39f8de41"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "refactor(backdrop): clean up the scene and fix three edge cases (#55)",
+          "time": 1792041648,
+          "commits": ["d2141a0b8d8bfccd62aded99fcd48f4311e183c1"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "fix(scenes): close seven leftovers in the backdrop and skyline (#64)",
+          "time": 1792127137,
+          "commits": ["61f8b8a398f8bca210f5a8c408987e69107e5fbd"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "docs(ai-series): add the series design, build plan, and prototypes (#59)",
+          "time": 1792171867,
+          "commits": ["e7c8865019a0fc92601ca375fcced23261cdb7dd"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "feat(notes): hide draft notes from production (#60)",
+          "time": 1792171881,
+          "commits": ["c2fd855ec7171aa57d26a5e43b7d97a3f88d0818"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "feat(demos): run a demo inside a note (#61)",
+          "time": 1792171894,
+          "commits": ["85bc9fea1a15ae3d1fd87dc2c832dfc7f4f56cc3"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "feat(notes): show the Value code that runs the fare receipt (#66)",
+          "time": 1792171906,
+          "commits": ["468e256e28b1f40009b08646d5d5b3f39b26131f"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "feat(demos): draw the loss landscape (#69)",
+          "time": 1792171919,
+          "commits": ["5ae28236af2d0b8e672366dd68b5116d3559ceda"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "feat(demos): train a network in the playground (#68)",
+          "time": 1792171931,
+          "commits": ["0c490514ba979e9037b5556db9e9575db9277b46"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "feat(notes): count letters and split text in part 2 (#67)",
+          "time": 1792171955,
+          "commits": ["f1b404263ff583ecde8bbd6bf167ca8f06dadf56"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "feat(demos): learn letter vectors in a worker (#70)",
+          "time": 1792171968,
+          "commits": ["117a621c4d06ec99fe4b9975ed7cafa1adace956"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "feat(notes): finish part two and link the AI series (#75)",
+          "time": 1792171980,
+          "commits": ["970b2bed17bcad4ef6589a2f72d76cf1e93d0572"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "feat(ml): build the tiny gpt and its offline trainer (#72)",
+          "time": 1792171993,
+          "commits": ["8c0b3ccfd851d7c4cce1e460877f92d8d27432ce"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "feat(demos): show attention in part 3 (#74)",
+          "time": 1792172007,
+          "commits": ["94f20c31dfa014b21eec8b8c3e098b46c51ca830"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "feat(ai): finish part three with the residual block (#76)",
+          "time": 1792172019,
+          "commits": ["848aa7807d741ec0074c9a639e291a3282a7dd93"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "feat(ai): train the tiny GPT in the browser (#77)",
+          "time": 1792172031,
+          "commits": ["c53b40344b1032e98823e20258e3d8aea5c56e55"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "feat(ai): finish part four and inspect the reader model (#78)",
+          "time": 1792172044,
+          "commits": ["31277b4725230af36912b8d8709f2057b76fc81b"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "feat(notes): add readable runnable JavaScript examples (#82)",
+          "time": 1792183882,
+          "commits": ["48d7d553d2e5b740d6df8fdee44b7ea27c7f45ca"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "feat(notes): give values in code one warm tone (#83)",
+          "time": 1792186746,
+          "commits": ["17724ecbe108b080350fade6a8e4eccf545fb0b2"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "feat(text): serve the site as 80-column text to curl (#86)",
+          "time": 1793134784,
+          "commits": ["6bc623ce3e0ef5facc0fa9a6dee3eb12b5757d4e"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "feat(markdown): serve each page as markdown to agents that ask for it (#88)",
+          "time": 1793214004,
+          "commits": ["30cade8bc08f010b0a4ba7715c24a5a41eb2e151"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "fix(markdown): match .md in any case and keep line breaks (#89)",
+          "time": 1793215681,
+          "commits": ["fd7a1c1be3124904643194e006b40aebcb56610f"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "public/images/ created",
+          "time": 1791783936,
+          "commits": ["826c427da0b57068344a0b672d22cd47ac494713"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "src/notes/ created",
+          "time": 1791783936,
+          "commits": ["826c427da0b57068344a0b672d22cd47ac494713"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "screenshots/ removed",
+          "time": 1791784053,
+          "commits": ["cfc1a786a0744730100ab03cde1135298be4a5c9"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "src/fonts/ created",
+          "time": 1791784374,
+          "commits": ["56a0f266538c3dd830c8587307968a5fd16200df"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "public/favicon/ removed",
+          "time": 1791837775,
+          "commits": ["ca30148c16558b38d051e4c2a2795b70887657c4"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "docs/ created",
+          "time": 1792171867,
+          "commits": ["e7c8865019a0fc92601ca375fcced23261cdb7dd"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "docs/ai-series/ created",
+          "time": 1792171867,
+          "commits": ["e7c8865019a0fc92601ca375fcced23261cdb7dd"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "public/data/ created",
+          "time": 1792171955,
+          "commits": ["f1b404263ff583ecde8bbd6bf167ca8f06dadf56"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "backdrop",
+          "time": 1792127137,
+          "commits": [
+            "61f8b8a398f8bca210f5a8c408987e69107e5fbd",
+            "b4c2980cb6455f87f7f86292c5971c592aa0a19b",
+            "d2141a0b8d8bfccd62aded99fcd48f4311e183c1"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "notes",
+          "time": 1792183882,
+          "commits": [
+            "48d7d553d2e5b740d6df8fdee44b7ea27c7f45ca",
+            "f1b404263ff583ecde8bbd6bf167ca8f06dadf56",
+            "468e256e28b1f40009b08646d5d5b3f39b26131f"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "demos",
+          "time": 1792171919,
+          "commits": [
+            "5ae28236af2d0b8e672366dd68b5116d3559ceda",
+            "117a621c4d06ec99fe4b9975ed7cafa1adace956",
+            "94f20c31dfa014b21eec8b8c3e098b46c51ca830"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "part",
+          "time": 1792171955,
+          "commits": [
+            "f1b404263ff583ecde8bbd6bf167ca8f06dadf56",
+            "94f20c31dfa014b21eec8b8c3e098b46c51ca830",
+            "31277b4725230af36912b8d8709f2057b76fc81b"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "skyline",
+          "time": 1792127137,
+          "commits": [
+            "61f8b8a398f8bca210f5a8c408987e69107e5fbd",
+            "3d1453f42078ab68c1410c61b67331a5da286c65",
+            "a72b6b8bcc39baf0049b16b9e380c056a81e8ed8"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "case",
+          "time": 1793215681,
+          "commits": [
+            "fd7a1c1be3124904643194e006b40aebcb56610f",
+            "2adb770b218a5d9f03c46e42e1d0abea39f8de41",
+            "d2141a0b8d8bfccd62aded99fcd48f4311e183c1"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "home",
+          "time": 1791744825,
+          "commits": [
+            "3d1453f42078ab68c1410c61b67331a5da286c65",
+            "b4c2980cb6455f87f7f86292c5971c592aa0a19b",
+            "e2ffed388bc9c43789a2422784c77ff0ccb44466"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "draw",
+          "time": 1792171919,
+          "commits": [
+            "5ae28236af2d0b8e672366dd68b5116d3559ceda",
+            "ca7eb2a74f26e948e60eab2eea705d71885e9371",
+            "3d1453f42078ab68c1410c61b67331a5da286c65"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "finish",
+          "time": 1792172044,
+          "commits": [
+            "31277b4725230af36912b8d8709f2057b76fc81b",
+            "970b2bed17bcad4ef6589a2f72d76cf1e93d0572",
+            "848aa7807d741ec0074c9a639e291a3282a7dd93"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "keep",
+          "time": 1793215681,
+          "commits": [
+            "fd7a1c1be3124904643194e006b40aebcb56610f",
+            "46355a59e2f087b5a0a40bed218a0e3a3ebe29b0",
+            "83fcdabba02a9308d4017cae7a05d5c1addabc20"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "scenes",
+          "time": 1792127137,
+          "commits": [
+            "61f8b8a398f8bca210f5a8c408987e69107e5fbd",
+            "d2141a0b8d8bfccd62aded99fcd48f4311e183c1",
+            "3d52b3018f4cb94cb70bd4446aa54dc126b4b3bc"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "series",
+          "time": 1792171867,
+          "commits": [
+            "e7c8865019a0fc92601ca375fcced23261cdb7dd",
+            "970b2bed17bcad4ef6589a2f72d76cf1e93d0572",
+            "3e1027eec4b63d0d2db4c99de7f11904d743d6aa"
+          ]
+        }
+      ]
+    }
+  ]
+}

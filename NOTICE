@@ -1,0 +1,17 @@
+# Notices
+
+Lore is released under the MIT License. See [LICENSE](LICENSE).
+
+The narration fixtures in `tests/fixtures/narration/` quote commit subjects from these
+projects. Each project keeps its own copyright and licence:
+
+| Project | Repository | Licence |
+| --- | --- | --- |
+| React | https://github.com/react/react | MIT |
+| Next.js | https://github.com/vercel/next.js | MIT |
+| Rust | https://github.com/rust-lang/rust | MIT or Apache-2.0 |
+| jarocki.me | https://github.com/BartoszJarocki/jarocki.me | MIT |
+
+The Geist font files in `src/fonts/` are Copyright (c) 2023 Vercel, in collaboration with
+basement.studio, and are licensed under the SIL Open Font License, Version 1.1. The full
+licence is in `src/fonts/LICENSE.txt`.

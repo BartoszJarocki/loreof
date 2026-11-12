@@ -1,0 +1,4798 @@
+{
+  "repository": {
+    "slug": "react/react",
+    "description": ""
+  },
+  "head": "76baa3b5434fad315ece9cfd4d20d7a8d6c34a25",
+  "eras": [
+    {
+      "id": 0,
+      "startTime": 1369856771,
+      "endTime": 1392590403,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "more backbone fixes",
+          "time": 1369912267,
+          "commits": ["036e11c9ee6f70040208d1b139a48ebe9188906b"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Improve blog setup (#52)",
+          "title": "Improve blog setup",
+          "time": 1370293169,
+          "commits": ["b202569c83391b080ac3209fcc9048281c285b1f"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "Sync latest from Facebook (#66)",
+          "title": "Sync latest from Facebook",
+          "time": 1370556189,
+          "commits": ["796837b8c7638470b0a0edd00703586b44a68a8b"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "Rename \"Delegate\" to \"Synthetic\"",
+          "time": 1370906186,
+          "commits": ["b3e0dc47a87220fd3e7a69d14b5a3556e2a834f3"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "Add missing license headers",
+          "time": 1370906737,
+          "commits": ["cff4d53a9edcf6fae7b417fe124cda961fc524bf"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "Upgrade Commoner and Recast to latest versions (#81)",
+          "title": "Upgrade Commoner and Recast to latest versions",
+          "time": 1370992937,
+          "commits": ["94fdf2cf5db55bebcf4466f5acf1e16be1703c2b"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "Correctly remove attributes when deleting props (#84)",
+          "title": "Correctly remove attributes when deleting props",
+          "time": 1371005676,
+          "commits": ["c6c40a5fb3c1fc9858e465a99deab4154182be71"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Community round-up blog post",
+          "time": 1371066217,
+          "commits": ["523bde4dc5e07801ee6104050509456635993e11"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "Create `EventPluginRegistry`",
+          "time": 1371166390,
+          "commits": ["e1535fbd71d8c89c82cd9d9073c1ee97ee6a3b00"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Use Synthetic Events",
+          "time": 1371492607,
+          "commits": ["88e90d5601aa29e606ed2c2e248f34df46ecad6f"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "Fix most lint warnings/errors",
+          "time": 1371511508,
+          "commits": ["315645804133e190e23be954787f5d64144d33d5"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Replace uses of ReactDOMNodeCache and getDOMNodeID with ReactID.",
+          "time": 1371855681,
+          "commits": ["1839bcf109a598a45ba45214cde02d25c33f2938"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Upgrade TextChangeEventPlugin to ChangeEventPlugin and support more form elements",
+          "time": 1372193811,
+          "commits": ["fb6381fb35c8af868b5134c3d7a91699a7d01090"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Make `@typechecks` static-only",
+          "time": 1372193826,
+          "commits": ["a9b024330c66736fe1b0a3426e3e4f988b26d85a"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "Fix `findComponentRoot` w/ Unidentified Nodes",
+          "time": 1372375803,
+          "commits": ["dbd9d99bcd01849b737f608a8862c4300cbae217"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "Merge branch 'textarea-update-value' of git://github.com/spicyj/react",
+          "time": 1372455047,
+          "commits": ["43358157cff16e8945da9b816fcb858a59da81af"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "Delete files that accidentally got merged in",
+          "time": 1372456360,
+          "commits": ["ee21a604f31020fbaa898a4d0d61dc487198ce82"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Remove remaining calls to ReactCompositeComponent.autoBind.",
+          "time": 1373925985,
+          "commits": ["f457394362d4d7514761ae2b70318024c5cbd2f6"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Use populist for building jasmine test harness bundle (#194)",
+          "title": "Use populist for building jasmine test harness bundle",
+          "time": 1374000682,
+          "commits": ["3376d279157400336d4c0f1387f48a36bf8d8c9b"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "sync with tastejs todomvc (#307)",
+          "title": "sync with tastejs todomvc",
+          "time": 1378142578,
+          "commits": ["c7768fde5d2798640915fdefabaed12e7c18991a"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "ReactLink: two-way binding for React",
+          "time": 1380050032,
+          "commits": ["fc73bf0a0abf739a9a8e6b1a5197dab113e76f27"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "ReactNativeComponent -> ReactDOMComponent",
+          "time": 1380669438,
+          "commits": ["f43449d333089b4e06088c832d86e47be7de6142"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Merge branch 'SanderSpies-sspi-dom-attribute-process'",
+          "time": 1381863418,
+          "commits": ["b488cb3d4b92d2e991316dc1e2e7ac1c0f34e86f"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "Patch missing autoFocus-support in older browsers (#700)",
+          "title": "Patch missing autoFocus-support in older browsers",
+          "time": 1388195244,
+          "commits": ["ff9ca2ecb2db4e98d9423397c7e05d4e04e2bb51"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "Add display names to controlled components",
+          "time": 1388716239,
+          "commits": ["cbefc5a968cc7519e96404faae45d10b778e84fc"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "Listen to events on demand",
+          "time": 1388819399,
+          "commits": ["80d7d2d0f8ec0f4f1f3c2dbe613f36bda572ce11"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "Forbid full-page rendering without server rendering",
+          "time": 1389031390,
+          "commits": ["089a494a1f0cc1892f1525fd746bac10c5a55175"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "benchmark runner & comparison tool with grunt commands and travis integration (#821)",
+          "title": "benchmark runner & comparison tool with grunt commands and travis integration",
+          "time": 1389061971,
+          "commits": ["57f208e4025837bcbb96a6299c68586f0ce174a0"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "jsx whitespace codemod utility (#979)",
+          "title": "jsx whitespace codemod utility",
+          "time": 1392332591,
+          "commits": ["1012b2ff4b23fd58d0d6b5b73d9b8b88467cf599"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Move jsx_whitespace_transform",
+          "time": 1392335899,
+          "commits": ["d1a337b9dbe7acb338e127b873bc93343e0fcdd7"]
+        },
+        {
+          "id": "r1",
+          "kind": "release",
+          "text": "v0.4.0",
+          "time": 1374085967,
+          "commits": ["a54333842fff597986ec686ed46c91007e76fa18"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "docs/ created",
+          "time": 1369856771,
+          "commits": ["75897c2dcd1dd3a6ca46284dd37e13d22b4b16b4"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "docs/docs/ created",
+          "time": 1369856771,
+          "commits": ["75897c2dcd1dd3a6ca46284dd37e13d22b4b16b4"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "src/ created",
+          "time": 1369856771,
+          "commits": ["75897c2dcd1dd3a6ca46284dd37e13d22b4b16b4"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "docs/_posts/ created",
+          "time": 1370281463,
+          "commits": ["9425e58591af0368083b480ee1e88c1821437d8a"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "React/ created",
+          "time": 1372455047,
+          "commits": ["43358157cff16e8945da9b816fcb858a59da81af"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "React/ removed",
+          "time": 1372456360,
+          "commits": ["ee21a604f31020fbaa898a4d0d61dc487198ce82"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "scripts/ created",
+          "time": 1378794713,
+          "commits": ["63b58cf6b593a8442477721a0c9645b6440c75b3"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "src/browser/ created",
+          "time": 1391572315,
+          "commits": ["b9cd2f0d3d83ee9652b230fecc4bc2dfe8e110f8"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "jsx",
+          "time": 1392335899,
+          "commits": [
+            "d1a337b9dbe7acb338e127b873bc93343e0fcdd7",
+            "1012b2ff4b23fd58d0d6b5b73d9b8b88467cf599",
+            "9ebb40f013089ecddc994567652d4583669fce61"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "autoBind",
+          "time": 1373925985,
+          "commits": [
+            "f457394362d4d7514761ae2b70318024c5cbd2f6",
+            "0c1f2720b38acf1b8968eac46ab887add37ee253",
+            "c9ecbaccb365ba39bd8839f61ae245cdc295317b"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "ReactID",
+          "time": 1371855681,
+          "commits": [
+            "1839bcf109a598a45ba45214cde02d25c33f2938",
+            "fce6d114feafa44d014bdf2646aeb45961d053c2",
+            "c1886c651365e1db415a9efd2d4e621eea20cf32"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "Community",
+          "time": 1371066217,
+          "commits": [
+            "523bde4dc5e07801ee6104050509456635993e11",
+            "36b61d2b11976b98f1b59ff310da2c3664feb7b8",
+            "79a27340688221b7397eb5dd58ee3fb009f2fe7a"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "grunt",
+          "time": 1389061971,
+          "commits": [
+            "57f208e4025837bcbb96a6299c68586f0ce174a0",
+            "5d878ce9149181b4bcaac89cac4592c57e426322",
+            "70a99cd1ee78ec4040236dc830e48fbdc7db25b2"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "Commoner",
+          "time": 1370992937,
+          "commits": [
+            "94fdf2cf5db55bebcf4466f5acf1e16be1703c2b",
+            "ce0704a4913f28f8c135ecf840105d8d773d8c7d",
+            "0acc1d8c7830135a6bd403d89cfde3dd226e87af"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "page",
+          "time": 1389031390,
+          "commits": [
+            "089a494a1f0cc1892f1525fd746bac10c5a55175",
+            "c8886a0424c426818566c21d5a69c4cb8f5d41e3",
+            "0e6fca4a383cd27c29a51ceb5875de6a82e4a6c3"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "findComponentRoot",
+          "time": 1372375803,
+          "commits": [
+            "dbd9d99bcd01849b737f608a8862c4300cbae217",
+            "738de8cfa846936ae754ccfda607e4fb41c2170b",
+            "a4123a069ef05b6fdbb065d060baee47a61ec3ec"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "whitespace",
+          "time": 1392335899,
+          "commits": [
+            "d1a337b9dbe7acb338e127b873bc93343e0fcdd7",
+            "1012b2ff4b23fd58d0d6b5b73d9b8b88467cf599",
+            "05ee61d763cfe817a2674908bca193ef43f2a4e0"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "populist",
+          "time": 1374000682,
+          "commits": [
+            "3376d279157400336d4c0f1387f48a36bf8d8c9b",
+            "dfd406fe4c947e6dd906b95ae1fa809ae95af203",
+            "df1099649cc19695503876d7b89a50ed189577bf"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "backbone",
+          "time": 1369912267,
+          "commits": [
+            "036e11c9ee6f70040208d1b139a48ebe9188906b",
+            "ff2fc586d58167e1513fc83eb1e126bbddeb4bd1",
+            "56dbec46db99d5ba764714a585fe9ce17ec8dcd8"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "blog",
+          "time": 1370293169,
+          "commits": [
+            "b202569c83391b080ac3209fcc9048281c285b1f",
+            "de61f9fd8193c3383c8e21f8da23c843d4303059",
+            "9425e58591af0368083b480ee1e88c1821437d8a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "startTime": 1392600910,
+      "endTime": 1430431555,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "Update copyrights for 2014.",
+          "time": 1392772003,
+          "commits": ["8a47813baabcb200f5e0a496dd959cb0ef3adcf3"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Break more browser deps in core",
+          "time": 1392940857,
+          "commits": ["b79a3cbd21a82a44ac0c8863995a5f12b10a67d6"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "Move UI-thread-only browser modules to browser/ui/",
+          "time": 1393886250,
+          "commits": ["a8fc3b940dbe20c0c7decd19b028215b236c50a6"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "First phase to true descriptors",
+          "time": 1396032889,
+          "commits": ["c40e06f7281622a7a6295f4a7d5540a75fedf7bb"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "TodoMVC Flux Example (#1258)",
+          "title": "TodoMVC Flux Example",
+          "time": 1396563042,
+          "commits": ["ed6f8aea77d2e4ae6acee980d6a8b5494b2d54a1"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "Support download attribute properly (#1340)",
+          "title": "Support download attribute properly",
+          "time": 1397604630,
+          "commits": ["b3f5e863e091f2e014c5c34de5bcee3e532ae28b"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "Flux blog post and tutorial (#1499)",
+          "title": "Flux blog post and tutorial",
+          "time": 1399591603,
+          "commits": ["7f9a8385b6615a80476555267fdfa0d9f2ec1eee"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Create ReactEventListener",
+          "time": 1402802170,
+          "commits": ["e1c2d02fddb40cb0b246d2c2da97b41b6ba378bc"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "Add a note about production mode for npm installs. (#1793)",
+          "title": "Add a note about production mode for npm installs.",
+          "time": 1404795411,
+          "commits": ["785d2cabef144c9a78ab6c430af2d9bd7d835f7d"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Remove TodoMVC flux example (#2025)",
+          "title": "Remove TodoMVC flux example",
+          "time": 1407789443,
+          "commits": ["13e60298e13859b1a8811a7a4117521c93aa2870"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "Renamed Descriptor -> Element (#2300)",
+          "title": "Renamed Descriptor -> Element",
+          "time": 1412714684,
+          "commits": ["f48954d8a39097109d599db365af28df417544cb"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Use Object.assign instead of merge, mergeInto, mixInto and copyPropertie... (#2303)",
+          "title": "Use Object.assign instead of merge, mergeInto, mixInto and copyPropertie...",
+          "time": 1412795408,
+          "commits": ["85597bf3aaed1b2fb8fa1bd948329a1c00445080"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Drop the @jsx docblock from unit tests (#2308)",
+          "title": "Drop the @jsx docblock from unit tests",
+          "time": 1412807058,
+          "commits": ["36b091bc44d8519e7053638d8108b9b0f67319eb"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "React.renderComponent -> React.render (#2002)",
+          "title": "React.renderComponent -> React.render",
+          "time": 1412898097,
+          "commits": ["540731b7a8cbae5835edf69f26361993691d6c00"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "Update Licenses (#2312)",
+          "title": "Update Licenses",
+          "time": 1412985525,
+          "commits": ["5d3b12bb3bd6a092cf00ede07b8255a8399c2e58"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "Hide Object.assign polyfill behind a module (#2350)",
+          "title": "Hide Object.assign polyfill behind a module",
+          "time": 1413476941,
+          "commits": ["828efb798a94a631007efe966828fbc5b01613ea"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "Move Class Creation Concerns into a ReactClass Module (#2396)",
+          "title": "Move Class Creation Concerns into a ReactClass Module",
+          "time": 1414093817,
+          "commits": ["b7cd3e7d1de31108594a6698215bfa7bf8619b34"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Drop Legacy Factories (#2375)",
+          "title": "Drop Legacy Factories",
+          "time": 1414544432,
+          "commits": ["a54ed49eb05200dcdc2f27ba9437d17e37571547"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Remove esprima-fb and use Syntax from jstransform (#2224)",
+          "title": "Remove esprima-fb and use Syntax from jstransform",
+          "time": 1415140689,
+          "commits": ["1fd187b9947fc708d7be9129d2a3b4836a831915"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Move ReactClass, ReactElement and ReactPropTypes into \"classic\" (#2700)",
+          "title": "Move ReactClass, ReactElement and ReactPropTypes into \"classic\"",
+          "time": 1418442808,
+          "commits": ["6bb77b5d4d365d642b07990ff9290df7194fb98a"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Eslint fixup (#2751)",
+          "title": "Eslint fixup",
+          "time": 1421191674,
+          "commits": ["54c82da15f6b4717425edbf68e23ae82583a50af"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "Update copyright headers for 2015 (#2995)",
+          "title": "Update copyright headers for 2015",
+          "time": 1422904530,
+          "commits": ["2aeb8a2a6beb00617a4217f7f8284924fa2ad819"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Upgrade internal modules (#3080)",
+          "title": "Upgrade internal modules",
+          "time": 1423271820,
+          "commits": ["785326078872581a5b5acc876862ae7a5a5e086b"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "More lint - remove spaces in object braces / array brackets (#3189)",
+          "title": "More lint - remove spaces in object braces / array brackets",
+          "time": 1424374922,
+          "commits": ["21a9e8b6e821ac67d542dcc91b559a1a0dfc52f5"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "foo.getDOMNode => React.findDOMNode(foo) (#3356)",
+          "title": "foo.getDOMNode => React.findDOMNode(foo)",
+          "time": 1426088876,
+          "commits": ["3d8b47bbcc9ff9aed1a8c4ca7e24d46eb6e85cde"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "Use console.error to show stack trace in console (#3440)",
+          "title": "Use console.error to show stack trace in console",
+          "time": 1427229001,
+          "commits": ["1aa4e3c2344a78841909f6cfb9a26923149d8f60"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "Add npm-react-codemod (#3506)",
+          "title": "Add npm-react-codemod",
+          "time": 1427325614,
+          "commits": ["86836c885d18664307beb52f3a8891a8ef569662"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "npm-react-codemod: Class transform doesn’t need aliases (#3515)",
+          "title": "npm-react-codemod: Class transform doesn’t need aliases",
+          "time": 1427326518,
+          "commits": ["949349d5caa32ffdd1f36ba8b1c35986457b3be7"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Update Korean translations (#3537)",
+          "title": "Update Korean translations",
+          "time": 1427750437,
+          "commits": ["0c2238bb72b4a5fcd4ff341f3c80c4566f4e8624"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "npm build: create addons directory that loads from lib. Closes #3780 (#3785)",
+          "title": "npm build: create addons directory that loads from lib. Closes #3780",
+          "time": 1430346680,
+          "commits": ["a092b47be5d2f0bc3e404907412e0d5f3e1579e8"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "examples/todomvc-flux/ created",
+          "time": 1396563042,
+          "commits": ["ed6f8aea77d2e4ae6acee980d6a8b5494b2d54a1"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "examples/todomvc-flux/ removed",
+          "time": 1407789443,
+          "commits": ["13e60298e13859b1a8811a7a4117521c93aa2870"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "src/classic/ created",
+          "time": 1418442808,
+          "commits": ["6bb77b5d4d365d642b07990ff9290df7194fb98a"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "src/modern/ created",
+          "time": 1418944416,
+          "commits": ["60b2241ad4ece21a09fede202a5e9858ecf37ba1"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "perf/ removed",
+          "time": 1426706935,
+          "commits": ["d86790f4b64c5dc7ebc8f37065450adb91ab2f14"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "perf/tests/ removed",
+          "time": 1426706935,
+          "commits": ["d86790f4b64c5dc7ebc8f37065450adb91ab2f14"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "npm-react-codemod/ created",
+          "time": 1427325614,
+          "commits": ["86836c885d18664307beb52f3a8891a8ef569662"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "npm-react-codemod/test/ created",
+          "time": 1427325614,
+          "commits": ["86836c885d18664307beb52f3a8891a8ef569662"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "Flux",
+          "time": 1396563042,
+          "commits": [
+            "ed6f8aea77d2e4ae6acee980d6a8b5494b2d54a1",
+            "13e60298e13859b1a8811a7a4117521c93aa2870",
+            "1e268c359152d04195b026a42dd703867bdec525"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "jsx",
+          "time": 1412807058,
+          "commits": [
+            "36b091bc44d8519e7053638d8108b9b0f67319eb",
+            "6c6ffdb064aa316b8b3b633a1e7e3b744f0224f6",
+            "acca4b399317246d4c936484a4506e82b45f2a29"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "blog",
+          "time": 1399591603,
+          "commits": [
+            "7f9a8385b6615a80476555267fdfa0d9f2ec1eee",
+            "f2c7d9ac810e34038dcf6c91b34eaebecbc8a21e",
+            "63146e1f162195c3911c784227eeea7123f2e4da"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "Descriptor",
+          "time": 1412714684,
+          "commits": [
+            "f48954d8a39097109d599db365af28df417544cb",
+            "c40e06f7281622a7a6295f4a7d5540a75fedf7bb",
+            "989e6b618e8084a82dc194bfe4d888ab6a52cc4f"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "TodoMVC",
+          "time": 1396563042,
+          "commits": [
+            "ed6f8aea77d2e4ae6acee980d6a8b5494b2d54a1",
+            "13e60298e13859b1a8811a7a4117521c93aa2870",
+            "f761f770e12a62f2c37c1f715e66f5c386de19d7"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "transform",
+          "time": 1427326518,
+          "commits": [
+            "949349d5caa32ffdd1f36ba8b1c35986457b3be7",
+            "2058ad99be59c986a534160f4897d27a1d455a01",
+            "a7a6c425d4a7ce041b1a8649332fb8f18e6c96b0"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "attribute",
+          "time": 1397604630,
+          "commits": [
+            "b3f5e863e091f2e014c5c34de5bcee3e532ae28b",
+            "f3f12945894e21c19c277b6120569c0f0a4d76c9",
+            "b48a534f6f64e191a8334e0c3ddd11c0bcf864ef"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "note",
+          "time": 1404795411,
+          "commits": [
+            "785d2cabef144c9a78ab6c430af2d9bd7d835f7d",
+            "085bf8635c40e78b4650e3dc4bffc8f96d3a77a7",
+            "f922664e86f939b3b2779c9468ff1b273a82cb13"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "tutorial",
+          "time": 1399591603,
+          "commits": [
+            "7f9a8385b6615a80476555267fdfa0d9f2ec1eee",
+            "5b42e895c140b88661a07dd1a1ba80ad6324beb7",
+            "90df0ea8bdd5ef7e15369e185cd1a2e6554a695d"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "renderComponent",
+          "time": 1412898097,
+          "commits": [
+            "540731b7a8cbae5835edf69f26361993691d6c00",
+            "c6ed9df7f33b57afb25bdd6df645795061c83857",
+            "edc0fa4c3f542c1bc806004c8b1481d4e27a30d2"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "translations",
+          "time": 1427750437,
+          "commits": [
+            "0c2238bb72b4a5fcd4ff341f3c80c4566f4e8624",
+            "e30dd838961b812f235c9e47c07796acadd07ebd",
+            "86c72a527147d6efdce1e1c2954daa7796960570"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "jstransform",
+          "time": 1415140689,
+          "commits": [
+            "1fd187b9947fc708d7be9129d2a3b4836a831915",
+            "e8e79472aabcbcaa70ad8cd901722cad2dbbd709",
+            "5ea3ff64b6af22525621615b2e6438374792b999"
+          ]
+        },
+        {
+          "id": "a1",
+          "kind": "newcomer",
+          "text": "@josephsavona",
+          "time": 1426794981,
+          "commits": ["f707f74c8aa58c00f780e0f789bb32235b72047e"]
+        },
+        {
+          "id": "a2",
+          "kind": "newcomer",
+          "text": "@steveluscher",
+          "time": 1416939887,
+          "commits": ["e18d87b53bbc1296edfc6586ee43f437995f4850"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "startTime": 1430502432,
+      "endTime": 1462040494,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "Reorganize Src Directory for Isomorphic React Package (#3866)",
+          "title": "Reorganize Src Directory for Isomorphic React Package",
+          "time": 1431740376,
+          "commits": ["52752446760dee0bc7232b4146f5a309ac57f065"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Enable linting for __tests__ (#3985)",
+          "title": "Enable linting for __tests__",
+          "time": 1433199942,
+          "commits": ["13823ec218580ad25fe801874e901e7b43114c29"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "fix japanese docs permalinks (#4063)",
+          "title": "fix japanese docs permalinks",
+          "time": 1433819809,
+          "commits": ["3faad4f65f212a355bb3ed1fa12ae058d27355a5"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "Translate 01-why-react.md to Japanese (#4132)",
+          "title": "Translate 01-why-react.md to Japanese",
+          "time": 1434390692,
+          "commits": ["f8ffb0f8b30d282a6382ab1be404b0692516c27f"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "Build react-dom package (#4097)",
+          "title": "Build react-dom package",
+          "time": 1434395084,
+          "commits": ["a2862f3c2f698af2007432476092b8dba8c8b534"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "Move npm packages into folder (#4158)",
+          "title": "Move npm packages into folder",
+          "time": 1434568717,
+          "commits": ["531e6280a357515512dbcefe9170dbd8bf109d4a"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "Merge pull request #2981 from hzoo/jsdoc-fixes",
+          "time": 1434582272,
+          "commits": ["a841b4f5fb2b26a7a46cc0a618aea764e7fd0e94"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Move vendor to fbjs package (#4167)",
+          "title": "Move vendor to fbjs package",
+          "time": 1437760267,
+          "commits": ["991c437b935d6a0714246f992cfdbe945d3c70d5"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "Simplify react-codemod. (#4528)",
+          "title": "Simplify react-codemod.",
+          "time": 1438363992,
+          "commits": ["2d239006c5746cb5d08e3cdcd7f9800b8044f2e4"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "fix(es6-import-export): initial commit actually applying",
+          "time": 1439554493,
+          "commits": ["5395c815deea6bff0bb01a4e803800dc69c29886"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "Support export default in the class codemod.",
+          "time": 1439554493,
+          "commits": ["989caa870d614458aee2f40fb08b2c1229a04248"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Examples jquery-mobile thirdparty files move (#4643)",
+          "title": "Examples jquery-mobile thirdparty files move",
+          "time": 1439830087,
+          "commits": ["b5a9cfc8b0cdbb3fc1b9c12c45cd353e494ce1ae"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Make createFragment return an array, disallow objects as children (#4700)",
+          "title": "Make createFragment return an array, disallow objects as children",
+          "time": 1440612726,
+          "commits": ["72d5b8f116e49c382e979f2064ee8d86c5d0b251"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Update warning messages to use ReactDOM and ReactDOMServer as appropriate (#4755)",
+          "title": "Update warning messages to use ReactDOM and ReactDOMServer as appropriate",
+          "time": 1441087390,
+          "commits": ["2d63dfd73c5258e683d394d9ea0b922be21c65d8"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "Use eslintrc from fbjs (#4746)",
+          "title": "Use eslintrc from fbjs",
+          "time": 1441088489,
+          "commits": ["9400b3436359287cd4ae1a0c32dfb21aca9d7244"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "Do not codemod classes with invalid fields, fixes #4628",
+          "time": 1441325048,
+          "commits": ["cfe0351b8f95cc212570c9d158ad7cde155258d0"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "Add react-to-react-dom codemod (#4767)",
+          "title": "Add react-to-react-dom codemod",
+          "time": 1441400104,
+          "commits": ["4fb7df173354da85bfc72aa77f80846b0ce91e88"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "[react-codemod] --no* options automatically set to false (#4866)",
+          "title": "[react-codemod] --no* options automatically set to false",
+          "time": 1442253919,
+          "commits": ["95eee11b66df9122aca5feebb1e7fab844bef1c9"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Update examples for Babel, 0.14; remove 3rd party code (#4914)",
+          "title": "Update examples for Babel, 0.14; remove 3rd party code",
+          "time": 1443132700,
+          "commits": ["99b9ece565373dfc22e19ad4abb147aaa4a0da22"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Add trailing commas to react-codemod output by default.",
+          "time": 1443301125,
+          "commits": ["2c973796e319c4440102056b2b80105e55ad5ada"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "[docs] Italian localization of documentation (#5001)",
+          "title": "[docs] Italian localization of documentation",
+          "time": 1443735981,
+          "commits": ["95c54917817a9c2c1dd4d306f799b6662f1ce925"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "0.14 blog post (#5072)",
+          "title": "0.14 blog post",
+          "time": 1444236404,
+          "commits": ["55cab74312c54e88252594069671c85acd5a90ba"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Remove \"Invariant Violation: \" from Invariant Error Messages (#5185)",
+          "title": "Remove \"Invariant Violation: \" from Invariant Error Messages",
+          "time": 1445281679,
+          "commits": ["fc96f31fade8043856eb7bc34c56598c4a576110"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "Move react-codemod to standalone repo (#5217)",
+          "title": "Move react-codemod to standalone repo",
+          "time": 1445381209,
+          "commits": ["a468eed33f8067053d27c16852b4406bc47e3571"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "Update tests (#5321)",
+          "title": "Update tests",
+          "time": 1446169332,
+          "commits": ["1384d43f53c18908a03d4dfbf4ffbc96fb11875e"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "Update korean translation to 84af306 (#5385)",
+          "title": "Update korean translation to 84af306",
+          "time": 1446674220,
+          "commits": ["4fae0362690b73f4a9077453c1a0924c5fb2a5b5"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "Clarify React class constructor comments (#5725)",
+          "title": "Clarify React class constructor comments",
+          "time": 1450900392,
+          "commits": ["0d5312559a0dee5e3f52a55c32212753310cdcaa"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Pass all SVG attributes through (#5714)",
+          "title": "Pass all SVG attributes through",
+          "time": 1451051613,
+          "commits": ["53dabe748c6817cbb7b43f975e24b61331011077"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Year-agnostic copyright message, like React Native uses, to prevent the need for yearly changes. (#5748)",
+          "title": "Year-agnostic copyright message, like React Native uses, to prevent the need for yearly changes.",
+          "time": 1451460264,
+          "commits": ["3b96650e39ddda5ba49245713ef16dbc52d25e9e"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Moved LinkedInput from addons to packages. (#6127)",
+          "title": "Moved LinkedInput from addons to packages.",
+          "time": 1456513372,
+          "commits": ["13871886ba1d880ab397783a1115dab57290160b"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "src/browser/ removed",
+          "time": 1431740376,
+          "commits": ["52752446760dee0bc7232b4146f5a309ac57f065"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "src/isomorphic/ created",
+          "time": 1431740376,
+          "commits": ["52752446760dee0bc7232b4146f5a309ac57f065"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "src/renderers/ created",
+          "time": 1431740376,
+          "commits": ["52752446760dee0bc7232b4146f5a309ac57f065"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "src/shared/ created",
+          "time": 1431740376,
+          "commits": ["52752446760dee0bc7232b4146f5a309ac57f065"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "packages/ created",
+          "time": 1434568717,
+          "commits": ["531e6280a357515512dbcefe9170dbd8bf109d4a"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "packages/react/ created",
+          "time": 1434568717,
+          "commits": ["531e6280a357515512dbcefe9170dbd8bf109d4a"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "packages/react-dom/ created",
+          "time": 1434568717,
+          "commits": ["531e6280a357515512dbcefe9170dbd8bf109d4a"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "packages/react-native-renderer/ created",
+          "time": 1461120080,
+          "commits": ["c84ad52ddbb74095200215bc9c6abf51118e7f64"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "japanese",
+          "time": 1433819809,
+          "commits": [
+            "3faad4f65f212a355bb3ed1fa12ae058d27355a5",
+            "f8ffb0f8b30d282a6382ab1be404b0692516c27f",
+            "b99fb2c92d1c55f13e1b5c1f130565ec62bbb3a2"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "Translate",
+          "time": 1434390692,
+          "commits": [
+            "f8ffb0f8b30d282a6382ab1be404b0692516c27f",
+            "b99fb2c92d1c55f13e1b5c1f130565ec62bbb3a2",
+            "9bcc8dab93d5e690acd41901326c603af7e1ec75"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "blog",
+          "time": 1444236404,
+          "commits": [
+            "55cab74312c54e88252594069671c85acd5a90ba",
+            "ccfc2d80491a2b754e833d99f6b284925130e21f",
+            "dd93eb7f40b37881345648bea84400c3842ad031"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "Babel",
+          "time": 1443132700,
+          "commits": [
+            "99b9ece565373dfc22e19ad4abb147aaa4a0da22",
+            "58fb322e211614ffb4fc6a8228e96e93c5ea65dc",
+            "d3d2504e72774c4a1fd9d508aff2d1c2d0611695"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "korean",
+          "time": 1446674220,
+          "commits": [
+            "4fae0362690b73f4a9077453c1a0924c5fb2a5b5",
+            "095d4691ca46d446974679434a9e41481031b74c",
+            "e10c873d09c1cd85287d27f6fd373c190389080d"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "Clarify",
+          "time": 1450900392,
+          "commits": [
+            "0d5312559a0dee5e3f52a55c32212753310cdcaa",
+            "5b13cbc0e8a5e0dab47fd76a1205326fe2badd6a",
+            "9308a8abe6fa1b67288ba28adbfbb69c10a67207"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "addons",
+          "time": 1456513372,
+          "commits": [
+            "13871886ba1d880ab397783a1115dab57290160b",
+            "2f792d5a606b8aa525e1d2c37483550996d571a8",
+            "ab37776cc23e355ab1fb60bbcfc8a98be38e6365"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "documentation",
+          "time": 1443735981,
+          "commits": [
+            "95c54917817a9c2c1dd4d306f799b6662f1ce925",
+            "abaf0051de16316f315856c86deb2c3cca9cc71f",
+            "6c0ab0b60e3492d101297be326618ddbca2a74be"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "npm",
+          "time": 1434568717,
+          "commits": [
+            "531e6280a357515512dbcefe9170dbd8bf109d4a",
+            "838b963f558f5b93ebe4f67b29486cf1905df628",
+            "6a8ebfc41842fb200c87a919478dcd3aa95be0d7"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "dom",
+          "time": 1434395084,
+          "commits": [
+            "a2862f3c2f698af2007432476092b8dba8c8b534",
+            "35962a00084382b49d1f9e3bd36612925f360e5b",
+            "4fb7df173354da85bfc72aa77f80846b0ce91e88"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "attributes",
+          "time": 1451051613,
+          "commits": [
+            "53dabe748c6817cbb7b43f975e24b61331011077",
+            "9a02ea246d80b7b119f7ff2692b9431ab616da7f",
+            "2b1bd1d7fecb46f9776692613501b8b7ede82bca"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "warning",
+          "time": 1441087390,
+          "commits": [
+            "2d63dfd73c5258e683d394d9ea0b922be21c65d8",
+            "63d04715807084bf5169c9e815f4c3fdcb8b53b7",
+            "2b53acb00ad8bbb6ecd83d000385a948e095401b"
+          ]
+        },
+        {
+          "id": "a1",
+          "kind": "newcomer",
+          "text": "@elas7",
+          "time": 1461274088,
+          "commits": ["9462d0d0404a9a2d2cc6afbef801f0ecf4018560"]
+        },
+        {
+          "id": "a2",
+          "kind": "newcomer",
+          "text": "@hkal",
+          "time": 1460778937,
+          "commits": ["dc6fc8cc0726458a14f0544a30514af208d0098b"]
+        },
+        {
+          "id": "a3",
+          "kind": "newcomer",
+          "text": "@zky829",
+          "time": 1461608447,
+          "commits": ["f4e608fc2e8d9197db3f6f2a9050e19170a1b421"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "startTime": 1462194868,
+      "endTime": 1489419980,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "Move ReactIOS components to native subfolder (#6643)",
+          "time": 1462280733,
+          "commits": ["222f5087fe1267921aaa5e2f600ea94455ee6d2a"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": " Fix for #6062 : Show source line number on unknown property warning  (#6398)",
+          "time": 1462315867,
+          "commits": ["7cf61db257707c49b26c94cd32d5a5d1a5d784ae"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "Replace ReactPerf with new implementation (#6647)",
+          "title": "Replace ReactPerf with new implementation",
+          "time": 1462413433,
+          "commits": ["b6a60781677bcdace8f41457d50412096f98d74a"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "Fix ru-RU doc page permalinks",
+          "time": 1462840752,
+          "commits": ["a95494d6351452929c94f2fa01f54dd36d8a4222"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "React Fiber Reconciler (#6690)",
+          "time": 1462929897,
+          "commits": ["cf157886e9f8f05c645c6c13cf0be2c41a8fafee"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "Rename host-y things to be \"host\" not \"native\" (#6754)",
+          "time": 1463034179,
+          "commits": ["ba9b985406ff56c2dea192b119328b6096895097"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "update babel-core to 5.8.34 in tutorial docs (#7059)",
+          "time": 1466135414,
+          "commits": ["a8d82102225c946758efe4481784bdf23d810b96"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Rename Devtool to Hook (#7381)",
+          "title": "Rename Devtool to Hook",
+          "time": 1470076953,
+          "commits": ["328fc75bc910032ff37dc9d93429fb14b476bd0d"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "Remove keyMirror in TopLevelTypes (#7597)",
+          "time": 1472575816,
+          "commits": ["2f9a9dc4c56c1caee250626c54c587c5f233fcab"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "I wrote it live! (#7663)",
+          "time": 1473200322,
+          "commits": ["334b8bdf165c47336b467a4092e3f51893a83c0d"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "Russian translation for inline styles of tips (#7717)",
+          "time": 1473848796,
+          "commits": ["fcc37ccaa2f10a3fbbe6a2852c3309a98ad486bd"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Add Codebase Overview (#7828)",
+          "time": 1475145237,
+          "commits": ["4f345e021a6bd9105f09f3aee6d8762eaa9db3ec"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Add Fiber Debugger (#8033)",
+          "time": 1477380997,
+          "commits": ["225325eadaeef698deb988fcb5ea9f2d58089451"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "[Fiber] Reorganize files for DOM renderer to make overlap between fiber/stack clearer (#8086)",
+          "title": "[Fiber] Reorganize files for DOM renderer to make overlap between fiber/stack clearer",
+          "time": 1477425390,
+          "commits": ["e3131c1d55d6695c2f0966379535f88b813f912b"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "[Fiber] Complete ES6 Class related errors support (#8156)",
+          "time": 1478369988,
+          "commits": ["ba6b53afbaa517c92cba305e1a40e42182397a44"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "Move shared files out of stack folder (#8441)",
+          "title": "Move shared files out of stack folder",
+          "time": 1480359551,
+          "commits": ["a63cee8e247ba1d2da511bb0653cbe388267d798"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "[Fiber] Fix some of the warnings (#8570)",
+          "time": 1481819818,
+          "commits": ["e36b38c1cad22f7dff557736cf4b0280106e937e"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "[Fiber] Separate priority for updates (#8538)",
+          "title": "[Fiber] Separate priority for updates",
+          "time": 1481848913,
+          "commits": ["7fca464e7cf8a3e23d14dd5b9f5e8d1cef0116aa"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Upgrade jest APIs to match www (#8536)",
+          "time": 1482376060,
+          "commits": ["efaa26eb50169aba7f9194119faf64b67cbff460"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Fix AMD and Brunch issues (#8686)",
+          "time": 1483650968,
+          "commits": ["ca2c71c0c5e8bb9722b58b0309398c69d1b9642d"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Initial import of react-release-manager",
+          "time": 1483664117,
+          "commits": ["a47041c0f7bb26cc0f15b0ea5dd2c15af0a92c02"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "[rrm] Lint",
+          "time": 1483664117,
+          "commits": ["cfd782471bbf59f908f91fea6b69db6af3d10987"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Warn for callback refs on functional components (Stack + Fiber) (#8635)",
+          "time": 1484003358,
+          "commits": ["90294ead4c627715cb70f20ff448bb0d34ee4c1b"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "Add basic testing page for browser quicks (#8589)",
+          "title": "Add basic testing page for browser quicks",
+          "time": 1484004137,
+          "commits": ["a1dd107d7a11f7817fdc7b938f89509a507a5141"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "[Fiber Debugger] Bring up to date (#8765)",
+          "time": 1484250959,
+          "commits": ["fd1ef5371189bbbc17a96f84cf7e5350dc90beb2"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "[Fiber] Compute the Host Diff During Reconciliation (#8607)",
+          "time": 1484891775,
+          "commits": ["b354db22a9a3ecf79945a618cf97bed688a9364c"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "        Added double newline delimiters to the following functions/files: (#8777)",
+          "time": 1485870084,
+          "commits": ["469e68542b0c12d3c3a8ffbed664bd87fb6eadcf"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Move DOM dependent tests out of the shared folder (#8954)",
+          "time": 1486578002,
+          "commits": ["b187142103377f2a45fc8da514f2d6cb66337171"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "[Fiber] Use `T | null` instead of `?T` types (#8978)",
+          "title": "[Fiber] Use `T | null` instead of `?T` types",
+          "time": 1487013659,
+          "commits": ["662170673f7f28fe4b8a44fb2b6b94645f3fe114"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Update Fiber debugger deps",
+          "time": 1487783936,
+          "commits": ["55f18f20ea11e99f5d14b2ff9f3343d1f47cf75d"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": ".github/ created",
+          "time": 1463005825,
+          "commits": ["6b1232aa86415f0573153888a46c4c5cb38974d8"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "src/core/ removed",
+          "time": 1467756553,
+          "commits": ["4f7a38c3b726029216b2ec5d7c14494f7818bd46"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "vendor/ removed",
+          "time": 1470771543,
+          "commits": ["8ef00dbb7de944da0e7b14438baffd37df01bf37"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "docs/tips/ removed",
+          "time": 1477079926,
+          "commits": ["455d2d1b48e5cdaeac5d0b4fd92b29b4d52bcaec"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "packages/react-noop-renderer/ created",
+          "time": 1477380997,
+          "commits": ["225325eadaeef698deb988fcb5ea9f2d58089451"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "fixtures/ created",
+          "time": 1483650968,
+          "commits": ["ca2c71c0c5e8bb9722b58b0309398c69d1b9642d"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "fixtures/dom/ created",
+          "time": 1484004137,
+          "commits": ["a1dd107d7a11f7817fdc7b938f89509a507a5141"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "fixtures/packaging/ created",
+          "time": 1484004137,
+          "commits": ["a1dd107d7a11f7817fdc7b938f89509a507a5141"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "Fiber",
+          "time": 1484250959,
+          "commits": [
+            "fd1ef5371189bbbc17a96f84cf7e5350dc90beb2",
+            "e3131c1d55d6695c2f0966379535f88b813f912b",
+            "225325eadaeef698deb988fcb5ea9f2d58089451"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "rrm",
+          "time": 1483664117,
+          "commits": [
+            "cfd782471bbf59f908f91fea6b69db6af3d10987",
+            "14fd16b67bec7342ce6d3e0bda12e2b3c4c15ad4",
+            "c46dd23f4a26bc272a59aec6c1d2f7263f6b96b2"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "ES6",
+          "time": 1478369988,
+          "commits": [
+            "ba6b53afbaa517c92cba305e1a40e42182397a44",
+            "db452bd20bb2f4f7f0a5621c07c6eec6dc618179",
+            "a0bc99409dd46b73a9ca1434550c90495b180f5d"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "types",
+          "time": 1487013659,
+          "commits": [
+            "662170673f7f28fe4b8a44fb2b6b94645f3fe114",
+            "cafa7b284a7f1830a443525ec08ae26e14ba7cc6",
+            "f3c2d9f308eeee49d9c580c063ec7a109e9ad635"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "Russian",
+          "time": 1473848796,
+          "commits": [
+            "fcc37ccaa2f10a3fbbe6a2852c3309a98ad486bd",
+            "7d5c70d98c0b0dae6d0a70d4868b80d8e6ef8a36",
+            "4dd44e77f8fc368218f3c1f22f32263cc6cbd7b7"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "tutorial",
+          "time": 1466135414,
+          "commits": [
+            "a8d82102225c946758efe4481784bdf23d810b96",
+            "e487c36ec049a93d4019661206c317ed716e831b",
+            "54dfe0b43caf52e9519787ac2dc8b1acb02f9d7e"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "Codebase",
+          "time": 1475145237,
+          "commits": [
+            "4f345e021a6bd9105f09f3aee6d8762eaa9db3ec",
+            "d0cc73a95715ab67f15059ea71b43e987388b460",
+            "16ac141f44583bd59f95f5b420a66bfcef01865e"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "keyMirror",
+          "time": 1472575816,
+          "commits": [
+            "2f9a9dc4c56c1caee250626c54c587c5f233fcab",
+            "84084153edbeab515f9955b4c5b955ef95167787",
+            "738a9e3ef25db863126cd7ec2b37b9ba0bd1c7c2"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "ReactPerf",
+          "time": 1462413433,
+          "commits": [
+            "b6a60781677bcdace8f41457d50412096f98d74a",
+            "1a0e3a32150468223d6f9fd0125db0f8503b76d6",
+            "027d9a919b10e994cb17248059d1d69f3955787f"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "unknown",
+          "time": 1462315867,
+          "commits": [
+            "7cf61db257707c49b26c94cd32d5a5d1a5d784ae",
+            "de1de9e18f8faf153ad673c8206a2918e3e81035",
+            "2e881aa4b432261e4ce8aba52d06cc616c8330f0"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "warnings",
+          "time": 1481819818,
+          "commits": [
+            "e36b38c1cad22f7dff557736cf4b0280106e937e",
+            "4aa9cfb6ba33efb7bb823721df948f78444df673",
+            "70f704dca6e5679dfda5867c44832a1ba5eb9b9e"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "permalinks",
+          "time": 1462840752,
+          "commits": [
+            "a95494d6351452929c94f2fa01f54dd36d8a4222",
+            "25aa5e36c9ff00bb4cb06a7563042c52eb22432d",
+            "c3d52d8ec17b1d74d794c008f278b0f3d8b848f7"
+          ]
+        },
+        {
+          "id": "a1",
+          "kind": "newcomer",
+          "text": "@Aweary",
+          "time": 1462224395,
+          "commits": ["eb116482a34a65c52f7de92493985852371da727"]
+        },
+        {
+          "id": "a2",
+          "kind": "newcomer",
+          "text": "@trueadm",
+          "time": 1465577851,
+          "commits": ["40f6d3eacad563c67bea0aa1c2220de6239ece43"]
+        },
+        {
+          "id": "a3",
+          "kind": "newcomer",
+          "text": "@flarnie",
+          "time": 1472849624,
+          "commits": ["9a88e593ed6f3a13f431048f0ee427255718ddbf"]
+        },
+        {
+          "id": "a4",
+          "kind": "newcomer",
+          "text": "@hramos",
+          "time": 1476398896,
+          "commits": ["b59a8d94cc5f7253a4b8ad8be8d4b3072faf375e"]
+        },
+        {
+          "id": "a5",
+          "kind": "newcomer",
+          "text": "@AgtLucas",
+          "time": 1471655015,
+          "commits": ["869cb05b7649a6787bf64ab50d584e9d664c5cd2"]
+        },
+        {
+          "id": "a6",
+          "kind": "newcomer",
+          "text": "@TanaseHagi",
+          "time": 1462247425,
+          "commits": ["83521bddb00988531c852122f89417d40e13caa9"]
+        },
+        {
+          "id": "a7",
+          "kind": "newcomer",
+          "text": "@aesopwolf",
+          "time": 1476144845,
+          "commits": ["f00fbbd1ce81fe77abc94865415088ffeb8095fb"]
+        },
+        {
+          "id": "a8",
+          "kind": "newcomer",
+          "text": "@akatopo",
+          "time": 1477498435,
+          "commits": ["2ba571c24618b97049898532e2e220897f9b4c43"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "startTime": 1489420481,
+      "endTime": 1506440753,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "Add React Rally to conferences list (#9179)",
+          "time": 1489623657,
+          "commits": ["7253e6544b4409841c1527c744f2f08c9ab867ba"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Delete addons (#9209)",
+          "time": 1490026501,
+          "commits": ["34e4352cba3bbba0a5afd5b826cc0f91e33318bc"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "Show more meanignful stack trace for ReactNative errors (#9291)",
+          "time": 1490912133,
+          "commits": ["224487a0e27f6e8e64ef9504ed93d8d9bfefe249"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "Remove examples/ folder (#9323)",
+          "time": 1491247922,
+          "commits": ["4a37718e4ed56f1893abb19f59ec91a861000803"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "Convert current build system to Rollup and adopt flat bundles (#9327)",
+          "time": 1491407249,
+          "commits": ["4b2eac3de7e1dbf5c2dd742fd9989974a83972cb"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "Replace shims with explicit React access from the renderers for shared global state (#9366)",
+          "time": 1491599230,
+          "commits": ["72196da82915bee400edb1599d4223926aa2a8a0"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "[Tutorial] ES6, installation, and button closing tag (#9441)",
+          "time": 1492533283,
+          "commits": ["8417534bd0b131882ced1360dfd23b4d6b63391b"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Change unstable_asyncUpdates from an instance to a static property",
+          "time": 1492712415,
+          "commits": ["0c896ffe6ba840887a3bacfb7d923e33e78d09de"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "Move ReactDOMFactories into separate package (#8356)",
+          "time": 1493046497,
+          "commits": ["86dd083f455f71369b4c1bf1e798dd2fd5a3c9c4"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Add React benchmarking infrastructure (#9465)",
+          "time": 1494346434,
+          "commits": ["a7d8ebd2b5ca8e0bf66f3bfa487b1332fc9962fc"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "ReactNative flat renderer bundles (#9626)",
+          "time": 1495641990,
+          "commits": ["c22b94f14a809abb376f07a53f36860a7c6a342e"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Use public API in tests wherever possible (#9954)",
+          "time": 1497398315,
+          "commits": ["4f19558c6be68abfab85b3ab2e8a3d3efabaa700"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Streamline Fiber/Stack testing and bundling setup a little bit (#9964)",
+          "time": 1497474633,
+          "commits": ["7dc27d35c13fa0f5e0945d6705c1095afcbad867"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Add ReactDOMNodeStream, adding streaming rendering. (#10024)",
+          "time": 1498368702,
+          "commits": ["411e04bd71715298de564a24dbf0304e17471ce0"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "Run all fixtures through Prettier (#10157)",
+          "time": 1499876364,
+          "commits": ["d04618b28b4faf0e512878d073a93a779d735f96"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "Move DEV only module requires into __DEV__ blocks (#10185)",
+          "time": 1500478135,
+          "commits": ["357925a84e34d17b96568e67d30baeb2a399da11"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "Don't add dangling commas to functions for packaging fixtures (#10264)",
+          "time": 1500912580,
+          "commits": ["8d2fdc8e7609786f26c4bc752d6031ec6f5a4ed4"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Fix failing Prettier command (#10268)",
+          "time": 1500929956,
+          "commits": ["171149a4b02a399a986c411b264515de45e70521"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Delete react-dom-factories package (#10279)",
+          "time": 1501070458,
+          "commits": ["77e11296289b10db7eed73cdf0a87b8eee95adbd"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Add ReactDOM.hydrate() as explicit SSR hydration API (#10339)",
+          "time": 1501618644,
+          "commits": ["f8062df1d6c6bef5988abe5408d48a357d1021ef"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Wop optimized this repository (#10374)",
+          "time": 1501854098,
+          "commits": ["25894e82c2a49bc09fd1911e9af9c8bc0be1df56"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "[fiber-debugger] Support undefined progressedPriority (#10375)",
+          "time": 1501872320,
+          "commits": ["07acd7db816e2be3c9fad0f911f9a331275c77c8"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Fiber debugger enhancements (#10393)",
+          "time": 1502188308,
+          "commits": ["fc3fb4bd72f1b33fb788f49665891dc267ebaec4"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "Add table of attribute behavior (#10536)",
+          "time": 1503680610,
+          "commits": ["5f7116548674258e6b5581982e6f7760176a2ff0"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "Move attribite-behavior to fixtures",
+          "time": 1503682809,
+          "commits": ["5fd942a03c1dbafa4d598e777c79d6153f78e3fa"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "Delete vestigial CRA files",
+          "time": 1503683027,
+          "commits": ["87a32314aeb4f8eb3b3b941c7fe8df2f72369436"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "[attribute-behavior] Use development builds of React and ReactDOM (#10544)",
+          "time": 1503701077,
+          "commits": ["be9d982e8f7c56a477918f01735036a84e1c3efe"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Remove disableNewFiberFeatures flag (#10585)",
+          "time": 1504228988,
+          "commits": ["de05d2ededfee911c500a42d02b4661854051b3c"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Fix warning deduplication in attribute table (#10594)",
+          "time": 1504316265,
+          "commits": ["3f6e8d28031c85dd3d101e6f259db572d82fe1a1"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Update license headers BSD+Patents -> MIT",
+          "time": 1506382108,
+          "commits": ["d63249d03488fec1ea92a81ba29f0e87a82feeae"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "examples/ removed",
+          "time": 1491247922,
+          "commits": ["4a37718e4ed56f1893abb19f59ec91a861000803"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "grunt/ removed",
+          "time": 1491407249,
+          "commits": ["4b2eac3de7e1dbf5c2dd742fd9989974a83972cb"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "grunt/config/ removed",
+          "time": 1491407249,
+          "commits": ["4b2eac3de7e1dbf5c2dd742fd9989974a83972cb"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "grunt/tasks/ removed",
+          "time": 1491407249,
+          "commits": ["4b2eac3de7e1dbf5c2dd742fd9989974a83972cb"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "packages/react-art/ created",
+          "time": 1491407249,
+          "commits": ["4b2eac3de7e1dbf5c2dd742fd9989974a83972cb"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "scripts/rollup/ created",
+          "time": 1491407249,
+          "commits": ["4b2eac3de7e1dbf5c2dd742fd9989974a83972cb"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "src/addons/ removed",
+          "time": 1496154930,
+          "commits": ["fedb2ff8ecd96d11ff3f609fbffa76848203f255"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "fixtures/attribute-behavior/ created",
+          "time": 1503682809,
+          "commits": ["5fd942a03c1dbafa4d598e777c79d6153f78e3fa"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "attribute",
+          "time": 1503680610,
+          "commits": [
+            "5f7116548674258e6b5581982e6f7760176a2ff0",
+            "be9d982e8f7c56a477918f01735036a84e1c3efe",
+            "3f6e8d28031c85dd3d101e6f259db572d82fe1a1"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "SSR",
+          "time": 1501618644,
+          "commits": [
+            "f8062df1d6c6bef5988abe5408d48a357d1021ef",
+            "fc86ef0f3d5c3b93121d245512eb686617e47527",
+            "5e85f0065b80b6fbfa9715bc1e6f190ad719ce82"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "conferences",
+          "time": 1489623657,
+          "commits": [
+            "7253e6544b4409841c1527c744f2f08c9ab867ba",
+            "fbc6977fbc16f7ed9ac3adf4b7990ccbc3794048",
+            "37f9e35ad93e1cb1042a7bc3d8b78290dfcecec6"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "table",
+          "time": 1503680610,
+          "commits": [
+            "5f7116548674258e6b5581982e6f7760176a2ff0",
+            "3f6e8d28031c85dd3d101e6f259db572d82fe1a1",
+            "faf186b235af68a4ae0092915de4047a65a8ff5f"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "warning",
+          "time": 1504316265,
+          "commits": [
+            "3f6e8d28031c85dd3d101e6f259db572d82fe1a1",
+            "2beec2f308e27dbe902a8d68e1fc9f3d70ee9372",
+            "8b1b0720cc856d6b43d35dd29e50f260c7472347"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "DEV",
+          "time": 1500478135,
+          "commits": [
+            "357925a84e34d17b96568e67d30baeb2a399da11",
+            "8b1b0720cc856d6b43d35dd29e50f260c7472347",
+            "8d61138186e79e1e719786c8c76186e64b603bd5"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "installation",
+          "time": 1492533283,
+          "commits": [
+            "8417534bd0b131882ced1360dfd23b4d6b63391b",
+            "a95e1d8ffcbfaaa2eda98d1bf914d1b750c402c8",
+            "855b8d3526a55e690108e8ede9091c14b6f62466"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "ReactNative",
+          "time": 1495641990,
+          "commits": [
+            "c22b94f14a809abb376f07a53f36860a7c6a342e",
+            "e34ac7c0668906f588883e1ec8b936495bf0a9d9",
+            "004c937cb05811910d9d9fc2226932a8f88f3855"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "asyncUpdates",
+          "time": 1492712415,
+          "commits": [
+            "0c896ffe6ba840887a3bacfb7d923e33e78d09de",
+            "6f8fec4b8015e1d95c177521ae9c2903713ceb16",
+            "b1384062d2e7014a6c4a7d27c229846c07f9055c"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "errors",
+          "time": 1490912133,
+          "commits": [
+            "224487a0e27f6e8e64ef9504ed93d8d9bfefe249",
+            "b392f1e2fcc892a0582a173e517d429f277562aa",
+            "964c263d8fc6e7119f5773f7fa857c9985db40cf"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "bundles",
+          "time": 1491407249,
+          "commits": [
+            "4b2eac3de7e1dbf5c2dd742fd9989974a83972cb",
+            "c22b94f14a809abb376f07a53f36860a7c6a342e",
+            "66f2097f33a3084c79aa536e11d3ca09195bc320"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "adding",
+          "time": 1498368702,
+          "commits": [
+            "411e04bd71715298de564a24dbf0304e17471ce0",
+            "0e556fef24e9db468d00b05ef8ddfa0b06b08f0c",
+            "c51411c812d60072a1e5f1b654d7408727093821"
+          ]
+        },
+        {
+          "id": "a1",
+          "kind": "newcomer",
+          "text": "@abigsmall",
+          "time": 1491344214,
+          "commits": ["0c7863075da94258bc0ef34f4f4e159fd0606f84"]
+        },
+        {
+          "id": "a2",
+          "kind": "newcomer",
+          "text": "@ddrjm",
+          "time": 1496674319,
+          "commits": ["9d8519fc0d543069ae4ec7c2704b8084c2afb306"]
+        },
+        {
+          "id": "a3",
+          "kind": "newcomer",
+          "text": "@designorant",
+          "time": 1492526299,
+          "commits": ["37f9e35ad93e1cb1042a7bc3d8b78290dfcecec6"]
+        },
+        {
+          "id": "a4",
+          "kind": "newcomer",
+          "text": "@devedse",
+          "time": 1501854098,
+          "commits": ["25894e82c2a49bc09fd1911e9af9c8bc0be1df56"]
+        },
+        {
+          "id": "a5",
+          "kind": "newcomer",
+          "text": "@dhurlburtusa",
+          "time": 1495643204,
+          "commits": ["1f667fd37fab433d77df291e852e1c8c712e7c1e"]
+        },
+        {
+          "id": "a6",
+          "kind": "newcomer",
+          "text": "@djkirby",
+          "time": 1495149239,
+          "commits": ["c1d4c8bc6026b5779d846b51607f65131c016338"]
+        },
+        {
+          "id": "a7",
+          "kind": "newcomer",
+          "text": "@dpismenny",
+          "time": 1491944633,
+          "commits": ["cec9b074024b8f1c897a22f9b12ec9a0301967b3"]
+        },
+        {
+          "id": "a8",
+          "kind": "newcomer",
+          "text": "@francoischalifour",
+          "time": 1505080329,
+          "commits": ["83b63e5ff87836c97aad26920db724dec8f7adb0"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "startTime": 1506441033,
+      "endTime": 1536251667,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "Add new docs website (#10896)",
+          "time": 1506619084,
+          "commits": ["96fde8a09ad525f28910de2c95f0eee2d824d939"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Add changelog for unreleased commits",
+          "time": 1506690256,
+          "commits": ["7bdf93b17a35a5d8fcf0ceae0bf48ed5e6b16688"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "Fix og:url on SSR (#10902)",
+          "time": 1506735481,
+          "commits": ["ed4174511afd5ef3fc1dd4b0e1bba8254dbd6377"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "[Gatsby] Removed Typekit in favour of system fonts (#10988)",
+          "time": 1506782884,
+          "commits": ["839b7fb901e6260b6d43ee421c32e3251286f3d3"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "Ensure all external links have consistent behavior (#11012)",
+          "time": 1506963159,
+          "commits": ["5e8d124754a75da57ccd2b39041918650afbb370"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "Fix 404 for warning URLs (#11038)",
+          "time": 1506971552,
+          "commits": ["bbb272f3aae322bf2b13db862356d78957bafac7"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "[website] Add RSS Feed to website (#11056)",
+          "time": 1507053990,
+          "commits": ["25dbf03e66efa7bd3fe854df677e3c69bb45d5e2"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Delete documentation and website source (#11137)",
+          "time": 1507310285,
+          "commits": ["ebb1d316bd7998db04916fd8fdb8d5f4a1b7df58"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "Use Yarn Workspaces (#11252)",
+          "time": 1508368941,
+          "commits": ["d9c1dbd61772f8f8ab0cdf389e70463d704c480b"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "[CS] Implement Some Stuff (#11390)",
+          "time": 1509159934,
+          "commits": ["696908f4961ef47c4cb2ce2ecf990693d7e2e945"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "Use named exports in more places (#11457)",
+          "time": 1509883116,
+          "commits": ["92b7b172cce9958b846844f0b46fd7bbd8c5140d"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Add Flow types for EventPluginHub (#11465)",
+          "time": 1510710520,
+          "commits": ["634b70a78b684c24bd8c8254a795ec02ba317d88"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Run 90% of tests on compiled bundles (both development and production) (#11633)",
+          "time": 1511459098,
+          "commits": ["fa7a97fc46935e1611d52da2fdb7d53f6ab9577d"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Migrate to CircleCI2.0 and Add AppVeyor for master-only branch (#11605)",
+          "time": 1511879958,
+          "commits": ["a2b6b6b206f7bdb41bffa7cff7f6b8a868f1a207"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "events: convert var to let/const (#11714)",
+          "time": 1512043660,
+          "commits": ["2decfe97dc74b580f2b6e4b0af38c43708773cc6"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "react-rt-renderer, react-cs-renderer, react-call-return: Convert vars to let/const   (#11721)",
+          "time": 1512078012,
+          "commits": ["b3e27b264032100630ef818742f0f6aabd9db292"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "Update additional tests to use .toWarnDev() matcher (#11952)",
+          "time": 1515002904,
+          "commits": ["a442d9bc082878ccf66872b1eeed3465927801b6"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Adds Danger and a rule showing build size differences (#11865)",
+          "time": 1516153778,
+          "commits": ["d8d797645caebebda68971c93952ee812e636b1c"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Remove experimental RT/CS renderers (#12032)",
+          "time": 1516241245,
+          "commits": ["d3647583b3c2c1e68069f8188370b70a3f749b68"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "[experimental] simple-cache-provider (#12224)",
+          "time": 1518741495,
+          "commits": ["4312b8293244e1fd1d7031fb474b156b0e43001c"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Updating package versions for release 16.3.0-alpha.2",
+          "time": 1521059001,
+          "commits": ["3961b8c7e7139e5aebe9c91f1d06e5b110db2cb8"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "Initial commit (#12624)",
+          "time": 1524155348,
+          "commits": ["999b656ed1c94b00fcfd043f54e18ade7553dee0"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Use browser event names for top-level event types in React DOM (#12629)",
+          "time": 1526377130,
+          "commits": ["e96dc140599363029bd05565d58bcd4a432db370"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "[scheduler] 5/n Error handling in scheduler (#12920)",
+          "time": 1527719928,
+          "commits": ["15767a8f8f798f0d80df4ddbc7cfaebdc29996a8"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "[WIP] Add suspense fixtures for IO and CPU demo (#13295)",
+          "time": 1533157828,
+          "commits": ["00cd4444e2a8ad3c48188b5c0e3db37842d867f0"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "Move async fixtures (#13304)",
+          "time": 1533158486,
+          "commits": ["e341e503b2659a1227c3900d1c94b30d054100f0"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "Add interaction-tracking/subscriptions (#13426)",
+          "time": 1534538718,
+          "commits": ["0da5102cf02890a4e006f4d949ae4fbf2bfd85af"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Interaction tracking follow up (#13509)",
+          "time": 1535828400,
+          "commits": ["46950a3dfc9e14b5b91ee5823df11883f5d2466e"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Added Jest test to verify UMD API-forwarding for scheduling package (#13532)",
+          "time": 1535831546,
+          "commits": ["bf8aa609257894c73c2546d9f01b76a72d2bb862"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Rename \"react-scheduler\" package to \"schedule\" (#13543)",
+          "time": 1535999270,
+          "commits": ["b92f947af1b5d8804026cb0e1cfa59ead7484ca5"]
+        },
+        {
+          "id": "r1",
+          "kind": "release",
+          "text": "v16.0.0",
+          "time": 1506441033,
+          "commits": ["5c6ef4044610a2a325780261f41730a33a919f98"]
+        },
+        {
+          "id": "r2",
+          "kind": "release",
+          "text": "16.1.0",
+          "time": 1510239357,
+          "commits": ["7d9b4ba35ac3d45e798908540ca8ef131b20e72d"]
+        },
+        {
+          "id": "r3",
+          "kind": "release",
+          "text": "v16.1.1",
+          "time": 1510589475,
+          "commits": ["cc5534a66dff713052907ccfed98f87ae713bdd9"]
+        },
+        {
+          "id": "r4",
+          "kind": "release",
+          "text": "v16.2.0",
+          "time": 1511904563,
+          "commits": ["edb2b3d3a70bbb6a26670673ac805df34ac23382"]
+        },
+        {
+          "id": "r5",
+          "kind": "release",
+          "text": "v16.3.0",
+          "time": 1522354032,
+          "commits": ["8e3d94ffa1d2e19a5bf4b9f8030973b65b0fc854"]
+        },
+        {
+          "id": "r6",
+          "kind": "release",
+          "text": "v16.3.1",
+          "time": 1522801986,
+          "commits": ["dc059579c3e56ca338a999b86d146d2341ee6f64"]
+        },
+        {
+          "id": "r7",
+          "kind": "release",
+          "text": "v16.3.2",
+          "time": 1523892193,
+          "commits": ["32326163480b5028ee16f6b4e4ea4426f3c5e95c"]
+        },
+        {
+          "id": "r8",
+          "kind": "release",
+          "text": "v16.4.0",
+          "time": 1527122131,
+          "commits": ["8765d608935a81ba5019f6cde6dce3367d392f0c"]
+        },
+        {
+          "id": "r9",
+          "kind": "release",
+          "text": "v16.4.1",
+          "time": 1528906835,
+          "commits": ["9725065eb4054be5a223b16d28de0aeda91f4464"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "docs/ removed",
+          "time": 1507310285,
+          "commits": ["ebb1d316bd7998db04916fd8fdb8d5f4a1b7df58"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "docs/_posts/ removed",
+          "time": 1507310285,
+          "commits": ["ebb1d316bd7998db04916fd8fdb8d5f4a1b7df58"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "docs/docs/ removed",
+          "time": 1507310285,
+          "commits": ["ebb1d316bd7998db04916fd8fdb8d5f4a1b7df58"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "docs/img/ removed",
+          "time": 1507310285,
+          "commits": ["ebb1d316bd7998db04916fd8fdb8d5f4a1b7df58"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "packages/react-reconciler/ created",
+          "time": 1507746566,
+          "commits": ["111731dedd1c8ab2e3033f6ebdac45cb1941cbf7"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "packages/shared/ created",
+          "time": 1508368941,
+          "commits": ["d9c1dbd61772f8f8ab0cdf389e70463d704c480b"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "src/ removed",
+          "time": 1508368941,
+          "commits": ["d9c1dbd61772f8f8ab0cdf389e70463d704c480b"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "src/renderers/ removed",
+          "time": 1508368941,
+          "commits": ["d9c1dbd61772f8f8ab0cdf389e70463d704c480b"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "size",
+          "time": 1516153778,
+          "commits": [
+            "d8d797645caebebda68971c93952ee812e636b1c",
+            "61d35ce1f3f9c0706ed3630a2650d578497ae8c2",
+            "7b19f93ab9159164ad35b09abcd0c7a936ff3e3c"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "renderer",
+          "time": 1512078012,
+          "commits": [
+            "b3e27b264032100630ef818742f0f6aabd9db292",
+            "d3647583b3c2c1e68069f8188370b70a3f749b68",
+            "8e7cb857889e0cf626fe221912cf923e82b36457"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "Updating",
+          "time": 1521059001,
+          "commits": [
+            "3961b8c7e7139e5aebe9c91f1d06e5b110db2cb8",
+            "02d4e5dd39790492bf4e9731eea82d140c19e123",
+            "61444a415bd42f091267c905256340afcb07d9f9"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "bundles",
+          "time": 1511459098,
+          "commits": [
+            "fa7a97fc46935e1611d52da2fdb7d53f6ab9577d",
+            "7d3b44bf3772bd0d8d18834881f8f528a842f010",
+            "4008f6d37d45dc81705b8615c3d1bd21319f7b09"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "Gatsby",
+          "time": 1506782884,
+          "commits": [
+            "839b7fb901e6260b6d43ee421c32e3251286f3d3",
+            "47a6ac525dcb3bf3297588fa83adab4beee37e66",
+            "03725199cc8cbf14c7490ef0c7e61c6fb59d21de"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "package",
+          "time": 1535831546,
+          "commits": [
+            "bf8aa609257894c73c2546d9f01b76a72d2bb862",
+            "b92f947af1b5d8804026cb0e1cfa59ead7484ca5",
+            "5e0f073d509a74353533233706fce2e8044a0a15"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "warning",
+          "time": 1506971552,
+          "commits": [
+            "bbb272f3aae322bf2b13db862356d78957bafac7",
+            "f9358c51c8de93abe3cdd0f4720b489befad8c48",
+            "0154a79fedef38a824a837c535bc853013dd4588"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "changelog",
+          "time": 1506690256,
+          "commits": [
+            "7bdf93b17a35a5d8fcf0ceae0bf48ed5e6b16688",
+            "9d4c2dfaac682c546bc746ed257b408b4e862f3d",
+            "4c8d248757cb18b9251411e0c3a2d29e951386d5"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "matcher",
+          "time": 1515002904,
+          "commits": [
+            "a442d9bc082878ccf66872b1eeed3465927801b6",
+            "9f848f8ebec30b3aaa4844ecaef83b014359c5e3",
+            "b5334a44e99c32ca26f7d65ca8312e13f7b7f4b7"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "Yarn",
+          "time": 1508368941,
+          "commits": [
+            "d9c1dbd61772f8f8ab0cdf389e70463d704c480b",
+            "2d20dc47a399873fd7ac2118e75bd75696cc7b3b",
+            "158f040d5401d0b84e6cc64c75253a0c57274f5d"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "AppVeyor",
+          "time": 1511879958,
+          "commits": [
+            "a2b6b6b206f7bdb41bffa7cff7f6b8a868f1a207",
+            "bc1b7f3c3839481e3ce422f48c903374add1c256",
+            "bc21578fada916cb10c4d94106a44495a31244b0"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "Danger",
+          "time": 1516153778,
+          "commits": [
+            "d8d797645caebebda68971c93952ee812e636b1c",
+            "c27a99812e75e73d9fad88c97ac8b8db452012c1",
+            "c7ce0091dcb2036e19df980247c9a4388ad75741"
+          ]
+        },
+        {
+          "id": "a1",
+          "kind": "newcomer",
+          "text": "@xjlim",
+          "time": 1509818968,
+          "commits": ["743201387246d0cde523700c151550786f0afc2e"]
+        },
+        {
+          "id": "a2",
+          "kind": "newcomer",
+          "text": "@accordeiro",
+          "time": 1509736703,
+          "commits": ["43a1e0d084ce4491e7c61bb2b6ae9c768a1f4fad"]
+        },
+        {
+          "id": "a3",
+          "kind": "newcomer",
+          "text": "@anushreesubramani",
+          "time": 1507327458,
+          "commits": ["e8629667ab378769c2f3c1e65baa9740368008c0"]
+        },
+        {
+          "id": "a4",
+          "kind": "newcomer",
+          "text": "@jasonwilliams",
+          "time": 1529068536,
+          "commits": ["64c54edea4a1f41d87fb6d4c14767adedf652d90"]
+        },
+        {
+          "id": "a5",
+          "kind": "newcomer",
+          "text": "@fkgozali",
+          "time": 1519256447,
+          "commits": ["02f4e7a80b047862b7b321c6d93bdda4f5417264"]
+        },
+        {
+          "id": "a6",
+          "kind": "newcomer",
+          "text": "@hramos",
+          "time": 1519690854,
+          "commits": ["2d511479c4fc8246840b8ad00d6b528eadbe1ca6"]
+        },
+        {
+          "id": "a7",
+          "kind": "newcomer",
+          "text": "@timjacobi",
+          "time": 1511188167,
+          "commits": ["669a70dab789d58a7c26ec8b4bb897eef37466fa"]
+        },
+        {
+          "id": "a8",
+          "kind": "newcomer",
+          "text": "@aarboleda1",
+          "time": 1511624825,
+          "commits": ["d1cb28c86b966cb33c373b532abe62dfe563d00e"]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "startTime": 1536251667,
+      "endTime": 1565025520,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "Rename schedule to scheduler (#13683)",
+          "time": 1537316788,
+          "commits": ["7ea3ca1d13b1b609678fa1369f8a1020c3ecb976"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Adds experimental event component responder surfaces (#15228)",
+          "time": 1553730137,
+          "commits": ["669cafb36f7252e2f83655f48f48a85b0f4e2051"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "Add additional event API responder surfaces (#15248)",
+          "time": 1553880678,
+          "commits": ["a41b217708fcf2a8a325c83f89a480b2ebd91ce6"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "Delete Suspense Fixture (#15273)",
+          "time": 1553985308,
+          "commits": ["a050f3d459edd3b3b27773aa8b18f85fc414473b"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "Adds displayName to EventComponent and EventTarget (#15268)",
+          "time": 1554290665,
+          "commits": ["89064fe68d1f26da78c541a9c64ee093322b9766"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "React events: keyboard press, types, tests (#15314)",
+          "time": 1554393335,
+          "commits": ["937d262f557fd3332576be0da60adf5f94c545d9"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "React events: initial implementation of disabled prop (#15458)",
+          "time": 1555895838,
+          "commits": ["587676900f5575868b2e4c2bc67755536e231c4f"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Event API: Add `FocusScope` surface (#15487)",
+          "time": 1556154069,
+          "commits": ["64e3da286f2c1e66303d2ae1dc06276b2f866e9d"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "Event API: follow up fixes for FocusScope + context changes (#15496)",
+          "time": 1556219433,
+          "commits": ["d1f667acc065f2bd9fa4921af6c4d67f5c7b253b"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "React Events: FocusScope tweaks and docs (#15515)",
+          "time": 1556311081,
+          "commits": ["cc5a49379bdbd78545af9f77465ed10f3283895f"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "Add method for forcing a lower framerate",
+          "time": 1556575492,
+          "commits": ["43c4e5f348eb5704464986e2dc3221e347041b82"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Use lowercase entry points for event modules (#15535)",
+          "time": 1556580356,
+          "commits": ["7882c41f607ee5273da9637da0bb20ca7634cb83"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Follow up to 15535 (#15536)",
+          "time": 1556622259,
+          "commits": ["379515e83efa3bb0af8676aa431107e41b290302"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Add React.unstable_createEventComponent (#15580)",
+          "time": 1557257802,
+          "commits": ["89d8d1435ffc61fd5201636a84c53806130ef4b8"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "[Fresh] Set up infra for runtime and Babel plugin (#15698)",
+          "time": 1558472050,
+          "commits": ["6d4f85b611cd7bac40db44854bab06776ce30c96"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "[Fresh] Babel plugin now handles HOCs + add integration tests (#15724)",
+          "time": 1558730708,
+          "commits": ["393924879fbba20e43d9de76f9fb4f01c945cefa"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "[Fresh] Generate signatures for Hooks (#15733)",
+          "time": 1559135731,
+          "commits": ["556cc6fe1925b8d78f9089769acdf20afaedb281"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "[Fresh] Support classes by force-remounting them on edit (#15801)",
+          "time": 1559776422,
+          "commits": ["d0e041aee83b50e54176d2dc957d86c0f571257e"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "[Fresh] Capture Hook signatures lazily on first render (#15832)",
+          "time": 1559843592,
+          "commits": ["def56c979756ef232bd0d3dacf79390506abae5f"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "[Fresh] Implement missing features (#15860)",
+          "time": 1560278262,
+          "commits": ["191920605fa88949e640dbf6da4f8659020a4566"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "[Flare] Refactor of Press to fix various issues (#15878)",
+          "time": 1560549146,
+          "commits": ["a146c1f9ed2f13bb885a5f49623d45f03c0bb424"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "[Flare] remove stopLocalPropagation option + modify responder ownership (#15889)",
+          "time": 1560550314,
+          "commits": ["353e0ee47492c42160aab81e60a59b08e40bb0b3"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "[Fresh] react-fresh => react-refresh (#15888)",
+          "time": 1560623806,
+          "commits": ["f0156766dcfd46cd0e07c70cb64f40acbc2b1a4b"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "[Flare] Rename createEventComponent -> createEvent (#15929)",
+          "time": 1560975134,
+          "commits": ["b62ae16429dddefa5f765a747f57933cd7ce73c2"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "warn if passive effects get queued outside of an act() call. (#15763)",
+          "time": 1561371504,
+          "commits": ["e1c5e8720d5d47974c14c125dbaf3dc608a92936"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "[Flare] Move all event responders to dom directory (#15981)",
+          "time": 1561451540,
+          "commits": ["fd601fb2197c8079733a46b907d049bdbfedfe29"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "[Flare] Add Hooks to event modules (#15953)",
+          "time": 1561535241,
+          "commits": ["9b55bcfc6b4dec5766565a1ba4179be975a2f053"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "[Flare] createInitialState -> getInitialState (#16051)",
+          "time": 1562259978,
+          "commits": ["786186c6928f729c0fc0316023da071b1cceea13"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "[Flare] Remove responder flags to simplify logic (#16084)",
+          "time": 1562681145,
+          "commits": ["23b8a25345fe2e1b04eac4eaa801b24aba62f3e1"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Remove FocusScope (#16267)",
+          "time": 1564591211,
+          "commits": ["b5af4fe3c64e1ac254e8fd101fec2f8e414aabf6"]
+        },
+        {
+          "id": "r1",
+          "kind": "release",
+          "text": "v16.5.0",
+          "time": 1536251667,
+          "commits": ["71c0e05ba79e2e12556980ffbab264b41fdc19cd"]
+        },
+        {
+          "id": "r2",
+          "kind": "release",
+          "text": "v16.5.2",
+          "time": 1537295450,
+          "commits": ["bec2ddaf157497ddca85e823e180536d8154a52f"]
+        },
+        {
+          "id": "r3",
+          "kind": "release",
+          "text": "v16.6.0",
+          "time": 1540337375,
+          "commits": ["8b97a9c36f2ef7d2c570b25e988b8ca832d9b436"]
+        },
+        {
+          "id": "r4",
+          "kind": "release",
+          "text": "v16.6.1",
+          "time": 1541557730,
+          "commits": ["ba19844236ab61e22b6e8f80f5134ae33a2792e5"]
+        },
+        {
+          "id": "r5",
+          "kind": "release",
+          "text": "v0.0.0-88ada9819",
+          "time": 1543442205,
+          "commits": ["88ada98198b22d2b8cd056cfba5ffb113c6a50d3"]
+        },
+        {
+          "id": "r6",
+          "kind": "release",
+          "text": "v16.7.0",
+          "time": 1544814203,
+          "commits": ["4a1072194fcef2da1aae2510886c274736017fbd"]
+        },
+        {
+          "id": "r7",
+          "kind": "release",
+          "text": "v16.8.0",
+          "time": 1549388061,
+          "commits": ["d1326f466a24f2b9e09115ed1a3ddd9de2ad2e06"]
+        },
+        {
+          "id": "r8",
+          "kind": "release",
+          "text": "v16.8.2",
+          "time": 1550164887,
+          "commits": ["dfabb77a97141baf07cfdad620949874e36516d7"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "packages/schedule/ removed",
+          "time": 1537316788,
+          "commits": ["7ea3ca1d13b1b609678fa1369f8a1020c3ecb976"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "packages/scheduler/ created",
+          "time": 1537316788,
+          "commits": ["7ea3ca1d13b1b609678fa1369f8a1020c3ecb976"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "packages/eslint-plugin-react-hooks/ created",
+          "time": 1540837524,
+          "commits": ["ddbfe2ed50c7a3476ceff20f5924011ac1ad6428"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "packages/react-debug-tools/ created",
+          "time": 1541440979,
+          "commits": ["fd1256a5618d335d5eb563858e0841869b97b1ad"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "packages/react-stream/ created",
+          "time": 1543606702,
+          "commits": ["1d25aa5787d4e19704c049c3cfa985d3b5190e0d"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "packages/react-events/ created",
+          "time": 1553008365,
+          "commits": ["55cc921c5d3485eb60fe94628b227d4069c97b6c"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "packages/react-fresh/ created",
+          "time": 1558472050,
+          "commits": ["6d4f85b611cd7bac40db44854bab06776ce30c96"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "packages/react-refresh/ created",
+          "time": 1560623806,
+          "commits": ["f0156766dcfd46cd0e07c70cb64f40acbc2b1a4b"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "Flare",
+          "time": 1561451540,
+          "commits": [
+            "fd601fb2197c8079733a46b907d049bdbfedfe29",
+            "9b55bcfc6b4dec5766565a1ba4179be975a2f053",
+            "786186c6928f729c0fc0316023da071b1cceea13"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "event",
+          "time": 1561451540,
+          "commits": [
+            "fd601fb2197c8079733a46b907d049bdbfedfe29",
+            "9b55bcfc6b4dec5766565a1ba4179be975a2f053",
+            "7882c41f607ee5273da9637da0bb20ca7634cb83"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "press",
+          "time": 1554393335,
+          "commits": [
+            "937d262f557fd3332576be0da60adf5f94c545d9",
+            "a146c1f9ed2f13bb885a5f49623d45f03c0bb424",
+            "81a61b1d1ac4c3fa974a822382b2343a96f7cc31"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "scheduler",
+          "time": 1537316788,
+          "commits": [
+            "7ea3ca1d13b1b609678fa1369f8a1020c3ecb976",
+            "f305d2a489e75a27f843fcca917dfd13e994268d",
+            "52bea95cfce4a75bc7c1a09455abaeef50fa0700"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "API",
+          "time": 1556154069,
+          "commits": [
+            "64e3da286f2c1e66303d2ae1dc06276b2f866e9d",
+            "a41b217708fcf2a8a325c83f89a480b2ebd91ce6",
+            "d1f667acc065f2bd9fa4921af6c4d67f5c7b253b"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "Hooks",
+          "time": 1561535241,
+          "commits": [
+            "9b55bcfc6b4dec5766565a1ba4179be975a2f053",
+            "556cc6fe1925b8d78f9089769acdf20afaedb281",
+            "def56c979756ef232bd0d3dacf79390506abae5f"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "responders",
+          "time": 1561451540,
+          "commits": [
+            "fd601fb2197c8079733a46b907d049bdbfedfe29",
+            "a41b217708fcf2a8a325c83f89a480b2ebd91ce6",
+            "353e0ee47492c42160aab81e60a59b08e40bb0b3"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "Fresh",
+          "time": 1558472050,
+          "commits": [
+            "6d4f85b611cd7bac40db44854bab06776ce30c96",
+            "556cc6fe1925b8d78f9089769acdf20afaedb281",
+            "393924879fbba20e43d9de76f9fb4f01c945cefa"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "warn",
+          "time": 1561371504,
+          "commits": [
+            "e1c5e8720d5d47974c14c125dbaf3dc608a92936",
+            "e6a0473c3c6f501dbe291f60b9ee35760ab99eed",
+            "9aad17d60cd8453357ec36e8180b61aaaf313b7e"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "Suspense",
+          "time": 1553985308,
+          "commits": [
+            "a050f3d459edd3b3b27773aa8b18f85fc414473b",
+            "d42ed600266302034085551a465ee479e4ade9d1",
+            "198ed661c51ab2319897eaccd368d21e5ec9a9a6"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "experimental",
+          "time": 1553730137,
+          "commits": [
+            "669cafb36f7252e2f83655f48f48a85b0f4e2051",
+            "9307932fe5b59c2d5ce8d04823b94ec0e48b206e",
+            "784ebd8fa919bbca41c2a2f5a3eda5be6961f32c"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "EventComponent",
+          "time": 1554290665,
+          "commits": [
+            "89064fe68d1f26da78c541a9c64ee093322b9766",
+            "4064ea9fa6387c92a985b52bfc66746f81ccd4fd",
+            "aece8119cf82a6eff02d9ad819758b7ac2c9b329"
+          ]
+        },
+        {
+          "id": "a1",
+          "kind": "newcomer",
+          "text": "@behzad888",
+          "time": 1554131956,
+          "commits": ["5ef0d1d29d42462a6ffde9ec6f9f9ffe8825404a"]
+        },
+        {
+          "id": "a2",
+          "kind": "newcomer",
+          "text": "@ide",
+          "time": 1558596234,
+          "commits": ["61f62246c8cfb76a4a19d1661eeaa5822ec37b36"]
+        },
+        {
+          "id": "a3",
+          "kind": "newcomer",
+          "text": "@bgord",
+          "time": 1541787439,
+          "commits": ["5618da49d8cb9cdb6c623446bbd2c504ee6c0422"]
+        },
+        {
+          "id": "a4",
+          "kind": "newcomer",
+          "text": "@bmac",
+          "time": 1556100231,
+          "commits": ["fb28e9048292f3c74d056370852e3da49ea5ede2"]
+        },
+        {
+          "id": "a5",
+          "kind": "newcomer",
+          "text": "@developit",
+          "time": 1542393567,
+          "commits": ["a22fabc2a110a40ead576ada5b3bf66840e852ba"]
+        },
+        {
+          "id": "a6",
+          "kind": "newcomer",
+          "text": "@IljaDaderko",
+          "time": 1545757531,
+          "commits": ["fef40c061ec7db03b6b0faa7608788d625cf78db"]
+        },
+        {
+          "id": "a7",
+          "kind": "newcomer",
+          "text": "@ioss",
+          "time": 1543590139,
+          "commits": ["f1bf281605444b342f4c37718092accbe3f98702"]
+        },
+        {
+          "id": "a8",
+          "kind": "newcomer",
+          "text": "@JoshuaScript",
+          "time": 1550620174,
+          "commits": ["1493abd7e0e8a3c9c09285c1b990ecb79a53e640"]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "startTime": 1565035265,
+      "endTime": 1661985617,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "[react-ui] Move experimental event+a11y work to react-ui package (#16794)",
+          "time": 1568657150,
+          "commits": ["494300b366ef446ccee8811f518ba224c923909e"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "[react-ui] usePress from useKeyboard and useTap (#16772)",
+          "time": 1568669787,
+          "commits": ["3af05de1aaed309f8146bc53f9a4b4d785abdd3f"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "Rename experimental react-ui => react-interactions (#16842)",
+          "time": 1568976663,
+          "commits": ["cef47cbc01b3c41ef4bfe3cdf7abd09c34e4a9c2"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "[react-interactions] Repurpose React a11y modules (#16997)",
+          "time": 1570094364,
+          "commits": ["b33633d932d070c1665f2c8700b025e7da6fbd5d"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "[react-interactions] Modify Scope query mechanism (#17095)",
+          "time": 1571147822,
+          "commits": ["4cb399a433771c84e861d5ca3d38a24733d23ad8"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "[react-interactions] Rename Flare listeners prop to DEPRECATED_flareListeners (#17394)",
+          "time": 1574083970,
+          "commits": ["a7d07ff24d8d3d925ab45f5eb9be42a62a345dad"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "[react-interactions] Event testing library improvements (#17614)",
+          "time": 1576711968,
+          "commits": ["a5e951d4cc75583084c91d7eb0332831e15bfbc0"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "[react-interactions] Remove deprecated Scope APIs + update Focus components/docs (#17859)",
+          "time": 1579263399,
+          "commits": ["9e075d16b250de8f65680c45c3686eb3faec8153"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "Rename Flight to Transport (#18808)",
+          "time": 1588530828,
+          "commits": ["64d4b8420495ed6685b9a48ce0295fa63c592bb9"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Remove the deprecated React Flare event system (#19520)",
+          "time": 1596636809,
+          "commits": ["b61174fb7b09580c1ec2a8f55e73204b706d2935"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "Nesting Fixture (#19531)",
+          "time": 1596762521,
+          "commits": ["336729856a1355ff264e3e5427c67bb23b708657"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Import React Concurrent Mode Profiler (#19634)",
+          "time": 1597946788,
+          "commits": ["2bea3fb0b8f13db702da14b2b02e85127ed397a4"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Scheduling Profiler: Redesign with DevTools styling (#19707)",
+          "time": 1599149320,
+          "commits": ["38a512acade57578738e2c5ebbb0709cd56a9bbd"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Scheduling Profiler: Move preprocessing to web worker and add loading indicator (#19759)",
+          "time": 1599231452,
+          "commits": ["eabd18c73f0df5e38431e47b0549566a6f41e15f"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "DevTools: Improve browser extension iframe support (#19827)",
+          "time": 1600092286,
+          "commits": ["ec39a5e9017dfa2c3311bc2b74a4d535ea2630a2"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "DevTools: Improve browser extension iframe support (#19854)",
+          "time": 1600894573,
+          "commits": ["a99bf5c5f4840c558f5e5923fcbe4ad6cb8ade98"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "Remove unstable scheduler/tracing API (#20037)",
+          "time": 1619478978,
+          "commits": ["fc33f12bdee1d0ffbcc83d25199cdf4d47252736"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Bugfix: Flush legacy sync passive effects at beginning of event (#21846)",
+          "time": 1625940911,
+          "commits": ["54e88ed12c931fa717738849ba5656cc1cf3527a"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "[DRAFT] Import scheduling profiler into DevTools Profiler (#21897)",
+          "time": 1626976737,
+          "commits": ["f4161c3ec7d2ab2993695a458f771bb331e256d5"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Scheduling profiler UX changes (#21990)",
+          "time": 1627910628,
+          "commits": ["27bf6f9a832e4ccc20cfb5a81850ae8d4cc2f92b"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Optimized DevTools extension images",
+          "time": 1627911166,
+          "commits": ["d1a58da55d42cb1455d4f0da50f2e223723d3b2c"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "Scheduling profiler: Added lane labels and durations to React measures (#22029)",
+          "time": 1628185839,
+          "commits": ["a8725a3e628e8e75d408101e5565b2d2af3902c3"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Scheduling Profiler: Misc UX and performance improvements (#22043)",
+          "time": 1628543493,
+          "commits": ["5634ed16aaba4a507844f0502953abcf40e3a165"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "[DevTools] Support extended source maps with named hooks information (#22010)",
+          "time": 1628693179,
+          "commits": ["88d121899aca8fec537003360010f077f0880541"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "DevTools: Scheduling profiler: Add vertical scroll bar (#22005)",
+          "time": 1628705985,
+          "commits": ["280e3f936f89583b44e10f29ed0ed0155b50ab8a"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "Scheduling Profiler: Add network measures (#22112)",
+          "time": 1629303479,
+          "commits": ["f51579fffeac46a783f765786f5287644b1fa7eb"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "[DevTools] Access metadata in source maps correctly accounting for different formats (#22096)",
+          "time": 1629311431,
+          "commits": ["6abda7f4f24a955aa79a145f91dafae2805735ad"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "[DevTools] Keep query params in extracted source map urls (#22148)",
+          "time": 1629497070,
+          "commits": ["9e8fe11e118c07713c7af4458b70aae57c889394"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Moved named hooks code (and tests) from react-devtools-extensions to react-devtools-shared (#22260)",
+          "time": 1631029489,
+          "commits": ["e07039bb61e3d006ad552ab7754acbc91f7b8619"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Scheduling Profiler: Add marks for component effects (mount and unmount) (#22578)",
+          "time": 1634841704,
+          "commits": ["0e8a5aff3ddf0f863839a924738f958fd940e3be"]
+        },
+        {
+          "id": "r1",
+          "kind": "release",
+          "text": "v16.9.0",
+          "time": 1565035265,
+          "commits": ["a1dbb852c29d23d5d0b76a0171eb59df4bebf684"]
+        },
+        {
+          "id": "r2",
+          "kind": "release",
+          "text": "v16.10.0",
+          "time": 1569450387,
+          "commits": ["3694a3b5e9a5a3c80d47f9889a17d8337573d513"]
+        },
+        {
+          "id": "r3",
+          "kind": "release",
+          "text": "status",
+          "time": 1571695735,
+          "commits": ["5faf377df5267c4248599e14311a75c2f46050c0"]
+        },
+        {
+          "id": "r4",
+          "kind": "release",
+          "text": "v16.11.0",
+          "time": 1571695735,
+          "commits": ["5faf377df5267c4248599e14311a75c2f46050c0"]
+        },
+        {
+          "id": "r5",
+          "kind": "release",
+          "text": "v16.12.0",
+          "time": 1573584067,
+          "commits": ["b53ea6ca05d2ccb9950b40b33f74dfee0421d872"]
+        },
+        {
+          "id": "r6",
+          "kind": "release",
+          "text": "v16.13.0",
+          "time": 1582749209,
+          "commits": ["c1c5499cc3fd179004911b3391a55de1af4de037"]
+        },
+        {
+          "id": "r7",
+          "kind": "release",
+          "text": "v0.0.0-d7382b6c4",
+          "time": 1585592704,
+          "commits": ["d7382b6c43b63ce15ce091cf13db8cd1f3c4b7ae"]
+        },
+        {
+          "id": "r8",
+          "kind": "release",
+          "text": "v18.0.0",
+          "time": 1648569896,
+          "commits": ["34aa5cfe0d9b6ec4667e02bf46ab34d83dfb2d6d"]
+        },
+        {
+          "id": "r9",
+          "kind": "release",
+          "text": "v18.1.0",
+          "time": 1651004928,
+          "commits": ["22edb9f777d27369fd2c1fad378f74e237b6dfd3"]
+        },
+        {
+          "id": "r10",
+          "kind": "release",
+          "text": "v18.2.0",
+          "time": 1654732789,
+          "commits": ["9e3b772b8cabbd8cadc7522ebe3dde3279e79d9e"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "packages/react-devtools-extensions/ created",
+          "time": 1567002953,
+          "commits": ["b438699d3620bff236282b049204e1221b3689e9"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "packages/react-devtools-shared/ created",
+          "time": 1567002953,
+          "commits": ["b438699d3620bff236282b049204e1221b3689e9"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "packages/react-devtools-shell/ created",
+          "time": 1567002953,
+          "commits": ["b438699d3620bff236282b049204e1221b3689e9"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "packages/react-interactions/ created",
+          "time": 1568976663,
+          "commits": ["cef47cbc01b3c41ef4bfe3cdf7abd09c34e4a9c2"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "packages/react-server/ created",
+          "time": 1572385547,
+          "commits": ["f4e974d26e273c4eb58c0ffa9b479435bf598ea1"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "packages/react-devtools-scheduling-profiler/ created",
+          "time": 1597946788,
+          "commits": ["2bea3fb0b8f13db702da14b2b02e85127ed397a4"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "packages/react-server-dom-webpack/ created",
+          "time": 1607432937,
+          "commits": ["5fd9db732dff1b99c096bffef9a565b594c788de"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "packages/react-devtools-scheduling-profiler/ removed",
+          "time": 1636034526,
+          "commits": ["1bf6deb865052111474f2988bb831de13d09c560"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "devtools",
+          "time": 1631029489,
+          "commits": [
+            "e07039bb61e3d006ad552ab7754acbc91f7b8619",
+            "6abda7f4f24a955aa79a145f91dafae2805735ad",
+            "f4161c3ec7d2ab2993695a458f771bb331e256d5"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "Profiler",
+          "time": 1597946788,
+          "commits": [
+            "2bea3fb0b8f13db702da14b2b02e85127ed397a4",
+            "f4161c3ec7d2ab2993695a458f771bb331e256d5",
+            "27bf6f9a832e4ccc20cfb5a81850ae8d4cc2f92b"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "interactions",
+          "time": 1568976663,
+          "commits": [
+            "cef47cbc01b3c41ef4bfe3cdf7abd09c34e4a9c2",
+            "a5e951d4cc75583084c91d7eb0332831e15bfbc0",
+            "b33633d932d070c1665f2c8700b025e7da6fbd5d"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "react",
+          "time": 1568976663,
+          "commits": [
+            "cef47cbc01b3c41ef4bfe3cdf7abd09c34e4a9c2",
+            "2bea3fb0b8f13db702da14b2b02e85127ed397a4",
+            "494300b366ef446ccee8811f518ba224c923909e"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "passive",
+          "time": 1625940911,
+          "commits": [
+            "54e88ed12c931fa717738849ba5656cc1cf3527a",
+            "eae90cdbe90ab6ad8c48cee6f5af10e767a3f9fc",
+            "86b4070ddb6bd2fcf22c904cfff07a04696b9495"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "event",
+          "time": 1568657150,
+          "commits": [
+            "494300b366ef446ccee8811f518ba224c923909e",
+            "a5e951d4cc75583084c91d7eb0332831e15bfbc0",
+            "72592310a84ac2cfb132569de52b4c598494b203"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "scheduling",
+          "time": 1626976737,
+          "commits": [
+            "f4161c3ec7d2ab2993695a458f771bb331e256d5",
+            "27bf6f9a832e4ccc20cfb5a81850ae8d4cc2f92b",
+            "38a512acade57578738e2c5ebbb0709cd56a9bbd"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "tracing",
+          "time": 1619478978,
+          "commits": [
+            "fc33f12bdee1d0ffbcc83d25199cdf4d47252736",
+            "42f15b324f50d0fd98322c21646ac3013e30344a",
+            "4cd788aef03d8f32c03e4dac4d0cf28b220cedfb"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "hooks",
+          "time": 1631029489,
+          "commits": [
+            "e07039bb61e3d006ad552ab7754acbc91f7b8619",
+            "88d121899aca8fec537003360010f077f0880541",
+            "c5cfa71948dbf4c2dd9ff64596ab663f8d559cd6"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "system",
+          "time": 1596636809,
+          "commits": [
+            "b61174fb7b09580c1ec2a8f55e73204b706d2935",
+            "9def56ec0e1e71928ee999f48c00b1803ed8772a",
+            "9fba65efa50fe5f38e5664729d4aa6f85cf7be92"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "lane",
+          "time": 1628185839,
+          "commits": [
+            "a8725a3e628e8e75d408101e5565b2d2af3902c3",
+            "e5f6b91d294d0c1260ce5079ed0192b43ccd3e82",
+            "8f05f2bd6d131a39835d468622e248b231ccbf8e"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "effects",
+          "time": 1634841704,
+          "commits": [
+            "0e8a5aff3ddf0f863839a924738f958fd940e3be",
+            "16654436039dd8f16a63928e71081c7745872e8f",
+            "7c1ba2b57d37df165da0f19c65ccc174866b5af7"
+          ]
+        },
+        {
+          "id": "a1",
+          "kind": "newcomer",
+          "text": "@salazarm",
+          "time": 1631030913,
+          "commits": ["031abd24b62b7b0db2e8658ffce7728eb8592d32"]
+        },
+        {
+          "id": "a2",
+          "kind": "newcomer",
+          "text": "@akgupta0777",
+          "time": 1631728293,
+          "commits": ["e8feb11b62e869804970258fa629922edbfc836b"]
+        },
+        {
+          "id": "a3",
+          "kind": "newcomer",
+          "text": "@IDrissAitHafid",
+          "time": 1602161175,
+          "commits": ["6eca8eff08e293229c2ff957f175573faf994fc0"]
+        },
+        {
+          "id": "a4",
+          "kind": "newcomer",
+          "text": "@inokawa",
+          "time": 1604931460,
+          "commits": ["fc06cf8d3509329eba61a1f1f0b6f5c466f32bcc"]
+        },
+        {
+          "id": "a5",
+          "kind": "newcomer",
+          "text": "@omarsy",
+          "time": 1598016676,
+          "commits": ["49af88991c3a3e79e663e495458fad12d3162894"]
+        },
+        {
+          "id": "a6",
+          "kind": "newcomer",
+          "text": "@bowen31337",
+          "time": 1614373888,
+          "commits": ["38f392ceda9a3eb0520261a595fd7009c98579c8"]
+        },
+        {
+          "id": "a7",
+          "kind": "newcomer",
+          "text": "@sota000",
+          "time": 1628626451,
+          "commits": ["e9b2028b3280c15138bd92b0d27ffa066de3d5ca"]
+        },
+        {
+          "id": "a8",
+          "kind": "newcomer",
+          "text": "@adasq",
+          "time": 1582555753,
+          "commits": ["501a78881e356bae2bc66be3d25966e87f5aa757"]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "startTime": 1662001676,
+      "endTime": 1714492822,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "[Flight] Implement error digests for Flight runtime and expose errorInfo in getDerivedStateFromError (#25302)",
+          "time": 1663964369,
+          "commits": ["efc6a08e98ce6546f41f90ac519b2faf94ae04b3"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Move react-dom implementation files to react-dom-bindings (#25345)",
+          "time": 1664406350,
+          "commits": ["97d75c9c8bcddb0daed1ed062101c7f5e9b825f4"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "Add script to generate inline Fizz runtime (#25481)",
+          "time": 1665795614,
+          "commits": ["0eaca37565b3aeb0d967bf403029a2d39d831ad4"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "Remove old react-fetch, react-fs and react-pg libraries (#25577)",
+          "time": 1666907573,
+          "commits": ["cf3932be5ca95bf5507a9566e4a9605bce0c5e21"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "[Fizz] Fork Fizz instruction set for inline script and external runtime (#25862)",
+          "time": 1673033335,
+          "commits": ["0b974418c9a56f6c560298560265dcf4b65784bc"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "[flow] enable enforce_local_inference_annotations (#25921)",
+          "time": 1673297208,
+          "commits": ["0b4f443020af386f2b48c47c074cb504ed672dc8"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "Improve Error Messages when Access Client References (#26059)",
+          "time": 1674868106,
+          "commits": ["ce09ace9a23b61dfba53f5a83d52b377bc642bae"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Enable passing Server References from Server to Client (#26124)",
+          "time": 1675989905,
+          "commits": ["ef9f6e77b8ef968eee659ae797da4bdc07bbbde3"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "Create a bunch of custom webpack vs unbundled node bundles (#26172)",
+          "time": 1676563312,
+          "commits": ["189f70e17b8f5e1e81d6a3ae024b086895bbc0f6"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Simplify Webpack References by encoding file path + export name as single id (#26300)",
+          "time": 1677977494,
+          "commits": ["e0241b66005a7232fa2c2529afa1bd5b27bf8925"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "Split out ServerReferenceMetadata into Id and Bound Arguments (#26351)",
+          "time": 1678337155,
+          "commits": ["2b003a5cc6df77f745e1639404f912bd0077a39b"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "[Flight Reply] Add Reply Encoding (#26360)",
+          "time": 1678466175,
+          "commits": ["ef8bdbecb6dbb9743b895c2e867e5a5264dd6651"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Delete unused DOM files (#26387)",
+          "time": 1678837977,
+          "commits": ["21aee59e454a875f872ca666d6eb2694425e52af"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Refactor ReactDOMComponent to use flatter property operations (#26433)",
+          "time": 1679360174,
+          "commits": ["520f7f3ed4d01e9e50a73d7d04ff138e3c71ac86"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "Refactor DOMProperty and CSSProperty (#26513)",
+          "time": 1680201057,
+          "commits": ["73deff0d5162160c0aafa5cd0b87e11143fe9938"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "Limit the meaning of \"custom element\" to not include `is` (#26524)",
+          "time": 1680215930,
+          "commits": ["43a70a610dd2cc298ab5592deebfbf8f7bbac127"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "Normalize ReactFlightServerConfig and related files (#26589)",
+          "time": 1681163243,
+          "commits": ["44db16afc61c34e6d46b55e985211df7ccc78fa5"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "[Float][Flight] Flight support for Float (#26502)",
+          "time": 1682135151,
+          "commits": ["36e4cbe2e918ec9c8a7abbfda28898c835361fb2"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Replay Client Actions After Hydration (#26716)",
+          "time": 1682432540,
+          "commits": ["bf449ee74e5e98af3d08c87bb6a9f22a021f3522"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Remove Flight Relay DOM/Native (#26828)",
+          "time": 1684370005,
+          "commits": ["5309f102854475030fb91ab732141411b49c1126"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Add $FlowFixMe to fix React Native DiffTrain (#26841)",
+          "time": 1684946536,
+          "commits": ["6fc3333b685657c8e6425df9fcb4fe1ce7374d40"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "[Fizz] preload `bootstrapScripts` (#26753)",
+          "time": 1685575535,
+          "commits": ["b864ad4397e7b366ece9ecfdfafa5660ae6b8390"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "[Flight] Add bundler-less version of RSC using plain ESM (#26889)",
+          "time": 1685822304,
+          "commits": ["f181ba8aa6339d62f6e2572109c61242606f16b3"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "useFormState: Reuse state from previous form submission (#27321)",
+          "time": 1694644240,
+          "commits": ["612b2b6601abb844248c384d1e288bb824b180b7"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "[Flight][Float] Preinitialize module imports during SSR (#27314)",
+          "time": 1695833611,
+          "commits": ["701ac2e57290f913502c6012c15e815f412f84b7"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "FB-specific builds of Flight Server, Flight Client, and React Shared Subset (#27579)",
+          "time": 1701128098,
+          "commits": ["c17a27ef492d9812351aecdfb017488e8e8404ce"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "Convert ReactDOMTestSelectors-test.js to createRoot (#27993)",
+          "time": 1706068913,
+          "commits": ["4217d324ae5766b3201e682bb4d67b8855652694"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "chore: add single versioned implementation of act for DevTools tests (#28186)",
+          "time": 1707147528,
+          "commits": ["9a1db2d21fac88a42094fa3fc266d1692551a5bd"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Update isConcurrent RTR option usage (#28546)",
+          "time": 1710776116,
+          "commits": ["38327309a4172a52cf94e8e264990bedafc1df6e"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Remove ReactFlightFB bundles (#28864)",
+          "time": 1713472864,
+          "commits": ["1cd77a4ff7a2189003965246a3cfc475d2d9857d"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "packages/react-dom-bindings/ created",
+          "time": 1664406350,
+          "commits": ["97d75c9c8bcddb0daed1ed062101c7f5e9b825f4"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "fixtures/blocks/ removed",
+          "time": 1675986277,
+          "commits": ["6c75d4e00961f7d5679ad3bf85ead8d96b824d08"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "packages/react-server-dom-relay/ removed",
+          "time": 1684370005,
+          "commits": ["5309f102854475030fb91ab732141411b49c1126"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "packages/react-server-native-relay/ removed",
+          "time": 1684370005,
+          "commits": ["5309f102854475030fb91ab732141411b49c1126"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "fixtures/flight-esm/ created",
+          "time": 1685822304,
+          "commits": ["f181ba8aa6339d62f6e2572109c61242606f16b3"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "packages/react-server-dom-esm/ created",
+          "time": 1685822304,
+          "commits": ["f181ba8aa6339d62f6e2572109c61242606f16b3"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "packages/react-server-dom-turbopack/ created",
+          "time": 1695834237,
+          "commits": ["f81c0f1ed962036f25b87281b3c18cef3860ded8"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "packages/react-interactions/ removed",
+          "time": 1712765913,
+          "commits": ["a8a83f7a5996b86f3901d5dc505b13506dd12caf"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "createRoot",
+          "time": 1706068913,
+          "commits": [
+            "4217d324ae5766b3201e682bb4d67b8855652694",
+            "5420c4ea08a4ccf06b04f0c0abdf1f5e8d84223a",
+            "bf32989264ff2faa9a009550401f573f29db4df2"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "Float",
+          "time": 1695833611,
+          "commits": [
+            "701ac2e57290f913502c6012c15e815f412f84b7",
+            "36e4cbe2e918ec9c8a7abbfda28898c835361fb2",
+            "6396b664118442f3c2eae7bf13732fcb27bda98f"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "Fizz",
+          "time": 1665795614,
+          "commits": [
+            "0eaca37565b3aeb0d967bf403029a2d39d831ad4",
+            "0b974418c9a56f6c560298560265dcf4b65784bc",
+            "7b25b961df878109a2b3810f33815249cae37ecc"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "flow",
+          "time": 1673297208,
+          "commits": [
+            "0b4f443020af386f2b48c47c074cb504ed672dc8",
+            "8003ab9cf5c711eb00f741bbd89def56b066b999",
+            "8a9e7b6cefb5e7e94333c7d5fe2cca6541776d5b"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "versioned",
+          "time": 1707147528,
+          "commits": [
+            "9a1db2d21fac88a42094fa3fc266d1692551a5bd",
+            "103cddbb9d433b08622c43336b170ffc63acdee3",
+            "12d56fca3da06328ac61d86976afa728b97b49d6"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "Flight",
+          "time": 1684370005,
+          "commits": [
+            "5309f102854475030fb91ab732141411b49c1126",
+            "f181ba8aa6339d62f6e2572109c61242606f16b3",
+            "701ac2e57290f913502c6012c15e815f412f84b7"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "useFormState",
+          "time": 1694644240,
+          "commits": [
+            "612b2b6601abb844248c384d1e288bb824b180b7",
+            "8b26f07a883bb341c20283c0099bf5ee6f87bd1f",
+            "2b3d5826836ac59f8446281976762d594e55d97e"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "Server",
+          "time": 1675989905,
+          "commits": [
+            "ef9f6e77b8ef968eee659ae797da4bdc07bbbde3",
+            "c17a27ef492d9812351aecdfb017488e8e8404ce",
+            "3bb71dfd4bfc68920e758cd5fcf9fbfa44b99a21"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "DiffTrain",
+          "time": 1684946536,
+          "commits": [
+            "6fc3333b685657c8e6425df9fcb4fe1ce7374d40",
+            "e58b6c158bf7baeedc918353d1fea658003ef65c",
+            "62e2b1374be04f1a366005002dee6ae178058de6"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "preload",
+          "time": 1685575535,
+          "commits": [
+            "b864ad4397e7b366ece9ecfdfafa5660ae6b8390",
+            "fc929cf4ead35f99c4e9612a95e8a0bb8f5df25d",
+            "618388bc323356a5a9c0a6f162f516d35a3b4b2d"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "RTR",
+          "time": 1710776116,
+          "commits": [
+            "38327309a4172a52cf94e8e264990bedafc1df6e",
+            "eebdbf4454e3791bd3fc4b0c7186cdee581863cf",
+            "66c8346401d271588e4c400921c5dab5478fc623"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "Client",
+          "time": 1675989905,
+          "commits": [
+            "ef9f6e77b8ef968eee659ae797da4bdc07bbbde3",
+            "c17a27ef492d9812351aecdfb017488e8e8404ce",
+            "ce09ace9a23b61dfba53f5a83d52b377bc642bae"
+          ]
+        },
+        {
+          "id": "a1",
+          "kind": "newcomer",
+          "text": "@poteto",
+          "time": 1663180746,
+          "commits": ["c91a1e03be54733a7dbfcb5663d7a9e8606ab1c1"]
+        },
+        {
+          "id": "a2",
+          "kind": "newcomer",
+          "text": "@mofeiZ",
+          "time": 1662570582,
+          "commits": ["bfb65681e7d77ba9bd79f7f95ac57930542b57c1"]
+        },
+        {
+          "id": "a3",
+          "kind": "newcomer",
+          "text": "@mattcarrollcode",
+          "time": 1697854267,
+          "commits": ["b9244f79bab133e0e6d2e992b5be4722b4ac7536"]
+        },
+        {
+          "id": "a4",
+          "kind": "newcomer",
+          "text": "@bubucuo",
+          "time": 1662043420,
+          "commits": ["2e7f422fea445c232c4723b97e0351aa93eeaa00"]
+        },
+        {
+          "id": "a5",
+          "kind": "newcomer",
+          "text": "@Vicachu42",
+          "time": 1663596243,
+          "commits": ["3d615fc14aff7586a2080d7da182497ba7ec1bec"]
+        },
+        {
+          "id": "a6",
+          "kind": "newcomer",
+          "text": "@c0dedance",
+          "time": 1665971938,
+          "commits": ["9fb581c7cc9b08a776d440254048734c3ffec78c"]
+        },
+        {
+          "id": "a7",
+          "kind": "newcomer",
+          "text": "@leedom92",
+          "time": 1679486106,
+          "commits": ["56f7a90e68489d457ba37f7b2819e7b201fc37c9"]
+        },
+        {
+          "id": "a8",
+          "kind": "newcomer",
+          "text": "@ryancat",
+          "time": 1675810025,
+          "commits": ["758fc7fde10f49912b18496299506cba30d6029b"]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "startTime": 1714647988,
+      "endTime": 1793454860,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "Open-source React Compiler (#29061)",
+          "title": "Open-source React Compiler",
+          "time": 1715796979,
+          "commits": ["71565a932cfc877a42bdc6ad3ffc72bab0788ca5"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "[compiler] Run prettier, fix snap",
+          "time": 1716950460,
+          "commits": ["c998bb1ed4b3285398c9c7797135d3f060243c6a"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "[compiler] General-purpose function outlining",
+          "time": 1721173871,
+          "commits": ["9d7f02d9abbbba951b9af951be403f12d6adebf1"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "[compiler] Fork fixtures for enablePropagateDepsInHIR",
+          "time": 1726175974,
+          "commits": ["5ac4034e14a72c0edf602585c10fd2725fb376c5"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "[compiler][rewrite] PropagateScopeDeps hir rewrite",
+          "time": 1726175974,
+          "commits": ["206df66e70652e85711c3177ce1a0459609a7771"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "[compiler] Optional chaining for dependencies (HIR rewrite)",
+          "time": 1727888037,
+          "commits": ["0751fac747452af8c0494900b4afa7c56ee7b32c"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "[compiler] Scaffold fixture apps (#31164)",
+          "time": 1728574382,
+          "commits": ["2ef407937b724a3af5b8ca4d082ecee5005d731b"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "[cleanup] Remove compiler runtime-compat fixture library (#31430)",
+          "time": 1730834079,
+          "commits": ["b81e6dd2dade4c2d43d44ce7c9bfa4e3053fc949"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "[compiler][be] Stabilize compiler output: sort deps and decls by name (#31362)",
+          "time": 1730849210,
+          "commits": ["f2f002c7c19e273f3f31289d6f288c3248f10183"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "[compiler] Delete propagateScopeDeps (non-hir) (#31199)",
+          "time": 1730852524,
+          "commits": ["fd018af617cf9f8be607f45fc53d6d8167d29eb4"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "[compiler][be] Remove unused experimental Rust port",
+          "time": 1737749950,
+          "commits": ["9eabb37338e6bea18441dec58a4284fe00ee09ae"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "[compiler] Delete LoweredFunction.dependencies and hoisted instructions (#32096)",
+          "time": 1739896369,
+          "commits": ["d99f8bba2e07e3bb953f0821d4da5e341136fe5c"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "[compiler][be] Clean up bug test fixtures; evaluate more fixtures (#31812)",
+          "time": 1739906733,
+          "commits": ["86b191347474fa98f002217ed88926efc8164c1e"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "[compiler][ez] Move compiler gating tests (#32595)",
+          "time": 1741882008,
+          "commits": ["1c79cb82ab8d3bd1f099115704f28df1097beb46"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "[compiler] detect and throw on untransformed required features (#32512)",
+          "time": 1741967089,
+          "commits": ["5398b7115847e87c0053aa719728d8dd1a635ccd"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "[compiler] Hoist dependencies from functions more conservatively (#32616)",
+          "time": 1742335208,
+          "commits": ["6584a6eec488a7a155fe2231874aecf178b07a9a"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "[compiler] Avoid failing builds when import specifiers conflict or shadow vars (#32663)",
+          "time": 1742823111,
+          "commits": ["c61e75b76d5ff6707ad75c8beb777e721d982207"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "[compiler] Add missing copyrights (#33004)",
+          "time": 1745460284,
+          "commits": ["ad09027c161f1ce5d9b07bfcfb4ee4fb92444655"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "[compiler][bugfix] expand StoreContext to const / let / function variants (#32747)",
+          "time": 1746047938,
+          "commits": ["9d795d3808f3202b36740a7a8eb60567bd7f6d90"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "[compiler][playground][tests] Standardize more pragmas (#33146)",
+          "time": 1746718013,
+          "commits": ["38ef6550a88f7744f5dcd4a3de7af6f13a540be5"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "[compiler] New mutability/aliasing model (#33494)",
+          "time": 1750276686,
+          "commits": ["66cfe048d3ab02afd3eeba9e8d7710acb3a4ab38"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "[compiler] Copy fixtures affected by new inference (#33495)",
+          "time": 1750276696,
+          "commits": ["df080d228bdf5260067235c64daaa57ec3cfac23"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "[compiler] New inference repros/fixes (#33584)",
+          "time": 1750784518,
+          "commits": ["94cf60bede7cd6685e07a4374d1e3aa90445130b"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "[playground] ViewTransition on config expand (#34595)",
+          "time": 1759169377,
+          "commits": ["319a7867d0e19481a60a6ed931a5f97ae6691572"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "[eprh] Fix `recommended` config for flat config compatibility (#34700)",
+          "time": 1759445572,
+          "commits": ["26b177bc5e1d287c60c50fc1e185b2fb398488a0"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "[playground] Refactor ConfigEditor to use <Activity> component (#34958)",
+          "time": 1761232398,
+          "commits": ["6160773f309b7fc734767649d47140d04fa1f568"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "[compiler] Track locations for dependencies (#35794)",
+          "time": 1771365981,
+          "commits": ["4ac47537dda5f370dffa185a2e26f8301bf73d45"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Add Flight SSR benchmark fixture (#36180)",
+          "time": 1775149228,
+          "commits": ["1b45e2439289fd8e094c44161c89e06c5488671e"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "[react-devtools-cdt-mcp] chrome-devtools-mcp integration (#36600)",
+          "time": 1782834750,
+          "commits": ["d0d623d4c1ac02391a3bc97c8c0e8fee9cdfea2c"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "[Flight/Fizz] Stop the caller's signal from retaining a finished render (#37315)",
+          "time": 1787411756,
+          "commits": ["77ed3f545226ac9a834db7490a616b650c2a87a8"]
+        },
+        {
+          "id": "r1",
+          "kind": "release",
+          "text": "eslint-plugin-react-hooks@5.0.0",
+          "time": 1728651119,
+          "commits": ["09111202d617477b63507b41e8b6c3101b4afd87"]
+        },
+        {
+          "id": "r2",
+          "kind": "release",
+          "text": "v19.0.0",
+          "time": 1731602913,
+          "commits": ["7aa5dda3b3e4c2baa905a59b922ae7ec14734b24"]
+        },
+        {
+          "id": "r3",
+          "kind": "release",
+          "text": "v19.1.0",
+          "time": 1742770023,
+          "commits": ["4a9df08157f001c01b078d259748512211233dcf"]
+        },
+        {
+          "id": "r4",
+          "kind": "release",
+          "text": "v19.2.0",
+          "time": 1759352742,
+          "commits": ["ae74234eae6ebd62f19190731278e20bc1c37d51"]
+        },
+        {
+          "id": "r5",
+          "kind": "release",
+          "text": "eslint-plugin-react-hooks@7.1.0",
+          "time": 1776376993,
+          "commits": ["77319e2af0f9adf4269fc209879c351a8d71da21"]
+        },
+        {
+          "id": "r6",
+          "kind": "release",
+          "text": "eslint-plugin-react-hooks@7.1.1",
+          "time": 1776444215,
+          "commits": ["d1727fbf987392749b374f3afe62227d2c70fc41"]
+        },
+        {
+          "id": "r7",
+          "kind": "release",
+          "text": "v19.3.0",
+          "time": 1788960113,
+          "commits": ["1d34f91dfde6bba84d08b683aaba164c7194dacb"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "compiler/ created",
+          "time": 1715796979,
+          "commits": ["71565a932cfc877a42bdc6ad3ffc72bab0788ca5"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "compiler/apps/ created",
+          "time": 1715796979,
+          "commits": ["71565a932cfc877a42bdc6ad3ffc72bab0788ca5"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "compiler/crates/ created",
+          "time": 1715796979,
+          "commits": ["71565a932cfc877a42bdc6ad3ffc72bab0788ca5"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "compiler/packages/ created",
+          "time": 1715796979,
+          "commits": ["71565a932cfc877a42bdc6ad3ffc72bab0788ca5"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "compiler/fixtures/ created",
+          "time": 1728572038,
+          "commits": ["b781c9f564d05c7ceaf5d8af2e26966601c0a669"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "packages/react-server-dom-parcel/ created",
+          "time": 1733975931,
+          "commits": ["ca587425fe21b644bebb336f058f1a0d9763631b"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "fixtures/flight-ssr-bench/ created",
+          "time": 1775149228,
+          "commits": ["1b45e2439289fd8e094c44161c89e06c5488671e"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "packages/react-devtools-timeline/ removed",
+          "time": 1785771171,
+          "commits": ["7dfc7ccd12d0294debc69b9b9b4e9dd1fd42e08a"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "Compiler",
+          "time": 1715796979,
+          "commits": [
+            "71565a932cfc877a42bdc6ad3ffc72bab0788ca5",
+            "fd2b3e13d330a4559f5aa21462e1cb2cbbcf144b",
+            "9eabb37338e6bea18441dec58a4284fe00ee09ae"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "Flight",
+          "time": 1775149228,
+          "commits": [
+            "1b45e2439289fd8e094c44161c89e06c5488671e",
+            "378973b387b6a6f287e451dd0356099180684c3c",
+            "130095f76b7c0a90943fe8062afd1355a6d3188f"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "devtools",
+          "time": 1782834750,
+          "commits": [
+            "d0d623d4c1ac02391a3bc97c8c0e8fee9cdfea2c",
+            "f598ec1c29c98c368e0a576d4e0cf58831038140",
+            "3508aee63d59b7d4eb8e82171b78ef214a2487ca"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "playground",
+          "time": 1746718013,
+          "commits": [
+            "38ef6550a88f7744f5dcd4a3de7af6f13a540be5",
+            "db240980a3aeae65f148b1edf5a1187a2331307e",
+            "e30872a4e01bdc0cf185a818156ae7741c815e21"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "repros",
+          "time": 1750784518,
+          "commits": [
+            "94cf60bede7cd6685e07a4374d1e3aa90445130b",
+            "b211d7023c2f142aa21296bccba1de212d700c09",
+            "4d11e1e88d6be1c244cb8ae76c377eaf195167ec"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "mcp",
+          "time": 1782834750,
+          "commits": [
+            "d0d623d4c1ac02391a3bc97c8c0e8fee9cdfea2c",
+            "08075929f2d5eea319418ea379773bb7276ff940",
+            "f598ec1c29c98c368e0a576d4e0cf58831038140"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "Track",
+          "time": 1771365981,
+          "commits": [
+            "4ac47537dda5f370dffa185a2e26f8301bf73d45",
+            "969a9790ad58cc27eea63df9e5cf992b66bf1fd5",
+            "7771d3a7972cc2483c45fde51b7ec2d926cba097"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "ViewTransition",
+          "time": 1759169377,
+          "commits": [
+            "319a7867d0e19481a60a6ed931a5f97ae6691572",
+            "a55e98f738f4a7ab7196a4c4210cbc6e82ec9b0c",
+            "83840902c890f0eb85decda239ef6b1b14945779"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "eprh",
+          "time": 1759445572,
+          "commits": [
+            "26b177bc5e1d287c60c50fc1e185b2fb398488a0",
+            "c78625842239f29ff130136fff2729fd4c7c2e91",
+            "19f65ff179d377ff0c9284704dff2fce370745be"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "Rust",
+          "time": 1737749950,
+          "commits": [
+            "9eabb37338e6bea18441dec58a4284fe00ee09ae",
+            "03e775554a34e1508fcf0e82d13ea8d41ee271d7",
+            "06b2a50f321502514443f675eaa44be8ae826218"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "Fizz",
+          "time": 1787411756,
+          "commits": [
+            "77ed3f545226ac9a834db7490a616b650c2a87a8",
+            "561ee24d4a7c805e9837ee4cfbb5671a35e41b5a",
+            "83840902c890f0eb85decda239ef6b1b14945779"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "Activity",
+          "time": 1761232398,
+          "commits": [
+            "6160773f309b7fc734767649d47140d04fa1f568",
+            "5a9921b839ad8e3cf0069f23c75045fa94373643",
+            "3fbfb9baaf38528349b86372bd7eff36c6a3261a"
+          ]
+        },
+        {
+          "id": "a1",
+          "kind": "newcomer",
+          "text": "@josephsavona",
+          "time": 1715796979,
+          "commits": ["71565a932cfc877a42bdc6ad3ffc72bab0788ca5"]
+        },
+        {
+          "id": "a2",
+          "kind": "newcomer",
+          "text": "@hoxyq",
+          "time": 1750322843,
+          "commits": ["374dfe8edf8beef62e5bb312f99c600a232f353f"]
+        },
+        {
+          "id": "a3",
+          "kind": "newcomer",
+          "text": "@jorge-cab",
+          "time": 1746042245,
+          "commits": ["90a124a9802a5ab6509d5838e65b9f4d4fbbc16b"]
+        },
+        {
+          "id": "a4",
+          "kind": "newcomer",
+          "text": "@michaelfaith",
+          "time": 1736794171,
+          "commits": ["b3a95caf61bc716fb618997e6e9f3a0c8c9c8374"]
+        },
+        {
+          "id": "a5",
+          "kind": "newcomer",
+          "text": "@nikeee",
+          "time": 1716938146,
+          "commits": ["a9a01068084550c0c71d8da222eb67eb7024c5b3"]
+        },
+        {
+          "id": "a6",
+          "kind": "newcomer",
+          "text": "@nathanmarks",
+          "time": 1760993531,
+          "commits": ["ea0c17b0952e2b866a1f0dd4b5ac28c7df9d8518"]
+        },
+        {
+          "id": "a7",
+          "kind": "newcomer",
+          "text": "@zeyap",
+          "time": 1773957509,
+          "commits": ["6a04c369f1b182c6b1d8153f173653c8d59a5965"]
+        },
+        {
+          "id": "a8",
+          "kind": "newcomer",
+          "text": "@anxkhn",
+          "time": 1783343775,
+          "commits": ["00bacdeb1fccbd492198c83a62f8620104607629"]
+        }
+      ]
+    }
+  ]
+}

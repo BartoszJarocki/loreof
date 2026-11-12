@@ -1,0 +1,18 @@
+.repository-form {
+  max-width: 64ch;
+  margin-top: 24px;
+}
+.waitlist {
+  margin-top: 56px;
+}
+.waitlist > label {
+  display: block;
+}
+.waitlist > .field {
+  display: flex;
+  max-width: 48ch;
+  margin-top: 8px;
+}
+.waitlist > .form-note {
+  margin-top: 8px;
+}

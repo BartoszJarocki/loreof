@@ -1,0 +1,59 @@
+{
+  "name": "loreof",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@11.24.0",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "node scripts/bundle-worker.mjs && next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "node scripts/bundle-worker.mjs && node --experimental-test-module-mocks --import tsx --test tests/*.test.ts",
+    "test:integration": "node scripts/bundle-worker.mjs && node scripts/test-integration.mjs",
+    "test:prod-snapshots": "node scripts/test-prod-snapshots.mjs",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "pnpm typecheck && pnpm lint && pnpm test && pnpm format:check",
+    "build:worker": "node scripts/bundle-worker.mjs",
+    "analyze": "tsx scripts/analyze.ts",
+    "test:browser": "playwright test",
+    "test:narration": "LORE_NARRATION_EVAL=1 node --import tsx --test tests/narration-eval.test.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/gateway": "4.0.134",
+    "@upstash/redis": "1.41.0",
+    "@vercel/analytics": "2.0.1",
+    "@vercel/blob": "2.8.2",
+    "@vercel/sandbox": "3.9.1",
+    "ai": "7.0.162",
+    "botid": "1.5.12",
+    "d3-force-3d": "3.0.6",
+    "next": "16.4.5",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "0.187.0",
+    "umap-js": "1.4.0",
+    "workflow": "5.3.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.187.0",
+    "@workflow/world-vercel": "5.3.0",
+    "esbuild": "0.28.2",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.4.5",
+    "prettier": "3.9.10",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3"
+  }
+}

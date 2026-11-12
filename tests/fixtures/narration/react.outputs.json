@@ -1,0 +1,452 @@
+[
+  {
+    "era": 0,
+    "from": "2013-05",
+    "to": "2014-02",
+    "attempts": [
+      {
+        "commits": ["c10", "c21", "c22", "c28"],
+        "headline": "c21"
+      }
+    ],
+    "narration": "model",
+    "title": "ReactLink: two-way binding for React",
+    "headline": "c21",
+    "selected": ["c10", "c21", "c22", "c28"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c10",
+        "sha": "88e90d560",
+        "date": "2013-06-17",
+        "subject": "Use Synthetic Events"
+      },
+      {
+        "kind": "commit",
+        "ref": "c21",
+        "sha": "fc73bf0a0",
+        "date": "2013-09-24",
+        "subject": "ReactLink: two-way binding for React"
+      },
+      {
+        "kind": "commit",
+        "ref": "c22",
+        "sha": "f43449d33",
+        "date": "2013-10-01",
+        "subject": "ReactNativeComponent -> ReactDOMComponent"
+      },
+      {
+        "kind": "commit",
+        "ref": "c28",
+        "sha": "57f208e40",
+        "date": "2014-01-07",
+        "subject": "benchmark runner & comparison tool with grunt commands and travis integration (#821)"
+      }
+    ]
+  },
+  {
+    "era": 1,
+    "from": "2014-02",
+    "to": "2015-04",
+    "attempts": [
+      {
+        "commits": ["c4", "c11", "c14", "c25"],
+        "headline": "c11"
+      }
+    ],
+    "narration": "model",
+    "title": "Renamed Descriptor -> Element",
+    "headline": "c11",
+    "selected": ["c4", "c11", "c14", "c25"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c4",
+        "sha": "c40e06f72",
+        "date": "2014-03-28",
+        "subject": "First phase to true descriptors"
+      },
+      {
+        "kind": "commit",
+        "ref": "c11",
+        "sha": "f48954d8a",
+        "date": "2014-10-07",
+        "subject": "Renamed Descriptor -> Element (#2300)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c14",
+        "sha": "540731b7a",
+        "date": "2014-10-09",
+        "subject": "React.renderComponent -> React.render (#2002)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c25",
+        "sha": "3d8b47bbc",
+        "date": "2015-03-11",
+        "subject": "foo.getDOMNode => React.findDOMNode(foo) (#3356)"
+      }
+    ]
+  },
+  {
+    "era": 2,
+    "from": "2015-05",
+    "to": "2016-04",
+    "attempts": [
+      {
+        "commits": ["c1", "c5", "c6", "c17"],
+        "headline": "c1"
+      }
+    ],
+    "narration": "model",
+    "title": "Reorganize Src Directory for Isomorphic React Package",
+    "headline": "c1",
+    "selected": ["c1", "c5", "c6", "c17"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c1",
+        "sha": "527524467",
+        "date": "2015-05-16",
+        "subject": "Reorganize Src Directory for Isomorphic React Package (#3866)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c5",
+        "sha": "a2862f3c2",
+        "date": "2015-06-15",
+        "subject": "Build react-dom package (#4097)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c6",
+        "sha": "531e6280a",
+        "date": "2015-06-17",
+        "subject": "Move npm packages into folder (#4158)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c17",
+        "sha": "4fb7df173",
+        "date": "2015-09-04",
+        "subject": "Add react-to-react-dom codemod (#4767)"
+      }
+    ]
+  },
+  {
+    "era": 3,
+    "from": "2016-05",
+    "to": "2017-03",
+    "attempts": [
+      {
+        "commits": ["c3", "c5", "c13", "c26"],
+        "headline": "c5"
+      }
+    ],
+    "narration": "model",
+    "title": "React Fiber Reconciler",
+    "headline": "c5",
+    "selected": ["c3", "c5", "c13", "c26"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c3",
+        "sha": "b6a607816",
+        "date": "2016-05-05",
+        "subject": "Replace ReactPerf with new implementation (#6647)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c5",
+        "sha": "cf157886e",
+        "date": "2016-05-11",
+        "subject": "React Fiber Reconciler (#6690)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c13",
+        "sha": "225325ead",
+        "date": "2016-10-25",
+        "subject": "Add Fiber Debugger (#8033)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c26",
+        "sha": "b354db22a",
+        "date": "2017-01-20",
+        "subject": "[Fiber] Compute the Host Diff During Reconciliation (#8607)"
+      }
+    ]
+  },
+  {
+    "era": 4,
+    "from": "2017-03",
+    "to": "2017-09",
+    "attempts": [
+      {
+        "commits": ["c5", "c14", "c20", "c30"],
+        "headline": "c5"
+      }
+    ],
+    "narration": "model",
+    "title": "Add ReactDOMNodeStream, adding streaming rendering.",
+    "headline": "c14",
+    "selected": ["c5", "c14", "c20", "c30"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c5",
+        "sha": "4b2eac3de",
+        "date": "2017-04-05",
+        "subject": "Convert current build system to Rollup and adopt flat bundles (#9327)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c14",
+        "sha": "411e04bd7",
+        "date": "2017-06-25",
+        "subject": "Add ReactDOMNodeStream, adding streaming rendering. (#10024)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c20",
+        "sha": "f8062df1d",
+        "date": "2017-08-01",
+        "subject": "Add ReactDOM.hydrate() as explicit SSR hydration API (#10339)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c30",
+        "sha": "d63249d03",
+        "date": "2017-09-25",
+        "subject": "Update license headers BSD+Patents -> MIT"
+      }
+    ]
+  },
+  {
+    "era": 5,
+    "from": "2017-09",
+    "to": "2018-09",
+    "attempts": [
+      {
+        "commits": ["c1", "c8", "c9", "c30"],
+        "headline": "c9"
+      }
+    ],
+    "narration": "model",
+    "title": "Use Yarn Workspaces",
+    "headline": "c9",
+    "selected": ["c1", "c8", "c9", "c30"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c1",
+        "sha": "96fde8a09",
+        "date": "2017-09-28",
+        "subject": "Add new docs website (#10896)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c8",
+        "sha": "ebb1d316b",
+        "date": "2017-10-06",
+        "subject": "Delete documentation and website source (#11137)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c9",
+        "sha": "d9c1dbd61",
+        "date": "2017-10-18",
+        "subject": "Use Yarn Workspaces (#11252)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c30",
+        "sha": "b92f947af",
+        "date": "2018-09-03",
+        "subject": "Rename \"react-scheduler\" package to \"schedule\" (#13543)"
+      }
+    ]
+  },
+  {
+    "era": 6,
+    "from": "2018-09",
+    "to": "2019-08",
+    "attempts": [
+      {
+        "commits": ["c1", "c2", "c15", "c24"],
+        "headline": "c2"
+      }
+    ],
+    "narration": "model",
+    "title": "Adds experimental event component responder surfaces",
+    "headline": "c2",
+    "selected": ["c1", "c2", "c15", "c24"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c1",
+        "sha": "7ea3ca1d1",
+        "date": "2018-09-19",
+        "subject": "Rename schedule to scheduler (#13683)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c2",
+        "sha": "669cafb36",
+        "date": "2019-03-27",
+        "subject": "Adds experimental event component responder surfaces (#15228)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c15",
+        "sha": "6d4f85b61",
+        "date": "2019-05-21",
+        "subject": "[Fresh] Set up infra for runtime and Babel plugin (#15698)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c24",
+        "sha": "b62ae1642",
+        "date": "2019-06-19",
+        "subject": "[Flare] Rename createEventComponent -> createEvent (#15929)"
+      }
+    ]
+  },
+  {
+    "era": 7,
+    "from": "2019-08",
+    "to": "2022-08",
+    "attempts": [
+      {
+        "commits": ["c3", "c10", "c12", "c19"],
+        "headline": "c12"
+      }
+    ],
+    "narration": "model",
+    "title": "Import React Concurrent Mode Profiler",
+    "headline": "c12",
+    "selected": ["c3", "c10", "c12", "c19"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c3",
+        "sha": "cef47cbc0",
+        "date": "2019-09-20",
+        "subject": "Rename experimental react-ui => react-interactions (#16842)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c10",
+        "sha": "b61174fb7",
+        "date": "2020-08-05",
+        "subject": "Remove the deprecated React Flare event system (#19520)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c12",
+        "sha": "2bea3fb0b",
+        "date": "2020-08-20",
+        "subject": "Import React Concurrent Mode Profiler (#19634)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c19",
+        "sha": "f4161c3ec",
+        "date": "2021-07-22",
+        "subject": "[DRAFT] Import scheduling profiler into DevTools Profiler (#21897)"
+      }
+    ]
+  },
+  {
+    "era": 8,
+    "from": "2022-09",
+    "to": "2024-04",
+    "attempts": [
+      {
+        "commits": ["c2", "c8", "c18", "c23"],
+        "headline": "c8"
+      }
+    ],
+    "narration": "model",
+    "title": "Enable passing Server References from Server to Client",
+    "headline": "c8",
+    "selected": ["c2", "c8", "c18", "c23"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c2",
+        "sha": "97d75c9c8",
+        "date": "2022-09-28",
+        "subject": "Move react-dom implementation files to react-dom-bindings (#25345)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c8",
+        "sha": "ef9f6e77b",
+        "date": "2023-02-10",
+        "subject": "Enable passing Server References from Server to Client (#26124)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c18",
+        "sha": "36e4cbe2e",
+        "date": "2023-04-22",
+        "subject": "[Float][Flight] Flight support for Float (#26502)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c23",
+        "sha": "f181ba8aa",
+        "date": "2023-06-03",
+        "subject": "[Flight] Add bundler-less version of RSC using plain ESM (#26889)"
+      }
+    ]
+  },
+  {
+    "era": 9,
+    "from": "2024-05",
+    "to": "2026-10",
+    "attempts": [
+      {
+        "commits": ["c1", "c5", "c11", "c21"],
+        "headline": "c1"
+      }
+    ],
+    "narration": "model",
+    "title": "Open-source React Compiler",
+    "headline": "c1",
+    "selected": ["c1", "c5", "c11", "c21"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c1",
+        "sha": "71565a932",
+        "date": "2024-05-15",
+        "subject": "Open-source React Compiler (#29061)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c5",
+        "sha": "206df66e7",
+        "date": "2024-09-12",
+        "subject": "[compiler][rewrite] PropagateScopeDeps hir rewrite"
+      },
+      {
+        "kind": "commit",
+        "ref": "c11",
+        "sha": "9eabb3733",
+        "date": "2025-01-24",
+        "subject": "[compiler][be] Remove unused experimental Rust port"
+      },
+      {
+        "kind": "commit",
+        "ref": "c21",
+        "sha": "66cfe048d",
+        "date": "2025-06-18",
+        "subject": "[compiler] New mutability/aliasing model (#33494)"
+      }
+    ]
+  }
+]

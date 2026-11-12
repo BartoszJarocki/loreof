@@ -1,0 +1,42 @@
+allowBuilds:
+  '@swc/core': true
+  cbor-extract: false
+  esbuild: true
+ignoredOptionalDependencies:
+  - sharp
+overrides:
+  undici@>=7.0.0 <7.30.1: 7.30.1
+  zod@<4.6.6: 4.6.7
+minimumReleaseAgeExclude:
+  - '@ai-sdk/gateway@4.0.135'
+  - '@ai-sdk/provider-utils@5.0.74'
+  - '@next/env@16.4.5'
+  - '@next/swc-darwin-arm64@16.4.5'
+  - '@next/swc-darwin-x64@16.4.5'
+  - '@next/swc-linux-arm64-gnu@16.4.5'
+  - '@next/swc-linux-arm64-musl@16.4.5'
+  - '@next/swc-linux-x64-gnu@16.4.5'
+  - '@next/swc-linux-x64-musl@16.4.5'
+  - '@next/swc-win32-arm64-msvc@16.4.5'
+  - '@next/swc-win32-x64-msvc@16.4.5'
+  - '@workflow/astro@5.0.7'
+  - '@workflow/builders@5.0.7'
+  - '@workflow/cli@5.0.7'
+  - '@workflow/core@5.3.0'
+  - '@workflow/errors@5.1.0'
+  - '@workflow/nest@5.1.5'
+  - '@workflow/next@5.0.7'
+  - '@workflow/nitro@5.0.7'
+  - '@workflow/nuxt@5.0.7'
+  - '@workflow/rollup@5.0.7'
+  - '@workflow/sveltekit@5.0.7'
+  - '@workflow/vite@5.0.7'
+  - '@workflow/web@5.0.7'
+  - '@workflow/world-local@5.2.0'
+  - '@workflow/world-vercel@5.3.0'
+  - '@workflow/world@5.1.0'
+  - ai@7.0.162
+  - next@16.4.5
+  - workflow@5.3.0
+  - '@next/eslint-plugin-next@16.4.5'
+  - eslint-config-next@16.4.5

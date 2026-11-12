@@ -1,0 +1,452 @@
+[
+  {
+    "era": 0,
+    "from": "2010-06",
+    "to": "2012-01",
+    "attempts": [
+      {
+        "commits": ["c5", "c12", "c28", "c29"],
+        "headline": "c5"
+      }
+    ],
+    "narration": "model",
+    "title": "Remove rustboot from the repository.",
+    "headline": "c5",
+    "selected": ["c5", "c12", "c28", "c29"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c5",
+        "sha": "6997adf76",
+        "date": "2011-05-14",
+        "subject": "Remove rustboot from the repository."
+      },
+      {
+        "kind": "commit",
+        "ref": "c12",
+        "sha": "8b1504522",
+        "date": "2011-08-09",
+        "subject": "Port the compiler to the ivec type [T] syntax."
+      },
+      {
+        "kind": "commit",
+        "ref": "c28",
+        "sha": "24102d50a",
+        "date": "2012-01-13",
+        "subject": "Obj system? What obj system?"
+      },
+      {
+        "kind": "commit",
+        "ref": "c29",
+        "sha": "bdb8f6cf5",
+        "date": "2012-01-19",
+        "subject": "rustc: \"tag\" -> \"enum\""
+      }
+    ]
+  },
+  {
+    "era": 1,
+    "from": "2012-01",
+    "to": "2012-10",
+    "attempts": [
+      {
+        "commits": ["c2", "c8", "c23", "c26"],
+        "headline": "c2"
+      }
+    ],
+    "narration": "model",
+    "title": "Move src/comp to src/rustc",
+    "headline": "c2",
+    "selected": ["c2", "c8", "c23", "c26"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c2",
+        "sha": "87c14f1e3",
+        "date": "2012-03-03",
+        "subject": "Move src/comp to src/rustc"
+      },
+      {
+        "kind": "commit",
+        "ref": "c8",
+        "sha": "106c9faa5",
+        "date": "2012-03-29",
+        "subject": "rustc: Move ext to librustsyntax"
+      },
+      {
+        "kind": "commit",
+        "ref": "c23",
+        "sha": "33334f3c4",
+        "date": "2012-07-05",
+        "subject": "Change 'iface' to 'trait' internally; parse `trait` as `iface` synonym"
+      },
+      {
+        "kind": "commit",
+        "ref": "c26",
+        "sha": "a26837c47",
+        "date": "2012-09-04",
+        "subject": "rustc: \"import\" -> \"use\""
+      }
+    ]
+  },
+  {
+    "era": 2,
+    "from": "2012-10",
+    "to": "2014-01",
+    "attempts": [
+      {
+        "commits": ["c2", "c4", "c11", "c20"],
+        "headline": "c4"
+      }
+    ],
+    "narration": "model",
+    "title": "Librarify rusti, etc.",
+    "headline": "c2",
+    "selected": ["c2", "c4", "c11", "c20"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c2",
+        "sha": "84208b2d2",
+        "date": "2012-11-05",
+        "subject": "Librarify rusti, etc."
+      },
+      {
+        "kind": "commit",
+        "ref": "c4",
+        "sha": "56ece46f7",
+        "date": "2012-12-04",
+        "subject": "librustc: Remove all legacy pattern bindings from libsyntax and librustc. rs=refactoring"
+      },
+      {
+        "kind": "commit",
+        "ref": "c11",
+        "sha": "b1c699815",
+        "date": "2013-03-14",
+        "subject": "librustc: Don't accept `as Trait` anymore; fix all occurrences of it."
+      },
+      {
+        "kind": "commit",
+        "ref": "c20",
+        "sha": "99b33f721",
+        "date": "2013-07-17",
+        "subject": "librustc: Remove all uses of \"copy\"."
+      }
+    ]
+  },
+  {
+    "era": 3,
+    "from": "2014-01",
+    "to": "2014-10",
+    "attempts": [
+      {
+        "commits": ["c14", "c18", "c21", "c27"],
+        "headline": "c14"
+      }
+    ],
+    "narration": "model",
+    "title": "auto merge of #14638 : alexcrichton/rust/librustrt, r=brson",
+    "headline": "c14",
+    "selected": ["c14", "c18", "c21", "c27"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c14",
+        "sha": "6266f64d0",
+        "date": "2014-06-07",
+        "subject": "auto merge of #14638 : alexcrichton/rust/librustrt, r=brson"
+      },
+      {
+        "kind": "commit",
+        "ref": "c18",
+        "sha": "5b11610ce",
+        "date": "2014-07-04",
+        "subject": "auto merge of #15343 : alexcrichton/rust/0.11.0-release, r=brson"
+      },
+      {
+        "kind": "commit",
+        "ref": "c21",
+        "sha": "84782c4e2",
+        "date": "2014-08-06",
+        "subject": "auto merge of #16258 : aturon/rust/stabilize-atomics, r=alexcrichton"
+      },
+      {
+        "kind": "commit",
+        "ref": "c27",
+        "sha": "158eaa643",
+        "date": "2014-10-09",
+        "subject": "Merge tag '0.12.0'"
+      }
+    ]
+  },
+  {
+    "era": 4,
+    "from": "2014-11",
+    "to": "2018-04",
+    "attempts": [
+      {
+        "commits": ["c1", "c5", "c10", "c14"],
+        "headline": "c1"
+      }
+    ],
+    "narration": "model",
+    "title": "Auto merge of #25350 - alexcrichton:msvc, r=brson",
+    "headline": "c1",
+    "selected": ["c1", "c5", "c10", "c14"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c1",
+        "sha": "43cf733bf",
+        "date": "2015-05-20",
+        "subject": "Auto merge of #25350 - alexcrichton:msvc, r=brson"
+      },
+      {
+        "kind": "commit",
+        "ref": "c5",
+        "sha": "fd688f407",
+        "date": "2015-11-19",
+        "subject": "Auto merge of #29932 - steveklabnik:trpl_book, r=brson"
+      },
+      {
+        "kind": "commit",
+        "ref": "c10",
+        "sha": "7979dd608",
+        "date": "2016-04-07",
+        "subject": "Auto merge of #32016 - nikomatsakis:incr-comp-save, r=mw"
+      },
+      {
+        "kind": "commit",
+        "ref": "c14",
+        "sha": "e7c822cee",
+        "date": "2016-07-21",
+        "subject": "Auto merge of #34873 - alexcrichton:down-with-compiler-rt-for-good, r=brson"
+      }
+    ]
+  },
+  {
+    "era": 5,
+    "from": "2018-05",
+    "to": "2018-10",
+    "attempts": [
+      {
+        "commits": ["c5", "c6", "c18", "c28"],
+        "headline": "c18"
+      }
+    ],
+    "narration": "model",
+    "title": "Auto merge of #51131 - qnighy:unsized-locals, r=eddyb",
+    "headline": "c18",
+    "selected": ["c5", "c6", "c18", "c28"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c5",
+        "sha": "bce32b532",
+        "date": "2018-07-13",
+        "subject": "Auto merge of #51987 - nikomatsakis:nll-region-infer-scc, r=pnkfelix"
+      },
+      {
+        "kind": "commit",
+        "ref": "c6",
+        "sha": "a14a361c2",
+        "date": "2018-07-13",
+        "subject": "Auto merge of #52266 - michaelwoerister:incr-thinlto-preliminaries, r=alexcrichton"
+      },
+      {
+        "kind": "commit",
+        "ref": "c18",
+        "sha": "b35590691",
+        "date": "2018-08-19",
+        "subject": "Auto merge of #51131 - qnighy:unsized-locals, r=eddyb"
+      },
+      {
+        "kind": "commit",
+        "ref": "c28",
+        "sha": "de3d640f5",
+        "date": "2018-10-01",
+        "subject": "Auto merge of #54667 - RalfJung:maybe-uninit, r=pnkfelix"
+      }
+    ]
+  },
+  {
+    "era": 6,
+    "from": "2018-11",
+    "to": "2019-10",
+    "attempts": [
+      {
+        "commits": ["c4", "c12", "c24", "c30"],
+        "headline": "c24"
+      }
+    ],
+    "narration": "model",
+    "title": "Auto merge of #59178 - oli-obk:lazy_const, r=eddyb",
+    "headline": "c12",
+    "selected": ["c4", "c12", "c24", "c30"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c4",
+        "sha": "f6e9485bf",
+        "date": "2018-11-17",
+        "subject": "Auto merge of #55627 - sunfishcode:cg-llvm-gen, r=nikomatsakis"
+      },
+      {
+        "kind": "commit",
+        "ref": "c12",
+        "sha": "070cebd0a",
+        "date": "2019-03-17",
+        "subject": "Auto merge of #59178 - oli-obk:lazy_const, r=eddyb"
+      },
+      {
+        "kind": "commit",
+        "ref": "c24",
+        "sha": "5748825cc",
+        "date": "2019-07-01",
+        "subject": "Auto merge of #61682 - Centril:stabilize-type_alias_enum_variants, r=petrochenkov"
+      },
+      {
+        "kind": "commit",
+        "ref": "c30",
+        "sha": "c6f87c2c6",
+        "date": "2019-09-27",
+        "subject": "Auto merge of #64790 - Centril:rip-ast-borrowck, r=matthewjasper"
+      }
+    ]
+  },
+  {
+    "era": 7,
+    "from": "2019-11",
+    "to": "2020-07",
+    "attempts": [
+      {
+        "commits": ["c1", "c12", "c3", "c5"],
+        "headline": "c12"
+      }
+    ],
+    "narration": "model",
+    "title": "Auto merge of #70190 - pietroalbini:gha, r=Mark-Simulacrum",
+    "headline": "c12",
+    "selected": ["c1", "c12", "c3", "c5"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c1",
+        "sha": "82cf3a448",
+        "date": "2019-11-14",
+        "subject": "Auto merge of #66314 - GuillaumeGomez:move-error-codes, r=Centril"
+      },
+      {
+        "kind": "commit",
+        "ref": "c3",
+        "sha": "26286c7ad",
+        "date": "2019-12-22",
+        "subject": "Auto merge of #66931 - cjgillot:hirene-preamble, r=eddyb"
+      },
+      {
+        "kind": "commit",
+        "ref": "c5",
+        "sha": "59c1db033",
+        "date": "2020-01-12",
+        "subject": "Auto merge of #67901 - matthewjasper:split-mir-build, r=nagisa"
+      },
+      {
+        "kind": "commit",
+        "ref": "c12",
+        "sha": "2dcf54f56",
+        "date": "2020-03-24",
+        "subject": "Auto merge of #70190 - pietroalbini:gha, r=Mark-Simulacrum"
+      }
+    ]
+  },
+  {
+    "era": 8,
+    "from": "2020-08",
+    "to": "2022-12",
+    "attempts": [
+      {
+        "commits": ["c13", "c20", "c21", "c25"],
+        "headline": "c25"
+      }
+    ],
+    "narration": "model",
+    "title": "Auto merge of #92816 - tmiasko:rm-llvm-asm, r=Amanieu",
+    "headline": "c25",
+    "selected": ["c13", "c20", "c21", "c25"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c13",
+        "sha": "e655fb622",
+        "date": "2021-03-16",
+        "subject": "Auto merge of #82936 - oli-obk:valtree, r=RalfJung,lcnr,matthewjasper"
+      },
+      {
+        "kind": "commit",
+        "ref": "c20",
+        "sha": "c78ebb7bd",
+        "date": "2021-07-17",
+        "subject": "Auto merge of #87123 - RalfJung:miri-provenance-overhaul, r=oli-obk"
+      },
+      {
+        "kind": "commit",
+        "ref": "c21",
+        "sha": "521734787",
+        "date": "2021-08-20",
+        "subject": "Auto merge of #87329 - sunfishcode:sunfishcode/io-safety, r=joshtriplett"
+      },
+      {
+        "kind": "commit",
+        "ref": "c25",
+        "sha": "a34c07975",
+        "date": "2022-01-17",
+        "subject": "Auto merge of #92816 - tmiasko:rm-llvm-asm, r=Amanieu"
+      }
+    ]
+  },
+  {
+    "era": 9,
+    "from": "2023-01",
+    "to": "2026-11",
+    "attempts": [
+      {
+        "commits": ["c4", "c16", "c14", "c19"],
+        "headline": "c16"
+      }
+    ],
+    "narration": "model",
+    "title": "Auto merge of #116012 - cjgillot:gvn-const, r=oli-obk",
+    "headline": "c14",
+    "selected": ["c4", "c16", "c14", "c19"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c4",
+        "sha": "98c33e47a",
+        "date": "2023-05-02",
+        "subject": "Auto merge of #109128 - chenyukang:yukang/remove-type-ascription, r=estebank"
+      },
+      {
+        "kind": "commit",
+        "ref": "c14",
+        "sha": "8d76d0766",
+        "date": "2023-12-30",
+        "subject": "Auto merge of #116012 - cjgillot:gvn-const, r=oli-obk"
+      },
+      {
+        "kind": "commit",
+        "ref": "c16",
+        "sha": "6cbf0926d",
+        "date": "2024-03-01",
+        "subject": "Auto merge of #121728 - tgross35:f16-f128-step1-ty-updates, r=compiler-errors"
+      },
+      {
+        "kind": "commit",
+        "ref": "c19",
+        "sha": "351686bcf",
+        "date": "2025-03-01",
+        "subject": "Auto merge of #137752 - flip1995:clippy-subtree-update, r=Manishearth"
+      }
+    ]
+  }
+]

@@ -1,0 +1,869 @@
+/* The repository page is a fixed theater with the story below it. */
+.page:has(.repository) {
+  padding-top: 0;
+}
+.page:has(.repository) .site-header {
+  display: none;
+}
+.repository {
+  position: relative;
+}
+
+.stage {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  width: 100vw;
+  height: 100svh;
+  overflow: hidden;
+  background: var(--bg);
+  touch-action: pan-y;
+  cursor: grab;
+  user-select: none;
+}
+.stage:active {
+  cursor: grabbing;
+}
+.stage canvas {
+  display: block;
+}
+.map-fade {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.map-ring-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.stage[data-state='fallback'] canvas {
+  display: none;
+}
+.stage-note {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  width: min(48ch, 100% - 32px);
+  translate: -50% -50%;
+  text-align: center;
+  color: var(--faint);
+  background: var(--bg);
+  padding: 8px 10px;
+}
+.map-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.map-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 4px;
+  background: var(--bg);
+  color: var(--faint);
+  font-size: 11px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+.map-mark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  border: 1px solid var(--ink);
+}
+
+/* chrome */
+.theater-chrome {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 6;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 16px;
+  pointer-events: none;
+}
+.theater-chrome > * {
+  pointer-events: auto;
+}
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: -2px -7px;
+  padding: 2px 7px;
+  background: var(--bg);
+}
+.wordmark {
+  font-family: var(--font-geist-pixel-square), var(--font-geist-mono), ui-monospace, monospace;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+}
+.repo {
+  font-size: 13px;
+  color: var(--faint);
+}
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: -3px -7px;
+  padding: 3px 7px;
+  background: var(--bg);
+}
+.chapters-btn {
+  color: var(--faint);
+  font-size: 12px;
+}
+.chapters-btn:hover,
+.chapters-btn:focus-visible {
+  color: var(--ink);
+}
+.chapters-btn:disabled {
+  cursor: wait;
+  opacity: 0.55;
+}
+.actions .site-nav {
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+}
+.actions .site-nav a[aria-current='page'] {
+  color: var(--ink);
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
+}
+
+/* chapter card */
+/* `faint` misses 4.5:1 on the lighter `wash` plate, so these plates promote it to `body`. */
+.chapter-card,
+.beat-label,
+.chapters-dialog,
+.find-panel {
+  --faint: var(--body);
+}
+.chapter-card {
+  position: fixed;
+  left: 16px;
+  bottom: calc(var(--stack, 112px) + 12px);
+  z-index: 5;
+  width: min(46ch, calc(100vw - 32px));
+  max-height: calc(100svh - 260px);
+  overflow-y: auto;
+  background: var(--wash);
+  padding: 14px 16px 12px;
+}
+.card-head {
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+.card-range {
+  display: block;
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--faint);
+}
+.card-title {
+  display: block;
+  margin-top: 4px;
+  font-family: var(--font-geist-sans, ui-sans-serif), system-ui, sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.22;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  text-wrap: balance;
+}
+.card-head .cue {
+  display: none;
+}
+.card-lines {
+  display: grid;
+  gap: 10px;
+  margin: 12px 0 0;
+  padding: 10px 0 0;
+  border-top: 1px solid var(--rule);
+}
+.card-lines[hidden] {
+  display: none;
+}
+.chapter-card[data-expanded='false'] .card-lines,
+.chapter-card[data-expanded='false'] .card-more {
+  display: none;
+}
+.card-line-meta {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 11px;
+  line-height: 1.4;
+  color: var(--faint);
+  font-variant-numeric: tabular-nums;
+}
+.card-line .subject {
+  margin: 2px 0 0;
+  font-size: 12.5px;
+  line-height: 1.42;
+  color: var(--body);
+  text-wrap: pretty;
+}
+.card-sha {
+  color: var(--faint);
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.card-sha:hover {
+  color: var(--ink);
+}
+.card-more {
+  margin-top: 12px;
+  padding-top: 8px;
+  border-top: 1px solid var(--rule);
+  font-size: 11px;
+  color: var(--faint);
+}
+.card-more summary {
+  cursor: pointer;
+  color: var(--faint);
+}
+.card-more summary:hover {
+  color: var(--ink);
+}
+.card-more .chapter-report {
+  margin-top: 8px;
+  font-size: 11px;
+}
+.card-more .chapter-note {
+  margin-top: 8px;
+  font-size: 11px;
+}
+
+/* chapter title over the map */
+.chapter-flash {
+  position: fixed;
+  inset: 0;
+  z-index: 3;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+.chapter-flash span {
+  max-width: 22ch;
+  padding: 10px 16px;
+  background: var(--bg);
+  color: var(--ink);
+  text-align: center;
+  font-family: var(--font-geist-sans, ui-sans-serif), system-ui, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.028em;
+  text-wrap: balance;
+}
+.chapter-flash.show {
+  animation:
+    chapter-in 200ms ease both,
+    chapter-out 300ms ease 1100ms both;
+}
+@keyframes chapter-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes chapter-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* the commit moment */
+.beat-label {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  max-width: min(40ch, calc(100vw - 32px));
+  padding: 6px 9px 7px;
+  background: var(--wash);
+  border-left: 2px solid var(--value);
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+.beat-sha {
+  display: block;
+  font-size: 10.5px;
+  line-height: 1.4;
+  color: var(--faint);
+}
+.beat-subject {
+  display: block;
+  font-size: 12px;
+  line-height: 1.42;
+  color: var(--ink);
+  text-wrap: pretty;
+}
+.map-ring {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid var(--value);
+  border-radius: 50%;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+
+/* timeline and controls */
+.theater-bottom {
+  position: fixed;
+  left: 16px;
+  right: 16px;
+  bottom: 12px;
+  z-index: 5;
+}
+.timeline {
+  position: relative;
+  margin-top: 5px;
+}
+.timeline-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 1px;
+  height: 32px;
+  border-bottom: 1px solid var(--rule);
+  pointer-events: none;
+}
+.timeline-bars i {
+  flex: 1 1 0;
+  min-width: 0;
+  background: var(--rule);
+}
+.timeline-bars i.past {
+  background: var(--faint);
+}
+.timeline-playhead {
+  position: absolute;
+  top: 0;
+  width: 1px;
+  height: 32px;
+  background: var(--ink);
+  pointer-events: none;
+}
+.timeline-playhead::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -2px;
+  width: 5px;
+  height: 3px;
+  background: var(--ink);
+}
+.timeline input {
+  position: absolute;
+  inset: 0 0 16px;
+  width: 100%;
+  height: 32px;
+  margin: 0;
+  padding: 0;
+  background: none;
+  appearance: none;
+  opacity: 0;
+  cursor: pointer;
+}
+.timeline:focus-within {
+  outline: 1px solid var(--ink);
+  outline-offset: 4px;
+}
+.timeline-ticks {
+  position: relative;
+  height: 16px;
+  margin-top: 1px;
+}
+.tick {
+  position: absolute;
+  top: 0;
+  padding: 3px 3px 0;
+  translate: -50% 0;
+  background: var(--bg);
+  color: var(--faint);
+  font-size: 10px;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.tick:hover,
+.tick:focus-visible,
+.tick[aria-current='true'] {
+  color: var(--ink);
+}
+
+.map-caption,
+.map-controls {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0 3ch;
+  color: var(--faint);
+  font-variant-numeric: tabular-nums;
+}
+.map-caption {
+  margin-top: 6px;
+  font-size: 12px;
+}
+.map-caption > span {
+  white-space: nowrap;
+  background: var(--bg);
+  padding: 1px 6px;
+  margin: 0 -6px;
+}
+.map-caption .map-path {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+.map-status {
+  text-align: right;
+}
+.map-controls {
+  align-items: center;
+  gap: 18px;
+  margin-top: 1px;
+  font-size: 12px;
+}
+.map-controls .text-button {
+  color: var(--faint);
+}
+.map-controls .text-button:hover {
+  color: var(--ink);
+}
+.hint {
+  margin-left: auto;
+  font-size: 11px;
+  color: var(--faint);
+  background: var(--bg);
+  padding: 1px 6px;
+}
+
+/* chapters dialog */
+.chapters-dialog {
+  width: min(76ch, calc(100vw - 32px));
+  max-height: min(78svh, 700px);
+  padding: 18px 20px 20px;
+  border: 0;
+  background: var(--wash);
+  color: var(--ink);
+}
+.chapters-dialog::backdrop {
+  background: var(--bg);
+  opacity: 0.88;
+}
+.chapters-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 3ch;
+  margin-bottom: 10px;
+}
+.chapters-head h2 {
+  font-size: 13px;
+  color: var(--faint);
+}
+.chapters-head button {
+  color: var(--faint);
+  font-size: 12px;
+}
+.chapters-head button:hover {
+  color: var(--ink);
+}
+.crows {
+  display: grid;
+  gap: 2px;
+}
+.crow {
+  display: grid;
+  grid-template-columns: 8ch minmax(0, 1fr) auto;
+  column-gap: 3ch;
+  width: calc(100% + 2ch);
+  margin: 0 -1ch;
+  padding: 1px 1ch;
+  text-align: left;
+  color: var(--ink);
+}
+.crow .lead,
+.crow .trail {
+  color: var(--faint);
+  font-variant-numeric: tabular-nums;
+}
+.crow .trail {
+  text-align: right;
+}
+.crow:hover,
+.crow:focus-visible {
+  background: var(--ink);
+  outline: none;
+}
+.crow:hover > *,
+.crow:focus-visible > * {
+  color: var(--bg);
+}
+.crow[aria-current='true'] .main {
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
+}
+.dialog-nav {
+  display: flex;
+  gap: 2ch;
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px solid var(--rule);
+  font-size: 12px;
+}
+
+/* find and export notices */
+.find-panel {
+  position: fixed;
+  top: 64px;
+  right: 16px;
+  z-index: 7;
+  width: min(44ch, calc(100vw - 32px));
+  background: var(--wash);
+  padding: 12px 14px;
+}
+.find {
+  margin-top: 0;
+}
+.find-results {
+  margin-top: 8px;
+}
+.find-results .index-row,
+.chapter-row {
+  width: calc(100% + 2ch);
+  text-align: left;
+}
+.chapter-row {
+  grid-template-columns: var(--c1, 10ch) minmax(0, 1fr) auto;
+}
+.find-results .index-row {
+  grid-template-columns: 10ch minmax(0, 1fr);
+}
+.find-results .index-row:hover,
+.find-results .index-row:focus-visible,
+button.chapter-row:hover,
+button.chapter-row:focus-visible {
+  background: var(--ink);
+  outline: none;
+}
+.find-results .index-row:hover *,
+.find-results .index-row:focus-visible *,
+button.chapter-row:hover *,
+button.chapter-row:focus-visible * {
+  color: var(--bg);
+}
+.chapter-row[aria-current='true'] > :nth-child(2) {
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
+}
+.map-notice {
+  position: fixed;
+  top: 64px;
+  left: 16px;
+  z-index: 6;
+  width: min(46ch, calc(100vw - 32px));
+  background: var(--bg);
+  padding: 6px 8px;
+  color: var(--faint);
+}
+
+/* the story below the stage */
+.repository-story {
+  position: relative;
+  z-index: 2;
+  margin-top: 100svh;
+  padding-top: 8px;
+  padding-bottom: 80px;
+  background-color: var(--bg);
+  background-image: linear-gradient(var(--bg), var(--bg));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100vw 100%;
+}
+.repository.story-visible .theater-chrome,
+.repository.story-visible .chapter-card,
+.repository.story-visible .theater-bottom,
+.repository.story-visible .chapter-flash,
+.repository.story-visible .beat-label,
+.repository.story-visible .map-ring,
+.repository.story-visible .find-panel,
+.repository.story-visible .map-notice {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* below-fold chapter prose */
+.repository-meta {
+  margin-top: 8px;
+}
+.underlined {
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+.chapter {
+  max-width: 80ch;
+  margin-top: 40px;
+}
+.chapter-title {
+  margin-top: 4px;
+  font-family: var(--font-geist-sans, ui-sans-serif), system-ui, sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.012em;
+  text-wrap: balance;
+}
+.chapter-beats {
+  display: grid;
+  gap: 2px;
+  margin-top: 16px;
+  font-family: var(--font-geist-sans, ui-sans-serif), system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--body);
+}
+.chapter-beat {
+  grid-template-columns: 8ch minmax(0, 1fr) 9ch;
+  column-gap: 3ch;
+  align-items: baseline;
+}
+.chapter-beat-date,
+.chapter-beat-trail {
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-size: 13px;
+  line-height: 1.75;
+}
+.chapter-beat-date {
+  white-space: nowrap;
+}
+.chapter-beat-subject {
+  font-family: var(--font-geist-sans, ui-sans-serif), system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  overflow-wrap: break-word;
+}
+.chapter-beat-headline .chapter-beat-subject {
+  font-weight: 500;
+}
+.chapter-beat-trail {
+  text-align: right;
+}
+.chapter-fact {
+  color: var(--body);
+}
+.chapter-report {
+  margin-top: 14px;
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-size: 13px;
+  color: var(--faint);
+}
+.chapter-report a {
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+.chapter-report a:hover {
+  color: var(--ink);
+}
+.chapter .sha {
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-size: 13px;
+  color: var(--faint);
+  white-space: nowrap;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  transition: color 150ms;
+}
+.chapter .sha:hover {
+  color: var(--ink);
+}
+.chapter-note {
+  margin-top: 12px;
+}
+
+@media (max-width: 900px) {
+  .hint {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .wordmark {
+    font-size: 24px;
+  }
+  .repo {
+    font-size: 11px;
+  }
+  .actions {
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    row-gap: 2px;
+  }
+  .chapters-btn,
+  .actions .site-nav {
+    font-size: 11px;
+  }
+  .actions .site-nav {
+    display: none;
+  }
+  .theater-chrome {
+    align-items: flex-start;
+    gap: 8px;
+    padding: 10px 16px;
+  }
+  .chapter-card {
+    left: 16px;
+    right: 16px;
+    bottom: calc(var(--stack, 100px) + 10px);
+    width: auto;
+    max-width: none;
+    max-height: min(56svh, calc(100svh - 210px));
+    padding: 11px 13px 10px;
+  }
+  .card-title {
+    font-size: 19px;
+  }
+  .card-head .cue {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    color: var(--faint);
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .chapter-card[data-expanded='false'] .card-head .cue::before {
+    content: '+';
+  }
+  .chapter-card[data-expanded='true'] .card-head .cue::before {
+    content: '−';
+  }
+  .theater-bottom {
+    bottom: 10px;
+  }
+  .timeline-bars {
+    height: 27px;
+  }
+  .timeline-playhead {
+    height: 27px;
+  }
+  .timeline input {
+    height: 27px;
+  }
+  .tick {
+    font-size: 9px;
+  }
+  .map-caption,
+  .map-controls {
+    font-size: 11px;
+  }
+  .map-caption .map-path {
+    display: none;
+  }
+  .map-controls {
+    gap: 14px;
+    justify-content: flex-start;
+  }
+  .chapter-flash span {
+    font-size: 32px;
+    max-width: 20ch;
+  }
+  .chapters-dialog {
+    width: calc(100vw - 24px);
+    padding: 14px 14px 16px;
+  }
+  .crow {
+    grid-template-columns: 6ch minmax(0, 1fr);
+    column-gap: 2ch;
+  }
+  .crow .trail {
+    display: none;
+  }
+  .chapter-row {
+    grid-template-columns: var(--c1m, var(--c1, 10ch)) minmax(0, 1fr);
+  }
+  .chapter-row .index-trail {
+    display: block;
+    grid-column: 2;
+    text-align: left;
+    white-space: normal;
+  }
+  .chapter-beat {
+    grid-template-columns: 7ch minmax(0, 1fr);
+    column-gap: 2ch;
+  }
+  .chapter-beat-trail {
+    grid-column: 2;
+    text-align: left;
+  }
+  .find-panel {
+    top: 54px;
+    left: 16px;
+    right: 16px;
+    width: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chapter-flash.show {
+    animation-duration: 0s;
+    animation-delay: 0s;
+  }
+}
+
+/* Without JavaScript the map cannot draw, so the story starts at the top and reads as a page. */
+@media (scripting: none) {
+  .page:has(.repository) {
+    padding-top: clamp(48px, 11vh, 112px);
+  }
+  .page:has(.repository) .site-header {
+    display: flex;
+  }
+  .stage,
+  .theater-chrome,
+  .chapter-card,
+  .theater-bottom,
+  .chapter-flash,
+  .beat-label,
+  .map-ring,
+  .find-panel,
+  .map-notice {
+    display: none !important;
+  }
+  .repository-story {
+    margin-top: 0;
+    padding-bottom: 0;
+    box-shadow: none;
+  }
+}

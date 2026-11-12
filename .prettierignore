@@ -1,0 +1,8 @@
+pnpm-lock.yaml
+.next
+.vercel
+.cache
+.generated
+public/data
+src/app/.well-known/**
+next-env.d.ts

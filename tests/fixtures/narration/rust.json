@@ -1,0 +1,3977 @@
+{
+  "repository": {
+    "slug": "rust-lang/rust",
+    "description": ""
+  },
+  "head": "a94dce0bbb3aab81bfdcc30e8a55d7dc95bc644d",
+  "eras": [
+    {
+      "id": 0,
+      "startTime": 1276723845,
+      "endTime": 1327080778,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "Clean up nomenclature in the Abi constants brigade.  Purge magic GEP numbers in trans.  Adjust obj_closure_rty (and its consumers) to be more explicit about the fact that it is a box.",
+          "time": 1279304245,
+          "commits": ["348e434cee42cc2be0a4f5a6e6df8709d3490ff5"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Implement binop= forms. Un-XFAIL bitwise.rs.",
+          "time": 1291848647,
+          "commits": ["68af077e8192a6a1b18778b97449ad695a4ecffb"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "Bulk-edit compile commands in emacs chatter to point to assumed build/ dir off src root.",
+          "time": 1301086117,
+          "commits": ["846f2e2ba994268725f38c36fa12f1a09f21615c"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "Another go at changing compile-command, this time using RBUILD env var.",
+          "time": 1301090847,
+          "commits": ["b2427509e2d53897b7c7797d5948773b63aed3df"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "Remove rustboot from the repository.",
+          "time": 1305337108,
+          "commits": ["6997adf76342b7a6fe03c4bc370ce5fc5082a869"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "Reformat a bunch of recent churn.",
+          "time": 1308268546,
+          "commits": ["b84fffaa4e0e672b4653a7832d75a2dc120040aa"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "Merge remote branch 'upstream/master'",
+          "time": 1308607117,
+          "commits": ["2ad0954941c839474f501252cf1551ff94bd5903"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Move everything syntax-related to syntax/, break deps on rest of compiler",
+          "time": 1309859435,
+          "commits": ["6fd6fdea93fca19f168526943c177f942212cbc6"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "rustc: Revert the conversion to interior vectors due to heap corruption",
+          "time": 1309976786,
+          "commits": ["bbdba21b1f3c7dfc4c0bac3525cc35939ae8ca4c"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Remove all uses of tuples from the compiler and stdlib",
+          "time": 1311681962,
+          "commits": ["aea537779e01359cf8da6944218362d44bfaee83"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "Port the stdlib to the ivec type [T] syntax.",
+          "time": 1312929768,
+          "commits": ["50f97cb368954937662f17b8bddab81206e4ab07"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Port the compiler to the ivec type [T] syntax.",
+          "time": 1312929768,
+          "commits": ["8b15045224ff1a0a051e513bc35561abee7a6f65"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Port the stdlib to the typaram foo<T> syntax.",
+          "time": 1313531992,
+          "commits": ["f764f9a8cf52e686ba6e54b594e6bbbdd5bc7b32"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Port the compiler to the typaram foo<T> syntax.",
+          "time": 1313531992,
+          "commits": ["e4a0f997fb01b9cbb650532fea1278159faff064"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "Port the stdlib to the decl foo<T> syntax.",
+          "time": 1313531992,
+          "commits": ["4c9049c50c5c32f556eaefbcc50209ef8ee353d0"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "Port the stdlib to the expr foo::<T> syntax.",
+          "time": 1313531992,
+          "commits": ["d9327a61bb01acceb431c47931d5c49c998918cd"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "Port the compiler to the expr foo::<T> syntax.",
+          "time": 1313531992,
+          "commits": ["af21a2700278154bcfc81d61297add21c6870689"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Remove or _-prefix all unused function arguments",
+          "time": 1313654499,
+          "commits": ["cd440d338efa935713c92a56dc8eec67a703e521"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Move functions from syntax::ast to syntax::ast_util",
+          "time": 1314027735,
+          "commits": ["152cbaade7bc2ec36546554eb2d2090a9833bfff"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Convert ast::ident to istr. Issue #855",
+          "time": 1314484847,
+          "commits": ["03119fe269de56e737562a9ee8d1bc47a9013eb4"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Convert rustc::driver::session to istrs. Issue #855",
+          "time": 1314488208,
+          "commits": ["9857048929c1adc90a19b2027931ac73a28f21dc"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "Factor imports mindlessly.",
+          "time": 1315869208,
+          "commits": ["a4815b67422771624300b224d642b3b63d1fbce2"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Parse and typecheck by-value and by-ref arg specs",
+          "time": 1317944374,
+          "commits": ["f9fbd86f52cf597b85359ade1ca60b8d6ebf7286"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "Rename \"c-stack-cdecl\" ABI to \"cdecl\"",
+          "time": 1320893052,
+          "commits": ["b7ab28b50fa346cf14e6fe45ea2c60434dcd979d"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "Cleanup unused imports",
+          "time": 1320976916,
+          "commits": ["5a7249c935d52e79db2301a6cccfd28dff9bf38e"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "remove compile-command from local variable blocks",
+          "time": 1321559173,
+          "commits": ["adc79e2f448d50b4d0dfd7b7c10a36711959b384"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "Make driver::session::session no longer an object",
+          "time": 1326387589,
+          "commits": ["efb9df1ebd7ebe0232e202d0e065b08d6a593785"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Obj system? What obj system?",
+          "time": 1326448711,
+          "commits": ["24102d50ad2335c1da5c10ddab8996534b2760dc"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "rustc: \"tag\" -> \"enum\"",
+          "time": 1327011843,
+          "commits": ["bdb8f6cf52a2a4e2f78e6fa95d42140aa26ec31c"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "rustc: \";\" to \",\" in enums",
+          "time": 1327024565,
+          "commits": ["c267821742ab7f9207a8e594d53150ad41ad0d7b"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "src/ created",
+          "time": 1276723845,
+          "commits": ["c01efc669f09508b55eced32d3c88702578a7c3e"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "src/comp/ created",
+          "time": 1277352189,
+          "commits": ["d6b7c96c3eb29b9244ece0c046d3f372ff432d04"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "src/etc/ created",
+          "time": 1277352189,
+          "commits": ["d6b7c96c3eb29b9244ece0c046d3f372ff432d04"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "src/rt/ created",
+          "time": 1277352189,
+          "commits": ["d6b7c96c3eb29b9244ece0c046d3f372ff432d04"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "src/test/ created",
+          "time": 1277352189,
+          "commits": ["d6b7c96c3eb29b9244ece0c046d3f372ff432d04"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "mk/ created",
+          "time": 1304281132,
+          "commits": ["40624e35d74e5d200ae689c02753f0d60924e668"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "src/libcore/ created",
+          "time": 1323155471,
+          "commits": ["447414f00774d37d934867f5a476cf00e1f95423"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "src/libstd/ created",
+          "time": 1323155471,
+          "commits": ["447414f00774d37d934867f5a476cf00e1f95423"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "rustc",
+          "time": 1327011843,
+          "commits": [
+            "bdb8f6cf52a2a4e2f78e6fa95d42140aa26ec31c",
+            "c267821742ab7f9207a8e594d53150ad41ad0d7b",
+            "bbdba21b1f3c7dfc4c0bac3525cc35939ae8ca4c"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "type",
+          "time": 1312929768,
+          "commits": [
+            "8b15045224ff1a0a051e513bc35561abee7a6f65",
+            "50f97cb368954937662f17b8bddab81206e4ab07",
+            "1f9fd2710ec9122ddddcedaab51650a92ad7c8cf"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "ivec",
+          "time": 1312929768,
+          "commits": [
+            "8b15045224ff1a0a051e513bc35561abee7a6f65",
+            "50f97cb368954937662f17b8bddab81206e4ab07",
+            "f05a91a0dca0bcbb9d9e20584923803df827e35b"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "function",
+          "time": 1313654499,
+          "commits": [
+            "cd440d338efa935713c92a56dc8eec67a703e521",
+            "152cbaade7bc2ec36546554eb2d2090a9833bfff",
+            "7661c08496b0dc9ce55657246f8e5e42051c812e"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "stdlib",
+          "time": 1311681962,
+          "commits": [
+            "aea537779e01359cf8da6944218362d44bfaee83",
+            "50f97cb368954937662f17b8bddab81206e4ab07",
+            "d9327a61bb01acceb431c47931d5c49c998918cd"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "XFAIL",
+          "time": 1291848647,
+          "commits": [
+            "68af077e8192a6a1b18778b97449ad695a4ecffb",
+            "49a8cb34d2b6e3f7af4a7cbe842fe48ffa0245eb",
+            "6d47d2abdee023f46b35b95e26e418ab9d67d39c"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "trans",
+          "time": 1279304245,
+          "commits": [
+            "348e434cee42cc2be0a4f5a6e6df8709d3490ff5",
+            "6cb5c0980a14aaad0c676a88160726de52cac456",
+            "a7016ade65b4870e6b270dee3affa640b72c8a29"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "interior",
+          "time": 1309976786,
+          "commits": [
+            "bbdba21b1f3c7dfc4c0bac3525cc35939ae8ca4c",
+            "0e2fff53375eba748b6d6727f69a2560f96bc8ec",
+            "6a0b06e56287f1de7ff096ed79fbf86e1e527290"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "istr",
+          "time": 1314484847,
+          "commits": [
+            "03119fe269de56e737562a9ee8d1bc47a9013eb4",
+            "ab6bb035e50f735cb36cc1959e5a097f076a3b74",
+            "9857048929c1adc90a19b2027931ac73a28f21dc"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "tag",
+          "time": 1327011843,
+          "commits": [
+            "bdb8f6cf52a2a4e2f78e6fa95d42140aa26ec31c",
+            "c3bc8fada838c15e09e76a9d5d85438667c1636c",
+            "0e6e56ca606dc8cc1d5435c3929c11c489f3854b"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "vectors",
+          "time": 1309976786,
+          "commits": [
+            "bbdba21b1f3c7dfc4c0bac3525cc35939ae8ca4c",
+            "0e2fff53375eba748b6d6727f69a2560f96bc8ec",
+            "917afa4cc9d323a888bb174f46c17610aeebfb2b"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "rustboot",
+          "time": 1305337108,
+          "commits": [
+            "6997adf76342b7a6fe03c4bc370ce5fc5082a869",
+            "76f7b043bc7c5084a6b4b3c900d51e2e66202c93",
+            "9bfc8bf11e15b7b9a782f1757f9a0ebe324b16e4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "startTime": 1327089974,
+      "endTime": 1350011381,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "rustdoc: Rename mk_srv_from_str/file to just from_str/file",
+          "time": 1329867266,
+          "commits": ["d6095dc6b5baa44c8d15db76dee185170b7be4b6"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Move src/comp to src/rustc",
+          "time": 1330742710,
+          "commits": ["87c14f1e3d85751bffffda0b1920be5e726172c4"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "stdlib: Stop incurring vtable dispatch costs when hashmaps are used",
+          "time": 1331167737,
+          "commits": ["f0250a23d3fa2f8b4a4a4113ca89e41945a4cfed"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "stdlib: Stop incurring vtable dispatch costs when hashmaps are used",
+          "time": 1331168205,
+          "commits": ["c9375fed8d55197a528edb3c3182aaf3b71abe76"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "std: Rename the hashmap constructors to conform to new standards",
+          "time": 1331774202,
+          "commits": ["3864d6d845f6bf9493698606bba2220daede4738"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "add mut decls to rustc and make them mandatory",
+          "time": 1332381652,
+          "commits": ["b653a1841631949f6d21c551a700a3cbe13bf42f"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "rustc: Remove the rustsyntax::attr wrapper in front",
+          "time": 1333048873,
+          "commits": ["0e8703934897df3622a5ed6f79722655b0ab9b7e"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "rustc: Move ext to librustsyntax",
+          "time": 1333054085,
+          "commits": ["106c9faa59c1a605d7e0d67da5b45d24863ec009"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "Rename some core::option functions",
+          "time": 1333406089,
+          "commits": ["21be1379d561b6679a8a2ea47dce88f948c5acca"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Add vstore/evec/estr to compiler.",
+          "time": 1334164852,
+          "commits": ["7a3b29024548e1dcb13590002d5cf4dd94ddd4d4"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "make nominal types optionally parameterized by a self region.",
+          "time": 1334894063,
+          "commits": ["3c995fb8f3676a313f5ac883e175cc5fe354e640"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Simplify representation of ast::path",
+          "time": 1335179086,
+          "commits": ["a872a99bfe400f794171a58fc47025133ce08155"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Start parsing pub/priv on regular items",
+          "time": 1336485984,
+          "commits": ["b619954457b9790de60cb09dc3953e9a4f630bed"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "First cut at dtors for classes",
+          "time": 1337030012,
+          "commits": ["5428a22b95ccd8c84a402e2f5cb4aa53ddc6f4d4"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "Annotate or fix FIXMEs in LLVM bindings and metadata code",
+          "time": 1337300458,
+          "commits": ["cf2fc2c34e99d8acaa706da7d2f4afe3ee3e7dfc"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "rustc: Move ast_map to the syntax crate",
+          "time": 1337668474,
+          "commits": ["9aa18c285245099fdb03eae6ce5a5e0a79a01c21"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "Adding shared_arc to hide some of the tedium of sharing an arc between tasks.",
+          "time": 1338256681,
+          "commits": ["aa2efc05ea9aae3016890d61793768952b81154e"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Get rid of little-used logging fns in util::common.  Closes #2553.",
+          "time": 1339199581,
+          "commits": ["7c0fd858db331d2505ab15bc70e6c5947378f271"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Move vector addition out of trans and into libcore.",
+          "time": 1340319749,
+          "commits": ["0e5cfd9f339c78384ef3fbcb4d230fa0bb363d54"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Getting rid of lots more vector +=. (issue #2719)",
+          "time": 1340696358,
+          "commits": ["b9d3ad0736dfc3a69f50155d2251f195de54b6c6"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Merge branch 'master' of github.com:mozilla/rust into incoming",
+          "time": 1340929836,
+          "commits": ["c9e8b7de826634780464921bc1f8f2b44c94d13c"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "tutorial: Some work on closures",
+          "time": 1341209362,
+          "commits": ["b446ea8710f83d8677e7e3569a02055e84ffbc76"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Change 'iface' to 'trait' internally; parse `trait` as `iface` synonym",
+          "time": 1341509138,
+          "commits": ["33334f3c435926422d88dcd5bfafd5e32b141111"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "rustc: Make function types have vstores in them",
+          "time": 1344640894,
+          "commits": ["0101125a962abae18525d6014cd26ad10bbb96e6"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "Rename resolve3 -> resolve.",
+          "time": 1346271986,
+          "commits": ["5eef15df126e8dfedc9e72ee3d9456ead0c9d06d"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "rustc: \"import\" -> \"use\"",
+          "time": 1346784876,
+          "commits": ["a26837c47872066b8bfb4e455fcf75fc573e862f"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "Refactor ty_var and ty_var_integral into one ty_infer variant",
+          "time": 1346959815,
+          "commits": ["fe9f0556d28e99417cef022c7486fe01440906f0"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Refactor fn_ty, working towards #3320",
+          "time": 1347028639,
+          "commits": ["fb8786fe522ed96172cf1ae8e205e3f2722e834c"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Promote 'struct' from a restricted keyword to a strict keyword",
+          "time": 1347405631,
+          "commits": ["27cc0a36b689bcbc58117450330f6fa4ebd35c9b"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "rustdoc: Camel case",
+          "time": 1348012120,
+          "commits": ["b3b1e62750bbce86833409ac59d9797fd5ba2964"]
+        },
+        {
+          "id": "r1",
+          "kind": "release",
+          "text": "0.1",
+          "time": 1327089974,
+          "commits": ["16e4369fe3b5f00aa3cdc584a4e41c51c0d3ca8a"]
+        },
+        {
+          "id": "r2",
+          "kind": "release",
+          "text": "0.2",
+          "time": 1332972992,
+          "commits": ["0622a74c48a708aec28d25964f4e9b4489580bc7"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "src/serializer/ created",
+          "time": 1328917396,
+          "commits": ["dbcb54f4dc44957c9505958655a16e678ee4396b"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "src/rustc/ created",
+          "time": 1330742710,
+          "commits": ["87c14f1e3d85751bffffda0b1920be5e726172c4"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "src/comp/ removed",
+          "time": 1331688213,
+          "commits": ["06c8acdd3167127170bc7024849d5f89bd9ac70e"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "src/serializer/ removed",
+          "time": 1331849884,
+          "commits": ["d365ec5c7d28ddf2907e722221c72228233843a7"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "src/librustsyntax/ created",
+          "time": 1333048873,
+          "commits": ["a0ed1fb20b3aa3b2854b183f43060e562b4664eb"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "src/librustsyntax/ removed",
+          "time": 1338452841,
+          "commits": ["7dcbaedd329295e1f2692bb2d9eae860a820d0a8"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "src/libsyntax/ created",
+          "time": 1338452841,
+          "commits": ["7dcbaedd329295e1f2692bb2d9eae860a820d0a8"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "core",
+          "time": 1333406089,
+          "commits": [
+            "21be1379d561b6679a8a2ea47dce88f948c5acca",
+            "4a78f9b16620489855da93c19be56f59431416f6",
+            "0c6e470a257fc546555aa10ededded4a77460a71"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "tutorial",
+          "time": 1341209362,
+          "commits": [
+            "b446ea8710f83d8677e7e3569a02055e84ffbc76",
+            "d5d774124730ee363620c6e4ec5bf65deea2385c",
+            "2891f5abe3c7f455d16930a35bfc8d8d623de0ff"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "rustc",
+          "time": 1346784876,
+          "commits": [
+            "a26837c47872066b8bfb4e455fcf75fc573e862f",
+            "87c14f1e3d85751bffffda0b1920be5e726172c4",
+            "b653a1841631949f6d21c551a700a3cbe13bf42f"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "Closes",
+          "time": 1339199581,
+          "commits": [
+            "7c0fd858db331d2505ab15bc70e6c5947378f271",
+            "4f576275be8473a17052300aabb811a767ad7b1b",
+            "85e79a3a8a52e339040a8533ba272a5891a62ce5"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "rustdoc",
+          "time": 1348012120,
+          "commits": [
+            "b3b1e62750bbce86833409ac59d9797fd5ba2964",
+            "fa2fb0f86831c7bdb1c874eb49074d11640d5cf9",
+            "f8742b476f136e002627c68822d207315d9c9558"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "tasks",
+          "time": 1338256681,
+          "commits": [
+            "aa2efc05ea9aae3016890d61793768952b81154e",
+            "f94339cc1c98a1ae3ee3beb94c848009167a58d9",
+            "7599d2dd51eb76892c929404dd7b49265e9f7c8f"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "region",
+          "time": 1334894063,
+          "commits": [
+            "3c995fb8f3676a313f5ac883e175cc5fe354e640",
+            "5bd4110170e053244636a97f9faa953a8147865f",
+            "825fd1808e2ac8763d16940531f037c9b387c871"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "std",
+          "time": 1331774202,
+          "commits": [
+            "3864d6d845f6bf9493698606bba2220daede4738",
+            "cb7a5395ddfaa7b8fc40db57b32c22f69780ccd6",
+            "85e79a3a8a52e339040a8533ba272a5891a62ce5"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "libcore",
+          "time": 1340319749,
+          "commits": [
+            "0e5cfd9f339c78384ef3fbcb4d230fa0bb363d54",
+            "651e63cc5c2b90204e8cd9d263da567fe2a66fbf",
+            "d0d68c6036275c0a190ad100d6eb36a537b76d80"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "str",
+          "time": 1329867266,
+          "commits": [
+            "d6095dc6b5baa44c8d15db76dee185170b7be4b6",
+            "d884085f43f87213e3045e474c39908d6555153a",
+            "1be24f0758d3075d2e7f141f8831bb8a233ce86e"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "syntax",
+          "time": 1337668474,
+          "commits": [
+            "9aa18c285245099fdb03eae6ce5a5e0a79a01c21",
+            "1f52652a06655fa1c9eb3ee278b62e488e1ccc28",
+            "f6e3738b9c824e56f561e75f0ff11cf3a0d2dd09"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "FIXMEs",
+          "time": 1337300458,
+          "commits": [
+            "cf2fc2c34e99d8acaa706da7d2f4afe3ee3e7dfc",
+            "88f03743b0e82fb25cd18f5e5503b03fb65ce0ed",
+            "1adc26d5e750b9cfd06981533056c59b68a78a1b"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "startTime": 1350014476,
+      "endTime": 1389233008,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "Add Luqman Aden to AUTHORS",
+          "time": 1350613024,
+          "commits": ["34aabe5051c1d9666ac673d9da2e8413a694a169"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Librarify rusti, etc.",
+          "time": 1352074925,
+          "commits": ["84208b2d26703cb6bab6b6eb443fe8aa153eda27"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "rustc: Implement explicit self for Eq and Ord. r=graydon",
+          "time": 1353366813,
+          "commits": ["318e534895f20e7991abbc644eec311816010ef1"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "librustc: Remove all legacy pattern bindings from libsyntax and librustc. rs=refactoring",
+          "time": 1354647000,
+          "commits": ["56ece46f7de9d1703dd39f952afac9bed22633b6"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "Reliciense makefiles and testsuite. Yup.",
+          "time": 1355189568,
+          "commits": ["d1affff623604de21813fd791042458ad54248e9"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "add priority queue implementation (binary heap)",
+          "time": 1355713604,
+          "commits": ["dd2b32be56945824e1e900d9748274633d6db6c1"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "librustc: Fix the test runner, the condition system, and core test. rs=bustage",
+          "time": 1356659584,
+          "commits": ["e26ca35b081e96d709f318e668e06209e89b95e2"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "syntax: convert ast::spanned into a struct",
+          "time": 1357747481,
+          "commits": ["93c2ebf9944274ca9d1e97589a992ff52c04f07d"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "librustdoc: De-export compiletest, combine-tests, libcargo, libfuzzer, and librustdoc. rs=deexporting",
+          "time": 1359583803,
+          "commits": ["83ced67d0b6cccb0de8f3df133f7b580db6f74c5"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "librustc: Change i1 to i8 for bools. Attempts to put out burning tree. rs=burningtree",
+          "time": 1360189682,
+          "commits": ["b34f871ddac7bc84366b25c89d0a69926cb069e0"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "librustc: Don't accept `as Trait` anymore; fix all occurrences of it.",
+          "time": 1363230232,
+          "commits": ["b1c699815ddf22bf17b58a8c3d317af33745e28d"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "auto merge of #5920 : catamorphism/rust/rustpkg, r=catamorphism",
+          "time": 1366326412,
+          "commits": ["50cd218c1e74dac5113e82bd3e03008d746a26df"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "auto merge of #6015 : catamorphism/rust/rustpkg-doc-second-try, r=catamorphism",
+          "time": 1366693429,
+          "commits": ["2871f4df6fe7a19d41ddca71d96b9192d86d278b"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "auto merge of #6054 : catamorphism/rust/rustpkg, r=graydon",
+          "time": 1366918961,
+          "commits": ["0604468fd540b4356ba28bf9a6d26b56b73d5b3b"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "auto merge of #6807 : catamorphism/rust/rustpkg-extern-mod, r=catamorphism",
+          "time": 1370139762,
+          "commits": ["fc5debd8fdda339e1453dc43368f4bfb15459841"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "auto merge of #7148 : catamorphism/rust/rustpkg_tests, r=graydon",
+          "time": 1371309177,
+          "commits": ["eac0200f18bfe19646ae5dce56acc325629224cb"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "auto merge of #7594 : chris-morgan/rust/proper-net-module-structure, r=huonw",
+          "time": 1373208063,
+          "commits": ["005c9bde45ba53b9039765a9ed549707973c15c4"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "rustpkg: Implement `uninstall` and `list` commands (#7749)",
+          "title": "rustpkg: Implement `uninstall` and `list` commands",
+          "time": 1373768302,
+          "commits": ["a1f4843895d1152527f94e73fc64bf744d97d255"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "auto merge of #7681 : catamorphism/rust/rustpkg-local-repos, r=catamorphism",
+          "time": 1373920821,
+          "commits": ["04f9ce0ae3ed8ea5b304ab15c9b554fe3fc6ce48"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "librustc: Remove all uses of \"copy\".",
+          "time": 1374091644,
+          "commits": ["99b33f721954bc5290f9201c8f64003c294d0571"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "auto merge of #8469 : gifnksm/rust/tutorial-ja, r=graydon",
+          "time": 1376510722,
+          "commits": ["e7b572952c76fd6b05c947aa3193e10410773078"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "auto merge of #9034 : catamorphism/rust/rustpkg-workcache, r=metajack",
+          "time": 1378782962,
+          "commits": ["8c7c0b41d7b1a3f240301387fa4152a060d532e4"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "auto merge of #8540 : cmr/rust/rustdoc_ng, r=catamorphism",
+          "time": 1379331647,
+          "commits": ["3e1803f3af1adc1b2e5595650f6920f40bbedc2e"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "auto merge of #9263 : catamorphism/rust/rustpkg-issue-7879, r=brson",
+          "time": 1379546452,
+          "commits": ["36cc41481c788e8d781e24908dcf30120797ed8d"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "auto merge of #9374 : alexcrichton/rust/rustdoc-web, r=cmr",
+          "time": 1379747762,
+          "commits": ["db78fdc10c0cf6c02005c0b8daefe9cf47aa806f"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "auto merge of #9395 : brson/rust/0.8, r=alexcrichton",
+          "time": 1379834756,
+          "commits": ["07167826d6b7b30c96cc9d6227fbe01b65e980f8"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "auto merge of #9732 : catamorphism/rust/rustpkg-read-only, r=brson",
+          "time": 1381451781,
+          "commits": ["2e1df8e35bb0185dc35f5e7976c0b46608c32404"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "auto merge of #9654 : catamorphism/rust/rustpkg-c-dependencies, r=brson",
+          "time": 1382500565,
+          "commits": ["4cbc8ad3979918fafb0527cc3326dc27b21936b0"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "auto merge of #9744 : DaGenix/rust/remove-crypto, r=alexcrichton",
+          "time": 1382934991,
+          "commits": ["9293a4127bffe08f6a6e2fbbec9e52229291c58c"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "auto merge of #11327 : nielsle/rust/rustpkg_argparse, r=alexcrichton",
+          "time": 1389016612,
+          "commits": ["55bb5e584cd9e15ac5970d86be1c5dbe96f75af7"]
+        },
+        {
+          "id": "r1",
+          "kind": "release",
+          "text": "0.4",
+          "time": 1350014476,
+          "commits": ["39c0d3591e0326874b7263a621ce09ecd64f0eb2"]
+        },
+        {
+          "id": "r2",
+          "kind": "release",
+          "text": "0.5",
+          "time": 1356051698,
+          "commits": ["8b98e5a296d95c5e832db0756828e5bec31c6f50"]
+        },
+        {
+          "id": "r3",
+          "kind": "release",
+          "text": "0.6",
+          "time": 1364926031,
+          "commits": ["00dbbd01c2aee72982b3e0f9511ae1d4428c3ba9"]
+        },
+        {
+          "id": "r4",
+          "kind": "release",
+          "text": "0.7",
+          "time": 1372782344,
+          "commits": ["a2db7c15ce9f586164cabb15d83fb3f6bbeb3cf5"]
+        },
+        {
+          "id": "r5",
+          "kind": "release",
+          "text": "0.8",
+          "time": 1380163856,
+          "commits": ["8a4f0fa6c518eb634687abe9659601d9d2a61899"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "src/librustdoc/ created",
+          "time": 1351975471,
+          "commits": ["6c79d788439de8446272a81f3aae6cc4d1d4ddd4"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "src/rustdoc/ removed",
+          "time": 1351975471,
+          "commits": ["6c79d788439de8446272a81f3aae6cc4d1d4ddd4"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "src/librustc/ created",
+          "time": 1352324889,
+          "commits": ["69a8b4d8e20df44766fad153b6300b0a6e7e3d5e"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "src/librustpkg/ created",
+          "time": 1360983198,
+          "commits": ["354da4108a483ece3b6424ea7d92e3b6e91d4239"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "mk/libuv/ removed",
+          "time": 1362465659,
+          "commits": ["ab500d8b8dd75c51fb4ec17907725d5f13b4e348"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "src/libextra/ created",
+          "time": 1369281158,
+          "commits": ["0c820d4123c754522b0655e9e74f692c55685bfa"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "doc/po/ created",
+          "time": 1373365529,
+          "commits": ["62bb843e3239844f25faff59065fa28c59a3ffac"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "src/libnative/ created",
+          "time": 1388048514,
+          "commits": ["9477c49a7b4eec2c2a3e0d9a28c4129e3d1fa6ec"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "librustc",
+          "time": 1374091644,
+          "commits": [
+            "99b33f721954bc5290f9201c8f64003c294d0571",
+            "57c599914a19861686030b238a0edc7ebb996068",
+            "2db3abddcd6784dc5529081c6d831c972abbe755"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "bustage",
+          "time": 1356659584,
+          "commits": [
+            "e26ca35b081e96d709f318e668e06209e89b95e2",
+            "13879d8e9f172de888db91d59ce267d0116d687d",
+            "84ce55e5427d0d36dbf6e330537175ab4162b6f2"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "burningtree",
+          "time": 1360189682,
+          "commits": [
+            "b34f871ddac7bc84366b25c89d0a69926cb069e0",
+            "6e2b082adc84c22ea3b023f4f08d7b21857fc399",
+            "cf6c3d96fb1a7230cbdd8ebc77af30ba35b9e35a"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "libsyntax",
+          "time": 1354647000,
+          "commits": [
+            "56ece46f7de9d1703dd39f952afac9bed22633b6",
+            "c532e033c9ee92d208a9bb2fac4c12d901932f42",
+            "54b2cad8b341434c7c0edb153a0fa662fb2981f1"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "struct",
+          "time": 1357747481,
+          "commits": [
+            "93c2ebf9944274ca9d1e97589a992ff52c04f07d",
+            "e90142e536c150df0d9b4b2f11352152177509b5",
+            "8a3a1fc1489fb1f313fdd75af4e73a6a3b271ce2"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "testsuite",
+          "time": 1355189568,
+          "commits": [
+            "d1affff623604de21813fd791042458ad54248e9",
+            "6d4907a7426de78b929b1db36e5d027e035a4d25",
+            "fad05591e5e421f0b43a906e18e7a26ebe92d07d"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "deexporting",
+          "time": 1359583803,
+          "commits": [
+            "83ced67d0b6cccb0de8f3df133f7b580db6f74c5",
+            "ae50912875ea784edac821c290dbbdfbf44b38e7",
+            "ba11e96289facfd33ed08bdf110b16a1cf940005"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "AUTHORS",
+          "time": 1350613024,
+          "commits": [
+            "34aabe5051c1d9666ac673d9da2e8413a694a169",
+            "0243d86e19295d9e25e6fa83005f0aa03eef519e",
+            "9ee5fff4f16cfc3390bd69abbb46b0a68521667c"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "rusti",
+          "time": 1352074925,
+          "commits": [
+            "84208b2d26703cb6bab6b6eb443fe8aa153eda27",
+            "9b723b25c736ec94112c7e5e755100e95edeb628",
+            "6a332b235fe497c428f729c6bdfd0409049d0b3d"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "Trait",
+          "time": 1363230232,
+          "commits": [
+            "b1c699815ddf22bf17b58a8c3d317af33745e28d",
+            "bb833ca0f0e878d381c3dc0c9afe958a810e4427",
+            "24a0de4e7f26d5bbd071fbec5b3958b650cd3f56"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "explicit",
+          "time": 1353366813,
+          "commits": [
+            "318e534895f20e7991abbc644eec311816010ef1",
+            "6d81307a9b9f29e262164f9e358f50c186c76d76",
+            "30a62793fa54a413a265591879c9775b798d762c"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "priority",
+          "time": 1355713604,
+          "commits": [
+            "dd2b32be56945824e1e900d9748274633d6db6c1",
+            "4a7e1ab3745f519536ef6e0377427fc41e47f7c6",
+            "757a2afb6b80cb4dbdcb8069f1af511ec42e8670"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "startTime": 1389233083,
+      "endTime": 1414798608,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "auto merge of #12186 : alexcrichton/rust/no-sleep-2, r=brson",
+          "time": 1392366407,
+          "commits": ["03b324ff4481255a371bb234fc3e53bcb8d08e7e"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "auto merge of #12235 : huonw/rust/raii-lock, r=alexcrichton",
+          "time": 1392506488,
+          "commits": ["d98668a55996d656072a4cac7abb1dcbbdf4f48b"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "auto merge of #12445 : huonw/rust/less-unsafe, r=alexcrichton",
+          "time": 1393281421,
+          "commits": ["b48bc9ec935f6c87d16628b026cc4b9c99746b94"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "auto merge of #12584 : alexcrichton/rust/windows-files, r=brson",
+          "time": 1393541816,
+          "commits": ["f01a9a8d02f6c09b89a3cecadaa5b62073381180"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "auto merge of #12918 : sfackler/rust/doc-html-attr, r=alexcrichton",
+          "time": 1394919098,
+          "commits": ["5cd17b8150e218f2634d3ec8cebbc5d38fa16c22"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "auto merge of #13448 : alexcrichton/rust/rework-chan-return-values, r=brson",
+          "time": 1397330518,
+          "commits": ["ab0d8472777d2359492dfdee1d21230fbf144f70"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "auto merge of #13604 : alexcrichton/rust/connect-timeout, r=brson",
+          "time": 1397894190,
+          "commits": ["158e0c86fe6c4db2d1dde8da156ce58aaf319dc4"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "auto merge of #13630 : alexcrichton/rust/correct-green-bounds, r=brson",
+          "time": 1398157595,
+          "commits": ["a5cd502e47ad99da87c328c1895e88d75cf702ff"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "auto merge of #13723 : alexcrichton/rust/pipe-connect-timeout, r=brson",
+          "time": 1398393374,
+          "commits": ["66486518d5e1e4f0850024386b66a7aa790fc32f"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "auto merge of #13751 : alexcrichton/rust/io-close-read, r=brson",
+          "time": 1399508497,
+          "commits": ["ab22d99e73f81f35dd4edbdc9b27152dc653f5b6"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "auto merge of #13814 : alexcrichton/rust/read-timeout, r=brson",
+          "time": 1399532501,
+          "commits": ["c39b1cb1bed78d989b1011f54f6febb7e9e46d94"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "auto merge of #14301 : alexcrichton/rust/remove-unsafe-arc, r=brson",
+          "time": 1400718689,
+          "commits": ["257a73ce8273d026f2af1a5021ae2d1a4e7b95e5"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "auto merge of #14348 : alexcrichton/rust/doc.rust-lang.org, r=huonw",
+          "time": 1400802983,
+          "commits": ["a0960a12239a473c2608e068824f565d6cd63966"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "auto merge of #14638 : alexcrichton/rust/librustrt, r=brson",
+          "time": 1402121195,
+          "commits": ["6266f64d09184f53fff4a6f7cea682b4dd714cf2"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "auto merge of #15014 : brson/rust/all-crates-experimental, r=cmr",
+          "time": 1403148678,
+          "commits": ["f05cd6e04e62651ec95a3ae66906399d7c0092a1"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "auto merge of #14886 : alexcrichton/rust/rt-improvements, r=brson",
+          "time": 1403811985,
+          "commits": ["4c33a14cc546ddacd5398cebf57aa5ac574cfea7"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "auto merge of #14904 : huonw/rust/cstr-remove-withref, r=alexcrichton",
+          "time": 1404040899,
+          "commits": ["b569c77148e8e839b38b678c7c167efc643d2721"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "auto merge of #15343 : alexcrichton/rust/0.11.0-release, r=brson",
+          "time": 1404436879,
+          "commits": ["5b11610ced12e42f3de4d7f41fe47bbf07dd5af2"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "auto merge of #15556 : alexcrichton/rust/snapshots, r=brson",
+          "time": 1404962490,
+          "commits": ["898701cb35833b2ecea8bc7f3902a35b7eccc219"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "auto merge of #15591 : aturon/rust/box-cell-stability, r=alexcrichton",
+          "time": 1405285288,
+          "commits": ["ffd9966c79ad034fe16e66e6c6795473473a6f50"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "auto merge of #16258 : aturon/rust/stabilize-atomics, r=alexcrichton",
+          "time": 1407313888,
+          "commits": ["84782c4e2681496d57f1ac91468d21df085b7782"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "auto merge of #16433 : aturon/rust/deprecated-in-crate, r=alexcrichton",
+          "time": 1407880885,
+          "commits": ["51c7e20d539eaed6e765612a02fbf2865e08a1bc"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "auto merge of #16693 : vadimcn/rust/rename--win32, r=pcwalton",
+          "time": 1408804257,
+          "commits": ["6843d8ccd562c5c5d45c0bba570908d5aa765610"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "auto merge of #15704 : alexcrichton/rust/issue-15595, r=brson",
+          "time": 1408931157,
+          "commits": ["83804f90852f51f043d3011657ba20c1876d2111"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "auto merge of #16664 : aturon/rust/stabilize-option-result, r=alexcrichton",
+          "time": 1409270180,
+          "commits": ["2e92c67dc0318a52fe42c3c0bca408f76c7feb61"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "auto merge of #17630 : sfackler/rust/cfg-warnings, r=brson",
+          "time": 1412155335,
+          "commits": ["ff2616e847ddf913e007d715732b5669b0f22672"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "Merge tag '0.12.0'",
+          "time": 1412872590,
+          "commits": ["158eaa643b96f474c6aeb11a94d6ba444c1f3867"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "auto merge of #17891 : brson/rust/verbump, r=alexcrichton",
+          "time": 1412889123,
+          "commits": ["8b12fb326b50c40c7b5acadb4403c7021fedb272"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "auto merge of #17939 : alexcrichton/rust/snapshots, r=sfackler",
+          "time": 1413018121,
+          "commits": ["9b9833299245cc1eac68b52169e9152d0f412d6b"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "auto merge of #16388 : Zoxc/rust/stmesg, r=alexcrichton",
+          "time": 1414171924,
+          "commits": ["a10917a6a9b087d10ac4fd0186b719218627281e"]
+        },
+        {
+          "id": "r1",
+          "kind": "release",
+          "text": "0.9",
+          "time": 1389233083,
+          "commits": ["7613b15fdbbb9bf770a2c731f4135886b0ff3cf0"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "src/librustpkg/ removed",
+          "time": 1391332287,
+          "commits": ["8665a51201f8610bcb35a6f52676fe3906250479"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "doc/ removed",
+          "time": 1391367689,
+          "commits": ["8d7bd499d2c01dc79d163a7b415a93ab8c22d785"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "src/doc/ created",
+          "time": 1391367689,
+          "commits": ["8d7bd499d2c01dc79d163a7b415a93ab8c22d785"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "src/libcollections/ created",
+          "time": 1391759195,
+          "commits": ["21b856d2dc6ae2e4b40c73958d34501358707b39"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "src/libextra/ removed",
+          "time": 1394863891,
+          "commits": ["fc7a112808fa918fa76c39ebd324bc5d19bc66e1"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "src/liballoc/ created",
+          "time": 1400389288,
+          "commits": ["134f797a6309e8f284372c745689bcde17829c30"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "src/librustc_back/ created",
+          "time": 1405397780,
+          "commits": ["2eadfe42e58de0263286195e7560cb85337a3847"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "mk/cfg/ created",
+          "time": 1414475213,
+          "commits": ["3f37e2efac1d04c7a3b17e5dde1453c1c0190eb1"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "startTime": 1414806105,
+      "endTime": 1525125753,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "Auto merge of #25350 - alexcrichton:msvc, r=brson",
+          "time": 1432081915,
+          "commits": ["43cf733bfa5affc74485daeae179cc2f855b5512"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Auto merge of #27076 - alexcrichton:update-llvm, r=brson",
+          "time": 1437149932,
+          "commits": ["d4432b37378ec55450e06799f5344b4b0f4b94e0"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "Auto merge of #28612 - gandro:targetvendor, r=alexcrichton",
+          "time": 1443226479,
+          "commits": ["78ce46ffddfed7dee58569b5f30242b00d299dfe"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "Auto merge of #29903 - nikomatsakis:incr-comp-ool-items, r=mw,nrc",
+          "time": 1447894890,
+          "commits": ["9303055f37a34adfceec1d1012b87308136295ce"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "Auto merge of #29932 - steveklabnik:trpl_book, r=brson",
+          "time": 1447951760,
+          "commits": ["fd688f40754ddc08dfa25fec9093fc6284b775ba"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "Auto merge of #30931 - oli-obk:trans_disr_newtype, r=arielb1",
+          "time": 1453026707,
+          "commits": ["0b524edb043c22a577968290fed1a4ff9936a28a"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "Auto merge of #31282 - pczarn:mir-trans-builder, r=nagisa",
+          "time": 1455007803,
+          "commits": ["8b95b0a6f98bc58f9a8b39caa8c681d1500c2e9b"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Auto merge of #32461 - mitaa:rdoc-anchors, r=alexcrichton",
+          "time": 1459215290,
+          "commits": ["cad964a62655110753d73527df7ad808a235fc84"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "Auto merge of #32562 - ben0x539:bug-macro, r=nikomatsakis",
+          "time": 1459599265,
+          "commits": ["1af79cf34e1fd6f38ba256631e2997ca650e490b"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Auto merge of #32016 - nikomatsakis:incr-comp-save, r=mw",
+          "time": 1460051737,
+          "commits": ["7979dd6089ee5cba39cfbe6e880a3edeb7fff788"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "Auto merge of #32939 - eddyb:layout, r=nikomatsakis",
+          "time": 1461162479,
+          "commits": ["6ece1447f02b2310e5f4c7ef1efd1312476cae80"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Auto merge of #33048 - Amanieu:integer_atomics, r=alexcrichton",
+          "time": 1462808938,
+          "commits": ["af0a433865321ee9fc5287eef63227baf4cba109"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Auto merge of #33282 - alexcrichton:rustbuild-crate-tests, r=brson",
+          "time": 1463088714,
+          "commits": ["4ec5ce5e44823c29d4f641f764e53d57e8b28a6a"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Auto merge of #34873 - alexcrichton:down-with-compiler-rt-for-good, r=brson",
+          "time": 1469066520,
+          "commits": ["e7c822cee29b5b939340c2cb0dfefa9a49742d77"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "Auto merge of #34980 - cardoe:expose-target-options, r=alexcrichton",
+          "time": 1469773132,
+          "commits": ["1523a5480a8abb717f9afcffe5b149579d8e5d3c"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "Auto merge of #35174 - arielb1:llvm-type-audit, r=eddyb",
+          "time": 1470235928,
+          "commits": ["a0b4e6764809022433edbff275528ec2540bda73"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "Auto merge of #36151 - camlorn:struct_layout_optimization, r=eddyb",
+          "time": 1474854420,
+          "commits": ["9966397b61d5e065b692c59f4f721e31d038f1fc"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Auto merge of #36874 - japaric:thumbs, r=alexcrichton",
+          "time": 1475594981,
+          "commits": ["a5dac7a2af3ee444817eb7bfbba3539be8c06cf1"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Auto merge of #37670 - eddyb:rollup, r=eddyb",
+          "time": 1478721505,
+          "commits": ["da2ce2276873242a101f205537e7ce297d68f8dd"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Auto merge of #38324 - alexcrichton:fix-nightlies, r=alexcrichton",
+          "time": 1481580845,
+          "commits": ["1336742a1a6c16be4c3af88b2e3d69b762154c19"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Auto merge of #38340 - alexcrichton:fix-travis, r=alexcrichton",
+          "time": 1481709398,
+          "commits": ["01d53df82ef12625f947f5c0a6004e1aea2f9782"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "Auto merge of #38302 - Mark-Simulacrum:trans-cleanup, r=eddyb",
+          "time": 1482316702,
+          "commits": ["1b38776c1f68c6fd47c1b2f7b7974efc7dd64901"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Auto merge of #38756 - Mark-Simulacrum:2nd-trans-cleanup, r=eddyb",
+          "time": 1483596084,
+          "commits": ["5dd07b66ffc8d21b9d73c99def588ff8b2242974"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "Auto merge of #38551 - aidanhs:aphs-vec-in-place, r=brson",
+          "time": 1483794172,
+          "commits": ["31918864261c9fde79df1f84c5f22ab40b115ca9"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "Auto merge of #39728 - eddyb:vendeur-tres-bien, r=alexcrichton",
+          "time": 1487055985,
+          "commits": ["48bc08247a7b4a5579437df54ca3f4a3fb25ce8d"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "Auto merge of #40658 - eddyb:lay-more-out, r=arielb1",
+          "time": 1491743290,
+          "commits": ["2c48ae6f7ffae392d85c86240c67f49df01f44fd"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "Auto merge of #40018 - japaric:ld, r=alexcrichton",
+          "time": 1491847223,
+          "commits": ["3b5754e5ce73d24c6684b3ed0c68a557dfdd2f52"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Auto merge of #42816 - alexcrichton:probestack, r=nikomatsakis",
+          "time": 1499361314,
+          "commits": ["cd72f2e269357ea4da4d0cf5502af35f4f9dab9e"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Auto merge of #44906 - dkl:main-signature, r=nagisa",
+          "time": 1506849293,
+          "commits": ["0defa208dcb5a0f3c1ca5bc4df7acf52759ece44"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Auto merge of #47209 - eddyb:ccx, r=nikomatsakis",
+          "time": 1516089975,
+          "commits": ["da569fa9ddf8369a9809184d43c600dc06bd4b4d"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "src/librustc_mir/ created",
+          "time": 1441575086,
+          "commits": ["3dd1a48f3f7ac0eeffb2aa5d79bc09daf827fc3f"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "src/bootstrap/ created",
+          "time": 1455236353,
+          "commits": ["78a5d5b54e0ff91bda8518df7ed9673cc657a4e6"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "src/tools/ created",
+          "time": 1457699884,
+          "commits": ["aeb85a953322df7773095186e9762f3fe73375e2"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "src/vendor/ created",
+          "time": 1478721505,
+          "commits": ["da2ce2276873242a101f205537e7ce297d68f8dd"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "src/ci/ created",
+          "time": 1478939990,
+          "commits": ["f3af8c8505255555023e4cb7c6c4f297ce22d80d"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "src/vendor/ removed",
+          "time": 1487055985,
+          "commits": ["48bc08247a7b4a5579437df54ca3f4a3fb25ce8d"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "src/rt/ removed",
+          "time": 1519524434,
+          "commits": ["026339e42ba11a559767029d933d1197aefb877a"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "src/librustc_target/ created",
+          "time": 1524758448,
+          "commits": ["949010d23e9f7037a8e6f323588873b3d2438fb1"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "mir",
+          "time": 1455007803,
+          "commits": [
+            "8b95b0a6f98bc58f9a8b39caa8c681d1500c2e9b",
+            "bdfb13518ed26529f03bf024f1fb928e1df04ba6",
+            "7c27cce9e59bbbc1e556de257de85122dad88dcd"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "rustbuild",
+          "time": 1463088714,
+          "commits": [
+            "4ec5ce5e44823c29d4f641f764e53d57e8b28a6a",
+            "f01bb5ed24c90f80bf30d0967679d21111d5f298",
+            "9003e1ab6a2e26ec881b9ff297095a8343ebc7d1"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "aphs",
+          "time": 1483794172,
+          "commits": [
+            "31918864261c9fde79df1f84c5f22ab40b115ca9",
+            "199b7e211d6d9173fded261e0a4de984efc0c2eb",
+            "abef7e1fd26e6828bbba457173a76d150b1378d8"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "incr",
+          "time": 1447894890,
+          "commits": [
+            "9303055f37a34adfceec1d1012b87308136295ce",
+            "54c0dcfd634cf31e6c18df5776cab2f3e7870157",
+            "8d2d2be6c61c17da8027a72da91f87a0e2487f74"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "save",
+          "time": 1460051737,
+          "commits": [
+            "7979dd6089ee5cba39cfbe6e880a3edeb7fff788",
+            "4f3c19f547d62c3c2824979ea453a6558d6c873e",
+            "579e31929feff51dcaf8d444648eff8de735f91a"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "comp",
+          "time": 1447894890,
+          "commits": [
+            "9303055f37a34adfceec1d1012b87308136295ce",
+            "54c0dcfd634cf31e6c18df5776cab2f3e7870157",
+            "8d2d2be6c61c17da8027a72da91f87a0e2487f74"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "rdoc",
+          "time": 1459215290,
+          "commits": [
+            "cad964a62655110753d73527df7ad808a235fc84",
+            "478a33dabc4e6f2f501f476c79b56178d9df4f37",
+            "beb444eaed6b1b387538435e6eb99fa0cd0f0bed"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "macro",
+          "time": 1459599265,
+          "commits": [
+            "1af79cf34e1fd6f38ba256631e2997ca650e490b",
+            "9d3caecdd7f16137dbba14178a3e54d2a4113e07",
+            "4f9c9ed1a53d176fb0650042f226222f401c21eb"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "trpl",
+          "time": 1447951760,
+          "commits": [
+            "fd688f40754ddc08dfa25fec9093fc6284b775ba",
+            "10305fcfdcf01cebaafa57b599506e36cc09055f",
+            "cc156c2f3819e8818c66e5f5d0bb143739e3bbb0"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "msvc",
+          "time": 1432081915,
+          "commits": [
+            "43cf733bfa5affc74485daeae179cc2f855b5512",
+            "40c85cd8aec5de06140252610ad4bdc352324e2c",
+            "9f26f14dc9b1e152a79e0999556f09f4ca952658"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "travis",
+          "time": 1481709398,
+          "commits": [
+            "01d53df82ef12625f947f5c0a6004e1aea2f9782",
+            "15db6ec5714dffab7b36db44de9ece5e76301e04",
+            "d7798c3d179c7c18736fc0465e7ba6618c575a34"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "nightlies",
+          "time": 1481580845,
+          "commits": [
+            "1336742a1a6c16be4c3af88b2e3d69b762154c19",
+            "d54e72317998cfe1df90256ad0669dd193cf2f66",
+            "5661be01b61bbd22afbd95fde88591bc50947b42"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "startTime": 1525133776,
+      "endTime": 1540993920,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "Auto merge of #50967 - oli-obk:miri_api_refactor, r=eddyb",
+          "time": 1527256788,
+          "commits": ["990d8aa743b1dda3cc0f68fe09524486261812c6"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Auto merge of #51182 - eddyb:not-just-visibility, r=nikomatsakis",
+          "time": 1527756909,
+          "commits": ["30cae5870907e7ae9e74a39eee5bcf55ee5d2809"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "Auto merge of #51463 - estebank:error-codes, r=nikomatsakis",
+          "time": 1529637876,
+          "commits": ["4b17d31f1147f840231c43b1ac1478a497af20df"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "Auto merge of #51583 - cuviper:packed_pair-bool, r=Mark-Simulacrum",
+          "time": 1531192127,
+          "commits": ["b3e7d70ce7730a929fd3d5094e8ad2eb71c3a399"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "Auto merge of #51987 - nikomatsakis:nll-region-infer-scc, r=pnkfelix",
+          "time": 1531488535,
+          "commits": ["bce32b532de61434841b7c2ce3085e1f63d6a7a1"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "Auto merge of #52266 - michaelwoerister:incr-thinlto-preliminaries, r=alexcrichton",
+          "time": 1531519598,
+          "commits": ["a14a361c2c80fdcd0270766e0bd57104e608988e"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "Auto merge of #52353 - alexcrichton:wasm-custom-section, r=eddyb",
+          "time": 1531883127,
+          "commits": ["cd5f5a129fab998a1ee7c72204d093dc475981d1"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Auto merge of #52024 - oli-obk:existential_parse, r=nikomatsakis",
+          "time": 1532034841,
+          "commits": ["c7cba3d33f564be140275c4fb9e33c6dc2c97b21"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "Auto merge of #52562 - Manishearth:clippyup, r=RalfJung",
+          "time": 1532176337,
+          "commits": ["606713f37aadbdb314137df464f099130c2062bd"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Auto merge of #52597 - oli-obk:promotion_simplify, r=nagisa",
+          "time": 1532437806,
+          "commits": ["6a3db033ad05f156281d50ee489d727ee0e5d767"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "Auto merge of #52461 - irinagpopa:safe-llvm, r=nikomatsakis",
+          "time": 1533043952,
+          "commits": ["f89817997ac0aa100bf91997194ad85a7e59f743"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Auto merge of #52758 - Mark-Simulacrum:session-cleanup, r=pnkfelix",
+          "time": 1533406959,
+          "commits": ["94c3c340cce53396d23a20b236fa94f1d34b6df7"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Auto merge of #53016 - scottmcm:impl-header-lifetime-elision, r=nikomatsakis",
+          "time": 1533591932,
+          "commits": ["45a9d410f934247256812eda55ca66dd6999b3de"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Auto merge of #51007 - AstralSorcerer:master, r=nagisa",
+          "time": 1533607955,
+          "commits": ["11a902431b8e66da8486b3b9a2d8527746c6ab1a"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "Auto merge of #53031 - michaelwoerister:cross-lto, r=alexcrichton",
+          "time": 1533820814,
+          "commits": ["b73535f1e9c46a698527fab51b1cc9fad3f53412"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "Auto merge of #53161 - michaelwoerister:cstrings, r=wesleywiser",
+          "time": 1534159147,
+          "commits": ["a78ae85e5942b5d41c7bddf8243ede7f350d4886"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "Auto merge of #53437 - alexcrichton:fix-target-features, r=michaelwoerister",
+          "time": 1534560639,
+          "commits": ["6b1ff19af36f7bbf1974579ec1b9bf2c8ccd595e"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Auto merge of #51131 - qnighy:unsized-locals, r=eddyb",
+          "time": 1534681316,
+          "commits": ["b355906919927ab3c879becd14392f023af883a1"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Auto merge of #51880 - varkor:generics-hir-generalisation-followup, r=eddyb",
+          "time": 1534780059,
+          "commits": ["1558ae7cfd5e1190d3388dcc6f0f734589e4e478"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Auto merge of #53679 - japaric:cortex-r, r=alexcrichton",
+          "time": 1535473407,
+          "commits": ["7061b2775782bb48c0a70d3c79ec711134396687"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Auto merge of #53671 - RalfJung:miri-refactor, r=oli-obk",
+          "time": 1535500957,
+          "commits": ["f1d02c307348057fd0554ad934006b186f8b6826"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "Auto merge of #54057 - matthiaskrgr:stabilize-edition-plus-clippy, r=Mark-Simulacrum",
+          "time": 1536509379,
+          "commits": ["f50b7758f4dc85dc1c5e38258adaa94213ac6ed1"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Auto merge of #54286 - nnethercote:BitSet, r=pnkfelix",
+          "time": 1537242759,
+          "commits": ["b80cb47889e0ad9400b6708ce2b4c4b364b71982"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "Auto merge of #54318 - nnethercote:use-HybridBitSet-in-SparseBitMatrix, r=pnkfelix",
+          "time": 1537324657,
+          "commits": ["ff6422d7a392acfc8af28994d65af2bbaecea4f6"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "Auto merge of #54380 - RalfJung:miri-snapshot, r=eddyb",
+          "time": 1537706034,
+          "commits": ["be91c35f3466843713b9b6c5a7238ba83aef3602"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "Auto merge of #54526 - nnethercote:shrink-StatementKind, r=nagisa",
+          "time": 1538004168,
+          "commits": ["441519536c8bd138e8c651743249acd6814747a1"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "Auto merge of #54568 - levex:issue-54130, r=nagisa",
+          "time": 1538126248,
+          "commits": ["d623ec6ba32b2d056810c7a8dabdc3e5198a2a53"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Auto merge of #54667 - RalfJung:maybe-uninit, r=pnkfelix",
+          "time": 1538405904,
+          "commits": ["de3d640f59c4fa4a09faf2a8d6b0a812aaa6d6cb"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Auto merge of #54911 - ljedrz:cleanup_codegen_llvm_top, r=michaelwoerister",
+          "time": 1539259026,
+          "commits": ["b8b4150c042b06c46e29a9d12101f91fe13996e0"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Auto merge of #54183 - qnighy:by-value-object-safety, r=oli-obk",
+          "time": 1540668575,
+          "commits": ["cae6efc37d70ab7d353e6ab9ce229d59a65ed643"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "src/librustc_const_math/ removed",
+          "time": 1525176974,
+          "commits": ["0d8321b5e87c87aa4dbea729b4dd722740fac645"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "src/librustc_codegen_llvm/ created",
+          "time": 1526566211,
+          "commits": ["dbd10f81758381339f98994b8d31814cf5e98707"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "src/librustc_codegen_utils/ created",
+          "time": 1526566211,
+          "commits": ["dbd10f81758381339f98994b8d31814cf5e98707"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "src/librustc_trans/ removed",
+          "time": 1526566211,
+          "commits": ["dbd10f81758381339f98994b8d31814cf5e98707"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "src/librustc_trans_utils/ removed",
+          "time": 1526566211,
+          "commits": ["dbd10f81758381339f98994b8d31814cf5e98707"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "src/libbacktrace/ removed",
+          "time": 1527689955,
+          "commits": ["74d09399c1289a20b1c258153f005f2604f9ec46"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "src/libstd_unicode/ removed",
+          "time": 1533112896,
+          "commits": ["8c069ceba81a0fffc1ce95aaf7e8339e11bf2796"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "src/librustc_metadata_utils/ created",
+          "time": 1533347065,
+          "commits": ["c11f2d286c747b44f8e03ce10f6daa36f5d8331c"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "nll",
+          "time": 1531488535,
+          "commits": [
+            "bce32b532de61434841b7c2ce3085e1f63d6a7a1",
+            "bfbf8375d7b1a4f4fb8a5feb54ae132847d916ad",
+            "2f1547c0aa5957b42cc768c00119c6eb7b4262d3"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "impl",
+          "time": 1533591932,
+          "commits": [
+            "45a9d410f934247256812eda55ca66dd6999b3de",
+            "ff59ab127ac92885e4273bb73c8ac5a999c327bf",
+            "862703e05e275d77b0b594bb5d1a26a6340933f2"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "wasm",
+          "time": 1531883127,
+          "commits": [
+            "cd5f5a129fab998a1ee7c72204d093dc475981d1",
+            "a5097f3d68dace106de4dbe524f7892e779a836e",
+            "d8af8b66d948ff394db1b3a50e2e4fbe02512239"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "promotion",
+          "time": 1532437806,
+          "commits": [
+            "6a3db033ad05f156281d50ee489d727ee0e5d767",
+            "088fc7384c1ac3f7670d66880c7dcc0ec9160c79",
+            "163adf2860d0a5d9eff0e401e314de9383ff56a1"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "error",
+          "time": 1529637876,
+          "commits": [
+            "4b17d31f1147f840231c43b1ac1478a497af20df",
+            "942b384d61590c39eb635596de0370a823001817",
+            "ab8a67c12adc6ba84b6143a539640d5962ef6cbe"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "clippyup",
+          "time": 1532176337,
+          "commits": [
+            "606713f37aadbdb314137df464f099130c2062bd",
+            "5de52817c43fcb767ab3c7ecf051872cad6d0df2",
+            "55c04babb88beb20331b80ad9e4a51f860fb2392"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "existential",
+          "time": 1532034841,
+          "commits": [
+            "c7cba3d33f564be140275c4fb9e33c6dc2c97b21",
+            "ec60dd81f9b749092d9a2dc871eef620e0f520f5",
+            "7c2aeb9d974e85e54efa18cd63195bfd95347a44"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "clippy",
+          "time": 1536509379,
+          "commits": [
+            "f50b7758f4dc85dc1c5e38258adaa94213ac6ed1",
+            "4ba5ff4d3020ed0de7da8f976204342a2102fdf1",
+            "7e320595320855beb97a5959d67bd12f2afca4d1"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "thinlto",
+          "time": 1531519598,
+          "commits": [
+            "a14a361c2c80fdcd0270766e0bd57104e608988e",
+            "ee73f80dc963707df3b3da82976556d64cac5752",
+            "317ae05a7e4ee5324cc006eda877eb8f2eb57898"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "cortex",
+          "time": 1535473407,
+          "commits": [
+            "7061b2775782bb48c0a70d3c79ec711134396687",
+            "8b923a19edd32a46ca75f234fef32081376bd111",
+            "522aa5e00bde42fa8ad380b30763ed4921a7c3a0"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "generalisation",
+          "time": 1534780059,
+          "commits": [
+            "1558ae7cfd5e1190d3388dcc6f0f734589e4e478",
+            "662c70a59f79919640465b8753f790af822e96c8",
+            "e44fc6c52d9674ed09958512e3bf09bc55bccecf"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "SparseBitMatrix",
+          "time": 1537324657,
+          "commits": [
+            "ff6422d7a392acfc8af28994d65af2bbaecea4f6",
+            "a57d5d7b25d471c902608223793d9b3bb8c4643c",
+            "caed80ba4ba8d9f4d3fa8aa9af6c4092d779cd9d"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "startTime": 1541040060,
+      "endTime": 1572534953,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "Auto merge of #55521 - nrc:rls-fix, r=petrochenkov",
+          "time": 1541040060,
+          "commits": ["c613d26ee2ed801f775af9872062775ab89609ac"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Auto merge of #55349 - bjorn3:rustc_mir_collect_and_partition_mono_items, r=oli-obk",
+          "time": 1541334055,
+          "commits": ["ac708826b0d97e105f91a4cde41bfe14cff032f2"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "Auto merge of #55665 - eddyb:by-ref-layout-of, r=oli-obk",
+          "time": 1541357803,
+          "commits": ["e6c5cf923489f4aed6c9e36a170fab9b6179d8da"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "Auto merge of #55627 - sunfishcode:cg-llvm-gen, r=nikomatsakis",
+          "time": 1542427852,
+          "commits": ["f6e9485bfc245eb5f10b1f2b0a786538d12d1cb0"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "Auto merge of #54071 - eddyb:alignsssss, r=oli-obk",
+          "time": 1542934941,
+          "commits": ["6a2d1b4e15d5de90f8c36181b1d429da658adfd2"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "Auto merge of #56198 - bjorn3:cg_ssa_refactor, r=eddyb",
+          "time": 1543773740,
+          "commits": ["21f26849506c141a6760532ca5bdfd8345247fdb"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "Auto merge of #56566 - ljedrz:fix_clippy_errors, r=cramertj",
+          "time": 1544196078,
+          "commits": ["1c3236afc3560b5781acf942a4746aeb11e5374e"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Auto merge of #57303 - matthiaskrgr:clippy_submodule_upd, r=oli-obk",
+          "time": 1546890240,
+          "commits": ["8e2063d02062ee9f088274690a97826333847e17"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "Auto merge of #58316 - Centril:rollup, r=Centril",
+          "time": 1549674253,
+          "commits": ["cb6fafbdf3b09da28b09fa7e87a24658d77dd02f"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Auto merge of #58561 - ljedrz:HirIdify_some_nodes, r=Zoxc",
+          "time": 1551161607,
+          "commits": ["ea43c3c688980edd6f09a4cb632c9eb996c4f2af"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "Auto merge of #58631 - spastorino:place2_1, r=oli-obk",
+          "time": 1551434417,
+          "commits": ["17add2498f20bb5a638a65c53407c72ac11becf6"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Auto merge of #59178 - oli-obk:lazy_const, r=eddyb",
+          "time": 1552821423,
+          "commits": ["070cebd0aa76702eaaf7c7f340615805f661e937"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Auto merge of #58846 - bjorn3:misc_cg_ssa_refactor, r=eddyb",
+          "time": 1553895975,
+          "commits": ["26714219f1c5f8c748f95198d0824551ea2e0eeb"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Auto merge of #59590 - Centril:rollup, r=Centril",
+          "time": 1554052874,
+          "commits": ["4fac5c98b22faa7fce2d5d64bf34c61340883302"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "Auto merge of #59564 - bjorn3:move_link_to_cg_ssa, r=eddyb",
+          "time": 1555762729,
+          "commits": ["0d1732212fb5f6c6653a776a0ce46bc73ce77ebb"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "Auto merge of #60355 - Manishearth:clippyup, r=centril",
+          "time": 1556559855,
+          "commits": ["a55c2eb325029960991508e64650a139b040d24f"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "Auto merge of #59897 - tmandry:variantful-generators, r=eddyb",
+          "time": 1556939894,
+          "commits": ["e2326366935613816927e679d3b2dc04db44678c"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Auto merge of #60237 - saleemjaffer:issue-56166-miri-fntype-arg-passing, r=eddyb",
+          "time": 1557080713,
+          "commits": ["d628c2e642c6f8f85f24dd5d7f49de89b95bf682"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Auto merge of #60386 - Goirad:sgx-ignore-tests, r=nikomatsakis",
+          "time": 1558170254,
+          "commits": ["b8aa422a788c45c67d747346276d229d08925fe1"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Auto merge of #60777 - pietroalbini:azure-pipelines, r=alexcrichton",
+          "time": 1558725733,
+          "commits": ["dec4c5201f88efbc3020b04ba96a5ee2c3b6cfcd"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Auto merge of #61062 - mark-i-m:mono-mv, r=eddyb,oli-obk",
+          "time": 1559550507,
+          "commits": ["da9ebc828c982d2ed49396886da85011e1b0a6c0"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "Auto merge of #61772 - alexcrichton:pr-and-master-builds, r=pietroalbini",
+          "time": 1560440698,
+          "commits": ["0e4a56b4b04ea98bb16caada30cb2418dd06e250"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Auto merge of #62147 - Centril:rollup-pigazoz, r=alexcrichton",
+          "time": 1561623327,
+          "commits": ["a6b5d229c1ddd7659af82109377aa8a3568f68a1"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "Auto merge of #61682 - Centril:stabilize-type_alias_enum_variants, r=petrochenkov",
+          "time": 1561950679,
+          "commits": ["5748825cc8c74cccef0059cdd4043e6e9b4aa188"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "Auto merge of #62555 - Centril:rollup-ti46adx, r=Centril",
+          "time": 1562736103,
+          "commits": ["0324a2b309cd66cb7bd4a156bd0b84cb136e254f"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "Auto merge of #61590 - matthewjasper:remove-borrowck-mir-dependency, r=pnkfelix",
+          "time": 1562907365,
+          "commits": ["1b1b538843503568994c7ef37ea8206f0ee3c2e4"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "Auto merge of #60913 - spastorino:place2_4, r=oli-obk",
+          "time": 1563679505,
+          "commits": ["1301422a6c2e8916560b8cc2f0564f38d8858a75"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Auto merge of #63420 - spastorino:place2_5, r=oli-obk",
+          "time": 1568389035,
+          "commits": ["a6946a817a1345ce739acd8b12255c0a595e9b39"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Auto merge of #64469 - matthewjasper:increase-hygiene-use, r=petrochenkov",
+          "time": 1568535477,
+          "commits": ["117cdf35d46cb4dbb246e300a492c860a86233be"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Auto merge of #64790 - Centril:rip-ast-borrowck, r=matthewjasper",
+          "time": 1569619029,
+          "commits": ["c6f87c2c6e3b34381e5c37567a2b11af1fdf1507"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "src/librustc_codegen_ssa/ created",
+          "time": 1542427852,
+          "commits": ["f6e9485bfc245eb5f10b1f2b0a786538d12d1cb0"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "src/librustc_platform_intrinsics/ removed",
+          "time": 1547640910,
+          "commits": ["cccaf9a8c69219c8267e406f92fef895fbba80f2"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "src/librustc_interface/ created",
+          "time": 1551387732,
+          "commits": ["350674b7180a41c8e508d93c6ab8e203b69d3df7"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "src/librustc_ast_borrowck/ created",
+          "time": 1562907365,
+          "commits": ["1b1b538843503568994c7ef37ea8206f0ee3c2e4"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "src/librustc_borrowck/ removed",
+          "time": 1562907365,
+          "commits": ["1b1b538843503568994c7ef37ea8206f0ee3c2e4"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "src/librustc_ast_borrowck/ removed",
+          "time": 1569619029,
+          "commits": ["c6f87c2c6e3b34381e5c37567a2b11af1fdf1507"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "src/grammar/ removed",
+          "time": 1569916612,
+          "commits": ["702b45e409495a41afcccbe87a251a692b0cefab"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "src/libsyntax_expand/ created",
+          "time": 1571338390,
+          "commits": ["fa0f7d0080d8e7e9eb20aa9cbf8013f96c81287f"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "miri",
+          "time": 1557080713,
+          "commits": [
+            "d628c2e642c6f8f85f24dd5d7f49de89b95bf682",
+            "2111aed0a38c819acb140c7153e9366964a37f2f",
+            "8315b11b6352cbd91ee096571c31ae7d3ac9613d"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "clippy",
+          "time": 1544196078,
+          "commits": [
+            "1c3236afc3560b5781acf942a4746aeb11e5374e",
+            "d6e4028a0db6b13d9a603baad109d6c902802c03",
+            "8e2063d02062ee9f088274690a97826333847e17"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "upd",
+          "time": 1546890240,
+          "commits": [
+            "8e2063d02062ee9f088274690a97826333847e17",
+            "43b4c4a36b6c189bf0718a9d77ff1164c3fa7cac",
+            "775486589279430b4c9ebe7c1aac6017563c853a"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "submodule",
+          "time": 1546890240,
+          "commits": [
+            "8e2063d02062ee9f088274690a97826333847e17",
+            "43b4c4a36b6c189bf0718a9d77ff1164c3fa7cac",
+            "775486589279430b4c9ebe7c1aac6017563c853a"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "clippyup",
+          "time": 1556559855,
+          "commits": [
+            "a55c2eb325029960991508e64650a139b040d24f",
+            "3103fb2f72ad0443a354d4b6f5966645b5f85885",
+            "dc7c4aa804c4f26ba6de8a39d3c8eea88e8b8938"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "generators",
+          "time": 1556939894,
+          "commits": [
+            "e2326366935613816927e679d3b2dc04db44678c",
+            "d8a0dd7ae88023bd09fa4b86c9ca1f6ed8095b43",
+            "20958fc81f5be100fba90db91539d58fa89c948e"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "const",
+          "time": 1552821423,
+          "commits": [
+            "070cebd0aa76702eaaf7c7f340615805f661e937",
+            "9cb052acfb25c12d5e8960f9ea53b69a2f19b0e8",
+            "d6d32ac25df2984f66b6abd14c1096880e04179a"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "sgx",
+          "time": 1558170254,
+          "commits": [
+            "b8aa422a788c45c67d747346276d229d08925fe1",
+            "15a2607863fded7570cacfc7825702dde5a4234c",
+            "54479c624cc24bb852291d83e11cc19389dcb21b"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "rls",
+          "time": 1541040060,
+          "commits": [
+            "c613d26ee2ed801f775af9872062775ab89609ac",
+            "d969c61e8c8be5b54fd96b7c3bc40cb9b3ace3c2",
+            "777cc25bacbd7cd4f4ddd631006a998fa74b5ed3"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "azure",
+          "time": 1558725733,
+          "commits": [
+            "dec4c5201f88efbc3020b04ba96a5ee2c3b6cfcd",
+            "cd2cd4c9627e52c33e68e8c93a8916dc11094cbb",
+            "e3cebcb3bd4ffaf86bb0cdfd2af5b7e698717b01"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "stabilize",
+          "time": 1561950679,
+          "commits": [
+            "5748825cc8c74cccef0059cdd4043e6e9b4aa188",
+            "45859b7ca764cafb14efb8c63a83d5e48dc5d016",
+            "0beb2ba16a08dfa01569b5f4644da315dc4c806c"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "HirIdify",
+          "time": 1551161607,
+          "commits": [
+            "ea43c3c688980edd6f09a4cb632c9eb996c4f2af",
+            "4424a2c31a5c84dc4d47083113af6e916ff938c0",
+            "576df31bedd35a1c7336ce7259bbe93ab662edef"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "startTime": 1572578131,
+      "endTime": 1596239566,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "Auto merge of #66314 - GuillaumeGomez:move-error-codes, r=Centril",
+          "time": 1573740698,
+          "commits": ["82cf3a4486bc882207a09bf0d9e2dea4632781aa"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Auto merge of #66677 - wesleywiser:fix_const_prop_alloc_id_ice, r=oli-obk",
+          "time": 1574841658,
+          "commits": ["876a72a251e0d533f776fa9149b3e4daaeea3a61"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "Auto merge of #66931 - cjgillot:hirene-preamble, r=eddyb",
+          "time": 1577010651,
+          "commits": ["26286c7ad0e8a5efc1e6a8ef88ffd64723112ae8"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "Auto merge of #67707 - petrochenkov:crateren, r=Centril",
+          "time": 1577729214,
+          "commits": ["a9dd56ff9a08d74c53d5cc22d18f126a12749608"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "Auto merge of #67901 - matthewjasper:split-mir-build, r=nagisa",
+          "time": 1578822295,
+          "commits": ["59c1db0339327f8b98c42ef0627a464915966d9b"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "Auto merge of #68823 - matthiaskrgr:submodule_upd, r=ehuss",
+          "time": 1581472021,
+          "commits": ["e6db6697fa84271695a96570370f3f194785699a"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "Auto merge of #69330 - Centril:literally-melting-ice, r=eddyb",
+          "time": 1582279462,
+          "commits": ["212aa3ea28d91a97d1e1261709c0b6e6790788e6"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Auto merge of #69366 - Centril:unified-items, r=petrochenkov",
+          "time": 1582504261,
+          "commits": ["79cd224e758f603898b64308e849fbb9be6e6f4d"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "Auto merge of #69424 - pietroalbini:rollup-3oelogm, r=pietroalbini",
+          "time": 1582544490,
+          "commits": ["d9a328a0ade570608717b0df654306a5268c9f46"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Auto merge of #69076 - cjgillot:split_trait, r=matthewjasper",
+          "time": 1584204200,
+          "commits": ["131772c5e0ba40cd656dedb5e1990d36e3ea31cf"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "Auto merge of #70024 - Centril:rollup-cppmaxr, r=Centril",
+          "time": 1584293267,
+          "commits": ["e0f5df017368dc3f7cb458fc6d5a5e0420e1d2e5"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Auto merge of #70190 - pietroalbini:gha, r=Mark-Simulacrum",
+          "time": 1585064967,
+          "commits": ["2dcf54f564c6d8bbf48960fb9aaec88a0e2e062a"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Auto merge of #70860 - lcnr:has_local_value, r=nikomatsakis",
+          "time": 1586402896,
+          "commits": ["11f6096a9ef6ad52de2956f4d2df200de7617077"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Auto merge of #71231 - cuviper:rustc_or_patterns, r=Mark-Simulacrum",
+          "time": 1587314582,
+          "commits": ["ad48d52a74e3e20fb1ecefaece7312cca90ab950"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "Auto merge of #71445 - Dylan-DPC:rollup-31givp1, r=Dylan-DPC",
+          "time": 1587601685,
+          "commits": ["fc145e19d05e8f2ee0aad77a0eba93292ebd3887"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "Auto merge of #71215 - marmeladema:issue70853/librustc_middle-local-def-id-2, r=eddyb",
+          "time": 1587701660,
+          "commits": ["5a59527516a917738c2e5f5d9f5e9a3533a6a5bc"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "Auto merge of #71268 - estebank:devectorize, r=eddyb",
+          "time": 1587981605,
+          "commits": ["46ec74e60f238f694b46c976d6217e7cf8d4cf1a"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Auto merge of #69808 - cjgillot:vtbl, r=pnkfelix",
+          "time": 1588367303,
+          "commits": ["dba944a6b79caf0056ddd282de01de70a0ff8a36"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Auto merge of #69464 - Marwes:detach_undo_log, r=nikomatsakis",
+          "time": 1588748611,
+          "commits": ["8da5869fb738e51438dd1e0697c1b2c84eb11c59"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Auto merge of #72287 - Aaron1011:feature/min-token-collect, r=petrochenkov",
+          "time": 1590358272,
+          "commits": ["62da38d00d8d09dbaaa092c7b5e7ea343fdc2126"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Auto merge of #72494 - lcnr:predicate-cleanup, r=nikomatsakis",
+          "time": 1590625132,
+          "commits": ["45127211566c53bac386b66909a830649182ab7a"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "Auto merge of #72671 - flip1995:clippyup, r=Xanewok",
+          "time": 1590751005,
+          "commits": ["96dd4690c3aa70ec312448c3f2d50e6dc6fb87df"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Auto merge of #72114 - anyska:vtable-rename, r=nikomatsakis",
+          "time": 1591694089,
+          "commits": ["feb3536eba10c2e4585d066629598f03d5ddc7c6"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "Auto merge of #73180 - matthewjasper:predicate-cache, r=nikomatsakis",
+          "time": 1592773557,
+          "commits": ["1a4e2b6f9c75a0e21722c88a0e3b610d6ffc3ae3"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "Auto merge of #73978 - Mark-Simulacrum:shrink-paramenv, r=nnethercote",
+          "time": 1594068256,
+          "commits": ["8981dbbc36f1575b0a417b6849767bde29e7c6b4"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "Auto merge of #74175 - nnethercote:more-static-symbols, r=oli-obk",
+          "time": 1594772185,
+          "commits": ["567ad7455d5f25f6b38d2fded1cb621e0c34a48b"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "Auto merge of #74202 - oli-obk:mir_const, r=RalfJung",
+          "time": 1594894704,
+          "commits": ["125c58caebc67c32ec45ac6c0581b596fd532082"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Auto merge of #74613 - Mark-Simulacrum:revert-gimli, r=nnethercote",
+          "time": 1595502888,
+          "commits": ["371917ab218de72a625227ba6eed7e84e610a058"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Auto merge of #74664 - pnadon:Miri-rename-undef-uninit, r=RalfJung",
+          "time": 1595754583,
+          "commits": ["13f9aa190957b993a268fd4a046fce76ca8814ee"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Auto merge of #65989 - Aaron1011:fix/normalize-param-env, r=nikomatsakis",
+          "time": 1596219299,
+          "commits": ["6e87bacd37539b7e7cd75152dffd225047fa983a"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "src/librustc_error_codes/ created",
+          "time": 1573740698,
+          "commits": ["82cf3a4486bc882207a09bf0d9e2dea4632781aa"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "src/libsyntax/ removed",
+          "time": 1583026618,
+          "commits": ["2917d993023dec5111147a1552ec78b206a5a37e"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "src/librustc/ removed",
+          "time": 1585545987,
+          "commits": ["8926bb497d9b127eb318aea5aed0e745d8381591"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "library/ created",
+          "time": 1595897513,
+          "commits": ["ac48e62db85e6db4bbe026490381ab205f4a614d"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "library/core/ created",
+          "time": 1595897513,
+          "commits": ["ac48e62db85e6db4bbe026490381ab205f4a614d"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "library/std/ created",
+          "time": 1595897513,
+          "commits": ["ac48e62db85e6db4bbe026490381ab205f4a614d"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "src/libcore/ removed",
+          "time": 1595897513,
+          "commits": ["ac48e62db85e6db4bbe026490381ab205f4a614d"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "src/libstd/ removed",
+          "time": 1595897513,
+          "commits": ["ac48e62db85e6db4bbe026490381ab205f4a614d"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "Miri",
+          "time": 1595754583,
+          "commits": [
+            "13f9aa190957b993a268fd4a046fce76ca8814ee",
+            "fd61d06772d17c6242265d860fbfb5eafd282caa",
+            "0f9088f9610618e724cfc0cf2ba3721918be5ec9"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "upd",
+          "time": 1581472021,
+          "commits": [
+            "e6db6697fa84271695a96570370f3f194785699a",
+            "7d808659cdc6c979a992fe3db345c0cfb53d973e",
+            "0f1e814c119afe08abff199895f3279ee0376d70"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "submodule",
+          "time": 1581472021,
+          "commits": [
+            "e6db6697fa84271695a96570370f3f194785699a",
+            "7d808659cdc6c979a992fe3db345c0cfb53d973e",
+            "0f1e814c119afe08abff199895f3279ee0376d70"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "const",
+          "time": 1594894704,
+          "commits": [
+            "125c58caebc67c32ec45ac6c0581b596fd532082",
+            "8d67f576b56e8fc98a31123e5963f8d00e40611c",
+            "7e11379f3b4c376fbb9a6c4d44f3286ccc28d149"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "clippyup",
+          "time": 1590751005,
+          "commits": [
+            "96dd4690c3aa70ec312448c3f2d50e6dc6fb87df",
+            "1baf85c7e09c3b5df645888a456dabefe5866b99",
+            "6c8927b0cf80ceee19386026cf9d7fd4fd9d486f"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "unified",
+          "time": 1582504261,
+          "commits": [
+            "79cd224e758f603898b64308e849fbb9be6e6f4d",
+            "2ed25f069768c046464e68fd382c867ddb04a1e3",
+            "2cf24ab89123532f0e84995301ee734a88bf4701"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "gha",
+          "time": 1585064967,
+          "commits": [
+            "2dcf54f564c6d8bbf48960fb9aaec88a0e2e062a",
+            "aca77cdd8ff05218318a7ba7f750984ba48eb1f3",
+            "f48e576756cd0c360e5522974fc8d5867b439092"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "hirene",
+          "time": 1577010651,
+          "commits": [
+            "26286c7ad0e8a5efc1e6a8ef88ffd64723112ae8",
+            "a04c789f699a3470edd8cc76d016c68e99cfe4db",
+            "2ba0d2acbd6cb01fb07619628882120d5b66bd59"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "prop",
+          "time": 1574841658,
+          "commits": [
+            "876a72a251e0d533f776fa9149b3e4daaeea3a61",
+            "92019986aa6532256277ca999006bdc77e9a95ad",
+            "d8cf749570c87a4dcf05071bb5b280febb7f6657"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "ice",
+          "time": 1582279462,
+          "commits": [
+            "212aa3ea28d91a97d1e1261709c0b6e6790788e6",
+            "865b44a3e330f3ef8be0f6edf69896c9ed957ac0",
+            "01db5819429352c4ab58f4760c29d6e4ca76d9a7"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "gimli",
+          "time": 1595502888,
+          "commits": [
+            "371917ab218de72a625227ba6eed7e84e610a058",
+            "1fa54ad9680cc82e7301f8ed4e9b7402dfd6ce0e",
+            "c058a8b8dc5dea0ed9b33e14da9e317e2749fcd7"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "issue70853",
+          "time": 1587701660,
+          "commits": [
+            "5a59527516a917738c2e5f5d9f5e9a3533a6a5bc",
+            "f3634503587a1f4e3b34f96452163595f242f911",
+            "0c835b0cca83fe21090562603e4bda77c183ace3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "startTime": 1596250114,
+      "endTime": 1672528926,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "Auto merge of #76044 - ecstatic-morse:dataflow-lattice, r=oli-obk",
+          "time": 1599514183,
+          "commits": ["0e2c1281e909ca38479b97962fc9248f75d66412"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Auto merge of #75138 - jumbatm:session-diagnostic-derive, r=oli-obk",
+          "time": 1599526723,
+          "commits": ["71569e420107ab034910a4687f382385975fa0b3"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "Auto merge of #76906 - Nicholas-Baron:shorten_typeck_check, r=oli-obk",
+          "time": 1600762267,
+          "commits": ["c113030f6b7d10cd27ac7091718e6f48ecf56a63"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "Auto merge of #77430 - ecstatic-morse:mir-source-in-body, r=lcnr",
+          "time": 1601835842,
+          "commits": ["4ccf5f731bb71db3470002d6baf5ab4792b821d9"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "Auto merge of #77552 - ecstatic-morse:body-def-id, r=lcnr",
+          "time": 1601889992,
+          "commits": ["62bfcfd8a3b1603e2b5f5e2c011aa0f35f117af1"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "Auto merge of #77796 - jonas-schievink:switchint-refactor, r=oli-obk",
+          "time": 1602550623,
+          "commits": ["afb4514c099fde6e3102373602bea9e6dacd4f88"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "Auto merge of #80106 - jackh726:binder-refactor-part-2, r=lcnr",
+          "time": 1608372832,
+          "commits": ["8bb302d34dde36cc78a288cb5beb4af7fe30ba41"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Auto merge of #80865 - oliviacrain:proj_based, r=RalfJung",
+          "time": 1610948680,
+          "commits": ["0677d9729318441a1cdb0c74812ec4140fa4d35f"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "Auto merge of #68828 - oli-obk:inline_cycle, r=wesleywiser",
+          "time": 1611601417,
+          "commits": ["f4eb5d9f719cd3c849befc8914ad8ce0ddcf34ed"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Auto merge of #82124 - tmiasko:op-ty-ref, r=oli-obk",
+          "time": 1613816442,
+          "commits": ["e7c23ab933ebc1f205c3b59f4ebc85d40f67d404"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "Auto merge of #81114 - bugadani:generator, r=estebank",
+          "time": 1614817422,
+          "commits": ["6f7673d077add6b9a066e988b1b8b132a8193d6c"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Auto merge of #82727 - oli-obk:shrinkmem, r=pnkfelix",
+          "time": 1615192764,
+          "commits": ["27885a94c6a6c98a0d49af3962f1218adcd6efd2"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Auto merge of #82936 - oli-obk:valtree, r=RalfJung,lcnr,matthewjasper",
+          "time": 1615934576,
+          "commits": ["e655fb62216b6ba64a094b30f116d7988d19322d"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Auto merge of #85376 - RalfJung:ptrless-allocs, r=oli-obk",
+          "time": 1621419088,
+          "commits": ["3e827cc21e0734edd26170e8d1481f0d66a1426b"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "Auto merge of #85273 - LeSeulArtichaut:thir-query, r=nikomatsakis",
+          "time": 1621912023,
+          "commits": ["d568d63b1f9f5fc47e4202e2a2a84142ff6202d8"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "Auto merge of #85343 - Aaron1011:variance-diag, r=estebank",
+          "time": 1623006725,
+          "commits": ["35fff69d043b1c0f5c29894e7f4b0da8b039c131"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "Auto merge of #86311 - LeSeulArtichaut:cleanup-array-iter, r=jackh726",
+          "time": 1623743208,
+          "commits": ["6936ca8c993a82c5b5d453c3203d3b7df74c1b4b"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Auto merge of #86255 - Smittyvb:mir-alloc-oom, r=RalfJung,oli-obk",
+          "time": 1625390136,
+          "commits": ["39e20f1ae5f13451eb35247808d6a2527cb7d060"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Auto merge of #86231 - nagisa:nagisa/abi-allowlist, r=petrochenkov",
+          "time": 1625580139,
+          "commits": ["b09dad3eddfc46c55e45f6c1a00bab09401684b4"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Auto merge of #87123 - RalfJung:miri-provenance-overhaul, r=oli-obk",
+          "time": 1626535587,
+          "commits": ["c78ebb7bdcfc924a20fd069891ffe1364d6814e7"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Auto merge of #87329 - sunfishcode:sunfishcode/io-safety, r=joshtriplett",
+          "time": 1629457255,
+          "commits": ["521734787ecf80ff12df7ca5998f7ec0b3b7b2c9"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "Auto merge of #88266 - nikomatsakis:issue-87879, r=jackh726",
+          "time": 1629838195,
+          "commits": ["b03ccace573bb91e27625c190a0f7807045a1012"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Auto merge of #87280 - lcnr:lazy-anon-const-default-substs, r=nikomatsakis",
+          "time": 1630016783,
+          "commits": ["517c28e421b0d601c6f8eb07ea6aafb8e16975ad"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "Auto merge of #89405 - GuillaumeGomez:fix-clippy-lints, r=cjgillot",
+          "time": 1633171929,
+          "commits": ["b27661eb33c74cb514dba059b47d86b6582ac1c2"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "Auto merge of #92816 - tmiasko:rm-llvm-asm, r=Amanieu",
+          "time": 1642412429,
+          "commits": ["a34c0797528172ede89480e3033f7a5e71ea4735"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "Auto merge of #96531 - kckeiks:remove-item-like-visitor-from-rustc-typeck, r=cjgillot",
+          "time": 1651888751,
+          "commits": ["f6e5570460b2bb925021dc667ead2a9834ea88cb"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "Auto merge of #98178 - RalfJung:btree-alloc, r=thomcc",
+          "time": 1655529160,
+          "commits": ["ff86b27e7be1ffff9e00d80beb15560d5f301459"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Auto merge of #98180 - notriddle:notriddle/rustdoc-fn, r=petrochenkov,GuillaumeGomez",
+          "time": 1658259417,
+          "commits": ["9a7b7d5e50ab0b59c6d349bbf005680a7c880e98"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Auto merge of #103177 - lnicola:rust-analyzer-2022-10-18, r=lnicola",
+          "time": 1666079209,
+          "commits": ["e0f8e60dddfecfc9093ee9d9f42557d8260c0355"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Auto merge of #104688 - flip1995:clippyup, r=Manishearth,flip1995",
+          "time": 1669136946,
+          "commits": ["e221616639fb87de9dca21e252ee8a2565ec51d0"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "compiler/ created",
+          "time": 1598803077,
+          "commits": ["85fbf49ce0e2274d0acf798f6e703747674feec3"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "compiler/rustc_error_codes/ created",
+          "time": 1598803077,
+          "commits": ["85fbf49ce0e2274d0acf798f6e703747674feec3"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "compiler/rustc_middle/ created",
+          "time": 1598803077,
+          "commits": ["85fbf49ce0e2274d0acf798f6e703747674feec3"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "compiler/rustc_target/ created",
+          "time": 1598803077,
+          "commits": ["85fbf49ce0e2274d0acf798f6e703747674feec3"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "src/librustc_error_codes/ removed",
+          "time": 1598803077,
+          "commits": ["85fbf49ce0e2274d0acf798f6e703747674feec3"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "src/librustc_mir/ removed",
+          "time": 1598803077,
+          "commits": ["85fbf49ce0e2274d0acf798f6e703747674feec3"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "src/librustc_target/ removed",
+          "time": 1598803077,
+          "commits": ["85fbf49ce0e2274d0acf798f6e703747674feec3"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "compiler/rustc_codegen_gcc/ created",
+          "time": 1632911981,
+          "commits": ["50f9f7810c975234ce4730488d32661a76a00428"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "miri",
+          "time": 1626535587,
+          "commits": [
+            "c78ebb7bdcfc924a20fd069891ffe1364d6814e7",
+            "c10f7d73953a02982bbac3a504b0d22a7bda32b1",
+            "e98897e5dc9898707bf4331c43b2e76ab7e282fe"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "btree",
+          "time": 1655529160,
+          "commits": [
+            "ff86b27e7be1ffff9e00d80beb15560d5f301459",
+            "f5230fbf76bafd86ee4376a0e26e551df8d17fec",
+            "593fe977a77ad5a7aec23c6cb0f86a3470221670"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "const",
+          "time": 1630016783,
+          "commits": [
+            "517c28e421b0d601c6f8eb07ea6aafb8e16975ad",
+            "3bcce82d14b85996c134420ac3c6790a410f7842",
+            "75f1db1102076e416e1154b241b4fc95c01c0d7b"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "nagisa",
+          "time": 1625580139,
+          "commits": [
+            "b09dad3eddfc46c55e45f6c1a00bab09401684b4",
+            "72c7b7026742766998655eba95fca984046c0288",
+            "9b6c9b638e0148409b6568b61f763e87dc8fd3bf"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "clippyup",
+          "time": 1669136946,
+          "commits": [
+            "e221616639fb87de9dca21e252ee8a2565ec51d0",
+            "87eb3e2dfad244025bd5ee3161be66c271f691d8",
+            "233384f3956b2b16bba935f6f8d10d073f8ddf4a"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "analyzer",
+          "time": 1666079209,
+          "commits": [
+            "e0f8e60dddfecfc9093ee9d9f42557d8260c0355",
+            "7c142a61373eda083cec64de383cf79e9a173f16",
+            "0d1754e8bf6942b4c1d24d7c923438782129ba5a"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "inline",
+          "time": 1611601417,
+          "commits": [
+            "f4eb5d9f719cd3c849befc8914ad8ce0ddcf34ed",
+            "0da6d42f297642a60f2640ec313b879b376b9ad8",
+            "5cdf5b882da9e8b7c73b5cadeb7745cb68f6ff63"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "asm",
+          "time": 1642412429,
+          "commits": [
+            "a34c0797528172ede89480e3033f7a5e71ea4735",
+            "080d5452e1bb6e18e12a073d4d0283fd9b6dac0b",
+            "2f4da6243f817b26c5c8156408911a01b39f9759"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "thir",
+          "time": 1621912023,
+          "commits": [
+            "d568d63b1f9f5fc47e4202e2a2a84142ff6202d8",
+            "f94942d8421dc4b1da86d07069571ddb43127235",
+            "17b60b8738735d8d64d03601d1dad4001d1e5733"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "notriddle",
+          "time": 1658259417,
+          "commits": [
+            "9a7b7d5e50ab0b59c6d349bbf005680a7c880e98",
+            "5782f01a5136b1f7539b23f67e832f0b994c215d",
+            "6ec3993ef4a4eb72bc20477fe9a4d92acd53f2c6"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "array",
+          "time": 1623743208,
+          "commits": [
+            "6936ca8c993a82c5b5d453c3203d3b7df74c1b4b",
+            "2e2c86eba21a08cf505cd67073736d03ff3887ad",
+            "1597728ef5820d3ffcb9d3f0c890ef7802398751"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "sunfishcode",
+          "time": 1629457255,
+          "commits": [
+            "521734787ecf80ff12df7ca5998f7ec0b3b7b2c9",
+            "bb85bcaca93fd7cf1955d5eb0cb1e16ef462bc7e",
+            "ecd44958e0a21110d09862ee080d95a4ca6c52f8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "startTime": 1672550448,
+      "endTime": 1793716788,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "Auto merge of #109172 - scottmcm:move-codegen-issues-tests, r=WaffleLapkin",
+          "time": 1679544707,
+          "commits": ["cf811810fe8dc92b3ff25e7dd29fb3178c91d409"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Auto merge of #109770 - jyn514:run-make-fulldeps, r=Mark-Simulacrum",
+          "time": 1680485645,
+          "commits": ["33289132ecc1805250f63801fded10fceb2300d8"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "Auto merge of #110713 - cjgillot:track-mir-opt, r=scottmcm",
+          "time": 1682355662,
+          "commits": ["253b727f46101a18126bfc8a93067aa7a67d9b77"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "Auto merge of #109128 - chenyukang:yukang/remove-type-ascription, r=estebank",
+          "time": 1683020495,
+          "commits": ["98c33e47a495fbd7b22bce9ce32f2815991bc414"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "Auto merge of #112549 - jieyouxu:fix-tests-for-unit-bindings, r=Nilstrieb",
+          "time": 1686661663,
+          "commits": ["2ca8d358e55bc56755b597ea96b557232ef8bc86"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "Auto merge of #112671 - bjorn3:sync_cg_clif-2023-06-15, r=bjorn3",
+          "time": 1686855853,
+          "commits": ["114fb86ca08cfa6a99087e0f0bc264d03590dc37"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "Auto merge of #113637 - Mark-Simulacrum:bootstrap-bump, r=ozkanonur",
+          "time": 1689272114,
+          "commits": ["a161ab00dbf660dd587ee42a8c855bac94047ddb"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Auto merge of #116824 - notriddle:master, r=fmease",
+          "time": 1697524443,
+          "commits": ["ddef56d5dfa18f169af9db912dc8e8343797eebb"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "Auto merge of #118015 - celinval:smir-place-ty, r=compiler-errors",
+          "time": 1700541123,
+          "commits": ["390e3c8b6615afb4f0b9bb2c3db3ad033ac75d78"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Auto merge of #118105 - notriddle:master, r=fmease",
+          "time": 1700792611,
+          "commits": ["eab8c7d5fd335d673bb96bb4aef86c74006cef4b"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "Auto merge of #118550 - cjgillot:filecheck-const-prop, r=Mark-Simulacrum",
+          "time": 1702177258,
+          "commits": ["c71c246876dda4b315a2011912a724d3ad392f2d"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Auto merge of #118213 - Urgau:check-cfg-diagnostics-rustc-cargo, r=petrochenkov",
+          "time": 1702496757,
+          "commits": ["a90372c6e80cde01018b5486b27eefe66c629068"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Auto merge of #118937 - lcnr:rename-solver-flag, r=compiler-errors",
+          "time": 1702567778,
+          "commits": ["2ecba0fa00b75e7291978c50bece407f17296f45"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Auto merge of #116012 - cjgillot:gvn-const, r=oli-obk",
+          "time": 1703907958,
+          "commits": ["8d76d076665f862ec9619f2de68d6d9ca1db4601"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "Auto merge of #121461 - reitermarkus:generic-nonzero-tests, r=dtolnay",
+          "time": 1708910176,
+          "commits": ["0250ef2571185b05701ed9d74fc904c17508a397"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "Auto merge of #121728 - tgross35:f16-f128-step1-ty-updates, r=compiler-errors",
+          "time": 1709264171,
+          "commits": ["6cbf0926d54c80ea6d15df333be9281f65bbeb36"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "Auto merge of #122375 - rcvalle:rust-cfi-break-tests-into-smaller-files, r=compiler-errors",
+          "time": 1710814672,
+          "commits": ["148a41c6b5687f941c5256d9ef8145eb03b72094"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Auto merge of #123577 - Urgau:prep-work-for-compiletest-check-cfg, r=oli-obk",
+          "time": 1712568884,
+          "commits": ["0e5f5207881066973486e6a480fa46cfa22947e9"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Auto merge of #137752 - flip1995:clippy-subtree-update, r=Manishearth",
+          "time": 1740867726,
+          "commits": ["351686bcfd18dd0f652aba69a806bfa68c57234d"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Auto merge of #139555 - petrochenkov:errkind-ann, r=jieyouxu",
+          "time": 1744165177,
+          "commits": ["c1b8b7e86f6ca59929ce08471d0877f748f84901"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Auto merge of #141229 - tgross35:builtins-josh-subtree, r=Kobzol",
+          "time": 1748980325,
+          "commits": ["59aa1e873028948faaf8b97e5e02d4db340ad7b1"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "Auto merge of #142255 - estebank:edition-diagnostic-changes, r=fee1-dead,WaffleLapkin",
+          "time": 1750944016,
+          "commits": ["3b9d04c62f74b9be46c3ba56cf8393529aa81d26"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Auto merge of #143405 - tgross35:update-builtins, r=tgross35",
+          "time": 1752100931,
+          "commits": ["607fbd8d3e25997737a0bf25b215e581b922f1b0"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "Auto merge of #144222 - Kobzol:stdarch-push, r=folkertdev",
+          "time": 1753197931,
+          "commits": ["2e5367566819ca7878baa9600ae7a93eb0e37bbf"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "Auto merge of #147812 - RalfJung:more-minicore, r=jieyouxu",
+          "time": 1760905876,
+          "commits": ["f04e3dfc87d7e2b6ad53e7a52253812cd62eba50"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "Auto merge of #147498 - ferrocene:pvdrz/edition-range-gating, r=jieyouxu,fmease",
+          "time": 1764283025,
+          "commits": ["e6edf3ae535d28b8331d5718d6e658e340af6f60"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "Auto merge of #149917 - GuillaumeGomez:malformed-attribute-suggestions, r=JonathanBrouwer",
+          "time": 1765563494,
+          "commits": ["fa5eda19b95201468f5b1c5c035ec2fc06fccd66"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Auto merge of #150080 - tgross35:update-builtins, r=tgross35",
+          "time": 1765956339,
+          "commits": ["58b270bebef86316f70174d5a1ea4eb19ef91b62"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Auto merge of #152420 - tgross35:update-builtins, r=tgross35",
+          "time": 1770783139,
+          "commits": ["d34f1f931489618efffc4007e6b6bdb9e10f6467"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Auto merge of #139087 - beetrees:impl-from-f16-for-f32, r=jackh726",
+          "time": 1776276551,
+          "commits": ["e8e4541ff19649d95afab52fdde2c2eaa6829965"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "src/test/ removed",
+          "time": 1673435842,
+          "commits": ["b22c152958eade17a71d899b29a2d39bcc77aa48"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "tests/ created",
+          "time": 1673435842,
+          "commits": ["b22c152958eade17a71d899b29a2d39bcc77aa48"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "tests/mir-opt/ created",
+          "time": 1673435842,
+          "commits": ["b22c152958eade17a71d899b29a2d39bcc77aa48"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "tests/run-make/ created",
+          "time": 1673435842,
+          "commits": ["b22c152958eade17a71d899b29a2d39bcc77aa48"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "tests/rustdoc/ created",
+          "time": 1673435842,
+          "commits": ["b22c152958eade17a71d899b29a2d39bcc77aa48"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "tests/ui/ created",
+          "time": 1673435842,
+          "commits": ["b22c152958eade17a71d899b29a2d39bcc77aa48"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "tests/rustdoc/ removed",
+          "time": 1767802888,
+          "commits": ["fc546b94ad5d499753c190b733128f49fb18e1d5"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "tests/rustdoc-html/ created",
+          "time": 1767802888,
+          "commits": ["fc546b94ad5d499753c190b733128f49fb18e1d5"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "cargo",
+          "time": 1702496757,
+          "commits": [
+            "a90372c6e80cde01018b5486b27eefe66c629068",
+            "855c6836b7c476385db95a0a95f2e57f5ff32fe1",
+            "cc1c0990ab6f7136d1d54fd008598095b2c53c66"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "subtree",
+          "time": 1748980325,
+          "commits": [
+            "59aa1e873028948faaf8b97e5e02d4db340ad7b1",
+            "351686bcfd18dd0f652aba69a806bfa68c57234d",
+            "c303e414dd813ab090055754d0be647054fce70a"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "clif",
+          "time": 1686855853,
+          "commits": [
+            "114fb86ca08cfa6a99087e0f0bc264d03590dc37",
+            "fb23dd3c6b120f0d2e55e5f2c69a464df7b35fdf",
+            "ab654863c3d50482f260cf862647f1fe0ff5e010"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "bootstrap",
+          "time": 1689272114,
+          "commits": [
+            "a161ab00dbf660dd587ee42a8c855bac94047ddb",
+            "4eca99a18eab3d4e28ed1ce3ee620d442955a470",
+            "1be1e84872185c427de42f4d9e757d3e3e28d90e"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "f16",
+          "time": 1776276551,
+          "commits": [
+            "e8e4541ff19649d95afab52fdde2c2eaa6829965",
+            "6cbf0926d54c80ea6d15df333be9281f65bbeb36",
+            "c03ea3dfd907e7dc6305ebf20c94f3a1f1d9fed7"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "gvn",
+          "time": 1703907958,
+          "commits": [
+            "8d76d076665f862ec9619f2de68d6d9ca1db4601",
+            "e32ea4822ba3f7c9054a7fb5345232388cc50c4b",
+            "00095b3da4f23d9b3e7a809ac6a4e2b2530df84c"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "yukang",
+          "time": 1683020495,
+          "commits": [
+            "98c33e47a495fbd7b22bce9ce32f2815991bc414",
+            "fa9f77ff35b4b63ed0cef9a9642c8f881b33f14f",
+            "12ab1cf1fd3dc925a846b0eb8a4b39393140fdd3"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "smir",
+          "time": 1700541123,
+          "commits": [
+            "390e3c8b6615afb4f0b9bb2c3db3ad033ac75d78",
+            "b66fe58f68d84cf422ff50c362ac5ad245cd9ce7",
+            "7120fdac7a6e55a5e4b606256042890b36067052"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "clippy",
+          "time": 1740867726,
+          "commits": [
+            "351686bcfd18dd0f652aba69a806bfa68c57234d",
+            "1a98b1e135b254f209c67d447b6d8bcd56a859e0",
+            "1e4f9e302c63ee126a4db8ec2cf3fa396dc74d52"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "solver",
+          "time": 1702567778,
+          "commits": [
+            "2ecba0fa00b75e7291978c50bece407f17296f45",
+            "f92a6c41e644d6222be77b20396daec5e77661f3",
+            "17b322fa69eed7216dccc9f097eb68237cf62234"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "f128",
+          "time": 1709264171,
+          "commits": [
+            "6cbf0926d54c80ea6d15df333be9281f65bbeb36",
+            "c03ea3dfd907e7dc6305ebf20c94f3a1f1d9fed7",
+            "aabbf84b45a5e7b868c33e959d7e5cc985097d19"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "const",
+          "time": 1703907958,
+          "commits": [
+            "8d76d076665f862ec9619f2de68d6d9ca1db4601",
+            "9c99d05505bccb67912d68e05fe7fc7c58afcb41",
+            "c31cccb7b5cc098b1a8c1794ed38d7fdbec0ccb0"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "era": 0,
+    "from": "2020-09",
+    "to": "2022-11",
+    "attempts": [
+      {
+        "commits": ["c3", "c17", "c19", "c26"],
+        "headline": "c26"
+      }
+    ],
+    "narration": "model",
+    "title": "Migrated to content layer",
+    "headline": "c26",
+    "selected": ["c3", "c17", "c19", "c26"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c3",
+        "sha": "f7c4e1497",
+        "date": "2020-09-26",
+        "subject": "Added Next SEO usage"
+      },
+      {
+        "kind": "commit",
+        "ref": "c17",
+        "sha": "bfd9b923f",
+        "date": "2021-08-12",
+        "subject": "Updated to Next.js 11"
+      },
+      {
+        "kind": "commit",
+        "ref": "c19",
+        "sha": "4b4aa636a",
+        "date": "2021-11-24",
+        "subject": "Updated next to v12, fonts"
+      },
+      {
+        "kind": "commit",
+        "ref": "c26",
+        "sha": "791fd51b5",
+        "date": "2022-05-07",
+        "subject": "Migrated to content layer"
+      }
+    ]
+  },
+  {
+    "era": 1,
+    "from": "2022-12",
+    "to": "2026-05",
+    "attempts": [
+      {
+        "commits": ["c1", "c11", "c21", "c22"],
+        "headline": "c21"
+      }
+    ],
+    "narration": "model",
+    "title": "Migrated notes to Notion",
+    "headline": "c21",
+    "selected": ["c1", "c11", "c21", "c22"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c1",
+        "sha": "80254f510",
+        "date": "2022-12-25",
+        "subject": "Rewrite"
+      },
+      {
+        "kind": "commit",
+        "ref": "c11",
+        "sha": "614ddeaa4",
+        "date": "2022-12-28",
+        "subject": "Renamed blog to notes"
+      },
+      {
+        "kind": "commit",
+        "ref": "c21",
+        "sha": "3e3bd668d",
+        "date": "2023-01-13",
+        "subject": "Migrated notes to Notion"
+      },
+      {
+        "kind": "commit",
+        "ref": "c22",
+        "sha": "8f5aef23f",
+        "date": "2023-01-14",
+        "subject": "Moved RSS to api"
+      }
+    ]
+  },
+  {
+    "era": 2,
+    "from": "2026-10",
+    "to": "2026-10",
+    "attempts": [
+      {
+        "commits": ["c1", "c3", "c14", "c25"],
+        "headline": "c1"
+      }
+    ],
+    "narration": "model",
+    "title": "rebuild the site as an index in Geist Mono, Sans and Pixel",
+    "headline": "c1",
+    "selected": ["c1", "c3", "c14", "c25"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c1",
+        "sha": "36bd11847",
+        "date": "2026-10-09",
+        "subject": "feat(design): rebuild the site as an index in Geist Mono, Sans and Pixel (#27)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c3",
+        "sha": "826c427da",
+        "date": "2026-10-12",
+        "subject": "feat(notes): move notes from Notion to MDX (#35)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c14",
+        "sha": "85bc9fea1",
+        "date": "2026-10-16",
+        "subject": "feat(demos): run a demo inside a note (#61)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c25",
+        "sha": "31277b472",
+        "date": "2026-10-16",
+        "subject": "feat(ai): finish part four and inspect the reader model (#78)"
+      }
+    ]
+  }
+]

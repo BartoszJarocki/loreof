@@ -1,0 +1,5202 @@
+{
+  "repository": {
+    "slug": "vercel/next.js",
+    "description": ""
+  },
+  "head": "020e379f31e59b0456caa3a5add8d33e91c040a0",
+  "eras": [
+    {
+      "id": 0,
+      "startTime": 1475710500,
+      "endTime": 1536315105,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "initial source",
+          "time": 1475711570,
+          "commits": ["9b06a22f31655ca3ff70954ebacef0fc351e7097"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "next-dev",
+          "time": 1475751952,
+          "commits": ["88b01e0a721d1c47a1d35184ee56a76d090e9629"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "support next/head",
+          "time": 1475805451,
+          "commits": ["89f96cc160192cf36c5a221e59f199388912515d"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "add _error.js, fix error handlings",
+          "time": 1476005138,
+          "commits": ["6718b0534760904cc334f871bea05b0e0920d36a"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "Added linting using standard (#27)",
+          "time": 1476662417,
+          "commits": ["14777342115522a2d2a182fcf3bb44938560d52c"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "Hot code reloading (#31)",
+          "title": "Hot code reloading",
+          "time": 1476670985,
+          "commits": ["3c88a3d7a8a2a41fbc4c7881abd66efb4ed127ff"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "add error page for debug",
+          "time": 1476880905,
+          "commits": ["2e2db37ccb8e5addf50e24cabdec940f90cb3077"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "next init: create package.json with empty description (#135)",
+          "time": 1477652730,
+          "commits": ["da1cdcb8437d0b3d289e5c27fb20cc0ac3d41509"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "Hot reload error page (#190)",
+          "time": 1478185957,
+          "commits": ["e775721f3420d3d5083fefe2d1180041f42c845c"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Merge branch 'master' into pr/259",
+          "time": 1480642507,
+          "commits": ["6ad1e23167dfcd1a89c5af8812802aadce06302a"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "custom document support (#405)",
+          "time": 1481913760,
+          "commits": ["8ddafaea5c1544f713bb0118b78055585b37e1e3"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Programmatic API (#310)",
+          "time": 1481920388,
+          "commits": ["1708222381788060e79de8f343ae2d8670865380"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Incorporate  styled-jsx (#420)",
+          "time": 1482172939,
+          "commits": ["a87ef1a7af8c8b7d3e1bfad9442c5330bbe2aa4c"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Create a babel-preset for plugins and presets we use. (#445)",
+          "time": 1482285716,
+          "commits": ["2798df57456d0c4e94e872c56447a950f54034f7"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "Add Gzip support for JSON pages (#571)",
+          "time": 1483188383,
+          "commits": ["165924b71b290388fbbacbc2a74cba80e1058133"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "Don't discard component state on error (#741)",
+          "time": 1484186300,
+          "commits": ["0ef28ab1287a16e371f7d3bfd5f7cbf16469f3fa"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "[WIP] Migrate from Gulp to Fly (#965)",
+          "time": 1486668788,
+          "commits": ["839fb1c05c557567542cfd723843ef48b0d2a07f"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Babelrc false babelrc (#1094)",
+          "time": 1486934302,
+          "commits": ["b220193167069acf9641b02d31437c8bf741a5df"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Add example `with-scoped-stylesheets-and-postcss` (#1146)",
+          "time": 1487343898,
+          "commits": ["6e5d57dae93a104161f6d28ba4864fe1a2c21115"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Run tests in Travis. (#1247)",
+          "time": 1487786929,
+          "commits": ["fb496b7c9a2123ffd8b6f69b48a53ca044d42730"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Remove traces of glamor (#1286)",
+          "time": 1488112080,
+          "commits": ["408633c1dcb898c9cb2fe5f759ec317342130d7c"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "Implement preact/inferno SSR (#1346)",
+          "time": 1488678476,
+          "commits": ["5947716ff7828278d4febb095c7f98db40a17454"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Example to create next application with scoped/external css. (#1340)",
+          "time": 1489587708,
+          "commits": ["123a635f004562e594ea2484e287e00ffcf7abec"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "Add CDN support with assetPrefix (#1700)",
+          "time": 1492489123,
+          "commits": ["dec85fe6c4c5360aced57d75f9cea78ed388f2f8"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "Update example `with-scoped-stylesheets-and-postcss` (#1606)",
+          "time": 1495887157,
+          "commits": ["0d0ab77db742b27f32097db5fbff36b1f8b7db57"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "docs(material-ui): move the source code to Material-UI repository (#2808)",
+          "time": 1503088965,
+          "commits": ["232ba01f840d5582ff5f0d98dcf3a23a7705206e"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "Example: Form handler with Redux and React-bootstrap (#2949)",
+          "time": 1505849068,
+          "commits": ["4bd30c87136bffcd15e1c31fbd8fa110dfa5ea78"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Example updated: with-apollo-auth to Next 6 (#4420)",
+          "time": 1526633712,
+          "commits": ["915673fcd69e120084c14582fd80f2fc7140c147"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Remove react-hot-loader (#4500)",
+          "time": 1527760049,
+          "commits": ["86d01706a67cee5c80796974d04c1e11cdff453a"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Move build directory outside of server folder (#4565)",
+          "time": 1528997414,
+          "commits": ["f2c2519159f49359cf90b6391772aa9a91e279d2"]
+        },
+        {
+          "id": "r1",
+          "kind": "release",
+          "text": "1.0.0",
+          "time": 1477408210,
+          "commits": ["4b74c70cc9f55a19d4f8305214d2840186af0155"]
+        },
+        {
+          "id": "r2",
+          "kind": "release",
+          "text": "1.1.0",
+          "time": 1478308684,
+          "commits": ["0c27e3ab16ec437f855477e2d8ea023bb9cc1697"]
+        },
+        {
+          "id": "r3",
+          "kind": "release",
+          "text": "1.2.0",
+          "time": 1480657908,
+          "commits": ["f2653d0e2fec1969f31ab5a9e662dbc6111c0e67"]
+        },
+        {
+          "id": "r4",
+          "kind": "release",
+          "text": "2.0.0",
+          "time": 1490608902,
+          "commits": ["2e67041f7cbc517a95bbfb4cb2ddc7adf14335f4"]
+        },
+        {
+          "id": "r5",
+          "kind": "release",
+          "text": "2.1.0",
+          "time": 1491499758,
+          "commits": ["6e0e2307dab46eeeda8fd761986f33350a811cee"]
+        },
+        {
+          "id": "r6",
+          "kind": "release",
+          "text": "2.2.0",
+          "time": 1492976486,
+          "commits": ["ff0f1e6c72ba6e8a475c3060373b023986538277"]
+        },
+        {
+          "id": "r7",
+          "kind": "release",
+          "text": "2.3.0",
+          "time": 1493907737,
+          "commits": ["9a2edfd040e7023e3f60cf5153e68679ab35151a"]
+        },
+        {
+          "id": "r8",
+          "kind": "release",
+          "text": "2.4.0",
+          "time": 1495039720,
+          "commits": ["b00525897d4e14a3564fc7e6756707f01a86a826"]
+        },
+        {
+          "id": "r9",
+          "kind": "release",
+          "text": "4.0.0",
+          "time": 1507566891,
+          "commits": ["c99c05018b8d6125008acc0bd9a33eeae2ed9f14"]
+        },
+        {
+          "id": "r10",
+          "kind": "release",
+          "text": "5.0.0",
+          "time": 1517855144,
+          "commits": ["4697cbc485855d919ac6c2aef9a433d44b3699b6"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "test/ created",
+          "time": 1476073508,
+          "commits": ["3647ed14acd7b2bf99d31ed57caf88770f10ffa8"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "bench/ created",
+          "time": 1476529155,
+          "commits": ["0d7f69c121956c31396873348fb3159d6731342b"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "examples/ created",
+          "time": 1476594116,
+          "commits": ["418fb844752da1daee24652e6ff99673051b26c7"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "examples/with-redux/ created",
+          "time": 1482383454,
+          "commits": ["c5d69f05854946f101180e4d65ee4a5d9a7082e5"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "test/integration/ created",
+          "time": 1484194489,
+          "commits": ["1dc52dbc6cb484fc703d3ac983950908b48c9d1d"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "test/unit/ created",
+          "time": 1484194489,
+          "commits": ["1dc52dbc6cb484fc703d3ac983950908b48c9d1d"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": ".github/ created",
+          "time": 1502260482,
+          "commits": ["daf8d5bf95f2c6618a6e742031cdf7518d418748"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "errors/ created",
+          "time": 1517855102,
+          "commits": ["c5ddfea689c90b6161f9da4378210ce2cb9f5f46"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "babel",
+          "time": 1482285716,
+          "commits": [
+            "2798df57456d0c4e94e872c56447a950f54034f7",
+            "2d8c19a450b21df4e9f6ab8fe61c2272a0b9ac9f",
+            "8811a334f40e9ae009014125e53c8bec8899efc5"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "package",
+          "time": 1477652730,
+          "commits": [
+            "da1cdcb8437d0b3d289e5c27fb20cc0ac3d41509",
+            "f049a0bfa08a9cdea314e19f7e0736581875f406",
+            "960f50a019d171cdb66cb8a15e0a6d8a7ab93116"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "styled",
+          "time": 1482172939,
+          "commits": [
+            "a87ef1a7af8c8b7d3e1bfad9442c5330bbe2aa4c",
+            "e9d14613d48bf082da4ae912710fd7de6d7d51e9",
+            "0d6ceec8dbf5199f8b17779449593eeed3f81e42"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "Hot",
+          "time": 1476670985,
+          "commits": [
+            "3c88a3d7a8a2a41fbc4c7881abd66efb4ed127ff",
+            "e775721f3420d3d5083fefe2d1180041f42c845c",
+            "86d01706a67cee5c80796974d04c1e11cdff453a"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "jsx",
+          "time": 1482172939,
+          "commits": [
+            "a87ef1a7af8c8b7d3e1bfad9442c5330bbe2aa4c",
+            "e9d14613d48bf082da4ae912710fd7de6d7d51e9",
+            "0d6ceec8dbf5199f8b17779449593eeed3f81e42"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "glamor",
+          "time": 1488112080,
+          "commits": [
+            "408633c1dcb898c9cb2fe5f759ec317342130d7c",
+            "01e1883f79a9e68bab45203c8c3769c9897de041",
+            "86516629cf95c482336b77ad5e13151e19b34832"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "apollo",
+          "time": 1526633712,
+          "commits": [
+            "915673fcd69e120084c14582fd80f2fc7140c147",
+            "b321e6e9426781504661704bd7e2e112b219840f",
+            "54e152b11bedea0c88e1799d27ed815160b7b040"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "Gulp",
+          "time": 1486668788,
+          "commits": [
+            "839fb1c05c557567542cfd723843ef48b0d2a07f",
+            "a8dcb52ac51f429c80d7a3adc869187807bff928",
+            "5e2b426d33499d67def6c292f4b40c7de840684b"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "Redux",
+          "time": 1505849068,
+          "commits": [
+            "4bd30c87136bffcd15e1c31fbd8fa110dfa5ea78",
+            "c2036e1326d94c3d6e6086e3bb21f646a54e4248",
+            "b90c77b17f20606f77dfff9d6d2709a8a1d0055d"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "Babelrc",
+          "time": 1486934302,
+          "commits": [
+            "b220193167069acf9641b02d31437c8bf741a5df",
+            "ac2a71876dcc4755766c168ed76aeeb0d8741173",
+            "b4ccb126d98b13fee364842d4c8467d4d40ffbf9"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "Travis",
+          "time": 1487786929,
+          "commits": [
+            "fb496b7c9a2123ffd8b6f69b48a53ca044d42730",
+            "18ab55bc73f8206f55873f88d89f9961081385e0",
+            "fd52ddfdc974c526dab7bf3a4bf8356422456f3f"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "preact",
+          "time": 1488678476,
+          "commits": [
+            "5947716ff7828278d4febb095c7f98db40a17454",
+            "a8f58be450fa54fa8db3c6f5bd63a75f1ba1bd04",
+            "1ba315fcc17a59de975b446ffdf20c92d6e00477"
+          ]
+        },
+        {
+          "id": "a1",
+          "kind": "newcomer",
+          "text": "@sedubois",
+          "time": 1478113376,
+          "commits": ["c4d626108e19df0b0409badb434b8c8dea38cd3a"]
+        },
+        {
+          "id": "a2",
+          "kind": "newcomer",
+          "text": "@giuseppeg",
+          "time": 1484539162,
+          "commits": ["0d6ceec8dbf5199f8b17779449593eeed3f81e42"]
+        },
+        {
+          "id": "a3",
+          "kind": "newcomer",
+          "text": "@jthegedus",
+          "time": 1507184926,
+          "commits": ["594b214a23f877fc893099309d31751fa3da460d"]
+        },
+        {
+          "id": "a4",
+          "kind": "newcomer",
+          "text": "@Grokling",
+          "time": 1494159933,
+          "commits": ["1b893518bbdfda487c0c7fa2042c206c432016bc"]
+        },
+        {
+          "id": "a5",
+          "kind": "newcomer",
+          "text": "@possibilities",
+          "time": 1483907429,
+          "commits": ["2e0f9d144bb804e286147e970b37d5b8e0efa4cb"]
+        },
+        {
+          "id": "a6",
+          "kind": "newcomer",
+          "text": "@tim-phillips",
+          "time": 1522476894,
+          "commits": ["7e67152232f30d7c7ef8b178e60a36f54f3d594e"]
+        },
+        {
+          "id": "a7",
+          "kind": "newcomer",
+          "text": "@cncolder",
+          "time": 1493206057,
+          "commits": ["b52b91a840f585594678d9746087e3bdb1a668f0"]
+        },
+        {
+          "id": "a8",
+          "kind": "newcomer",
+          "text": "@DevSpeak",
+          "time": 1522476696,
+          "commits": ["b321e6e9426781504661704bd7e2e112b219840f"]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "startTime": 1536315198,
+      "endTime": 1561769308,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "next-server (#5357)",
+          "time": 1538434531,
+          "commits": ["82d56e063aad12ac8fee5b9d5ed24ccf725b1a5b"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Add circleci publish",
+          "time": 1538484579,
+          "commits": ["b91d4975aa1c3591d6625ee70d120c440cd9fdbb"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "Add node_modules bundling under the --lambdas flag for next build (#5690)",
+          "time": 1542482133,
+          "commits": ["7d78c3b64185d6d6417f1af9cde4a69d32b18cc6"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "Use Typescript to transpile Next.js core files instead of Babel (#5747)",
+          "time": 1543413782,
+          "commits": ["15bb1c5e7963361c9c592923ef28cd819092e49a"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "Add next-i18next as the solution to integrate i18next into next.js (#5761)",
+          "time": 1543433994,
+          "commits": ["09a8960f1ae1cdb770b3d601fd1adac43f35aba7"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "Move serve-static to typescript (#5833)",
+          "time": 1544111673,
+          "commits": ["3c62b07593a02b3ea8a05e2203af274ce5f69d6b"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "Move getPageFiles and convert to ts (#5841)",
+          "time": 1544186101,
+          "commits": ["8873242b0bc2e34ebea7962ce1f157f1f24c0eb9"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Convert next-server.js to typescript (#5844)",
+          "time": 1544392005,
+          "commits": ["8b6173917ab47ce73adc669531223541711913d7"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "Create with-firebase-hosting-and-docker example (#5373)",
+          "time": 1544455197,
+          "commits": ["2fdd43c307b769f5a4934aedd1f6b1c0ebc8b4a1"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Added a new example with relay modern and a graphql server with express. (#4670)",
+          "time": 1544457035,
+          "commits": ["a996fba09c68f513dc0081a5105cede95dffa4a5"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "Convert render.js to typescript (#5869)",
+          "time": 1544659246,
+          "commits": ["5e3bf6e537124107034a35c49fceb27415214fec"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Implement tslint for core files (#5952)",
+          "time": 1546263867,
+          "commits": ["20fe65ce4119727a0f2b35a630b0cbc568ae3724"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Add falling back to fetch based pinging for onDemandEntries (#6310)",
+          "time": 1550265741,
+          "commits": ["5d779a028942b4ada0e25d45ea7952447361a322"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Move webpack config to TypeScript (#6348)",
+          "time": 1550690642,
+          "commits": ["61de215e0455f5112798abc42f7aade04b9b56c8"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "Add new experimental-amp example (#6444)",
+          "time": 1551134989,
+          "commits": ["99867a1728280ec424917eaf2ede7dc19cdc45df"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "Drop images from experimental-amp and with-amp examples (#6446)",
+          "time": 1551137893,
+          "commits": ["074432d92c12247902a70768b13ccc0b11e61c45"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "Convert router/router.js to typescript (#6644)",
+          "time": 1552488980,
+          "commits": ["b7bd1f775adf60d0aab868647a6c13e64a3aa6d0"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Add static-no-js site example (#6770)",
+          "time": 1553501087,
+          "commits": ["879da368886eb4e29eb0b85c9f95f6d310fc1839"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Custom ReasonML Server (#6970)",
+          "time": 1554837341,
+          "commits": ["9c8d7290df965aa5a84555a4d70e046d6adab700"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Add Flying Shuttle tests (#7000)",
+          "time": 1554930499,
+          "commits": ["510815a7ac54506c45db0081adcba9d9e7a694e3"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Amp page level reload (#6971)",
+          "time": 1555120467,
+          "commits": ["09a2fe5c3819fd4b2ee41be29b1dc155936301e9"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "Add experimental option to enable terser loader (#7033)",
+          "time": 1555326001,
+          "commits": ["8b136a6f9d6ded180435b70b13ceda5ddbff383d"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Add .d.ts for next-server (#7133)",
+          "time": 1556117270,
+          "commits": ["c9d599b69864f4a6c08cada4d0c9733cc630ddc4"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "Add types for next/dynamic (#7157)",
+          "time": 1556207496,
+          "commits": ["7dee8d1280d288ef63038ad6738176d3a940b664"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "Add docs to public (#7239)",
+          "time": 1557150174,
+          "commits": ["3a5c1ebe048d5c281c074de0ee6dd453587df72a"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "Merged with-jest and with-flow examples into a new with-jest-flow example. (#7224)",
+          "time": 1557319294,
+          "commits": ["70aa2b58217a2f156f64636198d23486a5e347f1"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "Add retrying to CircleCi and fixes for ncc'ed webpack (#7366)",
+          "time": 1558083423,
+          "commits": ["5beb365d12ebd9a0670eed5b83c093fa22945792"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Revise dynamic route generation (mark 3) (#7473)",
+          "time": 1559248965,
+          "commits": ["c782fa4130b9e696154ec0fb023658ca8da9aff9"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Fixes serverless target in development (#7619)",
+          "time": 1561085265,
+          "commits": ["ff040950eb0f1cfb4d6285cbe5aaa5a92a781193"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Clean up AMP logic and naming (#7669)",
+          "time": 1561645344,
+          "commits": ["b4e4bcda9b6c3c3f43bd1dadef061d3b6ee0cc4d"]
+        },
+        {
+          "id": "r1",
+          "kind": "release",
+          "text": "6.1.2",
+          "time": 1536315198,
+          "commits": ["932e72b96523f649b19f2be1d6fb21436e4198cd"]
+        },
+        {
+          "id": "r2",
+          "kind": "release",
+          "text": "7.0.0",
+          "time": 1537373826,
+          "commits": ["3a059688a8a0e10342ce697c89a7faebbeca9629"]
+        },
+        {
+          "id": "r3",
+          "kind": "release",
+          "text": "7.0.1",
+          "time": 1538218849,
+          "commits": ["ae56c7847f32173c0c6954a124fdaa749d44b5dc"]
+        },
+        {
+          "id": "r4",
+          "kind": "release",
+          "text": "v8.0.3",
+          "time": 1550838924,
+          "commits": ["a99323cbc04f8fba8f2e47f7e84d51acf2eb9f9f"]
+        },
+        {
+          "id": "r5",
+          "kind": "release",
+          "text": "v8.0.4",
+          "time": 1554165936,
+          "commits": ["e6e4a15284be1eb93cda929e4b6f48d87cbe664d"]
+        },
+        {
+          "id": "r6",
+          "kind": "release",
+          "text": "v8.1.0",
+          "time": 1555463031,
+          "commits": ["0dbd3b98eca0bee01a05b8414a60c48abba76abd"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "examples/with-storybook/ created",
+          "time": 1537373757,
+          "commits": ["b6c8d2a4ac0e301d600b30b882816fd6b688dd02"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "build/ removed",
+          "time": 1538348530,
+          "commits": ["b1c4f3aec4ca2d51b0ed849914cc8fc97805740a"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "packages/ created",
+          "time": 1538348530,
+          "commits": ["b1c4f3aec4ca2d51b0ed849914cc8fc97805740a"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "packages/next/ created",
+          "time": 1538348530,
+          "commits": ["b1c4f3aec4ca2d51b0ed849914cc8fc97805740a"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "server/ removed",
+          "time": 1538348530,
+          "commits": ["b1c4f3aec4ca2d51b0ed849914cc8fc97805740a"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "packages/next-server/ created",
+          "time": 1538434531,
+          "commits": ["82d56e063aad12ac8fee5b9d5ed24ccf725b1a5b"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "examples/with-graphql-hooks/ created",
+          "time": 1551460863,
+          "commits": ["5fd7b85280c1a17e4d32350e1c302516945aab92"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "examples/blog-starter/ created",
+          "time": 1560439924,
+          "commits": ["cb22d3671ff548d57b3b54b6459a942c40cbdaf3"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "amp",
+          "time": 1551134989,
+          "commits": [
+            "99867a1728280ec424917eaf2ede7dc19cdc45df",
+            "09a2fe5c3819fd4b2ee41be29b1dc155936301e9",
+            "074432d92c12247902a70768b13ccc0b11e61c45"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "serverless",
+          "time": 1561085265,
+          "commits": [
+            "ff040950eb0f1cfb4d6285cbe5aaa5a92a781193",
+            "0f23faf81feca8e8526161448d64c7a5d665a38e",
+            "4ba6447e4010b6949d1771d799f96fa46b8c680b"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "Shuttle",
+          "time": 1554930499,
+          "commits": [
+            "510815a7ac54506c45db0081adcba9d9e7a694e3",
+            "c2d0a4ef0e8fb5f8d05f7bcb0d3f8f01495c1fc4",
+            "74cb4f4b7bdccd414db0142bfbdb346721b6bab2"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "typescript",
+          "time": 1544659246,
+          "commits": [
+            "5e3bf6e537124107034a35c49fceb27415214fec",
+            "8b6173917ab47ce73adc669531223541711913d7",
+            "b7bd1f775adf60d0aab868647a6c13e64a3aa6d0"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "circleci",
+          "time": 1538484579,
+          "commits": [
+            "b91d4975aa1c3591d6625ee70d120c440cd9fdbb",
+            "c111eac1aee62b9a70be7e2d4e1022cf1594228d",
+            "315a374298d1db7268fb09af608d5e1786573318"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "Flying",
+          "time": 1554930499,
+          "commits": [
+            "510815a7ac54506c45db0081adcba9d9e7a694e3",
+            "c2d0a4ef0e8fb5f8d05f7bcb0d3f8f01495c1fc4",
+            "74cb4f4b7bdccd414db0142bfbdb346721b6bab2"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "lambdas",
+          "time": 1542482133,
+          "commits": [
+            "7d78c3b64185d6d6417f1af9cde4a69d32b18cc6",
+            "c56e96291826ed0aac153352bd069f684fa1c542",
+            "5708e99ecaba8907642e371efb2d431a982b7242"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "webpack",
+          "time": 1550690642,
+          "commits": [
+            "61de215e0455f5112798abc42f7aade04b9b56c8",
+            "5beb365d12ebd9a0670eed5b83c093fa22945792",
+            "f66546f9507282b1aa4df90936216e3bf544d283"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "Babel",
+          "time": 1543413782,
+          "commits": [
+            "15bb1c5e7963361c9c592923ef28cd819092e49a",
+            "1c20a9bfdd3fc913a42037d32f038ac83d2aad1e",
+            "c178481611af68774e937eb88a14ee2ff122ae5c"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "terser",
+          "time": 1555326001,
+          "commits": [
+            "8b136a6f9d6ded180435b70b13ceda5ddbff383d",
+            "45f566355896ff166be7d69a4835fc6ce32a7658",
+            "74cb4f4b7bdccd414db0142bfbdb346721b6bab2"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "ReasonML",
+          "time": 1554837341,
+          "commits": [
+            "9c8d7290df965aa5a84555a4d70e046d6adab700",
+            "7f471a446336180a6a02dc302404b8bc9dd45cf4",
+            "44f7d1fbc495161bd570f7654715c7e84e9555ec"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "ncc",
+          "time": 1558083423,
+          "commits": [
+            "5beb365d12ebd9a0670eed5b83c093fa22945792",
+            "f66546f9507282b1aa4df90936216e3bf544d283",
+            "6feca310d7e31050359b081d1bf71b900d234541"
+          ]
+        },
+        {
+          "id": "a1",
+          "kind": "newcomer",
+          "text": "@ijjk",
+          "time": 1544786759,
+          "commits": ["af07611a632311eeeac3360bfef6190ef2ddb72f"]
+        },
+        {
+          "id": "a2",
+          "kind": "newcomer",
+          "text": "@j0lv3r4",
+          "time": 1544825154,
+          "commits": ["798ae043ac4146c9f212ee800cea22cef6d0689e"]
+        },
+        {
+          "id": "a3",
+          "kind": "newcomer",
+          "text": "@7ma7X",
+          "time": 1550667408,
+          "commits": ["6eacea43618deee7e4ba2368239caf9eaba7bf08"]
+        },
+        {
+          "id": "a4",
+          "kind": "newcomer",
+          "text": "@nataliemarleny",
+          "time": 1556477889,
+          "commits": ["c826048ad0d66f5de647ebdc287cf5c8a02a2e2a"]
+        },
+        {
+          "id": "a5",
+          "kind": "newcomer",
+          "text": "@bell-steven",
+          "time": 1543518745,
+          "commits": ["af1d10c9414fa9172ff28c7a9a5bce33c62b4393"]
+        },
+        {
+          "id": "a6",
+          "kind": "newcomer",
+          "text": "@d-dmytro",
+          "time": 1559658913,
+          "commits": ["cc6eecd23f3a187ee3b3b4f6b0f83964dcd021dd"]
+        },
+        {
+          "id": "a7",
+          "kind": "newcomer",
+          "text": "@developit",
+          "time": 1549907964,
+          "commits": ["734513b9bea3c765eb1dcad741df757047b356a3"]
+        },
+        {
+          "id": "a8",
+          "kind": "newcomer",
+          "text": "@exogen",
+          "time": 1544608956,
+          "commits": ["50662c6a83392f7b964ab3f5b7a1cd802b80c1a9"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "startTime": 1561770140,
+      "endTime": 1585681869,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "API routes documentation (#7562)",
+          "time": 1562565844,
+          "commits": ["264fc019695466a345ed404d704fed11879ae4b9"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Update remaining examples to latest Next.js",
+          "time": 1562629037,
+          "commits": ["f152c745daa03ea1ab11d321c578faa8339cd4bb"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "Update typescript examples (#7867)",
+          "time": 1562755881,
+          "commits": ["8c5209efabdb800baf8c7612472be565a63bea01"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "Remove public/ file example (#8056)",
+          "time": 1563807465,
+          "commits": ["eb740c530fdd8666d16be58554f48fc32db504ce"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "Auth example with api routes (#8118)",
+          "time": 1564098761,
+          "commits": ["a2b2a2a3e85808f408f7a507cbce4ceddc64f0ea"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "Example update: with-sentry-simple (#8684)",
+          "time": 1568713431,
+          "commits": ["dc28e5b7060ca5bb5239bd569570b7e92898a8ee"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "Add experimental SPR support (#8832)",
+          "time": 1569315004,
+          "commits": ["85e720a092fd07631fe2264bec206f0b89830805"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Add @zeit/fetch example (#9029)",
+          "time": 1570732204,
+          "commits": ["9ff7339e0d55fafc68bd39d01ad1e57b99c38366"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "Simplify with-noscript example (#9094)",
+          "time": 1571222200,
+          "commits": ["02e75cfdd189623a5021e2504456df5c254f17ad"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Netlify cms example (#8949)",
+          "time": 1571528809,
+          "commits": ["d94d2700f945b68166f2defdd4e35a8733dc1b12"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "Add experimental example of next-news (#9249)",
+          "time": 1572440745,
+          "commits": ["4c6e294ca2f38688cfc33d9ae849a103e3f9034e"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Add AMP First example (#9109)",
+          "time": 1573450236,
+          "commits": ["79e717a76bd1d0aaac4be7111b8d438380528e74"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "with-graphql-faunadb (#9387)",
+          "time": 1573668927,
+          "commits": ["581e3386148798442496225e967c30c5961f9782"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Remove getInitialProps from the faunadb example (#9427)",
+          "time": 1573842068,
+          "commits": ["8e2097997e75d8867a9111c861b624e35e14f811"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "Remove Broken Example (`with-apollo-auth`) (#9516)",
+          "time": 1574711386,
+          "commits": ["2cbe4d3560061fb17f3dab5bfc7375601394f9f6"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "with-material-ui example linked to mui-org/material-ui (#9605) (#9616)",
+          "time": 1575456471,
+          "commits": ["743248f177ba35df4c60c9b4c959dc7a0c7ab4e2"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "[docs] update custom-server-reasonml README to use create-next-app (#9792)",
+          "time": 1576957901,
+          "commits": ["034760903de5e36bde5945dd3bfa6ba64e05044f"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Remove example (#9910)",
+          "time": 1578007774,
+          "commits": ["d59858e32cfb79b23e8c2ec8a4f166cf70a7360b"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Add with-mobx-keystone-typescript example (#9844)",
+          "time": 1578082202,
+          "commits": ["ef6df482bfc05ffaaec6bd69b27728666bc55ad9"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Update css examples to use built-in CSS support (#10029)",
+          "time": 1578665368,
+          "commits": ["b5080f10106c0d7d7f577e4f3b699e706349f50e"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Add example: with-firebase-authentication-serverless (#10078)",
+          "time": 1579554768,
+          "commits": ["34f1aefa4a499753e56c1b85775003dc7c8a3a86"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "[with-emotion-10,11] Update emotion examples to v10 & v11 (#9646)",
+          "time": 1579555582,
+          "commits": ["b72b8e225dd02ff10ed1d85230218b4a67938ae0"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Add `with-stencil` example (#10125)",
+          "time": 1579556703,
+          "commits": ["275a65555aae9a900813df32277ea21784855225"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "New Jest Example (#10396)",
+          "time": 1580758615,
+          "commits": ["9a8c3100d204504e1eeab1416c005f3ca77287f7"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "Add paths field for unstable_getStaticPaths (#10454)",
+          "time": 1581131394,
+          "commits": ["f6e7a38101e9de98cdbc569264e105c4c5f474bd"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "Update with-mobx-keystone-typescript example (#10638)",
+          "time": 1582554781,
+          "commits": ["18ecaa9d6bebd2230da89cfd6a4f0ee2f2567dc2"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "DatoCMS Example (#10891)",
+          "time": 1583751068,
+          "commits": ["bf0ea49b029db154844a69db37bb9d884878279c"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Update with-zeit-fetch example to use SSG (#11026)",
+          "time": 1584070370,
+          "commits": ["9d9496e4a952f73c5cb3e8c9926268b9b0eacc49"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Update examples to use getStaticProps where possible (#11136)",
+          "time": 1584454047,
+          "commits": ["7e2d476e44c448fce1fce0f587627463a95f7648"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Clean up examples directory (#11169)",
+          "time": 1584535531,
+          "commits": ["ac34a9f960b85fa074726b5f1970dd0c20600752"]
+        },
+        {
+          "id": "r1",
+          "kind": "release",
+          "text": "v9.0.0",
+          "time": 1562568187,
+          "commits": ["66bf56ff7e5bad115cc73d728c92fdacfde243a6"]
+        },
+        {
+          "id": "r2",
+          "kind": "release",
+          "text": "v9.0.1",
+          "time": 1562877090,
+          "commits": ["47160fb0aa134f067e4a31daba1d86bcd1af7920"]
+        },
+        {
+          "id": "r3",
+          "kind": "release",
+          "text": "v9.0.2",
+          "time": 1563292220,
+          "commits": ["becd07402e6ed0145618972e80e81657050dadae"]
+        },
+        {
+          "id": "r4",
+          "kind": "release",
+          "text": "v9.0.3",
+          "time": 1564604076,
+          "commits": ["00b56c6ede6fce26c300d3864f70ce1ecbe5fb1d"]
+        },
+        {
+          "id": "r5",
+          "kind": "release",
+          "text": "v9.0.4",
+          "time": 1566244434,
+          "commits": ["37c666976fd384599585841ad8434b033363831d"]
+        },
+        {
+          "id": "r6",
+          "kind": "release",
+          "text": "v9.0.5",
+          "time": 1566665104,
+          "commits": ["2c7b4d8aaac475f81de21c0e9cb40fdea1a7a178"]
+        },
+        {
+          "id": "r7",
+          "kind": "release",
+          "text": "v9.0.6",
+          "time": 1568744498,
+          "commits": ["20aa1e4d214488315c77ff6968d8ca4fcf37e32d"]
+        },
+        {
+          "id": "r8",
+          "kind": "release",
+          "text": "v9.1.0",
+          "time": 1570473850,
+          "commits": ["b862d8515621ce490434f43d8dafdf0e56bbafbc"]
+        },
+        {
+          "id": "r9",
+          "kind": "release",
+          "text": "v9.2.0",
+          "time": 1579106295,
+          "commits": ["b595dd6af17d84814b64e5a1829e94d85e5cabc5"]
+        },
+        {
+          "id": "r10",
+          "kind": "release",
+          "text": "v9.3.0",
+          "time": 1583777332,
+          "commits": ["befb5006f4528977c80a7f0862a3021153a61b73"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "packages/create-next-app/ created",
+          "time": 1563396836,
+          "commits": ["4eb8aba692e3363213700a49481e4c587963272d"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": ".github/workflows/ created",
+          "time": 1565368154,
+          "commits": ["683b2c66e6c540e75ab223b5f847656d67cbe235"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "test/.stats-app/ created",
+          "time": 1565562521,
+          "commits": ["f01af7cefb47ce347c78238ca0a5513701183107"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "packages/next-server/ removed",
+          "time": 1567605654,
+          "commits": ["2ba352da39ee00b6595aecdc9ffb2f103e803a85"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "docs/ created",
+          "time": 1577113658,
+          "commits": ["e3465615e422de7e988e0240695285145e819c51"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "examples/with-stripe-typescript/ created",
+          "time": 1581391478,
+          "commits": ["7dd0b40f827dcac8dd93cf6d00bd365d665b044e"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "examples/cms-datocms/ created",
+          "time": 1583751068,
+          "commits": ["bf0ea49b029db154844a69db37bb9d884878279c"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "examples/cms-sanity/ created",
+          "time": 1584574777,
+          "commits": ["756b365adf61a3e80a58a0f1871a0e8ebb697431"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "SSG",
+          "time": 1584070370,
+          "commits": [
+            "9d9496e4a952f73c5cb3e8c9926268b9b0eacc49",
+            "fe4da7346938a11ab781c0842204f3ca7ad2ba30",
+            "31a6410bb2885e29873f25d4617c90ccacd48f50"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "css",
+          "time": 1578665368,
+          "commits": [
+            "b5080f10106c0d7d7f577e4f3b699e706349f50e",
+            "01b7c576b4f1512b6c80dc379ede1faf6e666c4c",
+            "d5222f8521c6bc198cc5b3f506d7541817771e18"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "SPR",
+          "time": 1569315004,
+          "commits": [
+            "85e720a092fd07631fe2264bec206f0b89830805",
+            "0208356f6756c2b6c88e91db54092d2dec323a70",
+            "31b2f51a03e82db407624acffb72bce13baa4bab"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "serverless",
+          "time": 1579554768,
+          "commits": [
+            "34f1aefa4a499753e56c1b85775003dc7c8a3a86",
+            "6fcb6230d26582a8f932e849e603e9b93f938dae",
+            "b31c29673019da75fa8beec097282c1446c8d197"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "apollo",
+          "time": 1574711386,
+          "commits": [
+            "2cbe4d3560061fb17f3dab5bfc7375601394f9f6",
+            "6c01bbd6dfe1263953c7622c5104760a404df91f",
+            "718e577169be08a170f25f27f7ab26a808c35450"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "custom",
+          "time": 1576957901,
+          "commits": [
+            "034760903de5e36bde5945dd3bfa6ba64e05044f",
+            "6679694a1e3abebf4dd602807d7f6c430f96882a",
+            "1c6f0874ce9f47725c8fb47f9f96d2509c5a4233"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "public",
+          "time": 1563807465,
+          "commits": [
+            "eb740c530fdd8666d16be58554f48fc32db504ce",
+            "6c9fa8662cf0a9619a46409f831a4d8b4bf710db",
+            "bfab9907b1cf310417892248c9cb213e3c95e627"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "AMP",
+          "time": 1573450236,
+          "commits": [
+            "79e717a76bd1d0aaac4be7111b8d438380528e74",
+            "8bf8c865160380bc6338bbf8c081837946cf5657",
+            "3f1e19e64ad9dd2ec40a1842df6de1da8a80185a"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "getStaticPaths",
+          "time": 1581131394,
+          "commits": [
+            "f6e7a38101e9de98cdbc569264e105c4c5f474bd",
+            "ca3f881a42e9cf4377330650a701df395a2d51eb",
+            "f5cb1a69d7bd3c3e8bda0e80710493a099087b58"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "routes",
+          "time": 1564098761,
+          "commits": [
+            "a2b2a2a3e85808f408f7a507cbce4ceddc64f0ea",
+            "264fc019695466a345ed404d704fed11879ae4b9",
+            "1045cd4c5aa2b5704b551367118aed070ae23fd5"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "api",
+          "time": 1564098761,
+          "commits": [
+            "a2b2a2a3e85808f408f7a507cbce4ceddc64f0ea",
+            "264fc019695466a345ed404d704fed11879ae4b9",
+            "1045cd4c5aa2b5704b551367118aed070ae23fd5"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "extra",
+          "time": 1567786680,
+          "commits": [
+            "e9ffb41462beff7bed9e27717e9558d42f48d17b",
+            "9546f9c3ace8727e69d7348c77ce324d1638db42",
+            "57d91f7d38001ab0970409673952a170af63f523"
+          ]
+        },
+        {
+          "id": "a1",
+          "kind": "newcomer",
+          "text": "@Janpot",
+          "time": 1581070439,
+          "commits": ["5e4850ceee3408eb8ab331749c29b7baccbd4043"]
+        },
+        {
+          "id": "a2",
+          "kind": "newcomer",
+          "text": "@merceyz",
+          "time": 1565808274,
+          "commits": ["a7baeb045e854597db610f6976251c5093560a87"]
+        },
+        {
+          "id": "a3",
+          "kind": "newcomer",
+          "text": "@afzalsayed96",
+          "time": 1578501053,
+          "commits": ["58b2d9e208c56cee0dab2eff287d2a19cb0e6de1"]
+        },
+        {
+          "id": "a4",
+          "kind": "newcomer",
+          "text": "@alejalapeno",
+          "time": 1579724811,
+          "commits": ["8449ebc221282d73f12a5b5608728d2efb57e8ca"]
+        },
+        {
+          "id": "a5",
+          "kind": "newcomer",
+          "text": "@alieslamifard",
+          "time": 1567421250,
+          "commits": ["dd9448c574fdd19de852ba6a00203d005677a1ca"]
+        },
+        {
+          "id": "a6",
+          "kind": "newcomer",
+          "text": "@EvgeniyKumachev",
+          "time": 1578082202,
+          "commits": ["ef6df482bfc05ffaaec6bd69b27728666bc55ad9"]
+        },
+        {
+          "id": "a7",
+          "kind": "newcomer",
+          "text": "@fauna-brecht",
+          "time": 1573668927,
+          "commits": ["581e3386148798442496225e967c30c5961f9782"]
+        },
+        {
+          "id": "a8",
+          "kind": "newcomer",
+          "text": "@JazibJafri",
+          "time": 1584136112,
+          "commits": ["31a6410bb2885e29873f25d4617c90ccacd48f50"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "startTime": 1585683010,
+      "endTime": 1635687336,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "Add Experimental React Refresh Example (#12081)",
+          "time": 1587486489,
+          "commits": ["3fe4cbc6776dfb7b9360563a8fc92513c6bdece5"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Rosetta i18n example (#11841)",
+          "time": 1587491358,
+          "commits": ["d28ad8805a7cdc51bb85cb9339a7d9fc61500d90"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "example: added Ant Design Pro Layout less (#12408)",
+          "time": 1588806048,
+          "commits": ["71a5b5803ee4a8e7a7e79dbcdfe005ca7cfcd921"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "[Examples] Update firebase authentication (#12687)",
+          "time": 1589160740,
+          "commits": ["f0220e6a9dda0b209f8b903ca4906e9b701c16ba"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "Update Examples for Fast Refresh (#13068)",
+          "time": 1589838258,
+          "commits": ["dbad9db68c49f32603b42b2a0f1851abe454cfbf"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "Improve Redux Toolkit example (#12858)",
+          "time": 1589894850,
+          "commits": ["d16fb63c1bd70320a7670306e69319028098e1cf"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "With stitches (#12677)",
+          "time": 1589955770,
+          "commits": ["cc9e2526e44d10178cb5d802862b88785cb5fcf2"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "[Examples] Added blog-starter-typescript (#12981)",
+          "time": 1590258875,
+          "commits": ["dc1658f1077aea98263afece1d5878649bca3de5"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "[examples] with-ts-eslint-jest example app (#12025)",
+          "time": 1590430566,
+          "commits": ["268d3572bc3c95419b43ed24663f917706bcdb2b"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "[Examples] Removed React.FC from blog-starter-typescript  (#13797)",
+          "time": 1591352155,
+          "commits": ["0175b989280fef0068834daf52febaed0de5e68f"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "chore: remove-redundant-example-react-import (#13907)",
+          "time": 1591666316,
+          "commits": ["506116c7d03aa7ca1acae68579b64894eb598ee1"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "[Examples] remove getInitialProps from with-firebase-authentication (#13895)",
+          "time": 1591897109,
+          "commits": ["6c8b7cde7dc82937afd4f8ae374e2dc0d634263d"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Add 'with-next-auth' example (#14530)",
+          "time": 1593037442,
+          "commits": ["fe529c49bf2642777c6f4c24c8ea1045ed5cd339"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Add [with-storybook-typescript] example (#14398)",
+          "time": 1593098807,
+          "commits": ["c8dbc7e572d0e827eff9b2703b11dfa1da9c0774"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "Update Storybook examples to v6.0 (#16139)",
+          "time": 1597524137,
+          "commits": ["521cc621d80542071df6c7ee299cb6ec88e5a4db"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "Remove experimental example (#16497)",
+          "time": 1598207614,
+          "commits": ["ec281df70b4d314d41b7d3bc7d0a8ddd42444d7a"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "fix: fix hashing algo and locale value hydration (#16692)",
+          "time": 1598924004,
+          "commits": ["6f60a2237785f2594d376990da4db88b346d2078"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Update `with-stitches` example (#16827)",
+          "time": 1599154693,
+          "commits": ["0e843e6001a0be20876872e5466f7ec7799bbf7d"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Add docs for Image Optimization (#18107)",
+          "time": 1603544008,
+          "commits": ["3c6f421d99452fc7b978a6a3539585ff29e92c8f"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Update with-sentry example to show how to track API routes + bug fixes (#16484)",
+          "time": 1604946996,
+          "commits": ["6aef4b8445472c53c4a4c39005319c2fc73e44de"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Ensure next/image loads correctly with basePath (#20592)",
+          "time": 1609293428,
+          "commits": ["962535752b20c4d43495b3d4da743336b176ee29"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "GraphCMS example - Upgrade to React 17 / Tailwind 2 and next/image (#20772)",
+          "time": 1610357345,
+          "commits": ["8bfe06e8990f5131ebc7fa151743be3cd24a54e1"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Update Supabase example. (#21200)",
+          "time": 1611061856,
+          "commits": ["0bd175264b000895cccd75f4499bdf55daad4882"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "Point to official next-auth example (#22282)",
+          "time": 1613662778,
+          "commits": ["6af69793aab74266569eedf636c8da88745ad0ab"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "Simplify redux toolkit example and update packages (#23047)",
+          "time": 1615925754,
+          "commits": ["091d56ade8249e9c3b158c00814ddf24ad57df5e"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "feat: add exemple with redux toolkit in typescript (#23250)",
+          "time": 1616383273,
+          "commits": ["8e4123e9d90409b84acf9276586f341db3bff5a3"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "Simplify with redux toolkit typescript (#24161)",
+          "time": 1618888189,
+          "commits": ["f4e610d192e863af6bc6f38e9f3a348a3d5959a3"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Remove outdated/deprecated/unmainted examples (#24945)",
+          "time": 1620646204,
+          "commits": ["802a7721e9e8c8230371e5e2c3a8e6faea7a0c10"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "next-env.d.ts note in templates (#27983)",
+          "time": 1628800613,
+          "commits": ["25df53d19fa1a87e5397d14a81100c6da2e5a3ee"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Remove webpack 4 support (#29660)",
+          "time": 1633534801,
+          "commits": ["aa8a885599592fc92e1d0b164a388ea7f92e96fa"]
+        },
+        {
+          "id": "r1",
+          "kind": "release",
+          "text": "v9.3.4",
+          "time": 1585749904,
+          "commits": ["8c899ee5e4cadc0a1cb47918613c1f6028b26314"]
+        },
+        {
+          "id": "r2",
+          "kind": "release",
+          "text": "v9.3.5",
+          "time": 1586921093,
+          "commits": ["c0724cac821a98489f5cbb48ec5471e12177c0ec"]
+        },
+        {
+          "id": "r3",
+          "kind": "release",
+          "text": "v9.4.0",
+          "time": 1589208454,
+          "commits": ["6d1167eed67d70d2d2d1c8c7bfde04c721daf2eb"]
+        },
+        {
+          "id": "r4",
+          "kind": "release",
+          "text": "v9.5.0",
+          "time": 1595861716,
+          "commits": ["d33dbea8dc684003a8d7babce58b60140089c6e1"]
+        },
+        {
+          "id": "r5",
+          "kind": "release",
+          "text": "v10.0.0",
+          "time": 1603813551,
+          "commits": ["118ab7992bc8f7a7e5a7bb996510d9b56ffe4f68"]
+        },
+        {
+          "id": "r6",
+          "kind": "release",
+          "text": "v10.1.0",
+          "time": 1617029817,
+          "commits": ["fc286d6e19c518e3672c0755ca5f30cf2a258ef5"]
+        },
+        {
+          "id": "r7",
+          "kind": "release",
+          "text": "v10.2.0",
+          "time": 1619620338,
+          "commits": ["6b97bcea5ba851740404e8192fc9ebff711e1b83"]
+        },
+        {
+          "id": "r8",
+          "kind": "release",
+          "text": "v11.0.0",
+          "time": 1623768673,
+          "commits": ["0ca24563be9658732eac158c31046ff58bfe78ca"]
+        },
+        {
+          "id": "r9",
+          "kind": "release",
+          "text": "v11.1.0",
+          "time": 1628697140,
+          "commits": ["ce4adfc02d3532e2c62ed8088660df1655e66278"]
+        },
+        {
+          "id": "r10",
+          "kind": "release",
+          "text": "v12.0.0",
+          "time": 1635262523,
+          "commits": ["8a450db14a1b29d506ec86df1a002bc525ab0da7"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "examples/cms-prismic/ created",
+          "time": 1586515269,
+          "commits": ["c59d24055d35c374d051d703a2a0cbf1dd8e2da3"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": ".github/actions/ created",
+          "time": 1590062847,
+          "commits": ["da5a05dc87d159a579c6c9a6c4fdedba1888cf7a"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "examples/cms-wordpress/ created",
+          "time": 1591049840,
+          "commits": ["ad24a0c8554409fa5ea75e7138717baad298a634"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "packages/next-codemod/ created",
+          "time": 1597050893,
+          "commits": ["62031ff24f3f48f84bf384bbd1ef913fe31ddf9d"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "scripts/ created",
+          "time": 1625139687,
+          "commits": ["612889dfeb22a90f7a1c8a2efbd5a1873b536cea"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "test/development/ created",
+          "time": 1631536585,
+          "commits": ["a92a5caec2996e22c526df4fdf465a3db5086431"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "test/e2e/ created",
+          "time": 1631536585,
+          "commits": ["a92a5caec2996e22c526df4fdf465a3db5086431"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "test/production/ created",
+          "time": 1633459939,
+          "commits": ["ebc1b0e559a12e1703cf89f907dc4fe7fc183cc5"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "image",
+          "time": 1610357345,
+          "commits": [
+            "8bfe06e8990f5131ebc7fa151743be3cd24a54e1",
+            "35f8f521a2be959c4a1144923a80e5af98d02873",
+            "3c6f421d99452fc7b978a6a3539585ff29e92c8f"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "webpack",
+          "time": 1633534801,
+          "commits": [
+            "aa8a885599592fc92e1d0b164a388ea7f92e96fa",
+            "c5e1e48e5a594f0321cfb4cf752c0ccc184ce93a",
+            "437c35f121a3a6792d33396b1fbbf3afc16b6bc6"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "Fast",
+          "time": 1589838258,
+          "commits": [
+            "dbad9db68c49f32603b42b2a0f1851abe454cfbf",
+            "fbea795ad91870e7442338a7a11272dcde1572c6",
+            "e173967b9f3873c1ecf0f4bc237466f344675c74"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "i18n",
+          "time": 1587491358,
+          "commits": [
+            "d28ad8805a7cdc51bb85cb9339a7d9fc61500d90",
+            "44ea598f8872962526c0a550b8d58a7c424cbbdd",
+            "4e7948151191ea2ff6589ab45d5559d1a4f100a7"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "locale",
+          "time": 1598924004,
+          "commits": [
+            "6f60a2237785f2594d376990da4db88b346d2078",
+            "67b67b28b229fca0bd937d154270c6a6312e2bce",
+            "960368eed5899abf99fa728dafe8ca858e217cdd"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "eslint",
+          "time": 1590430566,
+          "commits": [
+            "268d3572bc3c95419b43ed24663f917706bcdb2b",
+            "df83ccb7cd151452664792e145b8e595ae95a66f",
+            "dc826e3d373a5b8f7a249d27ad81504c7a7399e0"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "Refresh",
+          "time": 1587486489,
+          "commits": [
+            "3fe4cbc6776dfb7b9360563a8fc92513c6bdece5",
+            "dbad9db68c49f32603b42b2a0f1851abe454cfbf",
+            "fbea795ad91870e7442338a7a11272dcde1572c6"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "typescript",
+          "time": 1618888189,
+          "commits": [
+            "f4e610d192e863af6bc6f38e9f3a348a3d5959a3",
+            "8e4123e9d90409b84acf9276586f341db3bff5a3",
+            "dc1658f1077aea98263afece1d5878649bca3de5"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "basePath",
+          "time": 1609293428,
+          "commits": [
+            "962535752b20c4d43495b3d4da743336b176ee29",
+            "54b70425ab55d3dcd8fb15e08a45d099cfcbde10",
+            "3a9cb2c5b3d807c2e11514cd509c9f9cc2d5eda8"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "bug",
+          "time": 1604946996,
+          "commits": [
+            "6aef4b8445472c53c4a4c39005319c2fc73e44de",
+            "df83ccb7cd151452664792e145b8e595ae95a66f",
+            "960368eed5899abf99fa728dafe8ca858e217cdd"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "note",
+          "time": 1628800613,
+          "commits": [
+            "25df53d19fa1a87e5397d14a81100c6da2e5a3ee",
+            "01662f1c79279a1710db5e3c8d2343a0c2f88320",
+            "e6c1aa6483ecc98aaaa42cce50ee94ef274aa883"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "Optimization",
+          "time": 1603544008,
+          "commits": [
+            "3c6f421d99452fc7b978a6a3539585ff29e92c8f",
+            "802af5ff5bc5fb76e498b29c129608ec222fa8e3",
+            "1b733423d6d812a8bc9bd47ef87769c3599e7127"
+          ]
+        },
+        {
+          "id": "a1",
+          "kind": "newcomer",
+          "text": "@TodorTotev",
+          "time": 1589825822,
+          "commits": ["7c68d0c7f691a77b2808ffdf3eb48919116400ad"]
+        },
+        {
+          "id": "a2",
+          "kind": "newcomer",
+          "text": "@jamesmosier",
+          "time": 1585749398,
+          "commits": ["7b546a92c83214362b85e5c30e3ab69610fffc3b"]
+        },
+        {
+          "id": "a3",
+          "kind": "newcomer",
+          "text": "@AryanBeezadhur",
+          "time": 1612160650,
+          "commits": ["40065135a50df7039ea352440307000e17e78b6e"]
+        },
+        {
+          "id": "a4",
+          "kind": "newcomer",
+          "text": "@eKhattak",
+          "time": 1592294386,
+          "commits": ["8cfa51878a66ad186932687e7594b31ba1eec3ca"]
+        },
+        {
+          "id": "a5",
+          "kind": "newcomer",
+          "text": "@kaykdm",
+          "time": 1609865080,
+          "commits": ["b6c6770cd9611c0b77d52d307ac0c8107bab478a"]
+        },
+        {
+          "id": "a6",
+          "kind": "newcomer",
+          "text": "@kara",
+          "time": 1630353135,
+          "commits": ["9be387c7f476fb0a0fed3bf04162ab22e0a0074a"]
+        },
+        {
+          "id": "a7",
+          "kind": "newcomer",
+          "text": "@ludofischer",
+          "time": 1603120079,
+          "commits": ["0d3671c2c26f001e2647be5d6d89def13cc75888"]
+        },
+        {
+          "id": "a8",
+          "kind": "newcomer",
+          "text": "@ctjlewis",
+          "time": 1623379686,
+          "commits": ["eddf5e0de9af1f07cf079da6cd6ed8c173351ca8"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "startTime": 1635692115,
+      "endTime": 1661987336,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "Update Jest examples and docs (#31633)",
+          "time": 1638306640,
+          "commits": ["306c467c3bf0253dc2d3f0acaff0adf039304be0"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Add Umbraco Heartcore blog example (#21409)",
+          "time": 1638891535,
+          "commits": ["ecf9f8775c18ecf13a680ef0514cbeb0ec0b8fa4"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "chore: convert Jest examples to TypeScript (#32705)",
+          "time": 1640131927,
+          "commits": ["48dba6457d842dab446ac48a37dc84a70644a5bc"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "Add authentication example using Stytch (#32194)",
+          "time": 1640201444,
+          "commits": ["ff573632afce6f34bd3a74a020e1db31dff4680d"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "[examples] Add a statically generated blog example using Next.js and Builder.io (#22094)",
+          "time": 1642024723,
+          "commits": ["de54ad895c075761723f8de5c8e7041ec04503e9"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "docs: add skynexui to examples (#33326)",
+          "time": 1642446905,
+          "commits": ["6d8923768460c2c70ad76b68d8c206378976d091"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "[New Example] with docker - multiple deployment environments (#34015)",
+          "time": 1644084781,
+          "commits": ["3cd927ec306de7517d3eb22cca5fd91ebd4ac0b2"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Update MySQL example. (#34784)",
+          "time": 1645760501,
+          "commits": ["fe312ed4bd3b75588e6d3746135c13329b38c64c"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "[examples] Add Tina CMS blog starter (#35045)",
+          "time": 1646500129,
+          "commits": ["b5cc91e2bacee2d9eb3d4034778c6cc397ad7576"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Adding Typescript and Mantine example (#36294)",
+          "time": 1651062964,
+          "commits": ["fca1071941b3d41e948139276df12cac86118350"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "[examples] Update styled-components with Babel - add types (#36125)",
+          "time": 1651063386,
+          "commits": ["0cb2037a41c27d4ced57b5479e27edf96f748083"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Add with-edgedb example (#35929)",
+          "time": 1651078157,
+          "commits": ["842e4ec02381234bdea82a9c95e75cc79e211a09"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Update buttercms example (#35436)",
+          "time": 1651574487,
+          "commits": ["fec5318e91d6b8031d8a6b90ecdfe8963bdaa9eb"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "added example: with-geist-ui (#36525)",
+          "time": 1652180522,
+          "commits": ["342331e66d787fe6fcb226912c008b9196f29ac7"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "Fixing Tina + Adding a demo URL (#35480)",
+          "time": 1652205174,
+          "commits": ["22c0b65eb5b3b222743d6feb1f4d3641078f5c54"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "Add with-markdoc/ example (#36867)",
+          "time": 1652917965,
+          "commits": ["91c75b6c1f55dbfcd0c4d090f87829ff3dc4d9bd"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "feat(examples): build a GraphQL Gateway with GraphQL Mesh and Next.js API routes (#36439)",
+          "time": 1653321741,
+          "commits": ["cf0158ce8d49bb5472145a9c4a520f53e960e453"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Add note about NEXT_DATA hydration (#37480)",
+          "time": 1654551998,
+          "commits": ["f7ac942e6ae990d6fedaae487f00ed777ef65f02"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Add with-docker-compose example (#32668)",
+          "time": 1655205235,
+          "commits": ["78809a3d68fcf216c5c31089160412edad487900"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Adding example with-fingerprintjs-pro for identifying visitors (#37549)",
+          "time": 1655898502,
+          "commits": ["a4117c94b00f03d0ec8afda12779335391f4399f"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Added with-particles template (#35471)",
+          "time": 1655910790,
+          "commits": ["cf3ba271e9d9ae5f7ba85901eb0b644a86241567"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "Add a Plasmic example (#37522)",
+          "time": 1655911144,
+          "commits": ["ee89517848190e9f0477aa2205587684b74e2494"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Add experimental `next/future/image` component (#37927)",
+          "time": 1656082565,
+          "commits": ["e28d03c5a473e31046e6586e111a7814e221ccee"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "Rename page runtime edge to experimental-edge (#38041)",
+          "time": 1656291744,
+          "commits": ["a5f8382ee34c7bdb48c6f590e5d715ae1b3562a0"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "Migrate rsc tests to app dir tests (#38158)",
+          "time": 1656544377,
+          "commits": ["5e2ad29309ee56d251b19b3b68e9033f23883fae"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "feat(examples): adds middleware example (#38240)",
+          "time": 1656906356,
+          "commits": ["7664a4006439b293125de1f7248cad649dbae048"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "Add example: with-apivideo-upload (#36050)",
+          "time": 1657118149,
+          "commits": ["27bfdec1ea2648e9e1581ffcb8fe9a4fe87d7fce"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Update with-emotion-swc to use TypeScript (#38744)",
+          "time": 1658168733,
+          "commits": ["f544a90ca4c7cbc38be8827e7b51b296cdf35728"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Convert `cms-agilitycms` example to TypeScript (#38976)",
+          "time": 1658949894,
+          "commits": ["e955850dd4880430433043fad3d8c13ed43b089a"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Enable @typescript-eslint/no-use-before-define for examples dir (#39469)",
+          "time": 1660149036,
+          "commits": ["ed81a14922be9f8a10ff6ff40ca466dabc4f8b3f"]
+        },
+        {
+          "id": "r1",
+          "kind": "release",
+          "text": "v12.0.2",
+          "time": 1635692115,
+          "commits": ["99abb8bfd7f662efb942763332b87f4348b8844d"]
+        },
+        {
+          "id": "r2",
+          "kind": "release",
+          "text": "v12.0.3",
+          "time": 1636135444,
+          "commits": ["e2506411a1cf287326082d2c326e58e8cc27a7a9"]
+        },
+        {
+          "id": "r3",
+          "kind": "release",
+          "text": "v12.0.4",
+          "time": 1637009034,
+          "commits": ["abd87a515ea5954b7f96de455a74cb80eb83757f"]
+        },
+        {
+          "id": "r4",
+          "kind": "release",
+          "text": "v12.0.5",
+          "time": 1638571500,
+          "commits": ["b6162bb6b6b46788ef2ae700d81c99e94d903900"]
+        },
+        {
+          "id": "r5",
+          "kind": "release",
+          "text": "v12.0.6",
+          "time": 1638619941,
+          "commits": ["56c68dba518843576330e1d9461ceeb38371aadd"]
+        },
+        {
+          "id": "r6",
+          "kind": "release",
+          "text": "v12.0.7",
+          "time": 1638663703,
+          "commits": ["ebf509539c0f4f519923c7780e269872059c384e"]
+        },
+        {
+          "id": "r7",
+          "kind": "release",
+          "text": "v12.0.8",
+          "time": 1641975242,
+          "commits": ["d7a96d22be60bd84297befe7bff9ecc8862eaebf"]
+        },
+        {
+          "id": "r8",
+          "kind": "release",
+          "text": "v12.0.9",
+          "time": 1643234479,
+          "commits": ["07431d3e0f057a0bd58af6d456e4bee646fd8b42"]
+        },
+        {
+          "id": "r9",
+          "kind": "release",
+          "text": "v12.1.0",
+          "time": 1645112091,
+          "commits": ["8545fd1bb02244ced9e8dc9584a764aeae296cd0"]
+        },
+        {
+          "id": "r10",
+          "kind": "release",
+          "text": "v12.2.0",
+          "time": 1656426067,
+          "commits": ["632feb6b73f68ab48004634909fe1be237db0e43"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "packages/next-swc/ created",
+          "time": 1637495996,
+          "commits": ["a79d4fc36664bc4b24a75c474821330dc89d7471"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "examples/cms-umbraco-heartcore/ created",
+          "time": 1638891535,
+          "commits": ["ecf9f8775c18ecf13a680ef0514cbeb0ec0b8fa4"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "examples/auth-with-stytch/ created",
+          "time": 1640201444,
+          "commits": ["ff573632afce6f34bd3a74a020e1db31dff4680d"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "examples/cms-builder-io/ created",
+          "time": 1642024723,
+          "commits": ["de54ad895c075761723f8de5c8e7041ec04503e9"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "examples/next-forms/ created",
+          "time": 1642425650,
+          "commits": ["790db2c2e4786ecc3127ea32263230f342d1dcf7"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "examples/cms-tina/ created",
+          "time": 1646500129,
+          "commits": ["b5cc91e2bacee2d9eb3d4034778c6cc397ad7576"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "examples/with-vitest/ created",
+          "time": 1649096756,
+          "commits": ["686a0f598a9555bf98bb88561a11ffaef094e6ef"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "examples/convex/ created",
+          "time": 1656584806,
+          "commits": ["8f707d4d74b6afa7929e56ed66b7ba46e1d137f2"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "middleware",
+          "time": 1656906356,
+          "commits": [
+            "7664a4006439b293125de1f7248cad649dbae048",
+            "88038ca21f66dd4204915ee3de9912317a79356f",
+            "f354f46b3fb37349122ab82c6aad3a5fb39ef5a2"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "swc",
+          "time": 1658168733,
+          "commits": [
+            "f544a90ca4c7cbc38be8827e7b51b296cdf35728",
+            "b579a35e83531519f7edfbbdb1b7b3adc493afb4",
+            "2e16d02faa04a2ae13caed1f8437cc38bac00fa7"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "Next",
+          "time": 1642024723,
+          "commits": [
+            "de54ad895c075761723f8de5c8e7041ec04503e9",
+            "cf0158ce8d49bb5472145a9c4a520f53e960e453",
+            "bbffaea755f3d3b6d199811fe4decc5d7d31ef8f"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "future",
+          "time": 1656082565,
+          "commits": [
+            "e28d03c5a473e31046e6586e111a7814e221ccee",
+            "4cc7f11da2194aa9ffce4e04b8a0c6ee340f4f85",
+            "cbaaaeb0766a5d571e63dda2a779ceaf9cdf4e05"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "image",
+          "time": 1656082565,
+          "commits": [
+            "e28d03c5a473e31046e6586e111a7814e221ccee",
+            "a74af1f31d6b6be84350679166eb4a236f1186a3",
+            "53f0e2b31c1478832811a6d24f391a27b8b07360"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "about",
+          "time": 1654551998,
+          "commits": [
+            "f7ac942e6ae990d6fedaae487f00ed777ef65f02",
+            "b717b6eb1d64c3390f7ac542aae38e396a5273e0",
+            "723caedaac26509765a2c88c6d548450cf07adbf"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "rsc",
+          "time": 1656544377,
+          "commits": [
+            "5e2ad29309ee56d251b19b3b68e9033f23883fae",
+            "ca668723892db0c4960cd245ab7b1b352d33da56",
+            "60ad1dee76dac03d948977cddee01818a7682d6d"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "Typescript",
+          "time": 1651062964,
+          "commits": [
+            "fca1071941b3d41e948139276df12cac86118350",
+            "48dba6457d842dab446ac48a37dc84a70644a5bc",
+            "f544a90ca4c7cbc38be8827e7b51b296cdf35728"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "edge",
+          "time": 1656291744,
+          "commits": [
+            "a5f8382ee34c7bdb48c6f590e5d715ae1b3562a0",
+            "73928c01f13f46a5d2ff0a2105e0877e7b1e2ef2",
+            "6e2c3821cfdf02d2b28e36d945ef90d190d5116b"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "Jest",
+          "time": 1638306640,
+          "commits": [
+            "306c467c3bf0253dc2d3f0acaff0adf039304be0",
+            "48dba6457d842dab446ac48a37dc84a70644a5bc",
+            "b596ce9d6a23b3b8e394f01c39625c54356661ff"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "runtime",
+          "time": 1648249535,
+          "commits": [
+            "4f6bb5e4fa432692d4ac54c302e4eee8534c5960",
+            "853442dfc36e37a6b1de543fef12a303364be29b",
+            "24f450e8aa08cf648eaac86522e7e6237c0b703e"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "eslint",
+          "time": 1660149036,
+          "commits": [
+            "ed81a14922be9f8a10ff6ff40ca466dabc4f8b3f",
+            "5211ac5caee1f6764cb08a3070974c02820c5062",
+            "34dcede6902fc1bc100a3a9d8874851c4bcd9977"
+          ]
+        },
+        {
+          "id": "a1",
+          "kind": "newcomer",
+          "text": "@kwonoj",
+          "time": 1653603386,
+          "commits": ["fc61428db1941aa4bb7a0334569e9ef4a8174cde"]
+        },
+        {
+          "id": "a2",
+          "kind": "newcomer",
+          "text": "@jgoping",
+          "time": 1645750758,
+          "commits": ["ce4923c65988dc83680587bb2315e95ec7ee83bd"]
+        },
+        {
+          "id": "a3",
+          "kind": "newcomer",
+          "text": "@valcosmos",
+          "time": 1657050649,
+          "commits": ["09fdf9ada1990667f49c7ca4447df9b0f7723c0c"]
+        },
+        {
+          "id": "a4",
+          "kind": "newcomer",
+          "text": "@await-ovo",
+          "time": 1650550443,
+          "commits": ["864d401ee16ef9711c7e1165aa96f3d55a0e189b"]
+        },
+        {
+          "id": "a5",
+          "kind": "newcomer",
+          "text": "@charlypoly",
+          "time": 1653321741,
+          "commits": ["cf0158ce8d49bb5472145a9c4a520f53e960e453"]
+        },
+        {
+          "id": "a6",
+          "kind": "newcomer",
+          "text": "@leoortizz",
+          "time": 1638146786,
+          "commits": ["efd5d03a8c45324f5e716bcca775ac62ca047d8f"]
+        },
+        {
+          "id": "a7",
+          "kind": "newcomer",
+          "text": "@theMosaad",
+          "time": 1642461984,
+          "commits": ["2518a5a4c71cd06ad87548ef90bb7ae884a28c67"]
+        },
+        {
+          "id": "a8",
+          "kind": "newcomer",
+          "text": "@trevor-fauna",
+          "time": 1657725972,
+          "commits": ["b9ad4aa5791632c003a796075f1e08377160d830"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "startTime": 1661993227,
+      "endTime": 1685583533,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "misc: add benchmarking script for edge rendering (#40716)",
+          "time": 1664294236,
+          "commits": ["6be2868787285c878d4b4b9eeca2079c9f08bb7b"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Add `with-xata` example (#39864)",
+          "time": 1664491048,
+          "commits": ["2fa33b351b0df93da7b62761e998823f228cc71c"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "Add Enterspeed blog example (#35897)",
+          "time": 1664495280,
+          "commits": ["88ac118d1c421ac2c7959bd431cfdc0b5c2481c2"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "Add NextUI example (#38209)",
+          "time": 1664495955,
+          "commits": ["8422f233ef94e353f16d05d95e905103d4a6af86"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "examples/evm-multichain-dapp (#39206)",
+          "time": 1664547594,
+          "commits": ["92db7f165df370cdb541b7a145fc4ee07206df08"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "chore(examples): add Authsignal passwordless example (#41079)",
+          "time": 1664599178,
+          "commits": ["e875dded8ba2244ed466212ac922fc433d90e790"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "chore(examples): Add dotCMS example (#38214)",
+          "time": 1664630773,
+          "commits": ["15cc88909c2480816b127d8a4f7448e0170d61cc"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "chore(examples): Add 'Sitefinity CMS' Example (#39537)",
+          "time": 1664630797,
+          "commits": ["ccbc9b868af4d47dc564d18162b3eee6b4714ca4"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "chore(examples): add webiny cms example (#41159)",
+          "time": 1664980747,
+          "commits": ["d5837e03cc9a4377c534ea2ccabc54856b6a15f8"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "misc: add minimal server bench setup (#41328)",
+          "time": 1665503606,
+          "commits": ["c6a8675c35eda490b590979eeb7beb6429eb4eca"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "Added example with salesforce commerce cloud (#41376)",
+          "time": 1665678884,
+          "commits": ["af739ed8e4990b194ad079117189e8f2b3c133bb"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "chore(examples): update with-apivideo (#39727)",
+          "time": 1666278354,
+          "commits": ["12408a3f2df217655f1ca1f5a63e437776208a47"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Add turbopack example (#41789)",
+          "time": 1666718513,
+          "commits": ["24787089cf774e7730db81a3bef6629cbc5f01d1"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Update SFCC example to use TypeScript + `@next/font` (#42865)",
+          "time": 1668440791,
+          "commits": ["ad61e84101552445edd6fc869eb161b5a6143710"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "Tigris example with Next.js (#42662)",
+          "time": 1668510029,
+          "commits": ["0f8b3d6c8b9a996d812245e6a901940b916444d5"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "feat(examples): with-grafbase (#42898)",
+          "time": 1668536311,
+          "commits": ["fbf6bfa04f46f521a833279814caba9446678436"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "Add with-cloudinary example (#43250)",
+          "time": 1669953934,
+          "commits": ["57dc7207e60e98f7378d8ca4b8458154b152fd69"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "misc: fix benchmark script (#44592)",
+          "time": 1672926401,
+          "commits": ["2c23da077f7e3a787af2f443d9610128dad1e800"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Add support for rendering MDX as a server component (#44651)",
+          "time": 1673039345,
+          "commits": ["35264c365930f6f498d7ef5b2afd04e262b7ab72"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Create reproduction template for app dir (#45412)",
+          "time": 1675339326,
+          "commits": ["5127e8376d97b5e43858f33268141ef734f96fae"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Upgrade librabries and rebranding kontent.ai (#45260)",
+          "time": 1675718512,
+          "commits": ["7c15278cc2b700fbee847f75bb0b389a06510594"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "[EXAMPLES] Update with-apollo-neo4j-graphql (#44570)",
+          "time": 1677159442,
+          "commits": ["4faf579c4fbd6db881d3df760c2e640c73d038f5"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Move `next-*` crates from Turbopack (#47019)",
+          "title": "Move `next-*` crates from Turbopack",
+          "time": 1678723549,
+          "commits": ["9af72fa06e668114d01d9884ca6fda12d720e702"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "Ensure all server entry exports are functions (#47364)Co-authored-by: kodiakhq[bot] <49736102+kodiakhq[bot]@users.noreply.github.com>",
+          "time": 1679429835,
+          "commits": ["250160f4a919b0255a2886505b4ff0914659f53f"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "improve source mapping of console output and errors (#47388)",
+          "time": 1679575402,
+          "commits": ["3b1aaa2686ab50fa4945595d1b46122e34cbc5e7"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "use structured images with metainfo (blur placeholder) (#48531)",
+          "time": 1681949939,
+          "commits": ["189e6a3687924de3172438a2912973bd49c1e37e"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "add support for static implicit metadata in turbopack (#48823)",
+          "time": 1682574893,
+          "commits": ["b50ecb7e53727923ab9a9714b534aca93f68f70d"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "add test cases for error handling (#49093)",
+          "time": 1683058195,
+          "commits": ["fe383696183e7cf5deffe8d44fa0fe2c4395003f"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Add test for appdir referenced images (#49242)",
+          "time": 1683717469,
+          "commits": ["ba4c2f2b4a04bfc24843c98309a6b7ae895f17dd"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "update with-turbopack example (#49332)",
+          "time": 1684431182,
+          "commits": ["e5eab8b38deac6000074246494443a2f26420297"]
+        },
+        {
+          "id": "r1",
+          "kind": "release",
+          "text": "v12.3.0",
+          "time": 1662652804,
+          "commits": ["ba4c575334796db92c93957afa97ef483cea3f2e"]
+        },
+        {
+          "id": "r2",
+          "kind": "release",
+          "text": "v12.3.1",
+          "time": 1663627312,
+          "commits": ["980095d59e0f108019415641a724910cd41a7630"]
+        },
+        {
+          "id": "r3",
+          "kind": "release",
+          "text": "v13.0.0",
+          "time": 1666714588,
+          "commits": ["63aab20a2ca4f0340e7ca5baff00a5f261dd12d2"]
+        },
+        {
+          "id": "r4",
+          "kind": "release",
+          "text": "v13.0.1",
+          "time": 1667252752,
+          "commits": ["c1c3eac3250a88bc7d51fc0a895361f3d3d7da85"]
+        },
+        {
+          "id": "r5",
+          "kind": "release",
+          "text": "v13.0.2",
+          "time": 1667517651,
+          "commits": ["2f9efb1abd947b1f5d80422eafaf5ce62aec02ff"]
+        },
+        {
+          "id": "r6",
+          "kind": "release",
+          "text": "v13.0.3",
+          "time": 1668137160,
+          "commits": ["4240dcc410b441807a33a87191a3413d3dc4564b"]
+        },
+        {
+          "id": "r7",
+          "kind": "release",
+          "text": "v13.1.0",
+          "time": 1671721067,
+          "commits": ["02489c2f4aae461543925c190183343bb8c2e78a"]
+        },
+        {
+          "id": "r8",
+          "kind": "release",
+          "text": "v13.2.0",
+          "time": 1677175830,
+          "commits": ["cf8ca960c408c53e3cad29798d55266077ff1bc7"]
+        },
+        {
+          "id": "r9",
+          "kind": "release",
+          "text": "v13.3.0",
+          "time": 1680814023,
+          "commits": ["79031e608a1b871ab4f3f3228cc1a66d93bf470b"]
+        },
+        {
+          "id": "r10",
+          "kind": "release",
+          "text": "v13.4.0",
+          "time": 1683218151,
+          "commits": ["fb12a6dc877c5ce2f21246f4921494a1b8e356a6"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "packages/font/ created",
+          "time": 1663798224,
+          "commits": ["1264196897e11a0561ff9ca9df10c25fb5ee718e"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "examples/cms-enterspeed/ created",
+          "time": 1664495280,
+          "commits": ["88ac118d1c421ac2c7959bd431cfdc0b5c2481c2"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "examples/cms-dotcms/ created",
+          "time": 1664630773,
+          "commits": ["15cc88909c2480816b127d8a4f7448e0170d61cc"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "examples/cms-sitefinity/ created",
+          "time": 1664630797,
+          "commits": ["ccbc9b868af4d47dc564d18162b3eee6b4714ca4"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "examples/cms-webiny/ created",
+          "time": 1664980747,
+          "commits": ["d5837e03cc9a4377c534ea2ccabc54856b6a15f8"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "examples/with-turbopack/ created",
+          "time": 1666718513,
+          "commits": ["24787089cf774e7730db81a3bef6629cbc5f01d1"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "examples/cms-kontent/ removed",
+          "time": 1675718512,
+          "commits": ["7c15278cc2b700fbee847f75bb0b389a06510594"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "examples/cms-kontent-ai/ created",
+          "time": 1675718512,
+          "commits": ["7c15278cc2b700fbee847f75bb0b389a06510594"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "app",
+          "time": 1675339326,
+          "commits": [
+            "5127e8376d97b5e43858f33268141ef734f96fae",
+            "7092266076f1633f37e16f1b9a07f8192792ebba",
+            "5fb56312d5224de2d376a6d7f9e670b66755b499"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "font",
+          "time": 1668440791,
+          "commits": [
+            "ad61e84101552445edd6fc869eb161b5a6143710",
+            "97b31873e174a35bb07533b9e8829013c16549bf",
+            "40cb797a341a9fc94495cc66e51f36c2ecbb32c7"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "next",
+          "time": 1678723549,
+          "commits": [
+            "9af72fa06e668114d01d9884ca6fda12d720e702",
+            "9b3bd73bb570066489048f7e90a8345eafceb8d5",
+            "ad61e84101552445edd6fc869eb161b5a6143710"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "dir",
+          "time": 1675339326,
+          "commits": [
+            "5127e8376d97b5e43858f33268141ef734f96fae",
+            "5fb56312d5224de2d376a6d7f9e670b66755b499",
+            "6be8c59075ae06f584210d284352960c61858951"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "edge",
+          "time": 1664294236,
+          "commits": [
+            "6be2868787285c878d4b4b9eeca2079c9f08bb7b",
+            "f44e214ff10f865ff888656f6ba3095f2194004f",
+            "044040489364825f5f20399a5790ccff30b4f948"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "authored",
+          "time": 1679429835,
+          "commits": [
+            "250160f4a919b0255a2886505b4ff0914659f53f",
+            "946ccb00fcef365786fb5622f95bd2454557fb58",
+            "a1abeaf67bd00bfbdd2732d219bfe9aa7dc0c3ea"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "errors",
+          "time": 1679575402,
+          "commits": [
+            "3b1aaa2686ab50fa4945595d1b46122e34cbc5e7",
+            "95e46f73e4cccbfc5aab25245bdc6e8fce85e11f",
+            "46151dd68b417e7850146d00354f89930d10b43b"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "handling",
+          "time": 1683058195,
+          "commits": [
+            "fe383696183e7cf5deffe8d44fa0fe2c4395003f",
+            "df228500f1f9fb6132b323e71ace78c655907173",
+            "aed2dc0c853afd1f42eec5e360fb7eab73d5fc93"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "metadata",
+          "time": 1682574893,
+          "commits": [
+            "b50ecb7e53727923ab9a9714b534aca93f68f70d",
+            "a7837bd09046719e0f6fbc43a9c3da4c5e0ede69",
+            "9822f78f1f1bee9ae69fc591f950a9d26f2e160f"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "images",
+          "time": 1681949939,
+          "commits": [
+            "189e6a3687924de3172438a2912973bd49c1e37e",
+            "e2f16f96c23a02583b1ccdbc871f39db3f77715d",
+            "d0fc673f5217ecdf4e53b739ce89a864fd970e0b"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "appdir",
+          "time": 1683717469,
+          "commits": [
+            "ba4c2f2b4a04bfc24843c98309a6b7ae895f17dd",
+            "389c77f205c134d6f92d104876e77a0a6b20336b",
+            "6352257dd35ddd098276b5dce4d2cbd371e9d89f"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "kodiakhq",
+          "time": 1679429835,
+          "commits": [
+            "250160f4a919b0255a2886505b4ff0914659f53f",
+            "946ccb00fcef365786fb5622f95bd2454557fb58",
+            "b28cd21ee57bfd9c2f7e775310e42b1ec9dd1eab"
+          ]
+        },
+        {
+          "id": "a1",
+          "kind": "newcomer",
+          "text": "@DuCanhGH",
+          "time": 1669257919,
+          "commits": ["2eaa3ae14651779116ed2ccd5c27a4a9d1d05752"]
+        },
+        {
+          "id": "a2",
+          "kind": "newcomer",
+          "text": "@alpha-xek",
+          "time": 1666913345,
+          "commits": ["c17e7cb525a0375b72c25286f4e8578bd4811e9a"]
+        },
+        {
+          "id": "a3",
+          "kind": "newcomer",
+          "text": "@jueungrace",
+          "time": 1670047264,
+          "commits": ["d464ef8f1852ce4af4af03b1e265d9ab7ed737d5"]
+        },
+        {
+          "id": "a4",
+          "kind": "newcomer",
+          "text": "@nabsul",
+          "time": 1680806475,
+          "commits": ["76ad58b0c82e49585cd28e550880fa4fc5e10857"]
+        },
+        {
+          "id": "a5",
+          "kind": "newcomer",
+          "text": "@vinaykulk621",
+          "time": 1675242419,
+          "commits": ["a47841b0ace72b7ac8acdc247895dcf73db86caa"]
+        },
+        {
+          "id": "a6",
+          "kind": "newcomer",
+          "text": "@JesseKoldewijn",
+          "time": 1677581617,
+          "commits": ["7a9047a730d52e145ab547bdec25ae26eeeb9d73"]
+        },
+        {
+          "id": "a7",
+          "kind": "newcomer",
+          "text": "@mrkldshv",
+          "time": 1664826867,
+          "commits": ["40639b28be7140efba7c635f69f9b84825472495"]
+        },
+        {
+          "id": "a8",
+          "kind": "newcomer",
+          "text": "@akshitsinha",
+          "time": 1671496700,
+          "commits": ["c3d1f024a50c5f59d93f80d38b111049866440fd"]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "startTime": 1685609169,
+      "endTime": 1722461718,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "[Docs] Remove html <b> from summaries (#51008)",
+          "time": 1686348778,
+          "commits": ["ccc64d96b6879c7cf4b146501869a1ca5844af13"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Makes codeblock language and filename extensions consistent (#51056)",
+          "time": 1686596108,
+          "commits": ["a973ad64d423a4ddd5ced70e91b60d80ea90ee9b"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "docs: Adds `Note` to `Good to know` consistency (#51080)",
+          "time": 1686621607,
+          "commits": ["cefdb27662d37a5e29e2e467b7ad666dbe9790ac"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "[Docs] Remove extra line in summary dropdowns (#51226)",
+          "time": 1686664220,
+          "commits": ["a611641cec051064dcdfd4391c888945f2b2c187"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "[Docs] Add version history to app api pages (#51218)",
+          "time": 1686679407,
+          "commits": ["8a0686e28db3f782b59cfec90b347fc65a9568d6"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "examples: Add new `cms-payload` example. (#49616)",
+          "time": 1686925971,
+          "commits": ["cca9dd12978b8bf227b196230925480948d3b75e"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "add edge rendering for app dir for Turbopack (#51631)",
+          "time": 1687427039,
+          "commits": ["99ec3057d7da90bdcd4b58e144aa7cbc326dcc9b"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Add separate links in shared documentation (#51733)",
+          "time": 1687995476,
+          "commits": ["1f19a5b810c65279e94e9aea73319e8f06c30be1"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "docs: Migrate error messages to MDX and App Router. (#52038)",
+          "time": 1688562676,
+          "commits": ["44d1a1cb1542c496a51943ee33aa4187cd08d66a"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Docs: Document caching mechanisms  (#52514)",
+          "time": 1690823006,
+          "commits": ["98c3076eb469427ac113109367f63281a2caff62"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "docs: Rewrite Rendering Section and React Essentials Page (#51579)",
+          "time": 1692884924,
+          "commits": ["1dc5c066cb11a0a5e4227c84182d874f92394717"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "(Example) Add CMS Sitecore XM Cloud Example (#54535)",
+          "time": 1693099658,
+          "commits": ["c1b753c795d37b8e5d5147b77ce3384bc98c07ad"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "fix(next-swc): skips client/server only checks when running with Jest to unblock testing (#54891)",
+          "time": 1693828421,
+          "commits": ["3338dd0b317fffd6fbde6432b93ff10e20efa59e"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Updates Mozilla links to not include language preference (#55326)",
+          "time": 1694621189,
+          "commits": ["fe797c1074f6b2639d89f601fba7f2ea8bbba629"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "example: panda css (#55004)",
+          "time": 1695748669,
+          "commits": ["7102e297d107b3bcac86bfe4495874b07b2318d8"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "docs: Next.js 14 (#57342)",
+          "time": 1698334243,
+          "commits": ["92b4d6737ce16a729bd970c4bfa7b2703ee88a36"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "Add a self-hosted shared cache example (#58000)",
+          "time": 1699540151,
+          "commits": ["e2f3059b48a779c2a755c21da26570d251305c01"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Docs: Update Server Actions Docs (#59080)",
+          "time": 1701983545,
+          "commits": ["d5836a30384695e46437a455aaab8e45d1f60765"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Docs: Add App Router Testing Guides and update /examples (#59268)",
+          "time": 1702441823,
+          "commits": ["0ddc7e8fadab08118261c0cdfb35ff72fe4ae5ec"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "docs: improve docs around geolocation and IP headers (#59719)",
+          "time": 1702907748,
+          "commits": ["1c65c557504e1e422c29c60ceafd15402441b884"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "docs: Add \"Going to production\" page for App Router (#59304)",
+          "time": 1704462360,
+          "commits": ["694bd3e21dca0b4288b478fe0002f81001372c76"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "refactor(next/core): reorganize next.js custom transforms for next-swc/turbopack (#60400)",
+          "time": 1704831827,
+          "commits": ["46370d816b3a324aedd79c0bbc02cc60d40b4e84"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Docs: Update parallel routes docs, add `default.js` pt 1. (#60806)",
+          "time": 1705622274,
+          "commits": ["cb4241798553424098456d2e2aa8c23481052098"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "docs: Combine Pages/App authentication docs (#60848)",
+          "time": 1706211122,
+          "commits": ["d7ff67de679631d2544fa051138441918d853929"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "docs: migrating from CRA (#61866)",
+          "time": 1707528773,
+          "commits": ["479faa711730fa1601c3a72c4cbaa046e48f1a90"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "Docs: Explain why Layouts (RSCs) can't access `pathname` (#64785)",
+          "time": 1714031052,
+          "commits": ["84af8009e3a5c8a1aaee321945433e7bb0fe4a80"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "feat(examples): add with-turso (#61291)",
+          "time": 1714581707,
+          "commits": ["a0df9860c4f94508f60514d71f4513922ffd025d"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Docs: Next.js 15 updates (#65603)",
+          "time": 1716471689,
+          "commits": ["93c861d67bfb88109ee3bb7ddc9b8801f0c07bba"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "chore(github-workflow): add bankrupt issues workflow (#66383)",
+          "time": 1717612436,
+          "commits": ["32c2795e5489cbd17c8e5bfeff7ac34347bd62ed"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "docs: Next.js 15 RC updates (#67839)",
+          "time": 1722447920,
+          "commits": ["cf449160fe3d531d7f4e95e3514e9cef6e567369"]
+        },
+        {
+          "id": "r1",
+          "kind": "release",
+          "text": "v13.4.5",
+          "time": 1686434628,
+          "commits": ["db10dd674088fb04cadee2b6830bec55b70fe1ad"]
+        },
+        {
+          "id": "r2",
+          "kind": "release",
+          "text": "v13.4.6",
+          "time": 1686864095,
+          "commits": ["ce4aa787e8fade5f8214817f8ad9db02ca807a95"]
+        },
+        {
+          "id": "r3",
+          "kind": "release",
+          "text": "v13.4.7",
+          "time": 1687381977,
+          "commits": ["4e5fef4f36b27fb7d3ae2b06ce4c53347e96363f"]
+        },
+        {
+          "id": "r4",
+          "kind": "release",
+          "text": "v13.4.8",
+          "time": 1688403628,
+          "commits": ["b4a875eb57fb396e236d2879e7afd821dc3c87a4"]
+        },
+        {
+          "id": "r5",
+          "kind": "release",
+          "text": "v13.4.9",
+          "time": 1688676637,
+          "commits": ["1045644655c8d29cdad9bd5ee0a3c73d6d7ad097"]
+        },
+        {
+          "id": "r6",
+          "kind": "release",
+          "text": "v13.4.10",
+          "time": 1689326057,
+          "commits": ["c2a54aaecb77050962803af0947be276e4835a90"]
+        },
+        {
+          "id": "r7",
+          "kind": "release",
+          "text": "v13.5.0",
+          "time": 1695137802,
+          "commits": ["ffafad2c35a3f9677bb520f68e989f58f192b931"]
+        },
+        {
+          "id": "r8",
+          "kind": "release",
+          "text": "v14.0.0",
+          "time": 1698336294,
+          "commits": ["b546d8b22c0f0749022cd84c22e67ec3628eb027"]
+        },
+        {
+          "id": "r9",
+          "kind": "release",
+          "text": "v14.1.0",
+          "time": 1705614062,
+          "commits": ["16e7a5bd9323a49a0b3770a6636bfe9970af5fd1"]
+        },
+        {
+          "id": "r10",
+          "kind": "release",
+          "text": "v14.2.0",
+          "time": 1712864136,
+          "commits": ["774563f2b994ae9686b8ec68b506a6ef3d7c9756"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "docs/02-app/ created",
+          "time": 1686218594,
+          "commits": ["f4f34e4226424e301dd4783155c7a924a4a4a902"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "docs/03-pages/ created",
+          "time": 1686218594,
+          "commits": ["f4f34e4226424e301dd4783155c7a924a4a4a902"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "examples/with-supabase/ created",
+          "time": 1686921402,
+          "commits": ["3cac09790b07038ad7c48a842dfe22e3468cf257"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "examples/cms-sitecore-xmcloud/ created",
+          "time": 1693099658,
+          "commits": ["c1b753c795d37b8e5d5147b77ce3384bc98c07ad"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "bench/basic-app/ created",
+          "time": 1694101909,
+          "commits": ["a5b7c77c1ff0096af7609a8bfc1e064d30db4e30"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "crates/ created",
+          "time": 1721666487,
+          "commits": ["cad3a51049c6cc2d3a4d17e08ee426c8e251a410"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "crates/next-core/ created",
+          "time": 1721666487,
+          "commits": ["cad3a51049c6cc2d3a4d17e08ee426c8e251a410"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "crates/next-custom-transforms/ created",
+          "time": 1721666487,
+          "commits": ["cad3a51049c6cc2d3a4d17e08ee426c8e251a410"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "MDX",
+          "time": 1688562676,
+          "commits": [
+            "44d1a1cb1542c496a51943ee33aa4187cd08d66a",
+            "fbc0a0eb8c3a0da94f64bb1d8ffb52c87c68dd33",
+            "048ab21f6b033b2865353b236f52de7d48b44754"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "Actions",
+          "time": 1701983545,
+          "commits": [
+            "d5836a30384695e46437a455aaab8e45d1f60765",
+            "9471fb854f65126590091b397e390978032d2297",
+            "cd95fe408500c647cd0a4aebb06091937f1a6122"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "App",
+          "time": 1702441823,
+          "commits": [
+            "0ddc7e8fadab08118261c0cdfb35ff72fe4ae5ec",
+            "8a0686e28db3f782b59cfec90b347fc65a9568d6",
+            "d7ff67de679631d2544fa051138441918d853929"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "Router",
+          "time": 1702441823,
+          "commits": [
+            "0ddc7e8fadab08118261c0cdfb35ff72fe4ae5ec",
+            "694bd3e21dca0b4288b478fe0002f81001372c76",
+            "38dafa1609de1a1b1436d6a966d82a8c0dc1bff7"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "Server",
+          "time": 1701983545,
+          "commits": [
+            "d5836a30384695e46437a455aaab8e45d1f60765",
+            "9471fb854f65126590091b397e390978032d2297",
+            "a383b93556cd6123c06c2d92086ac36637324217"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "core",
+          "time": 1704831827,
+          "commits": [
+            "46370d816b3a324aedd79c0bbc02cc60d40b4e84",
+            "ad63effbc7c140de6c530e16e44bac13986cdfd1",
+            "8063a51ea80f32d2f8d983f62804b9686ff0ca36"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "Next",
+          "time": 1722447920,
+          "commits": [
+            "cf449160fe3d531d7f4e95e3514e9cef6e567369",
+            "f4f34e4226424e301dd4783155c7a924a4a4a902",
+            "93c861d67bfb88109ee3bb7ddc9b8801f0c07bba"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "workflow",
+          "time": 1717612436,
+          "commits": [
+            "32c2795e5489cbd17c8e5bfeff7ac34347bd62ed",
+            "7b73f1137b21c7b1fb1612c3389caaaadd18da65",
+            "b04cc939e432245f9f71718d6bdaff9671ab8d0f"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "edge",
+          "time": 1687427039,
+          "commits": [
+            "99ec3057d7da90bdcd4b58e144aa7cbc326dcc9b",
+            "d0e7d04dc5777de23be8fc5eb475c89a00071dd1",
+            "5abeb99b493b091185b39051181b02941180de87"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "skips",
+          "time": 1693828421,
+          "commits": [
+            "3338dd0b317fffd6fbde6432b93ff10e20efa59e",
+            "1e710ab73ce6b6ee896535ef0962956aac2e9649",
+            "69f5fb260a4d2ca4e83365ad2b64913ead57b005"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "parallel",
+          "time": 1705622274,
+          "commits": [
+            "cb4241798553424098456d2e2aa8c23481052098",
+            "5fd0f38de982bcb2ed0daeabca7b827a53e0023a",
+            "fa935e5a3cd3553e3b2e21910d78a8a2fe836ab8"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "turbopack",
+          "time": 1704831827,
+          "commits": [
+            "46370d816b3a324aedd79c0bbc02cc60d40b4e84",
+            "80572b373ff32031838b0ba0916aa834584599a6",
+            "c8eb7f3de08334764a0d6f71f390b9aba37e6ccb"
+          ]
+        },
+        {
+          "id": "a1",
+          "kind": "newcomer",
+          "text": "@ztanner",
+          "time": 1712584198,
+          "commits": ["b103f73bf9c53cc0524b781c3c99b711ec21df04"]
+        },
+        {
+          "id": "a2",
+          "kind": "newcomer",
+          "text": "@vercel-release-bot",
+          "time": 1691543450,
+          "commits": ["5c9553002c4ea73b55e623d24615e662eab116f9"]
+        },
+        {
+          "id": "a3",
+          "kind": "newcomer",
+          "text": "@ForsakenHarmony",
+          "time": 1702488337,
+          "commits": ["e9ac616414662ac435c0c9677ad4e9b9221268a6"]
+        },
+        {
+          "id": "a4",
+          "kind": "newcomer",
+          "text": "@mknichel",
+          "time": 1686798452,
+          "commits": ["1660fdfcbb9fe9375b88a5171c6163b2a5c20fd9"]
+        },
+        {
+          "id": "a5",
+          "kind": "newcomer",
+          "text": "@tyler-lutz",
+          "time": 1686251765,
+          "commits": ["3ccbe82280faed6273375b25a45eb2cb2b9e1b34"]
+        },
+        {
+          "id": "a6",
+          "kind": "newcomer",
+          "text": "@torresgol10",
+          "time": 1717523231,
+          "commits": ["abff797e92012abed0260e4e0db67abe222be06c"]
+        },
+        {
+          "id": "a7",
+          "kind": "newcomer",
+          "text": "@stipsan",
+          "time": 1710125358,
+          "commits": ["41019c23142021e1cc605bf69b930e726cb0eb6d"]
+        },
+        {
+          "id": "a8",
+          "kind": "newcomer",
+          "text": "@StephDietz",
+          "time": 1704462360,
+          "commits": ["694bd3e21dca0b4288b478fe0002f81001372c76"]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "startTime": 1722468184,
+      "endTime": 1738351682,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "refactor: merge turbopack crates into next.js (#68127)",
+          "time": 1722526558,
+          "commits": ["238b882eab8859ab8ea13929bad371cad72f3f31"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "updated the example of api-routes to utilize the App Router (#68771)",
+          "time": 1723535238,
+          "commits": ["5ed036d468b32c303ba300637655727a5da6ce9b"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "examples: Add Meilisearch example (#53251)",
+          "time": 1724349519,
+          "commits": ["f94c6032fc91a1be0a6204c3d576e39eeb787952"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "examples: Add `cms-umbraco` example (#52777)",
+          "time": 1724967977,
+          "commits": ["38d1987749325cc3a515dd2399f3c1113a29d69b"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "Improve server directive SWC transform (#70257)",
+          "time": 1727025897,
+          "commits": ["bd19545a7da807a241e6767d0bb5ceff85b1f1e8"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "codemod(turbopack): Remove unused `Result<...>` return types from `#[turbo_task::function]`s (#70492)",
+          "time": 1727357707,
+          "commits": ["e1ea01defe0618b2e83a4040454b579851d69a0d"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "Unwrap `registerServerReference` function (#70563)",
+          "time": 1728040143,
+          "commits": ["5975ae0e5df8cc59f9bb1ee974ea3eee318631de"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Turbopack: next/dynamic layout segment optimization (#70708)",
+          "time": 1728050086,
+          "commits": ["9e86040bcf42c575ab40dba89368a939d59c8046"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "Assign proper function names to server actions (#71478)",
+          "time": 1729292001,
+          "commits": ["c54b8a3a36049cbe03ffc6590a894572edd59dfa"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Differentiate error messages in server function transforms (#71491)",
+          "time": 1729294383,
+          "commits": ["8c401f696459d0994db6d1ee268019190d64d121"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "Implement information byte in Server Reference ID and other optimizations (#71463)",
+          "time": 1730085380,
+          "commits": ["ba9879bf98e793f1dca419aa5acf9f7e5869cf73"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "build: Update `swc_core` to `v5.0.1` (#71683)",
+          "time": 1730898026,
+          "commits": ["4373f96f242f2f61e15ccc75d8555b261381e793"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Include bound args param in server reference information byte arg mask (#72588)",
+          "time": 1731432916,
+          "commits": ["3898a7a99bda13efc4115f223e181198f868cf11"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "chore(example): add example for image optimization with secure compute (#72641)",
+          "time": 1731516661,
+          "commits": ["aaf28ab51c5df2fd4321044c0067118c7bec0a66"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "Emit build error when `\"use cache\"` is used without `dynamicIO` enabled (#72781)",
+          "time": 1731534238,
+          "commits": ["2c6b09d57db51798d212ea253ffb88cc2aa33805"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "refactor(turbo-rcstr): Move turbo_tasks::RcStr into it's own crate (#72858)",
+          "time": 1731708500,
+          "commits": ["3fbe729297bdb49c2c85c16818fad97703b1182c"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "perf(turbopack): Use `ResolvedVc` for `next-core` (#73177)",
+          "time": 1732764250,
+          "commits": ["9e376fe892dcded2c823c82bac1e01f35a5d4528"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "updated image-legacy-component example to utilize the app router. (#73344)",
+          "time": 1732919305,
+          "commits": ["1efa3c2add68098599d2f0c54788106e9f2083e1"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "examples: remove `app-dir` in `i18n-routing` directory name (#73453)",
+          "time": 1733244974,
+          "commits": ["4ed2815429da7f540f2dfedb26291c3281896786"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "examples: move Postgres example (#73531)",
+          "time": 1733356271,
+          "commits": ["fb12264fe31906b54e4f606df36c942095fdb439"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "refactor(turbopack): Use `ResolvedVc<T>` for struct fields in `turbopack-core` (#73301)",
+          "time": 1733372712,
+          "commits": ["2c75620a192f2ec803bc7329f0763150b92f7682"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "Update with next sass example (#73548)",
+          "time": 1733521097,
+          "commits": ["24615395305576cffeee9e57ecdfbbc8abea667d"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "updated with-ionic-typescript example to utilize the App Router. (#73418)",
+          "time": 1733809033,
+          "commits": ["95acd8b481645b3d4004666fbb63e954aeade93e"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "examples: remove `with-storybook-styled-jsx-scss` (#73228)",
+          "time": 1733813763,
+          "commits": ["e0eb1656467b95cb139fbd13337963ea4d50acb5"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "examples: convert @next/third-parties examples from JS to TS (#73602)",
+          "time": 1734398536,
+          "commits": ["6a609fa101f8cb940a6a714e55a5fa3ef4932e41"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "examples: update `with-mdx-remote` example to utilize the App Router (#74067)",
+          "time": 1734545708,
+          "commits": ["933237041814ac5b51935db9d6843a3c76d49c51"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "examples: remove `app-dir` and `with` prefix in the `mdx` directory name (#73458)",
+          "time": 1736304822,
+          "commits": ["832c77d01f31e2438932999cdb318c8966d32c44"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "[DevOverlay] Rename file names to kebab (#75000)",
+          "time": 1737063555,
+          "commits": ["cec42760cb1b927aaf53a3c6959ec5d07200e6ce"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Fix source mapping of generated cache wrapper calls (#74987)",
+          "time": 1737590937,
+          "commits": ["5f97eb9a8011055a92f61948147c54c9e48ddf6d"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Add test fixtures demonstrating export statement validation bugs (#75277)",
+          "time": 1737735842,
+          "commits": ["958b9669fba309deb37ba948abc84d62f77a58a1"]
+        },
+        {
+          "id": "r1",
+          "kind": "release",
+          "text": "v15.0.0",
+          "time": 1729534460,
+          "commits": ["51bfe3c1863b191f4b039bc230e8ed5c57b0baf3"]
+        },
+        {
+          "id": "r2",
+          "kind": "release",
+          "text": "v15.0.1",
+          "time": 1729642005,
+          "commits": ["914d0f3c4a66153bef916939df3c516567544df6"]
+        },
+        {
+          "id": "r3",
+          "kind": "release",
+          "text": "v15.0.2",
+          "time": 1730214901,
+          "commits": ["2e28c965279de90ce4bfca673196c27dd6117027"]
+        },
+        {
+          "id": "r4",
+          "kind": "release",
+          "text": "v15.0.3",
+          "time": 1730985174,
+          "commits": ["7dc7be201aa95238e559e06cbb4da87cb01dcb6b"]
+        },
+        {
+          "id": "r5",
+          "kind": "release",
+          "text": "v15.1.0",
+          "time": 1733860337,
+          "commits": ["dafcd43fac3ef9d0ffd94f9c94fd61db4449df25"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "turbopack/ created",
+          "time": 1722526558,
+          "commits": ["238b882eab8859ab8ea13929bad371cad72f3f31"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "turbopack/crates/ created",
+          "time": 1722526558,
+          "commits": ["238b882eab8859ab8ea13929bad371cad72f3f31"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "turbopack/packages/ created",
+          "time": 1722526558,
+          "commits": ["238b882eab8859ab8ea13929bad371cad72f3f31"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "examples/cms-umbraco/ created",
+          "time": 1724967977,
+          "commits": ["38d1987749325cc3a515dd2399f3c1113a29d69b"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "docs/01-app/ created",
+          "time": 1730896325,
+          "commits": ["fa8d5581549bfb5dba2848dc3b98af6d55ba2ea5"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "docs/02-app/ removed",
+          "time": 1730896325,
+          "commits": ["fa8d5581549bfb5dba2848dc3b98af6d55ba2ea5"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "docs/02-pages/ created",
+          "time": 1730896325,
+          "commits": ["fa8d5581549bfb5dba2848dc3b98af6d55ba2ea5"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "docs/03-pages/ removed",
+          "time": 1730896325,
+          "commits": ["fa8d5581549bfb5dba2848dc3b98af6d55ba2ea5"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "ResolvedVc",
+          "time": 1733372712,
+          "commits": [
+            "2c75620a192f2ec803bc7329f0763150b92f7682",
+            "9e376fe892dcded2c823c82bac1e01f35a5d4528",
+            "7b89b021cc43a85d97e8fe502221bd1fc57a45b7"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "turbopack",
+          "time": 1722526558,
+          "commits": [
+            "238b882eab8859ab8ea13929bad371cad72f3f31",
+            "9dc685edea97683c8aca204e50b19b1cac1ff7f1",
+            "c8f96d50ffa7fcd222cc359ae111c0bcc8fe0396"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "codemod",
+          "time": 1727357707,
+          "commits": [
+            "e1ea01defe0618b2e83a4040454b579851d69a0d",
+            "bb1617b30f533f6293045c9bcfdbfe8f2ada88d2",
+            "ea1618d3fdd25d255650bd2349d0fde11ab5637c"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "DevOverlay",
+          "time": 1737063555,
+          "commits": [
+            "cec42760cb1b927aaf53a3c6959ec5d07200e6ce",
+            "baa4f787d20b36a14ca968895bbb1bf00e15a1f8",
+            "5778fd4b5f542ffc8dc8a39c477abd0ef2d497ef"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "dynamicIO",
+          "time": 1731534238,
+          "commits": [
+            "2c6b09d57db51798d212ea253ffb88cc2aa33805",
+            "e2ed2c567a3f72109d3415a72b9bfa1d6fb4ade5",
+            "b305c2d309b4d4923c3b11f7e258077729ab28fb"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "utilize",
+          "time": 1733809033,
+          "commits": [
+            "95acd8b481645b3d4004666fbb63e954aeade93e",
+            "933237041814ac5b51935db9d6843a3c76d49c51",
+            "5ed036d468b32c303ba300637655727a5da6ce9b"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "tasks",
+          "time": 1731708500,
+          "commits": [
+            "3fbe729297bdb49c2c85c16818fad97703b1182c",
+            "e1ea01defe0618b2e83a4040454b579851d69a0d",
+            "0ad304cf527c26a8b40e115ced1f7d512b293511"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "struct",
+          "time": 1733372712,
+          "commits": [
+            "2c75620a192f2ec803bc7329f0763150b92f7682",
+            "9bd38dd10c2c0d72ca943ea77fadceed717ed211",
+            "1d45e0bf47ead7da5a8b6a3bc820ccddafbee417"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "turbo",
+          "time": 1731708500,
+          "commits": [
+            "3fbe729297bdb49c2c85c16818fad97703b1182c",
+            "e1ea01defe0618b2e83a4040454b579851d69a0d",
+            "0ad304cf527c26a8b40e115ced1f7d512b293511"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "error",
+          "time": 1729294383,
+          "commits": [
+            "8c401f696459d0994db6d1ee268019190d64d121",
+            "0f9f442b7bcf028f26e6095c68a5f57c31356041",
+            "12c483aa4d9d91a0f2c9a091df4fb750a963b6a5"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "cache",
+          "time": 1737590937,
+          "commits": [
+            "5f97eb9a8011055a92f61948147c54c9e48ddf6d",
+            "e5ae38355ef161bca9cb188bdb949ddb8952c16c",
+            "f6afb0e09e3d149d0b3216cb199f14994698df21"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "segment",
+          "time": 1728050086,
+          "commits": [
+            "9e86040bcf42c575ab40dba89368a939d59c8046",
+            "e1e25e16ae694d8b96e69dfef5b2490002ac602c",
+            "2a89504351f3ddb490977f9c905586398e4bbf50"
+          ]
+        },
+        {
+          "id": "a1",
+          "kind": "newcomer",
+          "text": "@PapatMayuri",
+          "time": 1725406227,
+          "commits": ["0378e946629561e1b3628ee666b8fc2b76deb1f4"]
+        },
+        {
+          "id": "a2",
+          "kind": "newcomer",
+          "text": "@hyungjikim",
+          "time": 1731093660,
+          "commits": ["d8732b9f715f2daa68b99321c42e2c7bc4e22196"]
+        },
+        {
+          "id": "a3",
+          "kind": "newcomer",
+          "text": "@abhi12299",
+          "time": 1725397165,
+          "commits": ["9435b7b9602136aeac77f5ff55bb553dcaa2b01a"]
+        },
+        {
+          "id": "a4",
+          "kind": "newcomer",
+          "text": "@Manoj-M-S",
+          "time": 1728532567,
+          "commits": ["89c6e205e9e002884786ad663be37514c5207c66"]
+        },
+        {
+          "id": "a5",
+          "kind": "newcomer",
+          "text": "@sommeeeer",
+          "time": 1725486617,
+          "commits": ["258a453bf0bc336e5c2c04de944043238bf1d632"]
+        },
+        {
+          "id": "a6",
+          "kind": "newcomer",
+          "text": "@cantemizyurek",
+          "time": 1729700176,
+          "commits": ["e1632ccbe0498fe65a36e0dd520da164802e7143"]
+        },
+        {
+          "id": "a7",
+          "kind": "newcomer",
+          "text": "@gadcam",
+          "time": 1730157270,
+          "commits": ["e5200fdb6c73fc404eff05e67656a46bc1b73fa5"]
+        },
+        {
+          "id": "a8",
+          "kind": "newcomer",
+          "text": "@s-ekai",
+          "time": 1724089043,
+          "commits": ["8f1f03b37182b47970703eb6545ee3ac72c33cef"]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "startTime": 1738365815,
+      "endTime": 1764534203,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "[Turbopack] add many pages bench (#76244)",
+          "time": 1740037556,
+          "commits": ["fa8baa9e62b34b475e208616fdbad74fd030047e"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Add example for alternate bundler (#77057)",
+          "time": 1742246682,
+          "commits": ["6d221f86729e0ce00046edf051b11b97ceec8635"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "Rename alternate bundler package name (#77793)",
+          "time": 1743716572,
+          "commits": ["0f0ba8fca83dfb1d76bc1ba9ddc8c22c8ad8ec21"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "Docs IA 2.0: Add `Deep Dive` section placeholder (#77724)",
+          "time": 1743780296,
+          "commits": ["6bc472a7887e403edd21ddad8a4ae946b6aca0e0"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "Docs IA 2.0: Move version upgrade docs under `Guides` (#78189)",
+          "time": 1744729254,
+          "commits": ["ae1cad07dd3255d69b311c6394ebe4a6d0ed5320"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "Docs IA 2.0: Move migration docs under `Guides` (#78193)",
+          "time": 1744731541,
+          "commits": ["bd0da32a6899ccbc06393118a9f8f717df9a6254"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "docs: Move pages from Config section into guides (#78496)",
+          "time": 1745497730,
+          "commits": ["7a64ada1abd1921b98e36409f1279075950ab2ae"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Docs IA 2.0: Server and Client Components (#79143)",
+          "time": 1747315579,
+          "commits": ["9c757f6d5c2b9fef6190b6a56c1e93aa468c5251"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "[devtool] initial support for segment explorer (#78858)",
+          "time": 1747368659,
+          "commits": ["0ca32b2b4a2cd3af19b042d6747d275013450bdd"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Docs IA 2.0: Create Dynamic Segments API reference, add example to getting started.  (#79439)",
+          "time": 1748339519,
+          "commits": ["2d81adc5201ad282ae8fb69ec8f24fddc56d3ae1"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "chore(ci): Configure small benchmark for builds (#79796)",
+          "time": 1748554377,
+          "commits": ["cc3c42f8643c012b185a91abd977033eeb09a931"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "Docs: Linking and Navigating Page (#80103)",
+          "time": 1749202636,
+          "commits": ["083b924c017424dcc22dd063c65f2445a5917f35"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "Docs: Add Data Security Guide (#80249)",
+          "time": 1749556358,
+          "commits": ["24434f18db379429919443d515dacb94b0d7dc60"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "Docs: Polish Getting Started section (#80402)",
+          "time": 1749650563,
+          "commits": ["2b76ed70bc0f08785836284a8ed2325fb799623e"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "[dev-overlay] Move code into new top-level folder in src/next-devtools (#80281)",
+          "time": 1749653474,
+          "commits": ["0d7b49b1ca3205cabc7524d6ce53c9a309e8f122"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "Docs IA 2.0: Delete routing section, add BFF guide, polish getting started (#80365)",
+          "time": 1750077740,
+          "commits": ["2e2ee08b604ca44a344eb304890daf5326425181"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "Add Biome example (#81334)",
+          "time": 1751934799,
+          "commits": ["33720a3be2e6f161723e747659888dabf044af06"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Turbopack: add module cost benchmark (#81530)",
+          "time": 1752237278,
+          "commits": ["48b2976ed268a78249679a82da43750e190943a1"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Turbopack: only emit `*.single.css` chunks in dev (#81490)",
+          "time": 1752242519,
+          "commits": ["d6bc6b055d05bf0861a0b8a216405bec1a2db93e"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "Docs: POC (#81419)",
+          "time": 1752583045,
+          "commits": ["409b14c92e028cf38d9446f1d40aec116b06d0f6"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "Add Prisma ORM example to Next.js examples (#75290)",
+          "time": 1752594515,
+          "commits": ["92a9d2840db6521190f28755c3905c3000caeb4b"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "feat(turbo-tasks-hash): update twox-hash (#82518)",
+          "time": 1755019509,
+          "commits": ["a4661042106d6c33baa55a3b4687c09f31254d11"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Turbopack: run NFT unit test (#83233)",
+          "time": 1757507746,
+          "commits": ["83ff3d487cb97d5fd111a3ad8dea9d5414980c3e"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "chore: add example with oxlint (#83842)",
+          "time": 1758100124,
+          "commits": ["f6b98578d338f7b8a95ba9847c50e4fb527c1a72"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "feat: next-rspack-binding (#82811)",
+          "time": 1758211382,
+          "commits": ["c0d94dc1acc9725d33cf7f4459cb671c7f92d49d"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "feat: capture logs into logging file during development (#84183)",
+          "time": 1758834105,
+          "commits": ["46fa4ded993110841b4ad373d1d38a9553602d5c"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "Clean up new release process (#85458)",
+          "time": 1761693444,
+          "commits": ["c8f3be7e89bcaae3c0d5be72fad4e25247f46911"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Turbopack: chore: Remove `extern crate` and `macro_use` syntax (#85778)",
+          "time": 1762297655,
+          "commits": ["e33891124fe3f04d615972ecd68857e5b4ce3565"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Turbopack: only enable nested async availability in production (#85728)",
+          "time": 1763163293,
+          "commits": ["43e989de1b8d8304aff791c8082556e118b8aee4"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Turbopack: add NEXT_TURBOPACK_WRITE_ROUTES_HASHES_MANIFEST to write hashes into manifest (#86257)",
+          "time": 1763675240,
+          "commits": ["f7b7f3c14ffeff685a2ad4a6d5df292fab687979"]
+        },
+        {
+          "id": "r1",
+          "kind": "release",
+          "text": "v15.2.0",
+          "time": 1740609897,
+          "commits": ["b0416fbb44d1d148b6322ed79b6448d588260e49"]
+        },
+        {
+          "id": "r2",
+          "kind": "release",
+          "text": "v15.2.1",
+          "time": 1741040188,
+          "commits": ["633878112ef34fd569486c969261c3350509680d"]
+        },
+        {
+          "id": "r3",
+          "kind": "release",
+          "text": "v15.3.0",
+          "time": 1744229239,
+          "commits": ["b2ff04995be722a5c93225e16e1c7fcc8bb53f91"]
+        },
+        {
+          "id": "r4",
+          "kind": "release",
+          "text": "v15.4.0",
+          "time": 1752527596,
+          "commits": ["7ad467409b67691ae4f5dc4dc47f1a247c4ba988"]
+        },
+        {
+          "id": "r5",
+          "kind": "release",
+          "text": "v15.4.1",
+          "time": 1752528415,
+          "commits": ["079c06d3c3421c23080dffc6b3c46859f6438212"]
+        },
+        {
+          "id": "r6",
+          "kind": "release",
+          "text": "v15.5.0",
+          "time": 1755649205,
+          "commits": ["7e08c8223d64bc2add7a0e5a323cbce0a84bb292"]
+        },
+        {
+          "id": "r7",
+          "kind": "release",
+          "text": "v16.0.0",
+          "time": 1761091495,
+          "commits": ["950609f96f694c5475d18cd2d72a0052ca04d4b9"]
+        },
+        {
+          "id": "r8",
+          "kind": "release",
+          "text": "v16.0.1",
+          "time": 1761675239,
+          "commits": ["e08402bfad8db05b0df820daf4f08c9c65ab1f7b"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": "examples/image-legacy-component/ removed",
+          "time": 1743629228,
+          "commits": ["49ba0acc183e89cc3b84ac81019edb86a0ff5d89"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "examples/layout-component/ removed",
+          "time": 1743629228,
+          "commits": ["49ba0acc183e89cc3b84ac81019edb86a0ff5d89"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "examples/middleware/ removed",
+          "time": 1743629228,
+          "commits": ["49ba0acc183e89cc3b84ac81019edb86a0ff5d89"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "examples/progressive-web-app/ removed",
+          "time": 1743629228,
+          "commits": ["49ba0acc183e89cc3b84ac81019edb86a0ff5d89"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "turbopack/benchmark-apps/ created",
+          "time": 1748554377,
+          "commits": ["cc3c42f8643c012b185a91abd977033eeb09a931"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "examples/with-fauna/ removed",
+          "time": 1749718995,
+          "commits": ["301e79db455f2c1c4eb2448dd074863ae3512269"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "apps/ created",
+          "time": 1752583045,
+          "commits": ["409b14c92e028cf38d9446f1d40aec116b06d0f6"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "apps/bundle-analyzer/ created",
+          "time": 1763164242,
+          "commits": ["617ead5753f58ce1d948927512fe3ff39a12b5b6"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "Turbopack",
+          "time": 1757507746,
+          "commits": [
+            "83ff3d487cb97d5fd111a3ad8dea9d5414980c3e",
+            "eaad5b4c1451f35c4b3b6a3c9c67445b434c4a80",
+            "8f346de9c5853af1ba377cd157587ca95c431073"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "MANIFEST",
+          "time": 1763675240,
+          "commits": [
+            "f7b7f3c14ffeff685a2ad4a6d5df292fab687979",
+            "8a91d46830b98e3498a1ec26f231dc4f78469497",
+            "3ae9d382474b6b9513876591e9d74c066d5d3229"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "rspack",
+          "time": 1758211382,
+          "commits": [
+            "c0d94dc1acc9725d33cf7f4459cb671c7f92d49d",
+            "962c2c37c2da4666358afb09322cc39ae39aee8f",
+            "18c9f02bed49f683b25be1b7344328837a98d423"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "overlay",
+          "time": 1749653474,
+          "commits": [
+            "0d7b49b1ca3205cabc7524d6ce53c9a309e8f122",
+            "7085190f17809be41c497ca5f4bf78bf82b8ce33",
+            "e738d833de5a377ba6949b062911ecc8f27434c7"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "development",
+          "time": 1758834105,
+          "commits": [
+            "46fa4ded993110841b4ad373d1d38a9553602d5c",
+            "cdb9a8c3b355593ab19ee6dec7c59e622bf59c81",
+            "b304b45e3a6e3e79338568d76e28805e77c03ec9"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "bundler",
+          "time": 1742246682,
+          "commits": [
+            "6d221f86729e0ce00046edf051b11b97ceec8635",
+            "0f0ba8fca83dfb1d76bc1ba9ddc8c22c8ad8ec21",
+            "64fc01d0e6742b4c753965047939865ca9b21127"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "production",
+          "time": 1763163293,
+          "commits": [
+            "43e989de1b8d8304aff791c8082556e118b8aee4",
+            "9f68435d39665388995c984887562b6974c2ff98",
+            "304c54ad748dfcb3c6bbe0d130f7b8927b16d016"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "dev",
+          "time": 1752242519,
+          "commits": [
+            "d6bc6b055d05bf0861a0b8a216405bec1a2db93e",
+            "bfeb2216d7429eb8e348b49f8a2e4c25eb3b4906",
+            "0d7b49b1ca3205cabc7524d6ce53c9a309e8f122"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "devtools",
+          "time": 1749653474,
+          "commits": [
+            "0d7b49b1ca3205cabc7524d6ce53c9a309e8f122",
+            "2ef787b12ed9e0efd1469506a344e2cbf5c79b17",
+            "0ca32b2b4a2cd3af19b042d6747d275013450bdd"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "explorer",
+          "time": 1747368659,
+          "commits": [
+            "0ca32b2b4a2cd3af19b042d6747d275013450bdd",
+            "9df0c8763cd151ddda795957e62d09e83c87b972",
+            "33477b7e64fbfaa5f59e833a4cc161cf0793ede6"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "Segments",
+          "time": 1748339519,
+          "commits": [
+            "2d81adc5201ad282ae8fb69ec8f24fddc56d3ae1",
+            "7e0fc3b2713df41f7b77945f64e3fb7b4c390a38",
+            "0ca32b2b4a2cd3af19b042d6747d275013450bdd"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "tasks",
+          "time": 1755019509,
+          "commits": [
+            "a4661042106d6c33baa55a3b4687c09f31254d11",
+            "f2e448ead4a232246c13dd0c172ee0d03c25596c",
+            "1d2c31d5907fb5d9c4ed0bfbf73b2430f27c48a7"
+          ]
+        },
+        {
+          "id": "a1",
+          "kind": "newcomer",
+          "text": "@lukesandberg",
+          "time": 1744843778,
+          "commits": ["565d224ba35227634bd34ce5b17ad95e99714afc"]
+        },
+        {
+          "id": "a2",
+          "kind": "newcomer",
+          "text": "@RobPruzan",
+          "time": 1738874382,
+          "commits": ["e9428bba596a49811dbb2712614486c561dc1c26"]
+        },
+        {
+          "id": "a3",
+          "kind": "newcomer",
+          "text": "@ScriptedAlchemy",
+          "time": 1742338080,
+          "commits": ["3a8f245401b673c13840301b9d7ffc17fdab6533"]
+        },
+        {
+          "id": "a4",
+          "kind": "newcomer",
+          "text": "@allenzhou101",
+          "time": 1753303871,
+          "commits": ["d5f6c11ab0f85fdc0acf78fcdb3459ee945c0ad0"]
+        },
+        {
+          "id": "a5",
+          "kind": "newcomer",
+          "text": "@chipit24",
+          "time": 1747062604,
+          "commits": ["9ebf44dc9106328afdb4bc1308b20e2373287d41"]
+        },
+        {
+          "id": "a6",
+          "kind": "newcomer",
+          "text": "@m1abdullahh",
+          "time": 1753861333,
+          "commits": ["ad4fd37d373c125456a323a1e533c147c2e02e13"]
+        },
+        {
+          "id": "a7",
+          "kind": "newcomer",
+          "text": "@Macw07",
+          "time": 1747763993,
+          "commits": ["e675d2ba99f3fcca2928dacee22e16c46df9ed28"]
+        },
+        {
+          "id": "a8",
+          "kind": "newcomer",
+          "text": "@aacosta11",
+          "time": 1751396191,
+          "commits": ["dd374da668829a04ed310c1536069ca88cad3ca9"]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "startTime": 1764534500,
+      "endTime": 1793738111,
+      "sheet": [
+        {
+          "id": "c1",
+          "kind": "commit",
+          "text": "Turbopack: bincode: Implement bincode Encode/Decode traits on all turbo task values (#85580)",
+          "time": 1764899239,
+          "commits": ["2931550ebbf8b547304d3bccebcb5606700460fc"]
+        },
+        {
+          "id": "c2",
+          "kind": "commit",
+          "text": "Add experimental routing package for resolving adapter routes (#86404)",
+          "time": 1766889502,
+          "commits": ["840643f2078cb3fbf5e0689d1e7948b711b9de62"]
+        },
+        {
+          "id": "c3",
+          "kind": "commit",
+          "text": "Turbopack: Rename crates/napi to crates/next-napi-bindings and update crate name (#89314)",
+          "time": 1769816217,
+          "commits": ["a4c1a0cd72e0cfbe4d62fe244364a98fa209d463"]
+        },
+        {
+          "id": "c4",
+          "kind": "commit",
+          "text": "[Evals] Standardize Evals in Next.js (#90883)",
+          "time": 1772816736,
+          "commits": ["0921733a94720e342244dac63b9a749b47707b5a"]
+        },
+        {
+          "id": "c5",
+          "kind": "commit",
+          "text": "Add PPR evals and fix env loading for agent-eval 0.9.5 (#92063)",
+          "time": 1774981531,
+          "commits": ["d6ff2197d91fe6716c48ea80aecaaa89f396edaa"]
+        },
+        {
+          "id": "c6",
+          "kind": "commit",
+          "text": "[examples] migrate cloudinary to vercel-blob (#93762)",
+          "time": 1778576470,
+          "commits": ["020d79bb273364f7af8a6ce23ddf722fb790064b"]
+        },
+        {
+          "id": "c7",
+          "kind": "commit",
+          "text": "Stabilize `unstable_instant` (#94578)",
+          "time": 1781038225,
+          "commits": ["d424aa8ec4c7bfdf4175df47e26f17d7a60a49d3"]
+        },
+        {
+          "id": "c8",
+          "kind": "commit",
+          "text": "Add more realistic bench fixtures (#95807)",
+          "time": 1784115982,
+          "commits": ["7ffacec8ef5a58e6997b322056d2c56bb54452b1"]
+        },
+        {
+          "id": "c9",
+          "kind": "commit",
+          "text": "[Bench] Extend bench app to have realistic client chunk counts (#95814)",
+          "time": 1784121215,
+          "commits": ["0156307f550385823df0224e4e6a73b404b3cde2"]
+        },
+        {
+          "id": "c10",
+          "kind": "commit",
+          "text": "Insights: use a single Learn more link in console errors (#95967)",
+          "time": 1784631197,
+          "commits": ["18d2e2da5f57ffeb90a20b086407a8cbad50f9e3"]
+        },
+        {
+          "id": "c11",
+          "kind": "commit",
+          "text": "docs: add authentication with Cache Components guide and iron-session example (#95802)",
+          "time": 1786096197,
+          "commits": ["8ff8f1b82edaea7f5d5c2d72026545acca4bae5c"]
+        },
+        {
+          "id": "c12",
+          "kind": "commit",
+          "text": "test: add adoption skill evals (#97759)",
+          "time": 1788202356,
+          "commits": ["d434afa837b995d2db6f101e3b705461a250c655"]
+        },
+        {
+          "id": "c13",
+          "kind": "commit",
+          "text": "docs: preserve Next.js development state (#98276)",
+          "time": 1788904477,
+          "commits": ["552dd3538d706c81b62ac7095b9173319b0d3d2b"]
+        },
+        {
+          "id": "c14",
+          "kind": "commit",
+          "text": "[evals] Cover focused Cache Components and Partial Prefetching cases (#97813)",
+          "time": 1788985172,
+          "commits": ["9486750ff26ed20da13b15da229da5f1746bdfa0"]
+        },
+        {
+          "id": "c15",
+          "kind": "commit",
+          "text": "skill: add Partial Prefetching optimizer (#96471)",
+          "time": 1789072056,
+          "commits": ["393de1ebe0993c57e1ddd4d3f4d66a03c7fb1077"]
+        },
+        {
+          "id": "c16",
+          "kind": "commit",
+          "text": "Add `next upgrade --ai` and security vulnerability coverage (#98562)",
+          "time": 1789685540,
+          "commits": ["5d9ab72cef8a66641e88edad2bdae51a71cddf1e"]
+        },
+        {
+          "id": "c17",
+          "kind": "commit",
+          "text": "Add \"latest\" upgrade coverage for `next upgrade --ai` (#98633)",
+          "time": 1789685541,
+          "commits": ["97496b2078ed3aeffcde241393075aaefc1aba3b"]
+        },
+        {
+          "id": "c18",
+          "kind": "commit",
+          "text": "Add future defaults upgrade coverage for `next upgrade --ai` (#98643)",
+          "time": 1789685541,
+          "commits": ["d3d30cf88a8c41fea4fea3c701833f36e5070b2d"]
+        },
+        {
+          "id": "c19",
+          "kind": "commit",
+          "text": "Add agent feedback behavior evals (#98887)",
+          "time": 1789749530,
+          "commits": ["4c2e9ccdc68f6eb59cff6631720804972275d58f"]
+        },
+        {
+          "id": "c20",
+          "kind": "commit",
+          "text": "turbo-persistence: space-amplification driven compaction with adaptive hash shards (#99268)",
+          "time": 1790804633,
+          "commits": ["08d7a524e3592ea0231ac0e045d65e8f6c4dfbdc"]
+        },
+        {
+          "id": "c21",
+          "kind": "commit",
+          "text": "test: migrate mode-specific deploy exclusions to force gates (#98160)",
+          "time": 1790900955,
+          "commits": ["5ccf52d1c7389bacbf1cd07f3a2d90119a2e96f7"]
+        },
+        {
+          "id": "c22",
+          "kind": "commit",
+          "text": "docs: add guide for optimizing the static shell (#97737)",
+          "time": 1791287650,
+          "commits": ["7c16cc9f55aabd9a2462d26604a5a4f2ff5231cf"]
+        },
+        {
+          "id": "c23",
+          "kind": "commit",
+          "text": "Rebuild upgrade evals around delivered apps (#99880)",
+          "time": 1791587862,
+          "commits": ["c77c7e10403eba0ccaee6d73f67032e64a8482a7"]
+        },
+        {
+          "id": "c24",
+          "kind": "commit",
+          "text": "Add cache-handler-redis-turbo example (Next.js 16 Cache Components + Redis) (#96622)",
+          "time": 1791800940,
+          "commits": ["f173bcc884363481c44f6bae75ff87596cb7659c"]
+        },
+        {
+          "id": "c25",
+          "kind": "commit",
+          "text": "Add server-only leak pass to next-bundle-optimizer (#100330)",
+          "time": 1793131043,
+          "commits": ["7812b0316419a63c0d22cbed2f0c3d499ad376e5"]
+        },
+        {
+          "id": "c26",
+          "kind": "commit",
+          "text": "eval: resolve and classify the audit suite (#100748)",
+          "time": 1793131234,
+          "commits": ["433fe0ed9bbcf09c9cd9c57775ef6ce8cd6d78c4"]
+        },
+        {
+          "id": "c27",
+          "kind": "commit",
+          "text": "examples: add eve example (#100758)",
+          "time": 1793141085,
+          "commits": ["94ffce789719e0ede441215ae1ad48802e6dd320"]
+        },
+        {
+          "id": "c28",
+          "kind": "commit",
+          "text": "Add criteria for Vercel Agent code review (#100846)",
+          "time": 1793224922,
+          "commits": ["08442e3a63091caad4fac56eef88303e0c257a0d"]
+        },
+        {
+          "id": "c29",
+          "kind": "commit",
+          "text": "Bundle Analyzer Agent Skill: Add browser initial-load eval (#99178)",
+          "time": 1793386142,
+          "commits": ["7ca8d66d69cf4e722ffa5b0e10bd8e56823d4de7"]
+        },
+        {
+          "id": "c30",
+          "kind": "commit",
+          "text": "Bundle Analyzer Agent Skill: Add Lodash deduplication eval (#99180)",
+          "time": 1793386142,
+          "commits": ["edd201859a6680fb13eb3c89c342e1e5de6e82bd"]
+        },
+        {
+          "id": "r1",
+          "kind": "release",
+          "text": "v16.1.0",
+          "time": 1766082078,
+          "commits": ["34916762cdff14f27c7e3273d74af60eb6c23cb6"]
+        },
+        {
+          "id": "r2",
+          "kind": "release",
+          "text": "v16.2.0",
+          "time": 1773853838,
+          "commits": ["c5c94dffbf084e66b172a9c6ff23d80c24973764"]
+        },
+        {
+          "id": "r3",
+          "kind": "release",
+          "text": "v16.3.0",
+          "time": 1785787604,
+          "commits": ["d73f5622e226358dcef8cf7a8a373333ff265ae7"]
+        },
+        {
+          "id": "r4",
+          "kind": "release",
+          "text": "v16.4.0",
+          "time": 1791309467,
+          "commits": ["e273d5b2e869d0be06c0e86f788e1594f9dd40cf"]
+        },
+        {
+          "id": "d1",
+          "kind": "directory",
+          "text": ".agents/ created",
+          "time": 1771263147,
+          "commits": ["a04d598f3c9070674968e57c610182df65a0755e"]
+        },
+        {
+          "id": "d2",
+          "kind": "directory",
+          "text": "evals/ created",
+          "time": 1772816736,
+          "commits": ["0921733a94720e342244dac63b9a749b47707b5a"]
+        },
+        {
+          "id": "d3",
+          "kind": "directory",
+          "text": "evals/evals/ created",
+          "time": 1772816736,
+          "commits": ["0921733a94720e342244dac63b9a749b47707b5a"]
+        },
+        {
+          "id": "d4",
+          "kind": "directory",
+          "text": "examples/with-supertokens/ removed",
+          "time": 1777060947,
+          "commits": ["fb06f5f3890034e0c40dba3872efe0f4efca06c2"]
+        },
+        {
+          "id": "d5",
+          "kind": "directory",
+          "text": "test/integration/ removed",
+          "time": 1778500547,
+          "commits": ["8141dcf12e61c02b298537ed79a6aebbe775f919"]
+        },
+        {
+          "id": "d6",
+          "kind": "directory",
+          "text": "turbopack/packages/ removed",
+          "time": 1786073978,
+          "commits": ["286169a9e797c0a9ba5d80cc9df3d51f306fdb0e"]
+        },
+        {
+          "id": "d7",
+          "kind": "directory",
+          "text": "evals/next-upgrade/ created",
+          "time": 1789685540,
+          "commits": ["5d9ab72cef8a66641e88edad2bdae51a71cddf1e"]
+        },
+        {
+          "id": "d8",
+          "kind": "directory",
+          "text": "review/ created",
+          "time": 1793224922,
+          "commits": ["08442e3a63091caad4fac56eef88303e0c257a0d"]
+        },
+        {
+          "id": "t1",
+          "kind": "term",
+          "text": "Turbopack",
+          "time": 1769816217,
+          "commits": [
+            "a4c1a0cd72e0cfbe4d62fe244364a98fa209d463",
+            "286169a9e797c0a9ba5d80cc9df3d51f306fdb0e",
+            "cbe4687bf087b50ed420868312141fe5e9a9cf4b"
+          ]
+        },
+        {
+          "id": "t2",
+          "kind": "term",
+          "text": "instant",
+          "time": 1781038225,
+          "commits": [
+            "d424aa8ec4c7bfdf4175df47e26f17d7a60a49d3",
+            "1d3bf10cde7b19093222305c4ded5f5948928419",
+            "1931877c29570715ebf4ff33629a81b32723a8ad"
+          ]
+        },
+        {
+          "id": "t3",
+          "kind": "term",
+          "text": "Agent",
+          "time": 1793224922,
+          "commits": [
+            "08442e3a63091caad4fac56eef88303e0c257a0d",
+            "4c2e9ccdc68f6eb59cff6631720804972275d58f",
+            "d6ff2197d91fe6716c48ea80aecaaa89f396edaa"
+          ]
+        },
+        {
+          "id": "t4",
+          "kind": "term",
+          "text": "skill",
+          "time": 1788202356,
+          "commits": [
+            "d434afa837b995d2db6f101e3b705461a250c655",
+            "393de1ebe0993c57e1ddd4d3f4d66a03c7fb1077",
+            "7ca8d66d69cf4e722ffa5b0e10bd8e56823d4de7"
+          ]
+        },
+        {
+          "id": "t5",
+          "kind": "term",
+          "text": "Cache",
+          "time": 1788985172,
+          "commits": [
+            "9486750ff26ed20da13b15da229da5f1746bdfa0",
+            "f173bcc884363481c44f6bae75ff87596cb7659c",
+            "8ff8f1b82edaea7f5d5c2d72026545acca4bae5c"
+          ]
+        },
+        {
+          "id": "t6",
+          "kind": "term",
+          "text": "adapter",
+          "time": 1766889502,
+          "commits": [
+            "840643f2078cb3fbf5e0689d1e7948b711b9de62",
+            "0247e34bf9301c4ef7d14b6913210df137da1b05",
+            "d342d0b91f12cb37a97bcb6040e160beecdcc78d"
+          ]
+        },
+        {
+          "id": "t7",
+          "kind": "term",
+          "text": "task",
+          "time": 1764899239,
+          "commits": [
+            "2931550ebbf8b547304d3bccebcb5606700460fc",
+            "d940cd305370c6cd7d625d9ffbd70f7f589fa7ed",
+            "4811e49eb389fd9d3caf35ba8c1ae94d838808cf"
+          ]
+        },
+        {
+          "id": "t8",
+          "kind": "term",
+          "text": "turbo",
+          "time": 1791800940,
+          "commits": [
+            "f173bcc884363481c44f6bae75ff87596cb7659c",
+            "2931550ebbf8b547304d3bccebcb5606700460fc",
+            "d940cd305370c6cd7d625d9ffbd70f7f589fa7ed"
+          ]
+        },
+        {
+          "id": "t9",
+          "kind": "term",
+          "text": "deploy",
+          "time": 1790900955,
+          "commits": [
+            "5ccf52d1c7389bacbf1cd07f3a2d90119a2e96f7",
+            "6f98e9fcedf6420658f0039376ef15d358e4cf1a",
+            "e0966df11438b1f82e06d6f650a2a044b84457c3"
+          ]
+        },
+        {
+          "id": "t10",
+          "kind": "term",
+          "text": "Insights",
+          "time": 1784631197,
+          "commits": [
+            "18d2e2da5f57ffeb90a20b086407a8cbad50f9e3",
+            "c505af9916cf3a10a0ccbb4f4089ee59ffe5bc34",
+            "f965c00411b1e125d79651ce4acf997137f94291"
+          ]
+        },
+        {
+          "id": "t11",
+          "kind": "term",
+          "text": "persistence",
+          "time": 1790804633,
+          "commits": [
+            "08d7a524e3592ea0231ac0e045d65e8f6c4dfbdc",
+            "863a0adaa2fd4857cea117b7aa597e36e80b97a0",
+            "420b72b697ca22bc5d2b81e45bc616393571d1b7"
+          ]
+        },
+        {
+          "id": "t12",
+          "kind": "term",
+          "text": "shell",
+          "time": 1791287650,
+          "commits": [
+            "7c16cc9f55aabd9a2462d26604a5a4f2ff5231cf",
+            "5fb2dc156e0cbf8814b10b17efcefd659fb3d146",
+            "e7af391903f03d90aa6304467078ef32eb86a6a2"
+          ]
+        },
+        {
+          "id": "a1",
+          "kind": "newcomer",
+          "text": "@aurorascharff",
+          "time": 1772648366,
+          "commits": ["5dd02c462a3483a1d0a9c5168725c001e418e1a3"]
+        },
+        {
+          "id": "a2",
+          "kind": "newcomer",
+          "text": "@marcoshernanz",
+          "time": 1784327956,
+          "commits": ["7e817e863bfb5b7155c54fb8944b208ba54ede1e"]
+        },
+        {
+          "id": "a3",
+          "kind": "newcomer",
+          "text": "@abhishekmardiya",
+          "time": 1770730032,
+          "commits": ["a7a017455b76593b3025c30f9851d65e9050d25b"]
+        },
+        {
+          "id": "a4",
+          "kind": "newcomer",
+          "text": "@brookemosby",
+          "time": 1768253246,
+          "commits": ["0daf2b58b4a75c908775a7df0b5a473e646531f8"]
+        },
+        {
+          "id": "a5",
+          "kind": "newcomer",
+          "text": "@kristiyan-velkov",
+          "time": 1771599431,
+          "commits": ["d7732c57d6fb2fe0e1522d150dd9888633c6e1c3"]
+        },
+        {
+          "id": "a6",
+          "kind": "newcomer",
+          "text": "@leejpsd",
+          "time": 1787564273,
+          "commits": ["24f975677e6c628f469f56e5b11dc0b7be16496e"]
+        },
+        {
+          "id": "a7",
+          "kind": "newcomer",
+          "text": "@christopherkindl",
+          "time": 1777292990,
+          "commits": ["a6782fa6203183cc25a616b89c03f12141e8678d"]
+        },
+        {
+          "id": "a8",
+          "kind": "newcomer",
+          "text": "@deveshasawa28",
+          "time": 1792001371,
+          "commits": ["e1b139569a4c0e497c6110c2b91d7b045aafb7ce"]
+        }
+      ]
+    }
+  ]
+}

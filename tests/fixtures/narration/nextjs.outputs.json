@@ -1,0 +1,452 @@
+[
+  {
+    "era": 0,
+    "from": "2016-10",
+    "to": "2018-09",
+    "attempts": [
+      {
+        "commits": ["c6", "c13", "c17", "c29"],
+        "headline": "c6"
+      }
+    ],
+    "narration": "model",
+    "title": "Hot code reloading",
+    "headline": "c6",
+    "selected": ["c6", "c13", "c17", "c29"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c6",
+        "sha": "3c88a3d7a",
+        "date": "2016-10-17",
+        "subject": "Hot code reloading (#31)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c13",
+        "sha": "a87ef1a7a",
+        "date": "2016-12-19",
+        "subject": "Incorporate  styled-jsx (#420)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c17",
+        "sha": "839fb1c05",
+        "date": "2017-02-09",
+        "subject": "[WIP] Migrate from Gulp to Fly (#965)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c29",
+        "sha": "86d01706a",
+        "date": "2018-05-31",
+        "subject": "Remove react-hot-loader (#4500)"
+      }
+    ]
+  },
+  {
+    "era": 1,
+    "from": "2018-09",
+    "to": "2019-06",
+    "attempts": [
+      {
+        "commits": ["c1", "c4", "c8", "c14"],
+        "headline": "c4"
+      }
+    ],
+    "narration": "model",
+    "title": "next-server",
+    "headline": "c1",
+    "selected": ["c1", "c4", "c8", "c14"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c1",
+        "sha": "82d56e063",
+        "date": "2018-10-01",
+        "subject": "next-server (#5357)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c4",
+        "sha": "15bb1c5e7",
+        "date": "2018-11-28",
+        "subject": "Use Typescript to transpile Next.js core files instead of Babel (#5747)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c8",
+        "sha": "8b6173917",
+        "date": "2018-12-09",
+        "subject": "Convert next-server.js to typescript (#5844)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c14",
+        "sha": "61de215e0",
+        "date": "2019-02-20",
+        "subject": "Move webpack config to TypeScript (#6348)"
+      }
+    ]
+  },
+  {
+    "era": 2,
+    "from": "2019-06",
+    "to": "2020-03",
+    "attempts": [
+      {
+        "commits": ["c1", "c7", "c25", "c29"],
+        "headline": "c7"
+      }
+    ],
+    "narration": "model",
+    "title": "Add experimental SPR support",
+    "headline": "c7",
+    "selected": ["c1", "c7", "c25", "c29"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c1",
+        "sha": "264fc0196",
+        "date": "2019-07-08",
+        "subject": "API routes documentation (#7562)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c7",
+        "sha": "85e720a09",
+        "date": "2019-09-24",
+        "subject": "Add experimental SPR support (#8832)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c25",
+        "sha": "f6e7a3810",
+        "date": "2020-02-08",
+        "subject": "Add paths field for unstable_getStaticPaths (#10454)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c29",
+        "sha": "7e2d476e4",
+        "date": "2020-03-17",
+        "subject": "Update examples to use getStaticProps where possible (#11136)"
+      }
+    ]
+  },
+  {
+    "era": 3,
+    "from": "2020-03",
+    "to": "2021-10",
+    "attempts": [
+      {
+        "commits": ["c1", "c8", "c19", "c30"],
+        "headline": "c30"
+      }
+    ],
+    "narration": "model",
+    "title": "Remove webpack 4 support",
+    "headline": "c30",
+    "selected": ["c1", "c8", "c19", "c30"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c1",
+        "sha": "3fe4cbc67",
+        "date": "2020-04-21",
+        "subject": "Add Experimental React Refresh Example (#12081)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c8",
+        "sha": "dc1658f10",
+        "date": "2020-05-23",
+        "subject": "[Examples] Added blog-starter-typescript (#12981)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c19",
+        "sha": "3c6f421d9",
+        "date": "2020-10-24",
+        "subject": "Add docs for Image Optimization (#18107)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c30",
+        "sha": "aa8a88559",
+        "date": "2021-10-06",
+        "subject": "Remove webpack 4 support (#29660)"
+      }
+    ]
+  },
+  {
+    "era": 4,
+    "from": "2021-10",
+    "to": "2022-08",
+    "attempts": [
+      {
+        "commits": ["c23", "c24", "c25", "c3"],
+        "headline": "c23"
+      }
+    ],
+    "narration": "model",
+    "title": "Add experimental `next/future/image` component",
+    "headline": "c23",
+    "selected": ["c23", "c24", "c25", "c3"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c3",
+        "sha": "48dba6457",
+        "date": "2021-12-22",
+        "subject": "chore: convert Jest examples to TypeScript (#32705)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c23",
+        "sha": "e28d03c5a",
+        "date": "2022-06-24",
+        "subject": "Add experimental `next/future/image` component (#37927)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c24",
+        "sha": "a5f8382ee",
+        "date": "2022-06-27",
+        "subject": "Rename page runtime edge to experimental-edge (#38041)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c25",
+        "sha": "5e2ad2930",
+        "date": "2022-06-29",
+        "subject": "Migrate rsc tests to app dir tests (#38158)"
+      }
+    ]
+  },
+  {
+    "era": 5,
+    "from": "2022-09",
+    "to": "2023-06",
+    "attempts": [
+      {
+        "commits": ["c13", "c19", "c23", "c27"],
+        "headline": "c23"
+      }
+    ],
+    "narration": "model",
+    "title": "Move `next-*` crates from Turbopack",
+    "headline": "c23",
+    "selected": ["c13", "c19", "c23", "c27"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c13",
+        "sha": "24787089c",
+        "date": "2022-10-25",
+        "subject": "Add turbopack example (#41789)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c19",
+        "sha": "35264c365",
+        "date": "2023-01-06",
+        "subject": "Add support for rendering MDX as a server component (#44651)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c23",
+        "sha": "9af72fa06",
+        "date": "2023-03-13",
+        "subject": "Move `next-*` crates from Turbopack (#47019)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c27",
+        "sha": "b50ecb7e5",
+        "date": "2023-04-27",
+        "subject": "add support for static implicit metadata in turbopack (#48823)"
+      }
+    ]
+  },
+  {
+    "era": 6,
+    "from": "2023-06",
+    "to": "2024-07",
+    "attempts": [
+      {
+        "commits": ["c11", "c16", "c21", "c28"],
+        "headline": "c16"
+      }
+    ],
+    "narration": "model",
+    "title": "Next.js 14",
+    "headline": "c16",
+    "selected": ["c11", "c16", "c21", "c28"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c11",
+        "sha": "1dc5c066c",
+        "date": "2023-08-24",
+        "subject": "docs: Rewrite Rendering Section and React Essentials Page (#51579)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c16",
+        "sha": "92b4d6737",
+        "date": "2023-10-26",
+        "subject": "docs: Next.js 14 (#57342)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c21",
+        "sha": "694bd3e21",
+        "date": "2024-01-05",
+        "subject": "docs: Add \"Going to production\" page for App Router (#59304)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c28",
+        "sha": "93c861d67",
+        "date": "2024-05-23",
+        "subject": "Docs: Next.js 15 updates (#65603)"
+      }
+    ]
+  },
+  {
+    "era": 7,
+    "from": "2024-07",
+    "to": "2025-01",
+    "attempts": [
+      {
+        "commits": ["c1", "c11", "c16", "c15"],
+        "headline": "c1"
+      }
+    ],
+    "narration": "model",
+    "title": "merge turbopack crates into next.js",
+    "headline": "c1",
+    "selected": ["c1", "c11", "c16", "c15"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c1",
+        "sha": "238b882ea",
+        "date": "2024-08-01",
+        "subject": "refactor: merge turbopack crates into next.js (#68127)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c11",
+        "sha": "ba9879bf9",
+        "date": "2024-10-28",
+        "subject": "Implement information byte in Server Reference ID and other optimizations (#71463)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c15",
+        "sha": "2c6b09d57",
+        "date": "2024-11-13",
+        "subject": "Emit build error when `\"use cache\"` is used without `dynamicIO` enabled (#72781)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c16",
+        "sha": "3fbe72929",
+        "date": "2024-11-15",
+        "subject": "refactor(turbo-rcstr): Move turbo_tasks::RcStr into it's own crate (#72858)"
+      }
+    ]
+  },
+  {
+    "era": 8,
+    "from": "2025-01",
+    "to": "2025-11",
+    "attempts": [
+      {
+        "commits": ["c9", "c15", "c25", "c26"],
+        "headline": "c25"
+      }
+    ],
+    "narration": "model",
+    "title": "next-rspack-binding",
+    "headline": "c25",
+    "selected": ["c9", "c15", "c25", "c26"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c9",
+        "sha": "0ca32b2b4",
+        "date": "2025-05-16",
+        "subject": "[devtool] initial support for segment explorer (#78858)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c15",
+        "sha": "0d7b49b1c",
+        "date": "2025-06-11",
+        "subject": "[dev-overlay] Move code into new top-level folder in src/next-devtools (#80281)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c25",
+        "sha": "c0d94dc1a",
+        "date": "2025-09-18",
+        "subject": "feat: next-rspack-binding (#82811)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c26",
+        "sha": "46fa4ded9",
+        "date": "2025-09-25",
+        "subject": "feat: capture logs into logging file during development (#84183)"
+      }
+    ]
+  },
+  {
+    "era": 9,
+    "from": "2025-11",
+    "to": "2026-11",
+    "attempts": [
+      {
+        "commits": ["c1", "c2", "c7", "c4"],
+        "headline": "c7"
+      }
+    ],
+    "narration": "model",
+    "title": "Stabilize `unstable_instant`",
+    "headline": "c7",
+    "selected": ["c1", "c2", "c7", "c4"],
+    "beats": [
+      {
+        "kind": "commit",
+        "ref": "c1",
+        "sha": "2931550eb",
+        "date": "2025-12-05",
+        "subject": "Turbopack: bincode: Implement bincode Encode/Decode traits on all turbo task values (#85580)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c2",
+        "sha": "840643f20",
+        "date": "2025-12-28",
+        "subject": "Add experimental routing package for resolving adapter routes (#86404)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c4",
+        "sha": "0921733a9",
+        "date": "2026-03-06",
+        "subject": "[Evals] Standardize Evals in Next.js (#90883)"
+      },
+      {
+        "kind": "commit",
+        "ref": "c7",
+        "sha": "d424aa8ec",
+        "date": "2026-06-09",
+        "subject": "Stabilize `unstable_instant` (#94578)"
+      }
+    ]
+  }
+]
