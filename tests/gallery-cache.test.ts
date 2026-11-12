@@ -7,6 +7,8 @@ import { hash, key, redis } from '../src/server/config';
 import { artifactPath } from '../src/server/storage';
 import { fixture, hasStorage, isolatedStorage } from './helpers/storage';
 
+const redisUrl = process.env.KV_REST_API_URL ?? process.env.UPSTASH_REDIS_REST_URL;
+
 test(
   'the collection reads its manifests once per minute, not once per view',
   { skip: !hasStorage },
@@ -38,7 +40,7 @@ test(
 
       let redisCalls = 0;
       t.mock.method(globalThis, 'fetch', (url: string | URL | Request, init?: RequestInit) => {
-        if (String(url).startsWith('http://127.0.0.1:8104')) redisCalls++;
+        if (redisUrl && String(url).startsWith(redisUrl)) redisCalls++;
         return realFetch(url, init);
       });
 

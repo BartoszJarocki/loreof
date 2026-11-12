@@ -8,6 +8,8 @@ import { hash, key, redis } from '../src/server/config';
 import { artifactPath } from '../src/server/storage';
 import { fixture, hasStorage, isolatedStorage } from './helpers/storage';
 
+const redisUrl = process.env.KV_REST_API_URL ?? process.env.UPSTASH_REDIS_REST_URL;
+
 test(
   'the collection is not remembered from a read that lost a manifest',
   { skip: !hasStorage },
@@ -38,7 +40,7 @@ test(
       let failAll = false;
       let failOnce = '';
       t.mock.method(globalThis, 'fetch', (url: string | URL | Request, init?: RequestInit) => {
-        if (!String(url).startsWith('http://127.0.0.1:8104')) return realFetch(url, init);
+        if (!redisUrl || !String(url).startsWith(redisUrl)) return realFetch(url, init);
         const body = typeof init?.body === 'string' ? init.body : '';
         if (failAll && body.includes(':latest:'))
           return Promise.resolve(
