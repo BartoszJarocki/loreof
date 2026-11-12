@@ -4,6 +4,8 @@ Lore turns a public GitHub repository into a documentary you can play. A file sh
 history creates it. A later commit touches it, and it lights up. Delete the file and it fades. Each
 chapter's caption points at commits that are actually in the record.
 
+[![The Linux kernel's history playing in Lore. A chapter title card fades, then the files a commit touched light up across the drivers, fs, arch, sound and net directories.](docs/media/lore-linux.gif)](https://loreof.vercel.app/torvalds/linux)
+
 It's live at [loreof.vercel.app](https://loreof.vercel.app).
 
 ## Stack
