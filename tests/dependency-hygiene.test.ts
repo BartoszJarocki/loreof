@@ -55,6 +55,15 @@ test('no installed zod 4.x is below the release that fixes the memory exhaustion
   assert.deepEqual(vulnerable, []);
 });
 
+test('no installed minimatch is in the range the globparts advisory affects', () => {
+  const versions = installedVersions('minimatch');
+  assert.ok(versions.length > 0, 'expected minimatch in the store so the check is not vacuous');
+  const vulnerable = versions.filter(
+    (version) => compareVersions(version, '7.0.0') >= 0 && compareVersions(version, '11.0.1') < 0,
+  );
+  assert.deepEqual(vulnerable, []);
+});
+
 test('the store holds no sharp and no libvips binary', () => {
   assert.ok(store.length > 0, 'expected a populated node_modules/.pnpm');
   const found = store.filter(
