@@ -19,9 +19,7 @@ export function parseRepository(input: string): string {
       !['github.com', 'www.github.com'].includes(url.hostname) ||
       url.username ||
       url.password ||
-      url.port ||
-      url.search ||
-      url.hash
+      url.port
     )
       throw new PublicError('Use a github.com repository URL.');
     value = url.pathname.split('/').filter(Boolean).slice(0, 2).join('/');
