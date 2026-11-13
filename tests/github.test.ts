@@ -20,6 +20,13 @@ test('the repository form accepts every way a reader writes a GitHub repository'
     ['https://github.com/facebook/react', 'facebook/react'],
     ['https://www.github.com/Facebook/React/', 'facebook/react'],
     ['https://github.com/facebook/react/tree/main/packages', 'facebook/react'],
+    ['https://github.com/n8n-io/n8n?tab=readme-ov-file', 'n8n-io/n8n'],
+    ['https://github.com/n8n-io/n8n#readme', 'n8n-io/n8n'],
+    [
+      'https://github.com/facebook/react/tree/main/packages?tab=readme-ov-file#readme',
+      'facebook/react',
+    ],
+    ['github.com/facebook/react?tab=readme-ov-file', 'facebook/react'],
     ['github.com/facebook/react.git', 'facebook/react'],
     ['https://github.com/vercel/next.js.git', 'vercel/next.js'],
     ['  GitHub.com/facebook/react  ', 'facebook/react'],

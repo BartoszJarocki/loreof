@@ -54,6 +54,17 @@ export function RepositoryForm() {
           aria-invalid={error ? true : undefined}
           aria-describedby={error ? 'repository-error' : undefined}
           onChange={() => setError(null)}
+          onPaste={(event) => {
+            let slug: string;
+            try {
+              slug = parseRepository(event.clipboardData.getData('text'));
+            } catch {
+              return;
+            }
+            event.preventDefault();
+            event.currentTarget.value = slug;
+            setError(null);
+          }}
         />
         <button type="submit">
           {navigating ? 'Reading…' : 'Read'} <span aria-hidden="true">→</span>

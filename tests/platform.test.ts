@@ -28,10 +28,10 @@ const sha = 'a'.repeat(40);
 test('repository input accepts only public GitHub identifiers', () => {
   assert.equal(parseRepository('https://github.com/Facebook/React.git/'), 'facebook/react');
   assert.equal(parseRepository(' Owner/repo.name '), 'owner/repo.name');
+  assert.equal(parseRepository('https://github.com/a/b?x=1#readme'), 'a/b');
   for (const input of [
     'https://github.com.evil.test/a/b',
     'https://user@github.com/a/b',
-    'https://github.com/a/b?x=1',
     'a/b/tree/main',
     '../repo',
     'owner/..',
