@@ -30,7 +30,7 @@
     "@upstash/redis": "1.41.0",
     "@vercel/analytics": "2.0.1",
     "@vercel/blob": "2.9.0",
-    "@vercel/sandbox": "3.9.1",
+    "@vercel/sandbox": "4.0.0",
     "ai": "7.0.166",
     "botid": "1.5.13",
     "d3-force-3d": "3.0.6",
